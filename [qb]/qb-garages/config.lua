@@ -226,10 +226,10 @@ Garages = {
     },
     ["police"] = {
         label = "Police",
-        takeVehicle = vector3(1840.97, 2542.05, 45.79),
-        spawnPoint = vector4(1832.98, 2542.14, 45.88, 271.19),
-        putVehicle = vector3(1832.41, 2542.06, 45.88),
-        showBlip = true,
+        takeVehicle = vector3(1838.7, 2519.26, 45.67),
+        spawnPoint = vector4(1838.7, 2519.26, 45.67, 354.78),
+        putVehicle = vector3(1838.7, 2519.26, 45.67),
+        showBlip = false,
         blipName = "Police",
         blipNumber = 357,
         type = 'job',                --public, job, gang, depot
