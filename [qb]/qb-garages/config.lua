@@ -214,9 +214,9 @@ Garages = {
     },
     ["cartel"] = {
         label = "Cartel",
-        takeVehicle = vector3(1407.18, 1118.04, 114.84),
+        takeVehicle = vector3(-1025.92, -3017.86, 13.95),
         spawnPoint = vector4(1407.18, 1118.04, 114.84, 88.34),
-        putVehicle = vector3(1407.18, 1118.04, 114.84),
+        putVehicle = vector3(1842.13, 2534.69, 45.67),
         showBlip = false,
         blipName = "Cartel",
         blipNumber = 357,
@@ -226,10 +226,10 @@ Garages = {
     },
     ["police"] = {
         label = "Police",
-        takeVehicle = vector3(454.6, -1017.4, 28.4),
-        spawnPoint = vector4(454.81, -1023.92, 28.47, 87.29),
-        putVehicle = vector3(454.6, -1017.4, 28.4),
-        showBlip = false,
+        takeVehicle = vector3(1840.97, 2542.05, 45.79),
+        spawnPoint = vector4(1832.98, 2542.14, 45.88, 271.19),
+        putVehicle = vector3(1832.41, 2542.06, 45.88),
+        showBlip = true,
         blipName = "Police",
         blipNumber = 357,
         type = 'job',                --public, job, gang, depot
