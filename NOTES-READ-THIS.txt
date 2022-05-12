@@ -1,0 +1,4 @@
+please add these lines to your SERVER.cfg
+
+ensure [Chill]
+exec @chill_objects/permissions.cfg
