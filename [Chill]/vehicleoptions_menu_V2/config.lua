@@ -9,8 +9,8 @@
 
 Config = {
 
-keybind = 57, -- default keybind is F3, to choose a different one get the ID you want from https://docs.fivem.net/docs/game-references/controls/
--- To disable the keybind set it to 360 ---57 is f10
+keybind = 344, -- default keybind is F3, to choose a different one get the ID you want from https://docs.fivem.net/docs/game-references/controls/
+-- To disable the keybind set it to 360 ---344 is f11
 
 command = "carmenu", -- This is the command to open the menu.
 -- To disable the command set it to nothing

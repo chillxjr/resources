@@ -9,7 +9,7 @@ modifier = 19 --Default 'Left Control'
 kbpomnu = 21 --Default 'Shift' [Pullover keybinding keyboard]
 ctrpomnu = 22 --Default 'Shift' [Pullover keybinding controller]
 trfmnu = 51 --Default 'E' [Traffic Stop Interaction Menu]
-trfcveh = 246 --Default 'Y' [Mimic/Follow Menu]
+trfcveh = 45 --Default 'Y' [Mimic/Follow Menu] is now R
 mainmnu = 303 --Default 'U' [Interaction Menu]
 
 --O T H E R--
