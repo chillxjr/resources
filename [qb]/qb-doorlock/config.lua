@@ -208,6 +208,8 @@ Config.DoorList = {
 	},
 	------------------------------------------Always add new doors below this line for your bank robberies to work!!!---------------------------------
 				------------------------------------------End Fixed Doors!!!---------------------------------
+
+
 	{
 		textCoords = vec3(434.81, -981.93, 30.89),
 		authorizedJobs = { 'police', 'trucker' },
@@ -1187,5 +1189,83 @@ Config.DoorList = {
 		locked = true,
 		pickable = false,
 		distance = 2.0
+	},
+	--sheriff front
+	{
+		objName = 'v_ilev_shrfdoor',
+		objYaw = 180.0,
+		objCoords  = vec3(1855.7, 3683.9, 34.59),
+		textCoords = vec3(1855.7, 3683.9, 34.59),
+		authorizedJobs = { 'police', 'trucker' },
+		locked = true,
+		pickable = false,
+		distance = 2.0,
+	},
+	--sheriff lobby-left
+	{
+		objName = 'v_ilev_rc_door2',
+		objYaw = 180.0,
+		objCoords  = vec3(1850.45, 3683.38, 34.4),
+		textCoords = vec3(1850.45, 3683.38, 34.4),
+		authorizedJobs = { 'police', 'trucker' },
+		locked = true,
+		pickable = false,
+		distance = 2.0,
+	},
+	--sheriff cell1
+	{
+		objName = 'v_ilev_ph_cellgate',
+		objYaw = 180.0,
+		objCoords  = vec3(1846.65, 3685.48, 34.4),
+		textCoords = vec3(1846.65, 3685.48, 34.4),
+		authorizedJobs = { 'police', 'trucker' },
+		locked = true,
+		pickable = false,
+		distance = 2.0,
+	},
+	--sheriff lobbyback
+	{
+		objName = 'v_ilev_rc_door2',
+		objYaw = 180.0,
+		objCoords  = vec3(1848.86, 3690.85, 34.4),
+		textCoords = vec3(1848.86, 3690.85, 34.4),
+		authorizedJobs = { 'police', 'trucker' },
+		locked = true,
+		pickable = false,
+		distance = 2.0,
+	},
+
+--sheriff armory
+	{
+		objName = 'v_ilev_cd_entrydoor',
+		objYaw = 180.0,
+		objCoords  = vec3(1844.32, 3694.14, 34.4),
+		textCoords = vec3(1844.32, 3694.14, 34.4),
+		authorizedJobs = { 'police', 'trucker' },
+		locked = true,
+		pickable = false,
+		distance = 2.0,
+	},
+	--sheriff armory
+	{
+		objName = 'v_ilev_gc_door01',
+		objYaw = 180.0,
+		objCoords  = vec3(1854.11, 3700.16, 34.4),
+		textCoords = vec3(1854.11, 3700.16, 34.4),
+		authorizedJobs = { 'police', 'trucker' },
+		locked = true,
+		pickable = false,
+		distance = 2.0,
+	},
+	--sheriff armory
+	{
+		objName = 'v_ilev_rc_door2',
+		objYaw = 180.0,
+		objCoords  = vec3(1857.47, 3690.0, 34.4),
+		textCoords = vec3(1857.47, 3690.0, 34.4),
+		authorizedJobs = { 'police', 'trucker' },
+		locked = true,
+		pickable = false,
+		distance = 2.0,
 	},
 }
