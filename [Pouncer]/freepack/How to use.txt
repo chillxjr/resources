@@ -1,0 +1,1 @@
+Simply go inside the folder labeled as 'FiveM resource' and drag and drop the folder inside labeled as 'pack' inside of your FiveM server and that is it!
