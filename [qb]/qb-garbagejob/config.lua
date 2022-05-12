@@ -33,7 +33,7 @@ Config.UsePreconfiguredRoutes = false
 Config.Peds = {
     {
         model = 's_m_y_garbage',
-        coords = vector4(-322.24, -1546.02, 30.02, 294.97),
+        coords = vector4(2337.99, 3133.11, 48.2, 73.62),
         zoneOptions = { -- Used for when UseTarget is false
             length = 3.0,
             width = 3.0
@@ -44,15 +44,15 @@ Config.Peds = {
 Config.Locations = {
     ["main"] = {
         label = "Garbage Depot",
-        coords = vector3(-313.84, -1522.82, 27.56),
+        coords = vector3(2351.2, 3134.24, 48.21),
     },
     ["vehicle"] = {
         label = "Garbage Truck Storage",
-        coords = vector4(-313.84, -1522.82, 27.56, 258.62),
+        coords = vector4(2327.94, 3138.0, 48.16, 95.03),
     },
     ["paycheck"] = {
         label = "Payslip Collection",
-        coords = vector3(-321.45, -1545.86, 31.02),
+        coords = vector3(2341.09, 3126.33, 48.21),
     },
     ["trashcan"] ={
         [1] = {
