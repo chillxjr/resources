@@ -149,30 +149,30 @@ Config.DrugsPrice = {
 
 Config.DeliveryLocations = {
     [1] = {
-        ["label"] = "Stripclub",
-        ["coords"] = vector3(106.24, -1280.32, 29.24),
+        ["label"] = "aceliq",
+        ["coords"] = vector3(1387.58, 3615.04, 38.92),
     },
     [2] = {
-        ["label"] = "Vinewood Video",
-	["coords"] = vector3(223.98, 121.53, 102.76),
+        ["label"] = "Motelroom",
+	["coords"] = vector3(1607.77, 3573.35, 38.78),
     },
     [3] = {
-        ["label"] = "Taxi",
-	["coords"] = vector3(882.67, -160.26, 77.11),
+        ["label"] = "tattooshop",
+	["coords"] = vector3(1921.02, 3728.68, 32.79),
     },
     [4] = {
-        ["label"] = "Resort",
-	["coords"] = vector3(-1245.63, 376.21, 75.34),
+        ["label"] = "trevorbar",
+	["coords"] = vector3(1941.63, 3842.49, 35.51),
     },
     [5] = {
-        ["label"] = "Bahama Mamas",
-	["coords"] = vector3(-1383.1, -639.99, 28.67),
+        ["label"] = "rebelradio",
+	["coords"] = vector3(739.37, 2579.3, 75.47),
     },
 }
 
 Config.CornerSellingZones = {
     [1] = {
-	["coords"] = vector3(-1415.53, -1041.51, 4.62),
+	["coords"] = vector3(1776.43, 3327.67, 41.43),
         ["time"] = {
             ["min"] = 12,
             ["max"] = 18,
