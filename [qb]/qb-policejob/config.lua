@@ -17,11 +17,11 @@ Config.LicenseRank = 2
 Config.UseTarget = GetConvar('UseTarget', 'false') == 'true'
 Config.Locations = {
     ["duty"] = {
-        [1] = vector3(1831.33, 2603.35, 45.89),
+        [1] = vector3(1853.23, 3689.11, 34.26),
         [2] = vector3(-449.811, 6012.909, 31.815),
     },
     ["vehicle"] = {
-        [1] = vector4(1832.98, 2542.14, 45.88, 271.19),
+        [1] = vector4(1867.79, 3698.63, 33.51, 209.56),
         [2] = vector4(455.11, -1022.68, 28.41, 104.38),
         [3] = vector4(-455.39, 6002.02, 31.34, 87.93),
     },
@@ -29,31 +29,28 @@ Config.Locations = {
         [1] = vector3(453.075, -980.124, 30.889),
     },
     ["impound"] = {
-        [1] = vector4(436.68, -1007.42, 27.32, 180.0),
+        [1] = vector4(1754.32, 3322.75, 41.22, 208.59),
         [2] = vector4(-436.14, 5982.63, 31.34, 136.0),
     },
     ["helicopter"] = {
-        [1] = vector4(449.168, -981.325, 43.691, 87.234),
-        [2] = vector4(-475.43, 5988.353, 31.716, 31.34),
+        [1] = vector4(1770.56, 3239.29, 42.15, 239.24),
     },
     ["armory"] = {
-        [1] = vector3(462.23, -981.12, 30.68),
+        [1] = vector3(1841.3, 3690.69, 34.26),
     },
     ["trash"] = {
-        [1] = vector3(439.0907, -976.746, 30.776),
+        [1] = vector3(1853.72, 3698.87, 34.25),
     },
     ["fingerprint"] = {
-        [1] = vector3(460.9667, -989.180, 24.92),
+        [1] = vector3(1857.29, 3697.79, 34.26),
     },
     ["evidence"] = {
-        [1] = vector3(442.1722, -996.067, 30.689),
+        [1] = vector3(1842.7, 3692.54, 34.26),
         [2] = vector3(451.7031, -973.232, 30.689),
-        [3] = vector3(455.1456, -985.462, 30.689),
     },
     ["stations"] = {
-        [1] = {label = "Police Station", coords = vector4(428.23, -984.28, 29.76, 3.5)},
+        [1] = {label = "Police Station", coords = vector4(1867.79, 3698.63, 33.51, 209.56)},
         [2] = {label = "Prison", coords = vector4(1845.903, 2585.873, 45.672, 272.249)},
-        [3] = {label = "Police Station Paleto", coords = vector4(-451.55, 6014.25, 31.716, 223.81)},
     },
 }
 
@@ -104,59 +101,39 @@ Config.SecurityCameras = {
 Config.AuthorizedVehicles = {
 	-- Grade 0
 	[0] = {
-		["police"] = "Police Car 1",
-		["police2"] = "Police Car 2",
-		["police3"] = "Police Car 3",
-		["police4"] = "Police Car 4",
-		["policeb"] = "Police Car 5",
-		["policet"] = "Police Car 6",
-		["sheriff"] = "Sheriff Car 1",
-		["sheriff2"] = "Sheriff Car 2",
+		["cvpi"] = "Crown Vic",
+        
 	},
 	-- Grade 1
 	[1] = {
-		["police"] = "Police Car 1",
-		["police2"] = "Police Car 2",
-		["police3"] = "Police Car 3",
-		["police4"] = "Police Car 4",
-		["policeb"] = "Police Car 5",
-		["policet"] = "Police Car 6",
-		["sheriff"] = "Sheriff Car 1",
-		["sheriff2"] = "Sheriff Car 2",
+		["cvpi"] = "Crown Vic",
+        ["tau"] = "'16 Taurus",
+        
 
 	},
 	-- Grade 2
 	[2] = {
-		["police"] = "Police Car 1",
-		["police2"] = "Police Car 2",
-		["police3"] = "Police Car 3",
-		["police4"] = "Police Car 4",
-		["policeb"] = "Police Car 5",
-		["policet"] = "Police Car 6",
-		["sheriff"] = "Sheriff Car 1",
-		["sheriff2"] = "Sheriff Car 2",
+		["cvpi"] = "Crown Vic",
+        ["16exp"] = "'16 Explorer",
+        ["tau"] = "'16 Taurus",
+        ["19hoe"] = "'19 Tahoe",
 	},
 	-- Grade 3
 	[3] = {
-		["police"] = "Police Car 1",
-		["police2"] = "Police Car 2",
-		["police3"] = "Police Car 3",
-		["police4"] = "Police Car 4",
-		["policeb"] = "Police Car 5",
-		["policet"] = "Police Car 6",
-		["sheriff"] = "Sheriff Car 1",
-		["sheriff2"] = "Sheriff Car 2",
+		["cvpi"] = "Crown Vic",
+        ["16exp"] = "'16 Explorer",
+        ["tau"] = "'16 Taurus",
+        ["18charger"] = "'18 Charger",
+        ["19hoe"] = "'19 Tahoe",
 	},
 	-- Grade 4
 	[4] = {
-		["police"] = "Police Car 1",
-		["police2"] = "Police Car 2",
-		["police3"] = "Police Car 3",
-		["police4"] = "Police Car 4",
-		["policeb"] = "Police Car 5",
-		["policet"] = "Police Car 6",
-		["sheriff"] = "Sheriff Car 1",
-		["sheriff2"] = "Sheriff Car 2",
+		["cvpi"] = "Crown Vic",
+		["16exp"] = "'16 Explorer",
+		["tau"] = "'16 Taurus",
+		["18charger"] = "'18 Charger",
+		["19camero"] = "'19 Camero",
+		["19hoe"] = "'19 Tahoe",
 	}
 }
 
@@ -394,7 +371,7 @@ Config.Items = {
 }
 
 Config.VehicleSettings = {
-    ["car1"] = { --- Model name
+    ["tau"] = { --- Model name
         ["extras"] = {
             ["1"] = true, -- on/off
             ["2"] = true,
@@ -412,7 +389,7 @@ Config.VehicleSettings = {
         },
 		["livery"] = 1,
     },
-    ["car2"] = {
+    ["cvpi"] = {
         ["extras"] = {
             ["1"] = true,
             ["2"] = true,
