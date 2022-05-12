@@ -1,6 +1,0 @@
-Hi, and thanks for the download!
-For more exclusive mods join my discord! https://discord.gg/jH2aZqw
-
-Theres two different versions of the PD Sandy here. One for FiveM, and one for singe player.
-For FiveM simply just drag and drop the folder called "pd_sandy" into your ressource folder. 
-Then start the mod in your server.cfg.
