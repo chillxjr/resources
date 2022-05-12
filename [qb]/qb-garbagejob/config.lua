@@ -6,7 +6,7 @@ Config.UseTarget = GetConvar('UseTarget', 'false') == 'true'
 Config.TruckPrice = 250
 
 -- Want to give out a cryptostick per stop?
-Config.GiveCryptoStick = false
+Config.GiveCryptoStick = true
 
 -- Has to roll this number or higher to receive a cryptostick
 Config.CryptoStickChance = 75
@@ -15,16 +15,16 @@ Config.CryptoStickChance = 75
 Config.MinStops = 5
 
 -- Upper worth per bag
-Config.BagUpperWorth = 200
+Config.BagUpperWorth = 100
 
 -- Lower worth per bag
-Config.BagLowerWorth = 80
+Config.BagLowerWorth = 50
 
 -- Minimum bags per stop
-Config.MinBagsPerStop = 3
+Config.MinBagsPerStop = 2
 
 -- Maximum bags per stop
-Config.MaxBagsPerStop = 8
+Config.MaxBagsPerStop = 5
 
 -- WIP: Do not use
 -- If you want to use custom routes instead of random amount of stops stops set to true
@@ -33,7 +33,7 @@ Config.UsePreconfiguredRoutes = false
 Config.Peds = {
     {
         model = 's_m_y_garbage',
-        coords = vector4(2051.68, 3174.12, 44.17, 342.13),
+        coords = vector4(-322.24, -1546.02, 30.02, 294.97),
         zoneOptions = { -- Used for when UseTarget is false
             length = 3.0,
             width = 3.0
@@ -44,100 +44,100 @@ Config.Peds = {
 Config.Locations = {
     ["main"] = {
         label = "Garbage Depot",
-        coords = vector3(2044.3, 3178.68, 45.03),
+        coords = vector3(-313.84, -1522.82, 27.56),
     },
     ["vehicle"] = {
         label = "Garbage Truck Storage",
-        coords = vector4(2044.3, 3178.68, 45.03, 133.77),
+        coords = vector4(-313.84, -1522.82, 27.56, 258.62),
     },
     ["paycheck"] = {
         label = "Payslip Collection",
-        coords = vector3(2050.5, 3172.24, 45.17),
+        coords = vector3(-321.45, -1545.86, 31.02),
     },
     ["trashcan"] ={
         [1] = {
-            name = "yellowjack",
-            coords = vector4(1964.99, 3030.59, 47.06, 143.5),
+            name = "forumdrive",
+            coords = vector4(-168.07, -1662.8, 33.31, 137.5),
         },
         [2] = {
-            name = "behind247",
-            coords = vector4(1967.72, 3756.71, 32.22, 294.11),
+            name = "grovestreet",
+            coords = vector4(118.06, -1943.96, 20.43, 179.5),
         },
         [3] = {
-            name = "sandy1",
-            coords = vector4(1925.46, 3744.66, 32.52, 301.36),
+            name = "jamestownstreet",
+            coords = vector4(297.94, -2018.26, 20.49, 119.5),
         },
         [4] = {
-            name = "aceliq1",
-            coords = vector4(1386.35, 3601.59, 34.89, 284.5),
+            name = "davisave",
+            coords = vector4(424.98, -1523.57, 29.28, 120.08),
         },
         [5] = {
-            name = "boathouse",
-            coords = vector4(1558.5, 3804.3, 34.25, 28.7),
+            name = "littlebighornavenue",
+            coords = vector4(488.49, -1284.1, 29.24, 138.5),
         },
         [6] = {
-            name = "bar_by_trevors",
-            coords = vector4(1946.48, 3831.09, 32.15, 297.63),
+            name = "vespucciblvd",
+            coords = vector4(307.47, -1033.6, 29.03, 46.5),
         },
         [7] = {
-            name = "aceliq2",
-            coords = vector4(1381.35, 3615.96, 34.89, 303.18),
+            name = "elginavenue",
+            coords = vector4(239.19, -681.5, 37.15, 178.5),
         },
         [8] = {
-            name = "sandy2",
-            coords = vector4(983.22, 3581.69, 33.61, 239.13),
+            name = "elginavenue2",
+            coords = vector4(543.51, -204.41, 54.16, 199.5),
         },
         [9] = {
-            name = "oldmarket",
-            coords = vector4(922.43, 3652.54, 32.57, 89.14),
+            name = "powerstreet",
+            coords = vector4(268.72, -25.92, 73.36, 90.5),
         },
         [10] = {
-            name = "sandy3",
-            coords = vector4(436.64, 3562.12, 33.24, 357.48),
+            name = "altastreet",
+            coords = vector4(267.03, 276.01, 105.54, 332.5),
         },
         [11] = {
-            name = "rt68gas2",
-            coords = vector4(251.86, 2586.02, 45.13, 34.33),
+            name = "didiondrive",
+            coords = vector4(21.65, 375.44, 112.67, 323.5),
         },
         [12] = {
-            name = "rt68247",
-            coords = vector4(536.97, 2667.91, 42.25, 301.15),
+            name = "miltonroad",
+            coords = vector4(-546.9, 286.57, 82.85, 127.5),
         },
         [13] = {
-            name = "behinddollarpills",
-            coords = vector4(565.18, 2803.33, 42.11, 201.5),
+            name = "eastbourneway",
+            coords = vector4(-683.23, -169.62, 37.74, 267.5),
         },
         [14] = {
-            name = "tacoshed",
-            coords = vector4(636.44, 2729.19, 41.88, 119.15),
+            name = "eastbourneway2",
+            coords = vector4(-771.02, -218.06, 37.05, 277.5),
         },
         [15] = {
-            name = "rt68house",
-            coords = vector4(972.35, 2720.95, 39.49, 332.2),
+            name = "industrypassage",
+            coords = vector4(-1057.06, -515.45, 35.83, 61.5),
         },
         [16] = {
-            name = "middlegas",
-            coords = vector4(1019.01, 2650.02, 39.6, 164.34),
+            name = "boulevarddelperro",
+            coords = vector4(-1558.64, -478.22, 35.18, 179.5),
         },
         [17] = {
-            name = "behindmotel",
-            coords = vector4(1120.22, 2626.15, 38.0, 196.97),
+            name = "sandcastleway",
+            coords = vector4(-1350.0, -895.64, 13.36, 17.5),
         },
         [18] = {
-            name = "rt68mech",
-            coords = vector4(1193.16, 2631.99, 37.81, 174.29),
+            name = "magellanavenue",
+            coords = vector4(-1243.73, -1359.72, 3.93, 287.5),
         },
         [19] = {
-            name = "rt68stores",
-            coords = vector4(1176.4, 2729.64, 38.0, 2.45),
+            name = "palominoavenue",
+            coords = vector4(-845.87, -1113.07, 6.91, 253.5),
         },
         [20] = {
-            name = "firestation",
-            coords = vector4(1681.75, 3571.19, 35.47, 20.53),
+            name = "southrockforddrive",
+            coords = vector4(-635.21, -1226.45, 11.8, 143.5),
         },
         [21] = {
-            name = "motel2",
-            coords = vector4(406.71, 2626.87, 44.48, 244.27),
+            name = "southarsenalstreet",
+            coords = vector4(-587.74, -1739.13, 22.47, 339.5),
         },
     },
     ["routes"] = { -- Custom routes (WIP Do not use)

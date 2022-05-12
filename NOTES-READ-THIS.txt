@@ -1,3 +1,0 @@
-please add these lines to your SERVER.cfg
-
-ensure [Chill]
