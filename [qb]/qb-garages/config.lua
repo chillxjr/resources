@@ -2,7 +2,7 @@ AutoRespawn = false --True == auto respawn cars that are outside into your garag
 SharedGarages = false   --True == Gang and job garages are shared, false == Gang and Job garages are personal
 
 Garages = {
-    ["motelgarage"] = {
+    --[[["motelgarage"] = {
         label = "Motel Parking",
         takeVehicle = vector3(273.43, -343.99, 44.91),
         spawnPoint = vector4(270.94, -342.96, 43.97, 161.5),
@@ -322,6 +322,18 @@ Garages = {
         blipNumber = 356,
         type = 'depot',                --public, job, gang, depot
         vehicle = 'sea'                 --car, air, sea
+    },--]]
+
+    ["parking"] = {
+        label = "Parking",
+        takeVehicle = vector3(1726.21, 3707.16, 34.17),
+        spawnPoint = vector4(1730.31, 3711.07, 34.2, 20.5),
+        putVehicle = vector3(1737.13, 3718.91, 34.04),
+        showBlip = true,
+        blipName = "Public Parking",
+        blipNumber = 357,
+        type = 'public',                --public, job, gang, depot
+        vehicle = 'car'                 --car, air, sea
     },
 }
 HouseGarages = {}
