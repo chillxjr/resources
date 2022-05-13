@@ -320,7 +320,7 @@ RegisterNetEvent('qb-tow:client:TowVehicle', function()
                             if NpcOn then
                                 RemoveBlip(CurrentBlip)
                                 QBCore.Functions.Notify(Lang:t("mission.goto_depot"), "primary", 5000)
-                                CurrentBlip2 = AddBlipForCoord(491.00, -1314.69, 29.25)
+                                CurrentBlip2 = AddBlipForCoord(1206.78, 2641.72, 39.33)
                                 SetBlipColour(CurrentBlip2, 3)
                                 SetBlipRoute(CurrentBlip2, true)
                                 SetBlipRouteColour(CurrentBlip2, 3)
