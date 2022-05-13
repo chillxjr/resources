@@ -55,7 +55,7 @@ Vehicle Classes:
 Config = Config or {}
 
 Config.Locations = {
-    ['Innocence'] = {
+    --[[['Innocence'] = {
         settings = {
             label = 'Bennys Motorworks',
             welcomeLabel = "Welcome to Benny's Motorworks!",
@@ -173,7 +173,7 @@ Config.Locations = {
             { coords = vector3(732.99, -1075.0, 22.17), length = 6.0, width = 4.0, heading = 180.0, minZ = 21.0, maxZ = 25.0 },
             { coords = vector3(731.47, -1088.91, 22.17), length = 6.0, width = 4.0, heading = 90.0, minZ = 21.0, maxZ = 25.0 },
         }
-    },
+    },--]]
 
     ['Harmony'] = {
         settings = {
@@ -211,9 +211,9 @@ Config.Locations = {
         restrictions = { deniedClasses = { 18 } },
         zones = {
             { coords = vector3(1182.11, 2640.3, 37.75), length = 6.0, width = 4.0, heading = 0.0, minZ = 36.0, maxZ = 40.0 },
-            { coords = vector3(1174.78, 2640.17, 37.75), length = 6.0, width = 4.0, heading = 0.0, minZ = 36.0, maxZ = 40.0 },
+            --{ coords = vector3(1174.78, 2640.17, 37.75), length = 6.0, width = 4.0, heading = 0.0, minZ = 36.0, maxZ = 40.0 },
         }
-    },
+    },--[[
 
     ['Hayes'] = {
         settings = {
@@ -390,5 +390,5 @@ Config.Locations = {
             { coords = vector3(337.2, -579.6, 28.8), length = 9.4, width = 4.2, heading = 340.0, minZ = 27.5, maxZ = 31.5 },
             { coords = vector3(340.38, -570.8, 28.8), length = 8.8, width = 4.2, heading = 340.0, minZ = 27.5, maxZ = 31.5 },
         }
-    },
+    },--]]
 }

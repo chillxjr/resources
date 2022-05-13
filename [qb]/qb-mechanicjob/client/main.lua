@@ -180,7 +180,7 @@ local function RegisterGarageZone()
         if isPointInside and onDuty then
             local inVehicle = IsPedInAnyVehicle(PlayerPedId())
             if inVehicle then
-                exports['qb-core']:DrawText('[E] Hide Vehicle', 'left')
+                exports['qb-core']:DrawText('[E] Remove Vehicle', 'left')
             else
                 exports['qb-core']:DrawText('[E] Get Vehicle', 'left')
             end
