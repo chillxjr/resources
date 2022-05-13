@@ -40,45 +40,45 @@ Config.Shops = {
             ['super'] = 'Super',
             ['sports'] = 'Sports'
         },
-        ['TestDriveTimeLimit'] = 0.5, -- Time in minutes until the vehicle gets deleted
+        ['TestDriveTimeLimit'] = 1, -- Time in minutes until the vehicle gets deleted
         ['Location'] = vector3(896.93, 3641.47, 32.65), -- Blip Location
         ['ReturnLocation'] = vector3(-44.74, -1082.58, 26.68), -- Location to return vehicle, only enables if the vehicleshop has a job owned
-        ['VehicleSpawn'] = vector4(-56.79, -1109.85, 26.43, 71.5), -- Spawn location when vehicle is bought
+        ['VehicleSpawn'] = vector4(923.9, 3650.44, 32.59, 176.31), -- Spawn location when vehicle is bought
         ['ShowroomVehicles'] = {
             [1] = {
                 coords = vector4(899.4, 3645.98, 32.76, 87.08), -- where the vehicle will spawn on display
-                defaultVehicle = 'adder', -- Default display vehicle
-                chosenVehicle = 'adder', -- Same as default but is dynamically changed when swapping vehicles
+                defaultVehicle = 'blista', -- Default display vehicle
+                chosenVehicle = 'blista', -- Same as default but is dynamically changed when swapping vehicles
             },
             [2] = {
                 coords = vector4(899.75, 3653.26, 32.76, 94.69),
-                defaultVehicle = 'schafter2',
-                chosenVehicle = 'schafter2',
+                defaultVehicle = 'club',
+                chosenVehicle = 'club',
             },
             [3] = {
                 coords = vector4(899.52, 3659.54, 32.76, 91.13),
-                defaultVehicle = 'comet2',
-                chosenVehicle = 'comet2',
+                defaultVehicle = 'issi2',
+                chosenVehicle = 'issi2',
             },
             [4] = {
                 coords = vector4(883.54, 3658.97, 32.87, 271.08),
-                defaultVehicle = 'vigero',
-                chosenVehicle = 'vigero',
+                defaultVehicle = 'prairie',
+                chosenVehicle = 'prairie',
             },
             [5] = {
                 coords = vector4(882.5, 3654.55, 32.88, 231.41),
-                defaultVehicle = 't20',
-                chosenVehicle = 't20',
+                defaultVehicle = 'weevil',
+                chosenVehicle = 'weevil',
             },
             [6] = {
                 coords = vector4(882.32, 3650.01, 32.88, 230.05),
-                defaultVehicle = 'bati',
-                chosenVehicle = 'bati',
+                defaultVehicle = 'felon',
+                chosenVehicle = 'felon',
             },
             [7] = {
                 coords = vector4(890.21, 3659.61, 32.82, 184.33),
-                defaultVehicle = 'bati',
-                chosenVehicle = 'bati',
+                defaultVehicle = 'jackal',
+                chosenVehicle = 'jackal',
             }
         },
     },
