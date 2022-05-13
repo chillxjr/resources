@@ -115,7 +115,7 @@ end)
 
 -- Threads
 
-CreateThread(function()
+--[[CreateThread(function()
     local Dealer = AddBlipForCoord(Config.JewelleryLocation["coords"]["x"], Config.JewelleryLocation["coords"]["y"], Config.JewelleryLocation["coords"]["z"])
     SetBlipSprite (Dealer, 617)
     SetBlipDisplay(Dealer, 4)
@@ -125,7 +125,7 @@ CreateThread(function()
     BeginTextCommandSetBlipName("STRING")
     AddTextComponentSubstringPlayerName("Vangelico Jewelry")
     EndTextCommandSetBlipName(Dealer)
-end)
+end)--]]
 
 local listen = false
 local function Listen4Control(case)
