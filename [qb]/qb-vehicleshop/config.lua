@@ -161,7 +161,7 @@ Config.Shops = {
         },
         ['Job'] = 'none', -- Name of job or none
         ['ShopLabel'] = 'Marina Shop', -- Blip name
-        ['showBlip'] = true,  -- true or false
+        ['showBlip'] = false,  -- true or false
         ['blipSprite'] = 410,  -- Blip sprite
         ['blipColor'] = 3,  -- Blip color
         ['Categories'] = { -- Categories available to browse
@@ -209,7 +209,7 @@ Config.Shops = {
         },
         ['Job'] = 'none', -- Name of job or none
         ['ShopLabel'] = 'Air Shop', -- Blip name
-        ['showBlip'] = true,  -- true or false
+        ['showBlip'] = false,  -- true or false
         ['blipSprite'] = 251,  -- Blip sprite
         ['blipColor'] = 3,  -- Blip color
         ['Categories'] = { -- Categories available to browse
