@@ -3,19 +3,19 @@ Config = {}
 Config.Locations = {
     ["main"] = {
         label = "Weazle News HQ",
-        coords = vector4(-597.89, -929.95, 24.0, 271.5),
+        coords = vector4(980.13, 2666.28, 40.03, 186.74),
     },
-    ["inside"] = {
+    --[[["inside"] = {
         label = "Weazle News HQ Inside",
         coords = vector4(-77.46, -833.77, 243.38, 67.5),
     },
     ["outside"] = {
         label = "Weazle News HQ Outside",
         coords = vector4(-598.25, -929.86, 23.86, 86.5),
-    },
+    },--]]
     ["vehicle"] = {
         label = "Vehicle Storage",
-        coords = vector4(-552.24, -925.61, 23.86, 242.5),
+        coords = vector4(993.87, 2668.08, 40.06, 356.9),
     },
     ["heli"] = {
 		label = "Helicopter Storage",
