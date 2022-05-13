@@ -5,8 +5,8 @@ Config.UseTarget = GetConvar('UseTarget', 'false') == 'true'
 Config.Zones = {
     ["SandyOccasions"] = {
         BusinessName = "Vehicle Sales Contract - Larry's Vehicle Sales",
-        SellVehicle = vector4(1235.61, 2733.44, 37.4, 0.42),
-        BuyVehicle = vector4(1213.31, 2735.4, 38.27, 182.5),
+        SellVehicle = vector4(1235.48, 2733.25, 38.01, 354.23),
+        BuyVehicle = vector4(1224.82, 2728.62, 38.01, 358.73),
 
         PolyZone = {
             vector2(1338.3748779297, 2645.0153808594),
