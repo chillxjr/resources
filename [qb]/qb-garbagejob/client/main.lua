@@ -24,7 +24,7 @@ local function setupClient()
     garbageObject = nil
     endBlip = nil
     currentStopNum = 0
-    if playerJob.name == "garbage" then
+    if playerJob.name ~= nil then
         garbageBlip = AddBlipForCoord(Config.Locations["main"].coords.x, Config.Locations["main"].coords.y, Config.Locations["main"].coords.z)
         SetBlipSprite(garbageBlip, 318)
         SetBlipDisplay(garbageBlip, 4)
@@ -463,7 +463,7 @@ end)
 
 RegisterNetEvent('QBCore:Client:OnJobUpdate', function(JobInfo)
     playerJob = JobInfo
-    if playerJob.name == "garbage" then
+    if playerJob.name ~= nil then
         if garbageBlip ~= nil then
             RemoveBlip(garbageBlip)
         end
