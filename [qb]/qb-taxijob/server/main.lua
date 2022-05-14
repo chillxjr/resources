@@ -14,7 +14,7 @@ end
 RegisterNetEvent('qb-taxi:server:NpcPay', function(Payment)
     local src = source
     local Player = QBCore.Functions.GetPlayer(src)
-    if Player.PlayerData.job.name == "taxi" then
+    if Player.PlayerData.job.name ~= nil then
         if NearTaxi(src) then
             local randomAmount = math.random(1, 5)
             local r1, r2 = math.random(1, 5), math.random(1, 5)

@@ -11,7 +11,7 @@ Config.AllowedVehicles = {
 }
 
 Config.Meter = {
-    ["defaultPrice"] = 1.60
+    ["defaultPrice"] = 2.50
 }
 
 Config.BossMenu = vector3(903.32, -170.55, 74.0)

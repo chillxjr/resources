@@ -273,7 +273,7 @@ function TaxiGarage()
         }
     end
     -- qb-bossmenu:client:openMenu
-    if PlayerJob.name == "taxi" and PlayerJob.isboss and Config.UseTarget then
+    if PlayerJob.name ~= nil and PlayerJob.isboss and Config.UseTarget then
         vehicleMenu[#vehicleMenu+1] = {
             header = Lang:t("menu.boss_menu"),
             txt = "",
@@ -534,7 +534,7 @@ CreateThread(function()
             inRange = false
             if LocalPlayer.state.isLoggedIn then
                 local Player = QBCore.Functions.GetPlayerData()
-                if Player.job.name == "taxi" then
+                if Player.job.name ~= nil then
                     local ped = PlayerPedId()
                     local pos = GetEntityCoords(ped)
                     local vehDist = #(pos - vector3(Config.Location.x, Config.Location.y, Config.Location.z))
@@ -574,7 +574,7 @@ function setupTarget()
     CreateThread(function()
         exports['qb-target']:SpawnPed({
             model = 'a_m_m_indian_01',
-            coords = vector4(901.34, -170.06, 74.08, 228.81),
+            coords = vector4(976.35, 2712.06, 39.48, 91.89),
             minusOne = true,
             freeze = true,
             invincible = true,
@@ -784,7 +784,7 @@ end)
 -- switched boss menu from qb-bossmenu to taxijob
 CreateThread(function()
     while true do
-        if PlayerJob.name == "taxi" and PlayerJob.isboss and not Config.UseTarget then
+        if PlayerJob.name ~= nil and PlayerJob.isboss and not Config.UseTarget then
             local pos = GetEntityCoords(PlayerPedId())
             if #(pos - Config.BossMenu) < 2.0 then
                 sleep = 7
