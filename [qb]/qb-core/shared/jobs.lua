@@ -103,24 +103,24 @@ QBShared.Jobs = {
 		grades = {
             ['0'] = {
                 name = 'Recruit',
-                payment = 50
+                payment = 250
             },
 			['1'] = {
                 name = 'Driver',
-                payment = 75
+                payment = 300
             },
 			['2'] = {
                 name = 'Event Driver',
-                payment = 100
+                payment = 400
             },
 			['3'] = {
                 name = 'Sales',
-                payment = 125
+                payment = 500
             },
 			['4'] = {
                 name = 'Manager',
 				isboss = true,
-                payment = 150
+                payment = 800
             },
         },
 	},
@@ -131,7 +131,7 @@ QBShared.Jobs = {
 		grades = {
             ['0'] = {
                 name = 'Driver',
-                payment = 50
+                payment = 250
             },
 		},
 	},
@@ -142,24 +142,24 @@ QBShared.Jobs = {
 		grades = {
             ['0'] = {
                 name = 'Recruit',
-                payment = 50
+                payment = 250
             },
 			['1'] = {
                 name = 'Showroom Sales',
-                payment = 75
+                payment = 300
             },
 			['2'] = {
                 name = 'Business Sales',
-                payment = 100
+                payment = 400
             },
 			['3'] = {
                 name = 'Finance',
-                payment = 125
+                payment = 500
             },
 			['4'] = {
                 name = 'Manager',
 				isboss = true,
-                payment = 150
+                payment = 800
             },
         },
 	},
@@ -170,24 +170,24 @@ QBShared.Jobs = {
 		grades = {
             ['0'] = {
                 name = 'Recruit',
-                payment = 50
+                payment = 250
             },
 			['1'] = {
                 name = 'Novice',
-                payment = 75
+                payment = 300
             },
 			['2'] = {
                 name = 'Experienced',
-                payment = 100
+                payment = 400
             },
 			['3'] = {
                 name = 'Advanced',
-                payment = 125
+                payment = 500
             },
 			['4'] = {
                 name = 'Manager',
 				isboss = true,
-                payment = 150
+                payment = 800
             },
         },
 	},
