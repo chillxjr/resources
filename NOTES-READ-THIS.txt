@@ -2,3 +2,5 @@ please add these lines to your SERVER.cfg
 
 ensure [Chill]
 ensure [Pouncer]
+
+ADD the SQL from the MDT into the LIVE DATABASE
