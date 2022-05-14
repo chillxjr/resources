@@ -271,7 +271,7 @@ CreateThread(function()
     PolyZone:onPlayerInOut(function(isPointInside)
         local Player = QBCore.Functions.GetPlayerData()
         local inVeh = whitelistedVehicle()
-        if Player.job.name == "bus" then
+        if Player.job.name ~= nil then
             if isPointInside then
                 inRange = true
                 CreateThread(function()
