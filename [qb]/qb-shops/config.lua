@@ -427,7 +427,7 @@ Config.Products = {
 
 Config.Locations = {
     -- 24/7 Locations
-    ["247supermarket"] = {
+    --[[["247supermarket"] = {
         ["label"] = "24/7 Supermarket",
         ["coords"] = vector4(24.47, -1346.62, 29.5, 271.66),
         ["ped"] = 'mp_m_shopkeep_01',
@@ -965,6 +965,126 @@ Config.Locations = {
         ["products"] = Config.Products["leisureshop"],
         ["showblip"] = true,
         ["blipsprite"] = 52,
+        ["blipcolor"] = 0
+    },
+    --]]
+
+    ["247supermarket1"] = {
+        ["label"] = "24/7 Supermarket",
+        ["coords"] = vector4(549.1, 2671.25, 42.16, 99.91),
+        ["ped"] = 'mp_m_shopkeep_01',
+        ["scenario"] = "WORLD_HUMAN_STAND_MOBILE",
+        ["radius"] = 1.5,
+        ["targetIcon"] = "fas fa-shopping-basket",
+        ["targetLabel"] = "Open Shop",
+        ["products"] = Config.Products["normal"],
+        ["showblip"] = true,
+        ["blipsprite"] = 52,
+        ["blipcolor"] = 0
+    },
+    ["247supermarket2"] = {
+        ["label"] = "24/7 Supermarket",
+        ["coords"] = vector4(1959.98, 3740.06, 32.34, 298.75),
+        ["ped"] = 'mp_m_shopkeep_01',
+        ["scenario"] = "WORLD_HUMAN_STAND_MOBILE",
+        ["radius"] = 1.5,
+        ["targetIcon"] = "fas fa-shopping-basket",
+        ["targetLabel"] = "Open Shop",
+        ["products"] = Config.Products["normal"],
+        ["showblip"] = true,
+        ["blipsprite"] = 52,
+        ["blipcolor"] = 0
+    },
+    ["aceliq"] = {
+        ["label"] = "Ace Liquor",
+        ["coords"] = vector4(1392.78, 3606.36, 34.98, 192.8),
+        ["ped"] = 'mp_m_shopkeep_01',
+        ["scenario"] = "WORLD_HUMAN_STAND_MOBILE",
+        ["radius"] = 1.5,
+        ["targetIcon"] = "fas fa-shopping-basket",
+        ["targetLabel"] = "Open Shop",
+        ["products"] = Config.Products["liquor"],
+        ["showblip"] = true,
+        ["blipsprite"] = 52,
+        ["blipcolor"] = 0
+    },
+    ["ammunation1"] = {
+        ["label"] = "Ammunation",
+        ["type"] = "weapon",
+        ["coords"] = vector4(1692.86, 3761.55, 34.71, 217.37),
+        ["ped"] = 's_m_y_ammucity_01',
+        ["scenario"] = "WORLD_HUMAN_COP_IDLES",
+        ["radius"] = 1.5,
+        ["targetIcon"] = "fas fa-gun",
+        ["targetLabel"] = "Open Ammunation",
+        ["products"] = Config.Products["weapons"],
+        ["showblip"] = true,
+        ["blipsprite"] = 110,
+        ["blipcolor"] = 0
+    },
+    ["247supermarket2"] = {
+        ["label"] = "24/7 Supermarket",
+        ["coords"] = vector4(1697.43, 4923.36, 42.06, 318.23),
+        ["ped"] = 'mp_m_shopkeep_01',
+        ["scenario"] = "WORLD_HUMAN_STAND_MOBILE",
+        ["radius"] = 1.5,
+        ["targetIcon"] = "fas fa-shopping-basket",
+        ["targetLabel"] = "Open Shop",
+        ["products"] = Config.Products["normal"],
+        ["showblip"] = true,
+        ["blipsprite"] = 52,
+        ["blipcolor"] = 0
+    },
+    ["hardware"] = {
+        ["label"] = "Hardware Store",
+        ["coords"] = vector4(1189.5, 2643.47, 38.4, 89.76),
+        ["ped"] = 'mp_m_waremech_01',
+        ["scenario"] = "WORLD_HUMAN_CLIPBOARD",
+        ["radius"] = 1.5,
+        ["targetIcon"] = "fas fa-wrench",
+        ["targetLabel"] = "Open Hardware Store",
+        ["products"] = Config.Products["hardware"],
+        ["showblip"] = true,
+        ["blipsprite"] = 402,
+        ["blipcolor"] = 0
+    },
+    ["seaword"] = {
+        ["label"] = "Sea Word",
+        ["coords"] = vector4(1446.94, 3756.61, 32.02, 30.94),
+        ["ped"] = 'a_m_y_beach_01',
+        ["scenario"] = "WORLD_HUMAN_STAND_IMPATIENT",
+        ["radius"] = 1.5,
+        ["targetIcon"] = "fas fa-fish",
+        ["targetLabel"] = "Sea Word",
+        ["products"] = Config.Products["gearshop"],
+        ["showblip"] = true,
+        ["blipsprite"] = 52,
+        ["blipcolor"] = 0
+    },
+    ["leisureshop"] = {
+        ["label"] = "Leisure Shop",
+        ["coords"] = vector4(1142.22, 2665.56, 38.16, 89.46),
+        ["ped"] = 'a_m_y_beach_01',
+        ["scenario"] = "WORLD_HUMAN_STAND_MOBILE_CLUBHOUSE",
+        ["radius"] = 1.5,
+        ["targetIcon"] = "fas fa-leaf",
+        ["targetLabel"] = "Open Leisure Shop",
+        ["products"] = Config.Products["leisureshop"],
+        ["showblip"] = true,
+        ["blipsprite"] = 52,
+        ["blipcolor"] = 0
+    },
+    ["weedshop"] = {
+        ["label"] = "Backstreet Drugs",
+        ["coords"] = vector4(1182.45, 2722.49, 38.62, 308.51),
+        ["ped"] = 'a_m_y_hippy_01',
+        ["scenario"] = "WORLD_HUMAN_AA_SMOKE",
+        ["radius"] = 1.5,
+        ["targetIcon"] = "fas fa-cannabis",
+        ["targetLabel"] = "Open Weed Shop",
+        ["products"] = Config.Products["weedshop"],
+        ["showblip"] = true,
+        ["blipsprite"] = 140,
         ["blipcolor"] = 0
     },
 }
