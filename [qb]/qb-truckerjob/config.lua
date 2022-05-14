@@ -7,48 +7,48 @@ Config.BailPrice = 250
 Config.Locations = {
     ["main"] = {
         label = "Truck Shed",
-        coords = vector4(635.39, 2774.95, 42.01, 273.14),
+        coords = vector4(180.25, 2793.28, 45.66, 278.65),
     },  
     ["vehicle"] = {
         label = "Truck Storage",
-        coords = vector4(639.83, 2781.61, 42.0, 274.11),
+        coords = vector4(189.8, 2800.2, 45.66, 355.14),
     },
     ["stores"] ={
         [1] = {
-            name = "outside_storage",
-            coords = vector4(1866.38, 2707.11, 45.87, 115.29),
+            name = "rt68247",
+            coords = vector4(541.64, 2663.67, 42.17, 105.87),
         },
         [2] = {
-            name = "middle_gates",
-            coords = vector4(1828.87, 2605.81, 45.56, 149.62),
+            name = "dollarpills",
+            coords = vector4(635.18, 2775.09, 42.01, 274.28),
         },
         [3] = {
-            name = "back_door_1",
-            coords = vector4(1690.58, 2592.71, 45.69, 191.48),
+            name = "blue_house",
+            coords = vector4(471.12, 2607.66, 44.48, 15.77),
         },
         [4] = {
-            name = "inner_prison_1",
-            coords = vector4(1606.19, 2653.05, 45.56, 65.64),
+            name = "store_on_68",
+            coords = vector4(1200.79, 2655.64, 37.85, 128.63),
         },
         [5] = {
-            name = "inner_prison_2",
-            coords = vector4(1643.44, 2446.14, 45.56, 175.5),
+            name = "yellowjack",
+            coords = vector4(1980.58, 3049.66, 50.43, 330.82),
         },
         [6] = {
-            name = "inner_prison_3",
-            coords = vector4(1728.97, 2446.08, 45.56, 178.72),
+            name = "sandy_house 1",
+            coords = vector4(1842.87, 3777.58, 33.15, 311.19),
         },
         [7] = {
-            name = "inner_prison_4",
-            coords = vector4(1792.79, 2552.13, 45.56, 276.49),
+            name = "sandy_house_2",
+            coords = vector4(1880.41, 3920.75, 33.21, 286.13),
         },
         [8] = {
-            name = "front_door",
-            coords = vector4(1846.37, 2585.87, 45.67, 271.67),
+            name = "sandy_house_3",
+            coords = vector4(1389.89, 3661.81, 34.92, 198.29),
         },
     },
 }
 
 Config.Vehicles = {
-    ["rumpo"] = "Dumbo Delivery",
+    ["boxville2"] = "Delivery Truck",
 }

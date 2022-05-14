@@ -34,7 +34,7 @@ RegisterNetEvent('qb-trucker:server:01101110', function(drops)
     local Player = QBCore.Functions.GetPlayer(src)
     local drops = tonumber(drops)
     local bonus = 0
-    local DropPrice = math.random(100, 120)
+    local DropPrice = math.random(100, 200)
 
     if drops >= 5 then
         bonus = math.ceil((DropPrice / 10) * 5) + 100

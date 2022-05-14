@@ -11,22 +11,22 @@ local Translations = {
         paid_with_bank = "$%{value} Deposit Paid From Bank",
         refund_to_cash = "$%{value} Deposit Paid With Cash",
         you_earned = "You Earned $%{value}",
-        payslip_time = "You Went To All The Shops .. Time For Your Payslip!",
+        payslip_time = "You are out of deliveries. Return for your payslip.",
     },
     menu = {
         header = "Available Trucks",
         close_menu = "⬅ Close Menu",
     },
     mission = {
-        store_reached = "Store reached, get a box in the trunk with [E] and deliver to marker",
-        take_box = "Take A Box Of Products",
-        deliver_box = "Deliver Box Of Products",
-        another_box = "Get another Box Of Products",
-        goto_next_point = "You Have Delivered All Products, To The Next Point",
+        store_reached = "Delivery reached, get the package in the trunk with [E] and deliver to marker",
+        take_box = "Take A package",
+        deliver_box = "Deliver package",
+        another_box = "Get another package",
+        goto_next_point = "You have delivered all packages, On to the next point",
     },
     info = {
-        deliver_e = "~g~E~w~ - Deliver Products",
-        deliver = "Deliver Products",
+        deliver_e = "~g~E~w~ - Deliver Package",
+        deliver = "Deliver Package",
     }
 }
 

@@ -220,7 +220,7 @@ local function getNewLocation()
     if location ~= 0 then
         CurrentLocation = {}
         CurrentLocation.id = location
-        CurrentLocation.dropcount = math.random(1, 3)
+        CurrentLocation.dropcount = math.random(1, 2)
         CurrentLocation.store = Config.Locations["stores"][location].name
         CurrentLocation.x = Config.Locations["stores"][location].coords.x
         CurrentLocation.y = Config.Locations["stores"][location].coords.y
@@ -386,9 +386,13 @@ RegisterNetEvent('qb-trucker:client:GetInTrunk', function()
         local pos = GetEntityCoords(PlayerPedId(), true)
         local vehicle = GetVehiclePedIsIn(PlayerPedId(), true)
         if isTruckerVehicle(vehicle) and CurrentPlate == QBCore.Functions.GetPlate(vehicle) then
-            local trunkpos = GetOffsetFromEntityInWorldCoords(vehicle, 0, -2.5, 0)
+            local trunkpos = GetOffsetFromEntityInWorldCoords(vehicle, 0, -2.7, 0)
             if #(pos - vector3(trunkpos.x, trunkpos.y, trunkpos.z)) < 1.5 and not isWorking then
                 isWorking = true
+                
+                SetVehicleDoorOpen(vehicle, 2, false)
+                SetVehicleDoorOpen(vehicle, 3, false)
+
                 QBCore.Functions.Progressbar("work_carrybox", Lang:t("mission.take_box"), 2000, false, true, {
                     disableMovement = true,
                     disableCarMovement = true,
@@ -401,6 +405,10 @@ RegisterNetEvent('qb-trucker:client:GetInTrunk', function()
                 }, {}, {}, function() -- Done
                     isWorking = false
                     StopAnimTask(PlayerPedId(), "anim@gangops@facility@servers@", "hotwire", 1.0)
+
+                    SetVehicleDoorShut(vehicle, 2, false)
+                    SetVehicleDoorShut(vehicle, 3, false)
+
                     TriggerEvent('animations:client:EmoteCommandStart', {"box"})
                     hasBox = true
                 end, function() -- Cancel
