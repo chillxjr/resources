@@ -71,7 +71,8 @@ local function LoadModel(model)
 end
 
 local function UpdateBlip()
-    if PlayerData.job.name == 'hotdog' then
+    
+    if PlayerData.job.name == "hotdog" then
         CreateThread(function()
             local coords = Config.Locations["take"].coords
 
@@ -781,7 +782,7 @@ CreateThread(function()
         hotdogStart:onPlayerInOut(function(isPointInside)
             if isPointInside then
                 inZone = true
-                if PlayerData.job.name == 'hotdog' then
+                if PlayerData.job.name ~= nil then
                     if not IsWorking then
                         exports['qb-core']:DrawText(Lang:t("info.start_working"), 'left')
                         CreateThread(function()
