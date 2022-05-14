@@ -101,39 +101,35 @@ Config.SecurityCameras = {
 Config.AuthorizedVehicles = {
 	-- Grade 0
 	[0] = {
-		["cvpi"] = "Crown Vic",
+		["lssd4"] = "'16 Taurus",
         
 	},
 	-- Grade 1
 	[1] = {
-		["cvpi"] = "Crown Vic",
-        ["tau"] = "'16 Taurus",
+		["lssd4"] = "'16 Taurus",
+        ["lssd3"] = "'14 Tahoe",
         
 
 	},
 	-- Grade 2
 	[2] = {
-		["cvpi"] = "Crown Vic",
-        ["16exp"] = "'16 Explorer",
-        ["tau"] = "'16 Taurus",
-        ["19hoe"] = "'19 Tahoe",
+		["lssd4"] = "'16 Taurus",
+        ["lssd3"] = "'14 Tahoe",
+        ["lssd"] = "'18 Charger",
 	},
 	-- Grade 3
 	[3] = {
-		["cvpi"] = "Crown Vic",
-        ["16exp"] = "'16 Explorer",
-        ["tau"] = "'16 Taurus",
-        ["18charger"] = "'18 Charger",
-        ["19hoe"] = "'19 Tahoe",
+		["lssd4"] = "'16 Taurus",
+        ["lssd3"] = "'14 Tahoe",
+        ["lssd"] = "'18 Charger",
+        ["lssd2"] = "'20 Tahoe",
 	},
 	-- Grade 4
 	[4] = {
-		["cvpi"] = "Crown Vic",
-		["16exp"] = "'16 Explorer",
-		["tau"] = "'16 Taurus",
-		["18charger"] = "'18 Charger",
-		["19camero"] = "'19 Camero",
-		["19hoe"] = "'19 Tahoe",
+		["lssd4"] = "'16 Taurus",
+        ["lssd3"] = "'14 Tahoe",
+        ["lssd"] = "'18 Charger",
+        ["lssd2"] = "'20 Tahoe",
 	}
 }
 
@@ -371,28 +367,24 @@ Config.Items = {
 }
 
 Config.VehicleSettings = {
-    ["tau"] = { --- Model name
+    ["lssd4"] = { --- Model name
         ["extras"] = {
             ["1"] = true, -- on/off
-            ["2"] = true,
+            ["2"] = false,
             ["3"] = true,
             ["4"] = true,
             ["5"] = true,
             ["6"] = true,
             ["7"] = true,
             ["8"] = true,
-            ["9"] = true,
-            ["10"] = true,
-            ["11"] = true,
-            ["12"] = true,
-            ["13"] = true,
+            
         },
 		["livery"] = 1,
     },
     ["cvpi"] = {
         ["extras"] = {
             ["1"] = true,
-            ["2"] = true,
+            ["2"] = false,
             ["3"] = true,
             ["4"] = true,
             ["5"] = true,
