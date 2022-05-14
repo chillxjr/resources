@@ -1,0 +1,2 @@
+# resources
+fivem server development
