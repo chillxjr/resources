@@ -275,7 +275,7 @@ RegisterNetEvent('QBCore:Client:OnPlayerLoaded', function()
     hasBox = false
     isWorking = false
     JobsDone = 0
-    if PlayerJob.name == "trucker" then
+    if PlayerJob.name ~= nil then
         CreateElements()
     end
 
@@ -294,22 +294,22 @@ RegisterNetEvent('QBCore:Client:OnJobUpdate', function(JobInfo)
     local OldPlayerJob = PlayerJob.name
     PlayerJob = JobInfo
 
-    if PlayerJob.name == "trucker" then
+    if PlayerJob.name ~= nil then
         CreateElements()
     end
-    if OldPlayerJob == "trucker" then
+    if OldPlayerJob ~= nil then
         RemoveTruckerBlips()
     end
 end)
 
 RegisterNetEvent('qb-truckerjob:client:ShowMarker', function(active)
-    if PlayerJob.name == "trucker" then
+    if PlayerJob.name ~= nil then
         showMarker = active
     end
 end)
 
 RegisterNetEvent('qb-truckerjob:client:SetDelivering', function(active)
-    if PlayerJob.name == "trucker" then
+    if PlayerJob.name ~= nil then
         Delivering = active
     end
 end)
