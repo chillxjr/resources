@@ -99,7 +99,7 @@ div#q-loading-bar { display: none!important; } /* makes sure there's no ajax loa
   position: absolute;
   display: flex;
   left: 3vh;
-  bottom: 0.2vw;
+  top: 0.2vw;
 }
 
 .q-ml-xl {
