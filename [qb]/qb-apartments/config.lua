@@ -4,7 +4,7 @@ Apartments.SpawnOffset = 30
 Apartments.Locations = {
     ["apartment1"] = {
         name = "apartment1",
-        label = "Sandy Trailer",
+        label = "Sandy Traphouse",
         coords = {
             enter = vector4(1435.45, 3657.03, 34.4, 127.62),
         },
