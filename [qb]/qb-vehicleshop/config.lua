@@ -46,37 +46,37 @@ Config.Shops = {
         ['VehicleSpawn'] = vector4(923.9, 3650.44, 32.59, 176.31), -- Spawn location when vehicle is bought
         ['ShowroomVehicles'] = {
             [1] = {
-                coords = vector4(899.4, 3645.98, 32.76, 87.08), -- where the vehicle will spawn on display
+                coords = vector4(899.4, 3645.98, 31.76, 87.08), -- where the vehicle will spawn on display
                 defaultVehicle = 'blista', -- Default display vehicle
                 chosenVehicle = 'blista', -- Same as default but is dynamically changed when swapping vehicles
             },
             [2] = {
-                coords = vector4(899.75, 3653.26, 32.76, 94.69),
+                coords = vector4(899.75, 3653.26, 31.76, 94.69),
                 defaultVehicle = 'club',
                 chosenVehicle = 'club',
             },
             [3] = {
-                coords = vector4(899.52, 3659.54, 32.76, 91.13),
+                coords = vector4(899.52, 3659.54, 31.76, 91.13),
                 defaultVehicle = 'issi2',
                 chosenVehicle = 'issi2',
             },
             [4] = {
-                coords = vector4(883.54, 3658.97, 32.87, 271.08),
+                coords = vector4(883.54, 3658.97, 31.87, 271.08),
                 defaultVehicle = 'prairie',
                 chosenVehicle = 'prairie',
             },
             [5] = {
-                coords = vector4(882.5, 3654.55, 32.88, 231.41),
+                coords = vector4(882.5, 3654.55, 31.88, 231.41),
                 defaultVehicle = 'weevil',
                 chosenVehicle = 'weevil',
             },
             [6] = {
-                coords = vector4(882.32, 3650.01, 32.88, 230.05),
+                coords = vector4(882.32, 3650.01, 31.88, 230.05),
                 defaultVehicle = 'felon',
                 chosenVehicle = 'felon',
             },
             [7] = {
-                coords = vector4(890.21, 3659.61, 32.82, 184.33),
+                coords = vector4(890.21, 3659.61, 31.82, 184.33),
                 defaultVehicle = 'jackal',
                 chosenVehicle = 'jackal',
             }
