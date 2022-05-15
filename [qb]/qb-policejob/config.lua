@@ -139,6 +139,10 @@ Config.AuthorizedVehicles = {
         ["um5"] = "UC Explorer",
         ["um3"] = "UC Charger",
         ["um1"] = "UC Tahoe",
+        ["mkivbb_vv"] = "UC Supra",
+        ["nm_avent"] = "UC Lambo",
+        ["rapger19"] = "UC Raptor",
+
 	}
 }
 
