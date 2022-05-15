@@ -6,14 +6,14 @@
         <div class="backdrop">
             <div class="top">
                 <h1 title="TAPs">TAPs</h1>
-                <h2 title="Test server">Test server</h2>
+                <h2 title="Roleplay">Roleplay</h2>
             </div>
 
             <div class="letni">
-                <h2 title="Hopefully loading...">Hopefully loading...</h2>
+                <h2 title="Loading...">Loading...</h2>
                 <h3></h3>
                 <div class="loadbar"><div class="thingy"></div></div>
-                <p>Cross your fingers.</p>
+                <p>Discord.gg/CuuCcx5K</p>
             </div>
             <div class="bottom">
                 <div id="gradient">
@@ -28,9 +28,9 @@ var count = 0;
 var thisCount = 0;
 
 const emoji = {
-    INIT_BEFORE_MAP_LOADED: [ '🍉' ],
-    INIT_AFTER_MAP_LOADED: [ '🍋' ],
-    INIT_SESSION: [ '🍐' ],
+    INIT_BEFORE_MAP_LOADED: [ '' ],
+    INIT_AFTER_MAP_LOADED: [ '' ],
+    INIT_SESSION: [ '' ],
 };
 
 const handlers = {
@@ -51,7 +51,7 @@ const handlers = {
     {
         count = data.count;
 
-        document.querySelector('.letni h3').innerHTML += "\u{1f358}";
+        document.querySelector('.letni h3').innerHTML += "";
     },
 
     performMapLoadFunction(data)
