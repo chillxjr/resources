@@ -1,9 +1,9 @@
 local QBCore = exports['qb-core']:GetCoreObject()
+
 local isMelting = false
 local canTake = false
-local inRange = false
-local headerOpen = false
 local meltTime
+local meltedItem = {}
 
 CreateThread(function()
     local blip = AddBlipForCoord(Config.PawnLocation.x, Config.PawnLocation.y, Config.PawnLocation.z)
@@ -21,9 +21,9 @@ if Config.UseTarget then
     CreateThread(function()
       exports['qb-target']:AddBoxZone("PawnShop", Config.PawnLocation, 2, 3, {
         name = "PawnShop",
-        heading = 207,
-        minZ = 100.97,
-        maxZ = 105.42,
+        heading = 122.76,
+        minZ = 36.85,
+        maxZ = 40,
     }, {
         options = {
             {
@@ -40,9 +40,9 @@ else
     CreateThread(function()
         local zone = BoxZone:Create(Config.PawnLocation, 2, 3, {
             name="box_zone",
-            heading = 207,
-            minZ = 100.97,
-            maxZ = 105.42,
+            heading = 122.76,
+            minZ = 36.85,
+            maxZ = 40,
         })
 
         local pawnShopCombo = ComboZone:Create({zone}, {name = "pawnshopZone", debugPoly = false})
@@ -58,7 +58,6 @@ else
                     }
                 })
             else
-                headerOpen = false
                 exports['qb-menu']:closeMenu()
             end
         end)
@@ -173,7 +172,7 @@ RegisterNetEvent('qb-pawnshop:client:openPawn', function(data)
             }
         }
 
-        for k,v in pairs(PlyInv) do
+        for _, v in pairs(PlyInv) do
             for i = 1, #data.items do
                 if v.name == data.items[i].item then
                     pawnMenu[#pawnMenu +1] = {
@@ -212,7 +211,7 @@ RegisterNetEvent('qb-pawnshop:client:openMelt', function(data)
                 isMenuHeader = true,
             }
         }
-        for k,v in pairs(PlyInv) do
+        for _, v in pairs(PlyInv) do
             for i = 1, #data.items do
                 if v.name == data.items[i].item then
                     meltMenu[#meltMenu +1] = {
