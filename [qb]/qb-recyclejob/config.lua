@@ -3,15 +3,15 @@ Config = {
 	-- UseTarget should only be set to true when using qb-target
 	UseTarget = GetConvar('UseTarget', 'false') == 'true',
 
-	OutsideLocation 	= vector4(2338.67, 3134.39, 48.21, 245.09),
-	InsideLocation 		= vector4(2340.24, 3133.64, 48.21, 82.44),
-	DutyLocation 		= vector4(2341.39, 3126.35, 48.21, 354.96),
-	DropLocation 		= vector4(2357.9, 3139.2, 48.21, 342.9),
+	OutsideLocation 	= vector4(1407.61, 3619.34, 34.89, 103.68),
+	InsideLocation 		= vector4(1073.0, -3102.49, -39.0, 266.61),
+	DutyLocation 		= vector4(1048.7, -3100.62, -38.2, 88.02),
+	DropLocation 		= vector4(1048.224, -3097.071, -38.999, 274.810),
 
 	DrawPackageLocationBlip = true,
 
-	PickupActionDuration 	= math.random(1000, 2000),
-	DeliveryActionDuration 	= 2000,
+	PickupActionDuration 	= math.random(4000, 6000),
+	DeliveryActionDuration 	= 5000,
 
 	MaxItemsReceived 	= 5,
 	MinItemReceivedQty 	= 2,
@@ -20,13 +20,29 @@ Config = {
 	LuckyItem 			= "rubber",
 	
 	PickupLocations = {
-		[1] 	= vector4(2346.02, 3138.92, 48.21, 336.63),
-		[2] 	= vector4(2343.07, 3139.26, 48.21, 347.74),
-		[3] 	= vector4(2360.85, 3128.82, 48.21, 264.35),
-		[4] 	= vector4(2360.01, 3125.98, 48.21, 261.03),
-		[5] 	= vector4(2358.36, 3126.42, 48.21, 137.14),
-		[6] 	= vector4(2350.37, 3124.88, 48.21, 75.52),
-		[7] 	= vector4(2354.25, 3120.97, 48.21, 268.0),
+		[1] 	= vector4(1067.68, -3095.57, -39.9, 342.39),
+		[2] 	= vector4(1065.20, -3095.57, -39.9, 342.39),
+		[3] 	= vector4(1062.73, -3095.57, -39.9, 342.39),
+		[4] 	= vector4(1060.37, -3095.57, -39.9, 342.39),
+		[5] 	= vector4(1057.95, -3095.57, -39.9, 342.39),
+		[6] 	= vector4(1055.58, -3095.57, -39.9, 342.39),
+		[7] 	= vector4(1053.09, -3095.57, -39.9, 342.39),
+		
+		[8] 	= vector4(1053.07, -3102.62, -39.9, 342.39),
+		[9] 	= vector4(1055.49, -3102.62, -39.9, 342.39),
+		[10]	= vector4(1057.93, -3102.62, -39.9, 342.39),
+		[11] 	= vector4(1060.19, -3102.62, -39.9, 342.39),
+		[12] 	= vector4(1062.71, -3102.62, -39.9, 342.39),
+		[13] 	= vector4(1065.19, -3102.62, -39.9, 342.39),
+		[14] 	= vector4(1067.46, -3102.62, -39.9, 342.39),
+		
+		[15] 	= vector4(1067.69, -3109.71, -39.9, 342.39),
+		[16] 	= vector4(1065.13, -3109.71, -39.9, 342.39),
+		[17] 	= vector4(1062.70, -3109.71, -39.9, 342.39),
+		[18]	= vector4(1060.24, -3109.71, -39.9, 342.39),
+		[19]	= vector4(1057.76, -3109.71, -39.9, 342.39),
+		[20] 	= vector4(1055.52, -3109.71, -39.9, 342.39),
+		[21]	= vector4(1053.16, -3109.71, -39.9, 342.39),
 	},
 	WarehouseObjects = {
 		[1] = "prop_boxpile_05a",

@@ -73,7 +73,7 @@ local function RegisterEntranceTarget()
 
     entranceZone:onPlayerInOut(function(isPointInside)
       if isPointInside then
-        exports['qb-core']:DrawText('[E] Start working', 'left')
+        exports['qb-core']:DrawText('[E] Enter Warehouse', 'left')
       else
         exports['qb-core']:HideText()
       end
@@ -114,7 +114,7 @@ local function RegisterExitTarget()
 
     exitZone:onPlayerInOut(function(isPointInside)
       if isPointInside then
-        exports['qb-core']:DrawText('[E] Stop working', 'left')
+        exports['qb-core']:DrawText('[E] Exit Warehouse', 'left')
       else
         exports['qb-core']:HideText()
       end
@@ -159,7 +159,7 @@ local function RegisterDutyTarget()
       heading = 270,
       minZ = Config.DutyLocation.z - 2.0,
       maxZ = Config.DutyLocation.z + 1.0,
-      debugPoly = true,
+      debugPoly = false,
     }, {
       options = {
         {
@@ -330,7 +330,7 @@ local function DropPackage()
 end
 
 local function SetLocationBlip()
-  local RecycleBlip = AddBlipForCoord(2339.22, 3140.7, 48.2)
+  local RecycleBlip = AddBlipForCoord(Config.OutsideLocation.x, Config.OutsideLocation.y, Config.OutsideLocation.z)
   SetBlipSprite(RecycleBlip, 365)
   SetBlipColour(RecycleBlip, 2)
   SetBlipScale(RecycleBlip, 0.8)
