@@ -1066,7 +1066,7 @@ Config.Locations = {
         ["targetIcon"] = "fas fa-wrench",
         ["targetLabel"] = "Open Hardware Store",
         ["products"] = Config.Products["hardware"],
-        ["showblip"] = true,
+        ["showblip"] = false,
         ["blipsprite"] = 402,
         ["blipcolor"] = 0
     },
@@ -1094,7 +1094,7 @@ Config.Locations = {
         ["products"] = Config.Products["weedshop"],
         ["showblip"] = true,
         ["blipsprite"] = 140,
-        ["blipcolor"] = 0
+        ["blipcolor"] = 52
     },
     ["hardware"] = {
         ["label"] = "Hardware Store",
@@ -1119,7 +1119,7 @@ Config.Locations = {
         ["targetLabel"] = "Open Leisure Shop",
         ["products"] = Config.Products["leisureshop"],
         ["showblip"] = true,
-        ["blipsprite"] = 52,
-        ["blipcolor"] = 0
+        ["blipsprite"] = 171,
+        ["blipcolor"] = 2
     },
 }
