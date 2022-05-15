@@ -21,7 +21,7 @@ Config.Locations = {
         [2] = vector3(-449.811, 6012.909, 31.815),
     },
     ["vehicle"] = {
-        [1] = vector4(1867.79, 3698.63, 33.51, 209.56),
+        [1] = vector4(1854.06, 3710.65, 33.31, 127.6),
         [2] = vector4(455.11, -1022.68, 28.41, 104.38),
         [3] = vector4(-455.39, 6002.02, 31.34, 87.93),
     },
@@ -59,7 +59,7 @@ Config.ArmoryWhitelist = {}
 Config.PoliceHelicopter = "POLMAV"
 
 Config.SecurityCameras = {
-    hideradar = false,
+    hideradar = true,
     cameras = {
         [1] = {label = "Pacific Bank CAM#1", coords = vector3(257.45, 210.07, 109.08), r = {x = -25.0, y = 0.0, z = 28.05}, canRotate = false, isOnline = true},
         [2] = {label = "Pacific Bank CAM#2", coords = vector3(232.86, 221.46, 107.83), r = {x = -25.0, y = 0.0, z = -140.91}, canRotate = false, isOnline = true},
