@@ -275,9 +275,9 @@ RegisterNetEvent('QBCore:Client:OnPlayerLoaded', function()
     hasBox = false
     isWorking = false
     JobsDone = 0
-    if PlayerJob.name ~= nil then
-        CreateElements()
-    end
+    --if PlayerJob.name == "trucker" then
+    CreateElements()
+    --end
 
 end)
 
@@ -294,24 +294,24 @@ RegisterNetEvent('QBCore:Client:OnJobUpdate', function(JobInfo)
     local OldPlayerJob = PlayerJob.name
     PlayerJob = JobInfo
 
-    if PlayerJob.name ~= nil then
+    --if PlayerJob.name == "trucker" then
         CreateElements()
-    end
-    if OldPlayerJob ~= nil then
+    --end
+    --if OldPlayerJob == "trucker" then
         RemoveTruckerBlips()
-    end
+    --end
 end)
 
 RegisterNetEvent('qb-truckerjob:client:ShowMarker', function(active)
-    if PlayerJob.name ~= nil then
+    --if PlayerJob.name == "trucker" then
         showMarker = active
-    end
+    --end
 end)
 
 RegisterNetEvent('qb-truckerjob:client:SetDelivering', function(active)
-    if PlayerJob.name ~= nil then
+    --if PlayerJob.name == "trucker" then
         Delivering = active
-    end
+    --end
 end)
 
 
@@ -386,7 +386,7 @@ RegisterNetEvent('qb-trucker:client:GetInTrunk', function()
         local pos = GetEntityCoords(PlayerPedId(), true)
         local vehicle = GetVehiclePedIsIn(PlayerPedId(), true)
         if isTruckerVehicle(vehicle) and CurrentPlate == QBCore.Functions.GetPlate(vehicle) then
-            local trunkpos = GetOffsetFromEntityInWorldCoords(vehicle, 0, -2.7, 0)
+            local trunkpos = GetOffsetFromEntityInWorldCoords(vehicle, 0, -2.8, 0)
             if #(pos - vector3(trunkpos.x, trunkpos.y, trunkpos.z)) < 1.5 and not isWorking then
                 isWorking = true
                 
@@ -405,11 +405,9 @@ RegisterNetEvent('qb-trucker:client:GetInTrunk', function()
                 }, {}, {}, function() -- Done
                     isWorking = false
                     StopAnimTask(PlayerPedId(), "anim@gangops@facility@servers@", "hotwire", 1.0)
-
+                    TriggerEvent('animations:client:EmoteCommandStart', {"box"})
                     SetVehicleDoorShut(vehicle, 2, false)
                     SetVehicleDoorShut(vehicle, 3, false)
-
-                    TriggerEvent('animations:client:EmoteCommandStart', {"box"})
                     hasBox = true
                 end, function() -- Cancel
                     isWorking = false

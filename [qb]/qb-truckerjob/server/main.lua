@@ -34,7 +34,7 @@ RegisterNetEvent('qb-trucker:server:01101110', function(drops)
     local Player = QBCore.Functions.GetPlayer(src)
     local drops = tonumber(drops)
     local bonus = 0
-    local DropPrice = math.random(100, 200)
+    local DropPrice = math.random(100, 120)
 
     if drops >= 5 then
         bonus = math.ceil((DropPrice / 10) * 5) + 100
@@ -54,12 +54,19 @@ RegisterNetEvent('qb-trucker:server:01101110', function(drops)
     TriggerClientEvent('QBCore:Notify', src, Lang:t("success.you_earned", {value = payment}), 'success')
 end)
 
+
 RegisterNetEvent('qb-trucker:server:nano', function()
     local chance = math.random(1,100)
     if chance < 26 then
         local xPlayer = QBCore.Functions.GetPlayer(tonumber(source))
+        xPlayer.Functions.AddMoney("bank", 150)
         xPlayer.Functions.AddItem("cryptostick", 1, false)
         TriggerClientEvent('inventory:client:ItemBox', source, QBCore.Shared.Items["cryptostick"], "add")
+    elseif chance > 25 then
+        local xPlayer = QBCore.Functions.GetPlayer(tonumber(source))
+        xPlayer.Functions.AddMoney("bank", 300) 
+    
     end
+
 
 end)

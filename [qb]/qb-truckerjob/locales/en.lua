@@ -11,7 +11,7 @@ local Translations = {
         paid_with_bank = "$%{value} Deposit Paid From Bank",
         refund_to_cash = "$%{value} Deposit Paid With Cash",
         you_earned = "You Earned $%{value}",
-        payslip_time = "You are out of deliveries. Return for your payslip.",
+        payslip_time = "You are out of deliveries. Return to the depot.",
     },
     menu = {
         header = "Available Trucks",
