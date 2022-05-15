@@ -1083,19 +1083,6 @@ Config.Locations = {
         ["blipsprite"] = 52,
         ["blipcolor"] = 0
     },
-    ["leisureshop"] = {
-        ["label"] = "Leisure Shop",
-        ["coords"] = vector4(1142.22, 2665.56, 38.16, 89.46),
-        ["ped"] = 'a_m_y_beach_01',
-        ["scenario"] = "WORLD_HUMAN_STAND_MOBILE_CLUBHOUSE",
-        ["radius"] = 1.5,
-        ["targetIcon"] = "fas fa-leaf",
-        ["targetLabel"] = "Open Leisure Shop",
-        ["products"] = Config.Products["leisureshop"],
-        ["showblip"] = true,
-        ["blipsprite"] = 52,
-        ["blipcolor"] = 0
-    },
     ["weedshop"] = {
         ["label"] = "Backstreet Drugs",
         ["coords"] = vector4(1182.45, 2722.49, 38.62, 308.51),
@@ -1120,6 +1107,19 @@ Config.Locations = {
         ["products"] = Config.Products["hardware"],
         ["showblip"] = true,
         ["blipsprite"] = 402,
+        ["blipcolor"] = 0
+    },
+    ["leisureshop"] = {
+        ["label"] = "Crypto Decrypter",
+        ["coords"] = vector4(2440.39, 4069.38, 38.06, 120.82),
+        ["ped"] = 'a_m_y_beach_01',
+        ["scenario"] = "WORLD_HUMAN_STAND_MOBILE_CLUBHOUSE",
+        ["radius"] = 0,
+        ["targetIcon"] = "fas fa-leaf",
+        ["targetLabel"] = "Open Leisure Shop",
+        ["products"] = Config.Products["leisureshop"],
+        ["showblip"] = true,
+        ["blipsprite"] = 52,
         ["blipcolor"] = 0
     },
 }
