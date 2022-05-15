@@ -116,6 +116,7 @@ Config.AuthorizedVehicles = {
 		["lssd4"] = "'16 Taurus",
         ["lssd3"] = "'14 Tahoe",
         ["lssd"] = "'18 Charger",
+        ["um2"] = "UC CrownVic",
 	},
 	-- Grade 3
 	[3] = {
@@ -123,6 +124,10 @@ Config.AuthorizedVehicles = {
         ["lssd3"] = "'14 Tahoe",
         ["lssd"] = "'18 Charger",
         ["lssd2"] = "'20 Tahoe",
+        ["um2"] = "UC CrownVic",
+        ["um5"] = "UC Explorer",
+        ["um3"] = "UC Charger",
+        ["um1"] = "UC Tahoe",
 	},
 	-- Grade 4
 	[4] = {
@@ -130,6 +135,10 @@ Config.AuthorizedVehicles = {
         ["lssd3"] = "'14 Tahoe",
         ["lssd"] = "'18 Charger",
         ["lssd2"] = "'20 Tahoe",
+        ["um2"] = "UC CrownVic",
+        ["um5"] = "UC Explorer",
+        ["um3"] = "UC Charger",
+        ["um1"] = "UC Tahoe",
 	}
 }
 
