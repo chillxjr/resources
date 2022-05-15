@@ -990,7 +990,7 @@ CreateThread(function ()
     SetBlipColour(Blip, 0)
     SetBlipAlpha(Blip, 0.7)
     BeginTextCommandSetBlipName("STRING")
-    AddTextComponentSubstringPlayerName("Autocare Mechanic")
+    AddTextComponentSubstringPlayerName("Grandpa's Garage")
     EndTextCommandSetBlipName(Blip)
 
     RegisterGarageZone()
