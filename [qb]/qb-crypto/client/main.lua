@@ -71,7 +71,7 @@ CreateThread(function()
 				sleep = 5
 				if dist < 1.5 then
 					if not Crypto.Exchange.RebootInfo.state then
-						DrawText3Ds(Crypto.Exchange.coords, '~g~E~w~ - Enter USB')
+						DrawText3Ds(Crypto.Exchange.coords, '~g~E~w~ - Give USB')
 						if not requiredItemsShowed then
 							requiredItemsShowed = true
 							TriggerEvent('inventory:client:requiredItems', requiredItems, true)
