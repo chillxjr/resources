@@ -182,7 +182,7 @@ Config.Locations = {
             enabled = true,
         },
         blip = {
-            label = 'Bennys Motorworks',
+            label = 'Paintbooth',
             coords = vector3(1178.3921, 2640.5449, 37.7539),
             sprite = 72,
             scale = 0.65,
