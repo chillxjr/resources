@@ -1109,4 +1109,17 @@ Config.Locations = {
         ["blipsprite"] = 140,
         ["blipcolor"] = 0
     },
+    ["hardware"] = {
+        ["label"] = "Hardware Store",
+        ["coords"] = vector4(2747.57, 3472.91, 55.67, 246.5),
+        ["ped"] = 'mp_m_waremech_01',
+        ["scenario"] = "WORLD_HUMAN_CLIPBOARD",
+        ["radius"] = 1.5,
+        ["targetIcon"] = "fas fa-wrench",
+        ["targetLabel"] = "Open Hardware Store",
+        ["products"] = Config.Products["hardware"],
+        ["showblip"] = true,
+        ["blipsprite"] = 402,
+        ["blipcolor"] = 0
+    },
 }
