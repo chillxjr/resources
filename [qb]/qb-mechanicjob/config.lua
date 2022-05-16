@@ -108,8 +108,9 @@ Config.Locations = {
 Config.Vehicles = {
     ["flatbed"] = "Flatbed",
     ["towtruck"] = "Towtruck",
-    ["minivan"] = "Minivan (Rental Car)",
-    ["blista"] = "Blista",
+    ["21tahoe"] = "DOT Boss Tahoe",
+    ["21f250"] = "DOT Mech Truck",
+    ["blista"] = "Blista (Loaner Car",
 }
 
 Config.MinimalMetersForDamage = {

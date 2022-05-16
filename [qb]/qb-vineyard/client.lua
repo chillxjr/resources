@@ -237,7 +237,7 @@ Zones[2].zone:onPlayerInOut(function(isPointInside)
 	if isPointInside then
 		if Config.Debug then log(Lang:t("text.zone_entered",{zone="Wine"})) end
 		
-		if not startVineyard and PlayerJob.name == "vineyard" then
+		if not startVineyard --[[and PlayerJob.name == "vineyard"--]] then
 			CreateThread(function()
 				while Zones[2].isInside do
 					if not wineStarted then
@@ -293,7 +293,7 @@ Zones[3].zone:onPlayerInOut(function(isPointInside)
 	Zones[3].isInside = isPointInside
 	if isPointInside then
 		if Config.Debug then log(Lang:t("text.zone_entered",{zone="Juice"})) end
-		if not startVineyard and PlayerJob.name == "vineyard" then
+		if not startVineyard --[[and PlayerJob.name == "vineyard"--]] then
 			CreateThread(function()
 				while Zones[3].isInside do
 					exports['qb-core']:DrawText(Lang:t("task.make_grape_juice"),'right')

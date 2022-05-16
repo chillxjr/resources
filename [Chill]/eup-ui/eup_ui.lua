@@ -1,5 +1,5 @@
 local outfits = {
-    ['Male LSPD Uniform (Long Sleeve)'] = {
+   --[[ ['Male LSPD Uniform (Long Sleeve)'] = {
         category = 'LSPD',
         ped = 'mp_m_freemode_01',
         props = {
@@ -350,9 +350,9 @@ local outfits = {
             { 10, 8, 1 },
             { 11, 94, 1 },
         },
-    },
-    ['Male LSSD Uniform (Long Sleeve)'] = {
-        category = 'LSSD',
+    }, ]]
+    ['Male Sheriff Uniform (Long Sleeve)'] = {
+        category = 'Sheriff',
         ped = 'mp_m_freemode_01',
         props = {
             { 0, 14, 1 },
@@ -361,8 +361,8 @@ local outfits = {
             { 3, 0, 0 },
         },
         components = {
-            { 1, 1, 1 },
-            { 3, 5, 1 },
+            { 1, 1, 1 }, -- body type / sex (index, article, style)
+            { 3, 5, 1 }, -- arms?
             { 4, 26, 1 },
             { 5, 49, 1 },
             { 6, 52, 1 },
@@ -373,9 +373,9 @@ local outfits = {
             { 11, 151, 1 },
         },
     },
-    ['Male LSSD Uniform (Short Sleeve)'] = {
-        category = 'LSSD',
-        ped = 'mp_m_freemode_01',
+    ['Male Sheriff Uniform (Short Sleeve)'] = {
+        category = 'Sheriff',
+        ped = 'mp_m_freemode_01', -- HOLY FUCKING SHIT, add one to these FROM the clothing editor
         props = {
             { 0, 0, 0 },
             { 1, 1, 1 },
@@ -383,20 +383,20 @@ local outfits = {
             { 3, 4, 1 },
         },
         components = {
-            { 1, 1, 1 },
-            { 3, 1, 1 },
-            { 4, 26, 1 },
-            { 5, 49, 1 },
-            { 6, 52, 1 },
-            { 7, 9, 1 },
-            { 8, 45, 2 },
-            { 9, 14, 1 },
-            { 10, 1, 1 },
-            { 11, 76, 1 },
+            { 1, 1, 1 }, -- body type / sex (index, article, style)
+            { 3, 1, 1 }, -- arms?
+            { 4, 26, 1 }, -- pants
+            { 5, 49, 1 }, -- bags?
+            { 6, 52, 1 }, -- shoes
+            { 7, 9, 1 }, -- neck
+            { 8, 45, 2 }, -- undershirt
+            { 9, 14, 1 }, -- vest
+            { 10, 1, 1 }, -- Decals
+            { 11, 76, 1 }, -- shirt
         },
     },
-    ['Female LSSD Uniform'] = {
-        category = 'LSSD',
+    ['Female Sheriff Uniform'] = {
+        category = 'Sheriff',
         ped = 'mp_f_freemode_01',
         props = {
             { 0, 0, 0 },
@@ -417,8 +417,8 @@ local outfits = {
             { 11, 141, 1 },
         },
     },
-    ['Male LSSD Jacket'] = {
-        category = 'LSSD',
+    ['Male Sheriff Jacket'] = {
+        category = 'Sheriff',
         ped = 'mp_m_freemode_01',
         props = {
             { 0, 0, 0 },
@@ -439,8 +439,8 @@ local outfits = {
             { 11, 157, 5 },
         },
     },
-    ['Female LSSD Jacket'] = {
-        category = 'LSSD',
+    ['Female Sheriff Jacket'] = {
+        category = 'Sheriff',
         ped = 'mp_f_freemode_01',
         props = {
             { 0, 0, 0 },
@@ -461,8 +461,8 @@ local outfits = {
             { 11, 154, 5 },
         },
     },
-    ['Male LSSD Jacket HI-VIS'] = {
-        category = 'LSSD',
+    ['Male Sheriff Jacket HI-VIS'] = {
+        category = 'Sheriff',
         ped = 'mp_m_freemode_01',
         props = {
             { 0, 0, 0 },
@@ -483,8 +483,8 @@ local outfits = {
             { 11, 157, 3 },
         },
     },
-    ['Male LSSD Motorcycle Uniform'] = {
-        category = 'LSSD',
+    ['Male Sheriff Motorcycle Uniform'] = {
+        category = 'Sheriff',
         ped = 'mp_m_freemode_01',
         props = {
             { 0, 18, 3 },
@@ -505,8 +505,8 @@ local outfits = {
             { 11, 151, 1 },
         },
     },
-    ['Female LSSD Motorcycle Uniform'] = {
-        category = 'LSSD',
+    ['Female Sheriff Motorcycle Uniform'] = {
+        category = 'Sheriff',
         ped = 'mp_f_freemode_01',
         props = {
             { 0, 18, 3 },
@@ -527,8 +527,8 @@ local outfits = {
             { 11, 141, 1 },
         },
     },
-    ['Male LSSD Suit'] = {
-        category = 'LSSD',
+    ['Male Sheriff Suit'] = {
+        category = 'Sheriff',
         ped = 'mp_m_freemode_01',
         props = {
             { 0, 0, 0 },
@@ -549,8 +549,8 @@ local outfits = {
             { 11, 5, 1 },
         },
     },
-    ['Female LSSD Suit'] = {
-        category = 'LSSD',
+    ['Female Sheriff Suit'] = {
+        category = 'Sheriff',
         ped = 'mp_f_freemode_01',
         props = {
             { 0, 0, 0 },
@@ -571,8 +571,8 @@ local outfits = {
             { 11, 25, 4 },
         },
     },
-    ['Male LSSD Detective'] = {
-        category = 'LSSD',
+    ['Male Sheriff Detective'] = {
+        category = 'Sheriff',
         ped = 'mp_m_freemode_01',
         props = {
             { 0, 0, 0 },
@@ -593,8 +593,8 @@ local outfits = {
             { 11, 4, 8 },
         },
     },
-    ['Male LSSD Detective (Vest)'] = {
-        category = 'LSSD',
+    ['Male Sheriff Detective (Vest)'] = {
+        category = 'Sheriff',
         ped = 'mp_m_freemode_01',
         props = {
             { 0, 0, 0 },
@@ -615,8 +615,8 @@ local outfits = {
             { 11, 4, 8 },
         },
     },
-    ['Female LSSD Detective'] = {
-        category = 'LSSD',
+    ['Female Sheriff Detective'] = {
+        category = 'Sheriff',
         ped = 'mp_f_freemode_01',
         props = {
             { 0, 0, 0 },
@@ -637,8 +637,8 @@ local outfits = {
             { 11, 9, 8 },
         },
     },
-    ['Male LSSD Windbreaker'] = {
-        category = 'LSSD',
+    ['Male Sheriff Windbreaker'] = {
+        category = 'Sheriff',
         ped = 'mp_m_freemode_01',
         props = {
             { 0, 0, 0 },
@@ -654,13 +654,13 @@ local outfits = {
             { 6, 11, 1 },
             { 7, 7, 1 },
             { 8, 12, 8 },
-            { 9, 22, 2 },
+            { 9, 18, 2 },
             { 10, 1, 1 },
             { 11, 36, 5 },
         },
     },
-    ['Male LSSD K-9 Uniform'] = {
-        category = 'LSSD',
+    ['Male Sheriff K-9 Uniform'] = {
+        category = 'Sheriff',
         ped = 'mp_m_freemode_01',
         props = {
             { 0, 11, 1 },
@@ -681,8 +681,8 @@ local outfits = {
             { 11, 101, 1 },
         },
     },
-    ['Female LSSD K-9 Uniform'] = {
-        category = 'LSSD',
+    ['Female Sheriff K-9 Uniform'] = {
+        category = 'Sheriff',
         ped = 'mp_f_freemode_01',
         props = {
             { 0, 11, 1 },
@@ -702,7 +702,7 @@ local outfits = {
             { 10, 1, 1 },
             { 11, 91, 1 },
         },
-    },
+    },--[[
     ['Male SAHP Uniform (Long Sleeve)'] = {
         category = 'SAHP',
         ped = 'mp_m_freemode_01',
@@ -1582,7 +1582,7 @@ local outfits = {
             { 10, 1, 1 },
             { 11, 36, 5 },
         },
-    },
+    }, --]]
     ['Male FIB Suit'] = {
         category = 'FIB',
         ped = 'mp_m_freemode_01',
@@ -1780,7 +1780,7 @@ local outfits = {
             { 10, 1, 1 },
             { 11, 33, 1 },
         },
-    },
+    }, 
     ['Male DOA Suit'] = {
         category = 'DOA',
         ped = 'mp_m_freemode_01',
@@ -1956,7 +1956,7 @@ local outfits = {
             { 10, 1, 1 },
             { 11, 43, 3 },
         },
-    },
+    }, --[[
     ['Male PIA Special Agent'] = {
         category = 'NOOSE',
         ped = 'mp_m_freemode_01',
@@ -2573,8 +2573,8 @@ local outfits = {
             { 11, 152, 1 },
         },
     },
-    ['Male LSSD Winter Uniform'] = {
-        category = 'LSSD',
+    ['Male Sheriff Winter Uniform'] = {
+        category = 'Sheriff',
         ped = 'mp_m_freemode_01',
         props = {
             { 0, 3, 1 },
@@ -2595,8 +2595,8 @@ local outfits = {
             { 11, 18, 2 },
         },
     },
-    ['Female LSSD Winter Uniform'] = {
-        category = 'LSSD',
+    ['Female Sheriff Winter Uniform'] = {
+        category = 'Sheriff',
         ped = 'mp_f_freemode_01',
         props = {
             { 0, 6, 1 },
@@ -2924,9 +2924,9 @@ local outfits = {
             { 10, 1, 1 },
             { 11, 85, 3 },
         },
-    },
-    ['Male LSSD Bicycle Uniform'] = {
-        category = 'LSSD',
+    },--]]
+    ['Male Sheriff Bicycle Uniform'] = {
+        category = 'Sheriff',
         ped = 'mp_m_freemode_01',
         props = {
             { 0, 50, 1 },
@@ -2947,8 +2947,8 @@ local outfits = {
             { 11, 95, 3 },
         },
     },
-    ['Female LSSD Bicycle Uniform'] = {
-        category = 'LSSD',
+    ['Female Sheriff Bicycle Uniform'] = {
+        category = 'Sheriff',
         ped = 'mp_f_freemode_01',
         props = {
             { 0, 48, 1 },
@@ -2968,7 +2968,7 @@ local outfits = {
             { 10, 1, 1 },
             { 11, 86, 3 },
         },
-    },
+    },--[[
     ['Male BCSO Bicycle Uniform'] = {
         category = 'BCSO',
         ped = 'mp_m_freemode_01',
@@ -3056,9 +3056,9 @@ local outfits = {
             { 10, 15, 1 },
             { 11, 60, 3 },
         },
-    },
-    ['Male LSSD Pilot Uniform'] = {
-        category = 'LSSD',
+    },--]]
+    ['Male Sheriff Pilot Uniform'] = {
+        category = 'Sheriff',
         ped = 'mp_m_freemode_01',
         props = {
             { 0, 80, 1 },
@@ -3079,8 +3079,8 @@ local outfits = {
             { 11, 66, 3 },
         },
     },
-    ['Female LSSD Pilot Uniform'] = {
-        category = 'LSSD',
+    ['Female Sheriff Pilot Uniform'] = {
+        category = 'Sheriff',
         ped = 'mp_f_freemode_01',
         props = {
             { 0, 79, 1 },
@@ -3100,7 +3100,7 @@ local outfits = {
             { 10, 15, 2 },
             { 11, 60, 3 },
         },
-    },
+    },--[[
     ['Male BCSO Pilot Uniform'] = {
         category = 'BCSO',
         ped = 'mp_m_freemode_01',
@@ -3232,9 +3232,9 @@ local outfits = {
             { 10, 12, 1 },
             { 11, 43, 1 },
         },
-    },
-    ['Male LSSD SWAT Uniform'] = {
-        category = 'LSSD',
+    },--]]
+    ['Male Sheriff SWAT Uniform'] = {
+        category = 'Sheriff',
         ped = 'mp_m_freemode_01',
         props = {
             { 0, 60, 2 },
@@ -3255,8 +3255,8 @@ local outfits = {
             { 11, 50, 2 },
         },
     },
-    ['Female LSSD SWAT Uniform'] = {
-        category = 'LSSD',
+    ['Female Sheriff SWAT Uniform'] = {
+        category = 'Sheriff',
         ped = 'mp_f_freemode_01',
         props = {
             { 0, 60, 2 },
@@ -3276,7 +3276,7 @@ local outfits = {
             { 10, 12, 2 },
             { 11, 43, 2 },
         },
-    },
+    },--[[
     ['Male BCSO SWAT Uniform'] = {
         category = 'BCSO',
         ped = 'mp_m_freemode_01',
@@ -3518,9 +3518,9 @@ local outfits = {
             { 10, 1, 1 },
             { 11, 150, 1 },
         },
-    },
-    ['Male LSSD Riot Uniform'] = {
-        category = 'LSSD',
+    },--]]
+    ['Male Sheriff Riot Uniform'] = {
+        category = 'Sheriff',
         ped = 'mp_m_freemode_01',
         props = {
             { 0, 82, 3 },
@@ -3540,7 +3540,7 @@ local outfits = {
             { 10, 1, 1 },
             { 11, 76, 1 },
         },
-    },
+    },--[[
     ['Male SAHP Riot Uniform'] = {
         category = 'SAHP',
         ped = 'mp_m_freemode_01',
@@ -3583,6 +3583,50 @@ local outfits = {
             { 9, 13, 2 },
             { 10, 1, 1 },
             { 11, 75, 1 },
+        },
+    },--]]
+    ['Male DOT Mechanic'] = {
+        category = 'DOT',
+        ped = 'mp_m_freemode_01', -- HOLY FUCKING SHIT, add one to these FROM the clothing editor
+        props = {
+            { 0, 143, 25 },
+            { 1, 1, 1 },
+            { 2, 0, 0 },
+            { 3, 4, 1 },
+        },
+        components = {
+            { 1, 1, 1 }, -- body type / sex (index, article, style)
+            { 3, 30, 1 }, -- arms?
+            { 4, 39, 2 }, -- pants
+            { 5, 1, 1 }, -- bags?
+            { 6, 13, 7 }, -- shoes
+            { 7, 1, 1 }, -- neck
+            { 8, 182, 1 }, -- undershirt
+            { 9, 1, 1 }, -- vest
+            { 10, 1, 1 }, -- Decals
+            { 11, 66, 2 }, -- shirt
+        },
+    },
+    ['Male Paramedic'] = {
+        category = 'EMS / Fire',
+        ped = 'mp_m_freemode_01', -- HOLY FUCKING SHIT, add one to these FROM the clothing editor
+        props = {
+            { 0, 123, 1 }, -- hat
+            { 1, 1, 1 },
+            { 2, 0, 0 },
+            { 3, 4, 1 },
+        },
+        components = {
+            { 1, 1, 1 }, -- body type / sex (index, article, style)
+            { 3, 91, 1 }, -- arms
+            { 4, 50, 2 }, -- pants
+            { 5, 1, 1 }, -- bags
+            { 6, 13, 7 }, -- shoes
+            { 7, 1, 1 }, -- neck
+            { 8, 72, 4 }, -- undershirt
+            { 9, 2, 1 }, -- vest
+            { 10, 58, 1 }, -- Decals
+            { 11, 250, 1 }, -- shirt
         },
     },
     

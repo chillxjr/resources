@@ -1030,6 +1030,19 @@ Config.Locations = {
         ["blipsprite"] = 52,
         ["blipcolor"] = 0
     },
+    ["aceliq2"] = {
+        ["label"] = "Liquor Store",
+        ["coords"] = vector4(1165.41, 2710.82, 38.16, 179.27),
+        ["ped"] = 'mp_m_shopkeep_01',
+        ["scenario"] = "WORLD_HUMAN_STAND_MOBILE",
+        ["radius"] = 1.5,
+        ["targetIcon"] = "fas fa-shopping-basket",
+        ["targetLabel"] = "Open Shop",
+        ["products"] = Config.Products["liquor"],
+        ["showblip"] = true,
+        ["blipsprite"] = 52,
+        ["blipcolor"] = 0
+    },
     ["ammunation1"] = {
         ["label"] = "Ammunation",
         ["type"] = "weapon",
@@ -1044,7 +1057,7 @@ Config.Locations = {
         ["blipsprite"] = 110,
         ["blipcolor"] = 0
     },
-    ["247supermarket2"] = {
+    ["247supermarket4"] = {
         ["label"] = "24/7 Supermarket",
         ["coords"] = vector4(1697.43, 4923.36, 42.06, 318.23),
         ["ped"] = 'mp_m_shopkeep_01',
@@ -1096,7 +1109,7 @@ Config.Locations = {
         ["blipsprite"] = 140,
         ["blipcolor"] = 52
     },
-    ["hardware"] = {
+    ["hardware2"] = {
         ["label"] = "Hardware Store",
         ["coords"] = vector4(2747.57, 3472.91, 55.67, 246.5),
         ["ped"] = 'mp_m_waremech_01',

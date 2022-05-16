@@ -44,23 +44,28 @@ Config.AuthorizedVehicles = {
 	-- Grade 0
 	[0] = {
 		["ambulance"] = "Ambulance",
+        ["gmc"] = "Brush Truck",
 	},
 	-- Grade 1
 	[1] = {
 		["ambulance"] = "Ambulance",
+        ["gmc"] = "Brush Truck",
 
 	},
 	-- Grade 2
 	[2] = {
 		["ambulance"] = "Ambulance",
+        ["gmc"] = "Brush Truck",
 	},
 	-- Grade 3
 	[3] = {
 		["ambulance"] = "Ambulance",
+        ["gmc"] = "Brush Truck",
 	},
 	-- Grade 4
 	[4] = {
 		["ambulance"] = "Ambulance",
+        ["gmc"] = "Brush Truck",
 	}
 }
 
