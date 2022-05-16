@@ -88,8 +88,8 @@ Config.Locations = {
             coords = vector4(983.22, 3581.69, 33.61, 239.13),
         },
         [9] = {
-            name = "oldmarket",
-            coords = vector4(922.43, 3652.54, 32.57, 89.14),
+            name = "aceliq2",
+            coords = vector4(1381.35, 3615.96, 34.89, 303.18),
         },
         [10] = {
             name = "sandy3",
