@@ -573,26 +573,136 @@ local outfits = {
             { 11, 66, 2 }, -- shirt
         },
     },
-    ['Male Paramedic'] = {
-        category = 'EMS / Fire',
+    ['Male DOT Mechanic 2'] = {
+        category = 'DOT',
         ped = 'mp_m_freemode_01', -- HOLY FUCKING SHIT, add one to these FROM the clothing editor
         props = {
-            { 0, 123, 1 }, -- hat
+            { 0, 59, 3 }, --hat
             { 1, 1, 1 },
             { 2, 0, 0 },
             { 3, 4, 1 },
         },
         components = {
             { 1, 1, 1 }, -- body type / sex (index, article, style)
-            { 3, 91, 1 }, -- arms
-            { 4, 50, 2 }, -- pants
+            { 3, 31, 1 }, -- arms
+            { 4, 103, 1 }, -- pants
             { 5, 1, 1 }, -- bags
             { 6, 13, 7 }, -- shoes
             { 7, 1, 1 }, -- neck
-            { 8, 72, 4 }, -- undershirt
-            { 9, 2, 1 }, -- vest
-            { 10, 58, 1 }, -- Decals
-            { 11, 250, 1 }, -- shirt
+            { 8, 183, 1 }, -- undershirt
+            { 9, 1, 1 }, -- vest
+            { 10, 1, 1 }, -- Decals
+            { 11, 57, 1 }, -- shirt
+        },
+    },
+    ['Paramedic'] = {
+        category = 'EMS / Fire',
+        ped = 'mp_m_freemode_01', -- HOLY FUCKING SHIT, add one to these FROM the clothing editor
+        props = {
+            { 0, 84, 1 }, -- hat
+            { 1, 1, 1 },
+            { 2, 0, 0 },
+            { 3, 4, 1 },
+        },
+        components = {
+            { 1, 1, 1 }, -- body type / sex (index, article, style)
+            { 3, 86, 1 }, -- arms
+            { 4, 23, 6 }, -- pants
+            { 5, 1, 1 }, -- bags
+            { 6, 13, 7 }, -- shoes
+            { 7, 1, 1 }, -- neck
+            { 8, 16, 1 }, -- undershirt
+            { 9, 20, 6 }, -- vest
+            { 10, 1, 1 }, -- Decals
+            { 11, 191, 1 }, -- shirt
+        },
+    },
+    ['Chief'] = {
+        category = 'EMS / Fire',
+        ped = 'mp_m_freemode_01', -- HOLY FUCKING SHIT, add one to these FROM the clothing editor
+        props = {
+            { 0, 84, 1 }, -- hat
+            { 1, 1, 1 },
+            { 2, 0, 0 },
+            { 3, 4, 1 },
+        },
+        components = {
+            { 1, 1, 1 }, -- body type / sex (index, article, style)
+            { 3, 18, 1 }, -- arms
+            { 4, 11, 1 }, -- pants
+            { 5, 1, 1 }, -- bags
+            { 6, 13, 7 }, -- shoes
+            { 7, 1, 1 }, -- neck
+            { 8, 16, 1 }, -- undershirt
+            { 9, 3, 1 }, -- vest
+            { 10, 1, 1 }, -- Decals
+            { 11, 201, 1 }, -- shirt
+        },
+    },
+    ['Fire Turnouts'] = {
+        category = 'EMS / Fire',
+        ped = 'mp_m_freemode_01', -- HOLY FUCKING SHIT, add one to these FROM the clothing editor
+        props = {
+            { 0, 46, 1 }, -- hat
+            { 1, 1, 1 },
+            { 2, 0, 0 },
+            { 3, 4, 1 },
+        },
+        components = {
+            { 1, 1, 1 }, -- body type / sex (index, article, style)
+            { 3, 17, 1 }, -- arms
+            { 4, 121, 1 }, -- pants
+            { 5, 1, 1 }, -- bags
+            { 6, 13, 7 }, -- shoes
+            { 7, 1, 1 }, -- neck
+            { 8, 16, 1 }, -- undershirt
+            { 9, 1, 1 }, -- vest
+            { 10, 1, 1 }, -- Decals
+            { 11, 316, 1 }, -- shirt
+        },
+    },
+    ['Fire Turnouts Chief'] = {
+        category = 'EMS / Fire',
+        ped = 'mp_m_freemode_01', -- HOLY FUCKING SHIT, add one to these FROM the clothing editor
+        props = {
+            { 0, 46, 3 }, -- hat
+            { 1, 1, 1 },
+            { 2, 0, 0 },
+            { 3, 4, 1 },
+        },
+        components = {
+            { 1, 1, 1 }, -- body type / sex (index, article, style)
+            { 3, 17, 1 }, -- arms
+            { 4, 121, 1 }, -- pants
+            { 5, 1, 1 }, -- bags
+            { 6, 13, 7 }, -- shoes
+            { 7, 1, 1 }, -- neck
+            { 8, 16, 1 }, -- undershirt
+            { 9, 1, 1 }, -- vest
+            { 10, 1, 1 }, -- Decals
+            { 11, 316, 1 }, -- shirt
+        },
+    },
+    ['Fire Turnouts SCBA'] = {
+        category = 'EMS / Fire',
+        ped = 'mp_m_freemode_01', -- HOLY FUCKING SHIT, add one to these FROM the clothing editor
+        props = {
+            { 0, 46, 1 }, -- hat
+            { 1, 1, 1 },
+            { 2, 0, 0 },
+            { 3, 4, 1 },
+        },
+        components = {
+            { 1, 1, 1 }, -- body type / sex (index, article, style)
+            { 3, 17, 1 }, -- arms
+            { 4, 121, 1 }, -- pants
+            { 5, 1, 1 }, -- bags
+            { 6, 13, 7 }, -- shoes
+            { 7, 1, 1 }, -- neck
+            { 8, 69, 1 }, -- undershirt
+            { 9, 1, 1 }, -- vest
+            { 10, 1, 1 }, -- Decals
+            { 11, 316, 1 }, -- shirt
         },
     },
     
