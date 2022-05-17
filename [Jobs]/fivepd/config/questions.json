@@ -1,41 +1,65 @@
 [
 	{
-		"title": "Normal questions",
-		"questions": [
-			{
-				"question": "Have you been drinking recently?",
-				"answers": ["Yes.", "No.", "Of course I did."]
-			},
-			{
-				"question": "Where are you heading to?",
-				"answers": ["I'm going home.", "It's my own business..."]
-			}
-		]
-	},
-	{
 		"title": "Traffic stop questions",
 		"questions": [
 			{
 				"question": "Hello, how are you?",
-				"answers": ["Hey!", "Hello officer!", "Good day sir!"]
+				"answers": ["Hey!", "Hello officer.", "Good day.", "Hello.", "Can I help you?", "*Says nothing*", "What do you want?", "I don't have time for this."]
 			},
 			{
-				"question": "Hello",
-				"answers": ["Hey!", "Hello officer!", "Good day sir!"]
+				"question": "Where are you heading to?",
+				"answers": ["I'm going home.", "It's my own business...", "A friends house.", "Fuck off.", "*Says nothing*"]
+			},
+			{
+				"question": "Where are you coming from?",
+				"answers": ["I'm going home.", "It's my own business...", "A friends house.", "Fuck off.", "*Says nothing*"]
+			},
+			{
+				"question": "Have you had any alcohol recently?",
+				"answers": ["Yes.", "*Says nothing*", "No.","No.","No.","No.", "Of course I did.", "Absolutly not!", "Nope.", "Fuck off.", "Why?", "I'd rather not say.", "I plead the fifth.", "*Says nothing*"]
+			},
+			{
+				"question": "Have you taken any drugs recently?",
+				"answers": ["Yes.", "*Says nothing*", "No.","No.","No.","No.", "Of course I did.", "Absolutly not!", "Nope.", "Fuck off.", "Why?", "I'd rather not say.", "I plead the fifth.", "*Says nothing*"]
+			},
+			{
+				"question": "Why did you commit that traffic infringement?",
+				"answers": ["I didn't see it.", "I am late for work.", "I am late to a party.", "I didn't see you there.", "I do that all the time!", "I didn't break any laws!", "Fuck you.", "*Says nothing*"]
+			},
+			{
+				"question": "Is there anything illegal in the vehicle?",
+				"answers": ["*Laughs*", "Fuck you.", "*Says nothing*", "Nope.", "No.", "I hope not.", "Not that I know of.", "Not since the last time I checked."]
+			},
+			{
+				"question": "Mind if I search your vehicle?",
+				"answers": ["Yes, I mind.", "I'd rather you didn't", "I guess so.", "It's not my car.", "Absolutly not.", "Absolutly! I have nothing to hide!"]
 			}
 		]
 	},
 	{
-		"title": "Documentation questions",
+		"title": "Pedestrian Questions",
 		"questions": [
 			{
-				"question": "Do you have your drivers license with you?",
-				"answers": ["Yes.", "No.", "No, I left it at home."]
+				"question": "Hello, how are you?",
+				"answers": ["Hey!", "Hello officer.", "Good day.", "Hello.", "Can I help you?", "*Says nothing*", "What do you want?", "I don't have time for this."]
 			},
 			{
-				"question": "Do you have a hunting license?",
-				"answers": ["Nope.", "Yes sir yes."]
+				"question": "Where are you heading to?",
+				"answers": ["I'm going home.", "It's my own business...", "A friends house.", "Fuck off.", "*Says nothing*"]
+			},
+			{
+				"question": "Where are you coming from?",
+				"answers": ["I'm going home.", "It's my own business...", "A friends house.", "Fuck off.", "*Says nothing*"]
+			},
+			{
+				"question": "Have you had any alcohol recently?",
+				"answers": ["Yes.", "*Says nothing*", "No.","No.","No.","No.", "Of course I did.", "Absolutly not!", "Nope.", "Fuck off.", "Why?", "I'd rather not say.", "I plead the fifth.", "*Says nothing*"]
+			},
+			{
+				"question": "Have you taken any drugs recently?",
+				"answers": ["Yes.", "*Says nothing*", "No.","No.","No.","No.", "Of course I did.", "Absolutly not!", "Nope.", "Fuck off.", "Why?", "I'd rather not say.", "I plead the fifth.", "*Says nothing*"]
 			}
 		]
 	}
+	
 ]
