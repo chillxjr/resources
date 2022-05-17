@@ -6,8 +6,8 @@
             "Trespassing",
             "Loitering",
             "Fighting",
-            "Disturbing the peace",
-            "Warrant"
+            "Disturbing the peace"
+            
         ],
         "Documentation":[
             "Expired Driver`s license",
@@ -62,6 +62,7 @@
             "DUI"
         ],
         "?":[
+            "Warrant",
             "Money Laundering",
             "Motor Vehicle Theft",
             "Prostitution",

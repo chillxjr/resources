@@ -4,35 +4,272 @@
 		"questions": [
 			{
 				"question": "Hello, how are you?",
-				"answers": ["Hey!", "Hello officer.", "Good day.", "Hello.", "Can I help you?", "*Says nothing*", "What do you want?", "I don't have time for this."]
+				"answers": [
+					"Hey!",
+					"Hello officer.",
+					"Good day.",
+					"Hello.",
+					"Here we go again...",
+					"Always starts with a 'Hello' and then BAM I'm pregnant!",
+					"Always starts with a 'Hello' and then BAM herpes!",
+					"Always starts with a 'Hello' and then BAM crabs!",
+					"A little buzzed, but good!",
+					"Suuuuup mannnnn?! This blunt is toast! Want some?!",
+					"*Clears Throat* Erm um....Hi? Hello! *Looking nervous*",
+					"I'd be better if you took me dancin' hot stuff!",
+					"*Doesn't answer and just sits at the wheel*",
+					"*Gives you the bird with an eyeroll*",
+					"*Starts to pat themselves down looking for something*",
+					"Not so good, it's 8 am and I haven't had a stiff drink yet!",
+					"Can I help you?",
+					"...the fuck? You hittin on me?!",
+					"I want to speak to your supervisor!",
+					"About to have breakfast, bacon just showed up!",
+					"So tired of this bullshit.",
+					"*Says nothing*",
+					"What the hell's in tarnation did you stop me for today? Must be bored!",
+					"What do you want?",
+					"I don't have time for this.",
+					"Don't you have something else better to do?!",
+					"Of all days, you have to pull me over for something?!"
+				]
+			},
+			{
+				"question": "We got a 911 call out here...",
+				"answers": [
+					"It wasn't me.",
+					"The fuck is this about?",
+					"So what? Wasting my time.",
+					"Yeah, I called...but...",
+					"Nah. I don't think you did.",
+					"Don't know what you are talking about.",
+					"I called the police...",
+					"Annnndddddd???",
+					"Was not I!",
+					"Maybe it's that guy over there."
+				]
+			},
+			{
+				"question": "What are you doing in this area?",
+				"answers": [
+					"Just taking a stroll.",
+					"I refuse to answer.",
+					"I know my rights. ",
+					"Heading to a friend's house.",
+					"Off to the Vanilla Unicorn.",
+					"Going to see yo fat ass mama.",
+					"About to smoke some motherfucker!",
+					"Just a good old walk.",
+					"Wheelin' and dealing, ya know?",
+					"For the fresh air."
+				]
 			},
 			{
 				"question": "Where are you heading to?",
-				"answers": ["I'm going home.", "It's my own business...", "A friends house.", "Fuck off.", "*Says nothing*"]
+				"answers": [
+					"I'm going home.",
+					"It's my own business...",
+					"A friends house.",
+					"My wife is pregnant and needs me!",
+					"My wife is pregnant and is going into labor!",
+					"My girlfriend is pregnant and needs me!",
+					"My girlfriend is pregnant and is going into labor!",
+					"My boyfriend said he came home early.",
+					"My husband said he came home early.",
+					"Fuck off.",
+					"*Says nothing*",
+					"The bank.",
+					"I'm going to work! Geez!",
+					"What's with the 3 degree here officer?!",
+					"Nonya!",
+					"Can we hurry? I have to poop!"
+				]
 			},
 			{
 				"question": "Where are you coming from?",
-				"answers": ["I'm going home.", "It's my own business...", "A friends house.", "Fuck off.", "*Says nothing*"]
+				"answers": [
+					"I just left home.",
+					"It's my own business...",
+					"A friends house.",
+					"Fuck off.",
+					"*Says nothing*",
+					"The zoo?!",
+					"My girlfriend's place!",
+					"My boyfriend's place!",
+					"The doughnut shop, want some?!",
+					"Ah, there's the question we all ask ourselves! The million dollar question!",
+					"Why must you know this...*smacks themself on the forehead*",
+					"If I told you, I'd literally have to kill you!",
+					"If you can tell me that, I'd really like to know too!"
+				]
+			},
+			{
+				"question": "I want to inform you my body cam is running.",
+				"answers": [
+					"Breach of privacy my dude.",
+					"Turn that shit off.",
+					"Fucking spying ass pig.",
+					"Thanks for letting me know.",
+					"That's good for both of us.",
+					"Thanks for the heads up.",
+					"That is a violation of my rights!",
+					"*Flips off the body cam*",
+					"Oooooo, wanna record us fucking?",
+					"Oh my, you are kinky!",
+					"Why? Is this a prank?!",
+					"Is it now? Let's record us having sex on the hood!"
+				]
+			},
+			{
+				"question": "You know the routine. ID please.",
+				"answers": [
+					"Piggy is desperate.",
+					"What the hell man!?",
+					"*Spits on you*",
+					"*Attempts to bite you*",
+					"Fucking harassment. That's what this is.",
+					"Fuck off gestapo agent.",
+					"Go suck a fat cock.",
+					"*Provides a fake ID (Ivanna Fukaduk)*",
+					"*Provides a fake ID (Shirley Temple)*",
+					"*Provides a fake ID (Cuck Ahold)*",
+					"*Provides a fake ID (Amanda Poker)*",
+					"*Provides a fake ID (Anita Dick)*",
+					"*Provides a fake ID (Wanita Hardcok)*",
+					"*Provides a fake ID (Buster Cherry)*",
+					"Sure thing officer.",
+					"Alright",
+					"Here you go.",
+					"*Provides a fake ID (John Doe)*",
+					"*Provides a fake ID (Jane Doe)*",
+					"*Provides a fake ID (Albert Einstein)*",
+					"Grrrrr.",
+					"I want a supervisor."
+				]
+			},
+			{
+				"question": "Do you know why I pulled you over?",
+				"answers": [
+					"Couldn't have been from speeding!",
+					"It's my own business...",
+					"I have too many dougnuts?!",
+					"My car smells like doughnuts?!",
+					"Fuck off.",
+					"Look, Officer, I will literally blow you here and now if you let me go!",
+					"*Says nothing*",
+					"If you don't tell no one, I'll fuck you in my car if you let me go!",
+					"Cause you have no one else to harass?",
+					"Hey Officer, can we please get this over with?",
+					"Cause this is some bullshit stop, cause I never do wrong!",
+					"I'm late for yoga, give me a ticket or show me downward dog!",
+					"I heard there's a special on enemas! I couldn't help myself from speeding!",
+					"I dunno, are you the cop that pulls people over for free teddy bears?!",
+					"Because you're bored and wanna talk?",
+					"Officer, I know it's lonely out there, but bug someone else!",
+					"Don't tell me! Let me guess...",
+					"Gah! Am I driving on a flat again?!",
+					"Are my tags expired again?",
+					"I know, rocking out to music, you wanted to join!",
+					"You're lost and need directions back to the station?",
+					"I'm guessing to get your autograph?!",
+					"To ruin my day?!",
+					"It's your job to tell me, so tell me!",
+					"Hopefully to invite me to dinner, I'm starved!"
+				]
 			},
 			{
 				"question": "Have you had any alcohol recently?",
-				"answers": ["Yes.", "*Says nothing*", "No.","No.","No.","No.", "Of course I did.", "Absolutly not!", "Nope.", "Fuck off.", "Why?", "I'd rather not say.", "I plead the fifth.", "*Says nothing*"]
+				"answers": [
+					"Yes.",
+					"*Says nothing*",
+					"No.",
+					"No.",
+					"No.",
+					"No.",
+					"Of course I did.",
+					"Absolutly not!",
+					"Nope.",
+					"Fuck off.",
+					"Why?",
+					"I'd rather not say.",
+					"I plead the fifth.",
+					"*Says nothing*",
+					"No idea, but give me a few minutes, I may have another answer",
+					"Would you like a sip of my beer?!",
+					"You tell me!",
+					"That's for me to know and for you to find out!",
+					"Depends, how long were you following me for?",
+					"Yes, but I want to see if YOU know!",
+					"Yes, but do you?!",
+					"To compliment my driving?"
+				]
 			},
 			{
 				"question": "Have you taken any drugs recently?",
-				"answers": ["Yes.", "*Says nothing*", "No.","No.","No.","No.", "Of course I did.", "Absolutly not!", "Nope.", "Fuck off.", "Why?", "I'd rather not say.", "I plead the fifth.", "*Says nothing*"]
+				"answers": [
+					"Yes.",
+					"*Says nothing*",
+					"No.",
+					"No.",
+					"No.",
+					"No.",
+					"Of course I did.",
+					"Absolutly not!",
+					"Nope.",
+					"Fuck off.",
+					"Why?",
+					"I'd rather not say.",
+					"I plead the fifth.",
+					"*Says nothing*",
+					"No! That's why I'm speeding, I need more!",
+					"You tell me Mr Rainbow Man!",
+					"Do you always dress like a clown to ask these questions?!",
+					"Why? Want some?!",
+					"I swear they're shitaki mushrooms, I work at a restaurant!"
+				]
 			},
 			{
 				"question": "Why did you commit that traffic infringement?",
-				"answers": ["I didn't see it.", "I am late for work.", "I am late to a party.", "I didn't see you there.", "I do that all the time!", "I didn't break any laws!", "Fuck you.", "*Says nothing*"]
+				"answers": [
+					"I didn't see it.",
+					"I am late for work.",
+					"I am late to a party.",
+					"I didn't see you there.",
+					"I do that all the time!",
+					"I didn't break any laws!",
+					"Fuck you.",
+					"*Says nothing*",
+					"Holy crap! Hurry! I have to poop!",
+					"Because it would be hard to have this convo while driving?!",
+					"Oh boy! I'm starved, so I hope it was to share your doughnuts!"
+				]
 			},
 			{
 				"question": "Is there anything illegal in the vehicle?",
-				"answers": ["*Laughs*", "Fuck you.", "*Says nothing*", "Nope.", "No.", "I hope not.", "Not that I know of.", "Not since the last time I checked."]
+				"answers": [
+					"*Laughs*",
+					"Fuck you.",
+					"*Says nothing*",
+					"Nope.",
+					"No.",
+					"I hope not.",
+					"Not that I know of.",
+					"Not since the last time I checked.",
+					"Annnnndddddd if there is?!",
+					"Does it have anything to do with the corpse in the trunk?!"
+				]
 			},
 			{
 				"question": "Mind if I search your vehicle?",
-				"answers": ["Yes, I mind.", "I'd rather you didn't", "I guess so.", "It's not my car.", "Absolutly not.", "Absolutly! I have nothing to hide!"]
+				"answers": [
+					"Yes, I mind.",
+					"I'd rather you didn't",
+					"I guess so.",
+					"It's not my car.",
+					"Absolutely not.",
+					"Absolutely! I have nothing to hide!",
+					"Not sure where this car came from, so yes go ahead!"
+				]
 			}
 		]
 	},
@@ -41,25 +278,503 @@
 		"questions": [
 			{
 				"question": "Hello, how are you?",
-				"answers": ["Hey!", "Hello officer.", "Good day.", "Hello.", "Can I help you?", "*Says nothing*", "What do you want?", "I don't have time for this."]
+				"answers": [
+					"Hey!",
+					"Hello officer.",
+					"Good day.",
+					"Hello.",
+					"Can I help you?",
+					"*Says nothing*",
+					"What do you want?",
+					"I don't have time for this.",
+					"Don't you have something else better to do?!",
+					"Of all days, you have to pull me over for something?!"
+				]
+			},
+			{
+				"question": "What are you doing in this area?",
+				"answers": [
+					"Just taking a stroll.",
+					"I refuse to answer.",
+					"I know my rights. ",
+					"Heading to a friend's house.",
+					"Off to the Vanilla Unicorn.",
+					"Going to see yo fat ass mama.",
+					"About to smoke some motherfucker!",
+					"Just a good old walk.",
+					"Wheelin' and dealing, ya know?",
+					"For the fresh air."
+				]
 			},
 			{
 				"question": "Where are you heading to?",
-				"answers": ["I'm going home.", "It's my own business...", "A friends house.", "Fuck off.", "*Says nothing*"]
+				"answers": [
+					"I'm going home.",
+					"It's my own business...",
+					"A friends house.",
+					"Fuck off.",
+					"*Says nothing*",
+					"Could you be anymore in my face?!",
+					"I don't remember!",
+					"The strip club! Where else?!",
+					"The bank to hide this mone...nowhere!"
+				]
 			},
 			{
 				"question": "Where are you coming from?",
-				"answers": ["I'm going home.", "It's my own business...", "A friends house.", "Fuck off.", "*Says nothing*"]
+				"answers": [
+					"I just left home.",
+					"It's my own business...",
+					"A friends house.",
+					"Fuck off.",
+					"One of the 24/7 Stores, got me an E-Cola!",
+					"*Says nothing*",
+					"Just picking up some beers after work.",
+					"The Cannabis Store!",
+					"Why? Do you want to go back with me?!",
+					"From the Zycotic Store!",
+					"From the Zycotic Store!",
+					"From the Zycotic Store!"
+				]
 			},
 			{
 				"question": "Have you had any alcohol recently?",
-				"answers": ["Yes.", "*Says nothing*", "No.","No.","No.","No.", "Of course I did.", "Absolutly not!", "Nope.", "Fuck off.", "Why?", "I'd rather not say.", "I plead the fifth.", "*Says nothing*"]
+				"answers": [
+					"Yes.",
+					"*Says nothing*",
+					"No.",
+					"No.",
+					"No.",
+					"No.",
+					"Of course I did.",
+					"Absolutly not!",
+					"Nope.",
+					"Fuck off.",
+					"Why?",
+					"I'd rather not say.",
+					"I plead the fifth.",
+					"*Says nothing*",
+					"No idea, but give me a few minutes, I may have another answer",
+					"Would you like a sip of my beer?!",
+					"You tell me!",
+					"That's for me to know and for you to find out!",
+					"Depends, how long were you following me for?",
+					"Yes, but I want to see if YOU know!",
+					"Yes, but do you?!",
+					"To compliment my driving?"
+				]
 			},
 			{
 				"question": "Have you taken any drugs recently?",
-				"answers": ["Yes.", "*Says nothing*", "No.","No.","No.","No.", "Of course I did.", "Absolutly not!", "Nope.", "Fuck off.", "Why?", "I'd rather not say.", "I plead the fifth.", "*Says nothing*"]
+				"answers": [
+					"Yes.",
+					"*Says nothing*",
+					"No.",
+					"No.",
+					"No.",
+					"No.",
+					"Of course I did.",
+					"Absolutly not!",
+					"Nope.",
+					"Fuck off.",
+					"Why?",
+					"I'd rather not say.",
+					"I plead the fifth.",
+					"*Says nothing*",
+					"No! That's why I'm speeding, I need more!",
+					"You tell me Mr Rainbow Man!",
+					"Do you always dress like a clown to ask these questions?!",
+					"Why? Want some?!",
+					"I swear they're shitaki mushrooms, I work at a restaurant!"
+				]
+			},
+			{
+				"question": "Why did you commit that unlawful act?",
+				"answers": [
+					"I didn't know?!",
+					"I am late for work!",
+					"I am late to a party.",
+					"I didn't see you there.",
+					"I do that all the time!",
+					"I didn't break any laws!",
+					"Fuck you.",
+					"*Says nothing*",
+					"Holy crap! Hurry! I have to poop!",
+					"Because it would have been hard to have this convo while walking?!",
+					"Oh boy! I'm starved, so I hope it was to share your doughnuts!"
+				]
+			},
+			{
+				"question": "Is there anything illegal in your pockets?",
+				"answers": [
+					"*Laughs*",
+					"Fuck you.",
+					"*Says nothing*",
+					"Nope.",
+					"No.",
+					"I hope not.",
+					"Not that I know of.",
+					"Not since the last time I checked.",
+					"Annnnndddddd if there is?!",
+					"Does it have anything to do with the corpse around the corner?!"
+				]
+			},
+			{
+				"question": "Mind if I search your person?",
+				"answers": [
+					"Yes, I mind.",
+					"I'd rather you didn't",
+					"I guess so.",
+					"Ooooo please manhandle me!",
+					"It's not my clothing.",
+					"Absolutely not.",
+					"Absolutely! I have nothing to hide!",
+					"Not sure where this came from all the sudden, so yes go ahead!",
+					"Sure, I like being frisked!"
+				]
+			}
+		]
+	},
+	{
+		"title": "Leaving Dialouge",
+		"questions": [
+			{
+				"question": "Have a great day sir. ",
+				"answers": [
+					"You too officer.",
+					"Stay safe officer.",
+					"FUCK YOU!",
+					"*Mumbles* Pig.",
+					"Watch your back officer.",
+					"I'll kill you because of this.",
+					"Go suck a big fat one.",
+					"I'll kill you bitch!",
+					"Suck it, pig!",
+					"Have a great one!",
+					"Yeah I guess, not so great now!"
+				]
+			},
+			{
+				"question": "Have a great day ma'am.",
+				"answers": [
+					"Don't assume my gender.",
+					"I need to speak to your supervisor.",
+					"Wait till the HOA hears about you.",
+					"Stay safe officer.",
+					"Best watch your back.",
+					"Take me to jail baby.",
+					"I'll let you ram me any day.",
+					"Let's take your cuffs to my bed!",
+					"Really? Leaving? Things were just getting interesting!"
+				]
+			},
+			{
+				"question": "Wait till I get back to my vehicle to leave.",
+				"answers": [
+					"Fuck off, I am going home.",
+					"Sure thing officer.",
+					"Sigh. Whatever.",
+					"Okay dumbass.",
+					"Wait till my lawyer hears about this one. ",
+					"I'll kill you next time."
+				]
+			},
+			{
+				"question": "Have a good day citizen.",
+				"answers": [
+					"Thanks, you too officer.",
+					"*Grunts*",
+					"*Waves* See ya.",
+					"*Salutes* Catch you later.",
+					"*Gives middle finger*",
+					"Fuck you. *Gives middle finger*",
+					"Hasta la vista.",
+					"Hope to see you again.",
+					"I like cops like you. So professional."
+				]
+			}
+		]
+	},
+	{
+		"title": "Charges",
+		"questions": [
+			{
+				"question": "I am charging you with...",
+				"answers": [
+					"(PICK AMONG THE FOLLOWING)"
+				]
+			},
+			{
+				"question": "..attempted murder of a LEO.",
+				"answers": [
+					"Wish they died.",
+					"They fucked with the wrong homie.",
+					"Fuck ya'll.",
+					"Who gives a damn.",
+					"Okay.",
+					"Fuck you. Let me go.",
+					"Just another piggy gonna be bacon!"
+				]
+			},
+			{
+				"question": "..attempted murder.",
+				"answers": [
+					"They had it coming.",
+					"Fuck off.",
+					"So I'm not allowed to do that?",
+					"I made that kid, I can kill them if I want!",
+					"Fascist bullshit.",
+					"Boys in blue are scum of the earth.",
+					"Piece of shit."
+				]
+			},
+			{
+				"question": "..felony evasion.",
+				"answers": [
+					"Yeah, I was trying to get away.",
+					"Almost got away.",
+					"Eat some more donuts next time.",
+					"Fuck you.",
+					"Wasn't a felony till you came along.",
+					"Felony? You misdemeanor you!",
+					"Felony? What's that?!",
+					"I want my lawyer!"
+				]
+			},
+			{
+				"question": "...felony eluding.",
+				"answers": [
+					"I want my mommy *cries*",
+					"Fuck off. Fucking piggy.",
+					"I need a faster car.",
+					"This was bullshit.",
+					"I need to work out some more.",
+					"Next time you won't even see me!"
+				]
+			},
+			{
+				"question": "...indecent exposure.",
+				"answers": [
+					"Stroke me harder daddy.",
+					"I feel the breeze below.",
+					"I needed a little exposure in my life.",
+					"I wanted to make the news.",
+					"Those girls were so hot though man!",
+					"I get turned on by grannies, so sue me!",
+					"I knew you were coming, thought I'd be ready for ya this time!",
+					"I like to freeball, sheesh!",
+					"The girls need air too, damn!",
+					"My kitty needed some milk, what can I say?!"
+				]
+			},
+			{
+				"question": "...prostitution.",
+				"answers": [
+					"But step bro?!",
+					"I thought we had an arrangement.",
+					"I'll let you fuck me. Fucking dirty cop!",
+					"My kitty needed some milk, what can I say?!",
+					"I can make this worth your time. Let me go.",
+					"Cuff me harder. I like that.",
+					"I didn't know it was a nightstick, I really thought it was...",
+					"What, you don't like pussy no more?!",
+					"Sex is sex, leave it alone!"
+				]
+			},
+			{
+				"question": "...possession of a controlled substance.",
+				"answers": [
+					"I needed the high man.",
+					"Go fuck yourself!",
+					"Alright.",
+					"I didn't know it was a blunt!",
+					"It was just a little weed, damn!",
+					"Ohhhhhhh for fuck sakes!",
+					"Just take me in."
+				]
+			},
+			{
+				"question": "...brandishing a firearm.",
+				"answers": [
+					"I thought it was a toy.",
+					"I had bigger guns.",
+					"Suck a dick pig.",
+					"Too bad I didn't shoot you.",
+					"Sigh. That's my mistake."
+				]
+			},
+			{
+				"question": "..illegal street racing.",
+				"answers": [
+					"I almost got away.",
+					"Ran out of nitro. Fuck.",
+					"You guys have fast cars.",
+					"Just give me my damn lawyer.",
+					"I need a better car next time."
+				]
+			},
+			{
+				"question": "..driving on a revoked license.",
+				"answers": [
+					"Who needs licenses anyway?",
+					"So what? Take me to jail.",
+					"Atleast I get free meals.",
+					"I won't cause you any more troubles.",
+					"Take me to jail."
+				]
+			},
+			{
+				"question": "...driving without a license.",
+				"answers": [
+					"Who needs one?",
+					"I am the law.",
+					"Fuuuuuck you!",
+					"This is an outrage.",
+					"Unlawful."
+				]
+			},
+			{
+				"question": "...arson.",
+				"answers": [
+					"BBQ'd humans taste good.",
+					"Bullshit. No proof. ",
+					"Whatever.",
+					"*silence*",
+					"Cage me up all you want.",
+					"Fires make me horny."
+				]
+			},
+			{
+				"question": "...unlawful discharge of a firearm.",
+				"answers": [
+					"Shame I missed the target.",
+					"Meh.",
+					"*silence*",
+					"*sobs*",
+					"I need a lwayer.",
+					"I don't want to go to jail."
+				]
+			},
+			{
+				"question": "...possession of a stolen vehicle.",
+				"answers": [
+					"I wasn't driving.",
+					"You got the wrong dude.",
+					"Fuck you guys.",
+					"It wasn't my car. I swear.",
+					"*Sighs.*"
+				]
+			},
+			{
+				"question": "..possession of a deadly weapon.",
+				"answers": [
+					"Damn it.",
+					"I tried avoiding jail.",
+					"You guys got me.",
+					"I am going back home.",
+					"Maybe this will set me straight.."
+				]
+			},
+			{
+				"question": "..possession of drugs, intent to sell.",
+				"answers": [
+					"I didn't have enough on me. Lucky fucks.",
+					"Fuck you guys. I'll get a hit on your head.",
+					"They aren't my drugs.",
+					"Shit quality stuff, certainly not mine.",
+					"You ain't got the proof fuzz."
+				]
+			},
+			{
+				"question": "...possession of illegal firearms.",
+				"answers": [
+					"Prove it?",
+					"I demand my lawyer is present, right now!",
+					"Daddy will bail me out.",
+					"It was those Lost fuckers. Go after them instead.",
+					"Take me to jail. I don't give a fuck.",
+					"I ain't afraid."
+				]
+			},
+			{
+				"question": "...possession of firearm w/o license.",
+				"answers": [
+					"This is America.",
+					"Have you read the 2nd Amendment?",
+					"You don't know the Constitution.",
+					"This is my right.",
+					"Who the hell ever gets one?"
+				]
+			},
+			{
+				"question": "...poaching.",
+				"answers": [
+					"Fair and square.",
+					"I have a family to feed.",
+					"You are just fishing for arrests.",
+					"Whatever.",
+					"Fuck off piggy wiggy."
+				]
+			},
+			{
+				"question": "..trespassing.",
+				"answers": [
+					"This is my land.",
+					"You can't do this to me.",
+					"I don't care if they don't want me here. I wanna be here!",
+					"I AM A SOVERGIN CITIZEN!!",
+					"I hope someone put this on Life Invader."
+				]
+			},
+			{
+				"question": "...robbery.",
+				"answers": [
+					"Wish I stole more.",
+					"I wish I gotten away with it.",
+					"Atleast I am not dead..",
+					"Just haul my ass away you fuckers.",
+					"This is some bullshit."
+				]
+			},
+			{
+				"question": "...possession of stolen property.",
+				"answers": [
+					"Finders keepers.",
+					"Whatever.",
+					"Some bullshit if I ever smelled it.",
+					"Just take me in."
+				]
+			},
+			{
+				"question": "... assault of a LEO.",
+				"answers": [
+					"They started it.",
+					"I hate cops.",
+					"I wanted to touch that body.",
+					"Whatever.",
+					"Ya'll are just a legalized gang."
+				]
+			},
+			{
+				"question": "...assault.",
+				"answers": [
+					"I would never do that. ",
+					"Proof.",
+					"The fucker deserved it.",
+					"I hope they enjoy a bloody nose.",
+					"Fuck it. I don't care. "
+				]
+			},
+			{
+				"question": "...driving under the influence.",
+				"answers": [
+					"That is some stupid shit.",
+					"I never drank today!",
+					"Bullshit.",
+					"I had some, but I am as sober as a distillery!",
+					"What the fuck ever. Gestapo. That's what you are."
+				]
 			}
 		]
 	}
-	
 ]
