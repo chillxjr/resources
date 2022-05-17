@@ -56,7 +56,31 @@
 	{
 		"name": "knife",
 		"isIllegal": true,
-		"multiplier": 2,
+		"multiplier": 1,
+		"itemLocation": 2
+	}
+	{
+		"name": "Pistol",
+		"isIllegal": true,
+		"multiplier": 1,
+		"itemLocation": 2
+	}
+	{
+		"name": "Meth",
+		"isIllegal": true,
+		"multiplier": 1,
+		"itemLocation": 2
+	}
+	{
+		"name": "Coke Baggy",
+		"isIllegal": true,
+		"multiplier": 1,
+		"itemLocation": 2
+	}
+	{
+		"name": "Empty Baggy",
+		"isIllegal": false,
+		"multiplier": 3,
 		"itemLocation": 2
 	}
 ]

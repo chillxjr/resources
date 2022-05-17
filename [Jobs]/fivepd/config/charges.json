@@ -6,7 +6,8 @@
             "Trespassing",
             "Loitering",
             "Fighting",
-            "Disturbing the peace"
+            "Disturbing the peace",
+            "Warrant"
         ],
         "Documentation":[
             "Expired Driver`s license",
@@ -35,7 +36,6 @@
     },
     "charges":{
         "Posession":[
-            "Posession of Marijuana",
             "Posession of Cocaine",
             "Posession of Narcotics",
             "Posession of a Stolen Vehicle",
@@ -55,20 +55,6 @@
             "Armed Robbery",
             "Arson"
         ],
-        "Domestic Violence":[
-            "Aggravated Identity Theft",
-            "Attempting to commit Murder/Manslaughter",
-            "Bankruptcy Fraud",
-            "Bank Robbery",
-            "Breaking and Entering",
-            "Computer Crime",
-            "Concealing Escaped Prisoner",
-            "Concealing Person from Arrest",
-            "Conspiracy",
-            "Credit/Debit Card Fraud",
-            "Domestic Terrorism",
-            "Domestic Violence"
-        ],
         "Drug and Alcohol Related":[
             "Drug Abuse",
             "Drug Smuggling",
@@ -86,7 +72,19 @@
             "Trespassing",
             "Vandalism",
             "Use of Firearm",
-            "Resisting Arrest"
+            "Resisting Arrest",
+            "Aggravated Identity Theft",
+            "Attempting to commit Murder/Manslaughter",
+            "Bankruptcy Fraud",
+            "Bank Robbery",
+            "Breaking and Entering",
+            "Computer Crime",
+            "Concealing Escaped Prisoner",
+            "Concealing Person from Arrest",
+            "Conspiracy",
+            "Credit/Debit Card Fraud",
+            "Domestic Terrorism",
+            "Domestic Violence"
         ]
     }
 }
