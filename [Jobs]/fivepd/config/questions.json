@@ -274,6 +274,463 @@
 		]
 	},
 	{
+		"title": "I Pulled You Over Because...",
+		"questions": [
+			{
+				"question": "You know you were speeding?",
+				"answers": [
+					"I did not mean to. I swear.",
+					"I am a bit of a heavy footed person.",
+					"Not that I was aware of.",
+					"AGAIN?!?!",
+					"My gauge is a bit broken, I think.",
+					"I only stopped because I let you stop me. ",
+					"No idea that I did.",
+					"That was quite intentional.",
+					"Nah I don't think so.",
+					"Who doesn't?!",
+					"And your point is...",
+					"Tell it to someone that cares...",
+					"Oh, I did?"
+				]
+			},
+			{
+				"question": "You are aware you ran a stop sign?",
+				"answers": [
+					"Oh, I thought that was a different sign.",
+					"Oops.",
+					"I was distracted. My bad. I have an appointment with Hustler Magazine today.",
+					"Were there kids there?",
+					"This officer in Vice City said I could.",
+					"Shit, a sign was there?",
+					"Maybe if that bush wasn't in the way...",
+					"Sir, I've lived here all my life, there's never been a stop sign there!",
+					"I got Glaucoma.",
+					"I was trying to find the prostitutes around here.",
+					"I thought that was stop if you see a prostitute only?",
+					"Does everyone stop?"
+				]
+			},
+			{
+				"question": "Did you know you ran a red light?",
+				"answers": [
+					"I just needed to get through.",
+					"I'm running late, thought I could get away with it.",
+					"I wasn't expecting you there.",
+					"I felt that was more of a purple than a red.",
+					"Whoa! It was mid yellow sir!",
+					"All lights are gray to me, so sue me!",
+					"Fuck red lights.",
+					"Who fucking cares? Do your job, police real criminals.",
+					"Is this what my tax paying dollars go to?",
+					"Go fuck a god damn teddy, you filthy corrupted pig.",
+					"I'm colorblind.",
+					"What's a red light?",
+					"But.. the police run them all the time."
+				]
+			},
+			{
+				"question": "Your car is a bit banged up you know.",
+				"answers": [
+					"Yeah, recently got into an accident...",
+					"Yep! Ran my cheating spouse over. Hope they died!",
+					"Yeah, that's how hard I screwed my girlfriend against my car!",
+					"I did not realize that.",
+					"Damn fender benders in those parking lots.",
+					"That is news to me!",
+					"Time to claim my insurance.",
+					"Who gives a flying fuck!",
+					"It wasn't two minutes ago, what did you do to my car?!",
+					"Damn squirrels!",
+					"Damn coyotes!",
+					"I didn't hit a damn thing. "
+				]
+			},
+			{
+				"question": "I see you have a blown tire here.",
+				"answers": [
+					"Damn debris on the roads.",
+					"God damn it!",
+					"Fucking hell. Tires aren't cheap!",
+					"So glad the police in Mexico City couldn't catch me on rims! Shit..",
+					"Cheap ass tires.",
+					"I got a meeting to get to. This fucking blows harder then porn stars!",
+					"Mind helping me fix that?",
+					"Did you say blow you?",
+					"Why of all days?!"
+				]
+			},
+			{
+				"question": "I noticed your vehicle is broken down.",
+				"answers": [
+					"Are you going to help?",
+					"I heard police carry Mechanics For Dummies in their trunks.",
+					"Thanks for stopping to help. Really sucks.",
+					"Can I get a taxi at least?",
+					"I wanted to order a number 9....",
+					"Thanks Captain Obvious!",
+					"Thanks for noticing, first to notice gets to fix it!",
+					"Why thank you for the update Mr Reporter!"
+				]
+			},
+			{
+				"question": "It's raining here, let's speed this up.",
+				"answers": [
+					"Does that mean I am free to go?",
+					"Can I go then?",
+					"You look cute when you are wet.",
+					"I am a sovereign citizen.",
+					"I want your supervisor.",
+					"Can we get going please?",
+					"I just want to get home.",
+					"Sure thing officer. Must suck being out there.",
+					"I agree. Don't want you catching a cold."
+				]
+			},
+			{
+				"question": "So I see this vehicle isn't yours...",
+				"answers": [
+					"(USE THE COUPLE Q'S BELOW)"
+				]
+			},
+			{
+				"question": "You know the owner of this car?",
+				"answers": [
+					"Yeah. Haha. Buddy's car.",
+					"My bud let me borrow his whip.",
+					"It's def a rental bro.",
+					"Wha-ha happen was...",
+					"Rental car my man.",
+					"Nah, I admit I jacked it.",
+					"You caught me, I stole this junker.",
+					"I think the owner is in the trizzy. Kiddin' my dude.",
+					"Friend is letting me borrow it for a few days.",
+					"Sister is letting me use it.",
+					"Bro let me use his vehicle.",
+					"Wife is letting me use it.",
+					"Husband said to use this today.",
+					"Insurance gave me a rental.",
+					"I was in an accident. They gave me a rental car.",
+					"Do you? I've been looking all day!",
+					"Do you?",
+					"If you let me keep going, I'll split the junker payout with ya!"
+				]
+			},
+			{
+				"question": "CALLS FRIEND",
+				"answers": [
+					"No way would I let them ruin my ride.",
+					"I said they could only drive it to the Mega Mall in Davis.",
+					"They could only use it to get to U Tool.",
+					"I let them use it for the day.",
+					"I know they are using it. It's fine.",
+					"So that's where my car is. Fucking theif!",
+					"I want them arrested. I didn't say they could use it.",
+					"Arrest them! They'll learn to ask next time!"
+				]
+			},
+			{
+				"question": "CALLS FAMILY",
+				"answers": [
+					"What they are saying is true.",
+					"Never in a million years would I allow for them to use it.",
+					"They literally stole my car. Oh My God.",
+					"Borrowing without asking.. Stealing is more like it.",
+					"Yeah, they were borrowing it."
+				]
+			},
+			{
+				"question": "CALLS RENTAL COMPANY",
+				"answers": [
+					"We have a record here for this rental contract.",
+					"This contract they speak of expired 3 weeks ago.",
+					"We have no record of this rental agreement.",
+					"Are you sure you called the right rental company?",
+					"That's not one of ours!",
+					"Yeah, the insurance company issued that one."
+				]
+			},
+			{
+				"question": "Seatbelt Check",
+				"answers": [
+					"(You observe the seatbelt is properly on)",
+					"(You see the seatbelt is missing from the vehicle)",
+					"(The driver isn't utilizing their seatbelt)",
+					"(As you approached the vehicle, the driver buckled up)",
+					"(Driver is seated on the seatbelt)"
+				]
+			},
+			{
+				"question": "Why aren't you buckled up?",
+				"answers": [
+					"I forgot to do that.",
+					"Fuck seatbelts.",
+					"It's too tight all the time.",
+					"Didn't think I needed to.",
+					"My tits get in the way.",
+					"I was told I didn't have to by the LSPD.",
+					"Grr. I guess I'll have to do this shit.",
+					"I hate these stupid things.",
+					"Is that the thing that goes across these hot tits?",
+					"My car, my life. Fuck you pig."
+				]
+			}
+		]
+	},
+	{
+		"title": "Accident Questions",
+		"questions": [
+			{
+				"question": "What happened here?",
+				"answers": [
+					"I kind of lost my footing.",
+					"I lost control of the steering.",
+					"I think my brake lines were cut.",
+					"I saw a black cat I refused to cross!",
+					"I suddenly felt like I was flying!",
+					"You know when you're dreaming and you feel like you're falling and before splat you wake up?!",
+					"I didn't even see the other person coming!",
+					"I'm hurt. I need an ambulance. It's my fault.",
+					"I coulda sworn I just saw Megan Fox flash her titties!",
+					"I had to check my Discord notifications.",
+					"My significant other was texting me.",
+					"I was on the phone. Ugh. Stupid me.",
+					"Yeah I was taking a selfie.",
+					"It's hard to ride the shifter while driving, did you know that?!"
+				]
+			},
+			{
+				"question": "We got a call of a hit and run.",
+				"answers": [
+					"Yeah. It happened so fast. They took off and left me here!",
+					"Yeah. I don't know what happened.",
+					"Motherfucker. I will kill that little shit.",
+					"I don't remember too much.",
+					"Thanks for coming. Just too late. What do we pay you for.",
+					"Yeah, it's pretty obvious.",
+					"If you call the tow, I'll be your hooker!"
+				]
+			},
+			{
+				"question": "Can you tell us what happened?",
+				"answers": [
+					"I ain't no snitch.",
+					"A black 4 door took off. SA plate began with a 5 or S",
+					"A blue two door took off. SA plate was like Y8 or something",
+					"Red 4 door went north. SA plate of U2...",
+					"Some muscle car, couldn't tell color, was like S or 5 as the start of the plate",
+					"Some Sandking hit me. Motherfucker.",
+					"Well Megan Fox was flashing some titties around and I fumbled to get my phone before we passed!",
+					"I got hit all around my car. Don't know what happened.",
+					"I don't know. Happened all so fast. "
+				]
+			}
+		]
+	},
+	{
+		"title": "Traffic Stop (DUI)",
+		"questions": [
+			{
+				"question": "I smell alcohol, have you been drinking?",
+				"answers": [
+					"No, I have not, I swear.",
+					"Maybe a tiny bit.",
+					"Only one drink.",
+					"I have been drinking water.",
+					"I only had soda."
+				]
+			},
+			{
+				"question": "I appear to see an open container, is that beer?",
+				"answers": [
+					"No its not.",
+					"Nope, feel free to take it.",
+					"Never.",
+					"I admit it is, but I wasn't drinking.",
+					"I admit that it is. I had a little bit of it.",
+					"It's not my car,"
+				]
+			},
+			{
+				"question": "Do you mind stepping out of the vehicle?",
+				"answers": [
+					"Sure thing.",
+					"Only if you ram me with that baton, cutie. *hic*",
+					"I do mind. I feel my tights are vibrated. I want to call and squeak to my lawyer. *hic*",
+					"Do you mind if I ask you to fuck off, please?",
+					"I will comply, happily."
+				]
+			},
+			{
+				"question": "Will you submit to a breathalyzer test?",
+				"answers": [
+					"Will do boss man.",
+					"Only because I have to.",
+					"I like blowing on tubes. Hehe.",
+					"Can you have that Deputy Smith come down for me? I want his tube to blow on.",
+					"I will comply with that officer.",
+					"Fuck off.",
+					"Do your job, go harass real criminals. Not us drunks.",
+					"I feel I am being profiled."
+				]
+			},
+			{
+				"question": "I noticed you swerving in and out of the lane.",
+				"answers": [
+					"I had a bee fly in my car.",
+					"Shit, there is a lane I have to stay in?",
+					"I did not mean to, I won't do it again. I swear.",
+					"Oh, that is what those lines are for.",
+					"I thought we had to drive in between the lines?",
+					"That's a law?",
+					"I swear I wasn't drinking.",
+					"I dropped my hot coffee.",
+					"I was just dropping that bass. No worries!"
+				]
+			},
+			{
+				"question": "Have you had any alcohol today?",
+				"answers": [
+					"Not one bit!",
+					"Very early in the morning, just one glass of wine.",
+					"Just a moment ago.",
+					"I'm not as officer as you think I am, drunk!",
+					"Officer, meet my doughnut!",
+					"No thanks, I'm full!",
+					"I'm not as think you drunk I am!",
+					"For breakfast, lunch and dinner!",
+					"I never drink.",
+					"Since it's Sunday, yes. Only 4 hours ago.",
+					"I wish I could."
+				]
+			},
+			{
+				"question": "When was the last time you drank?",
+				"answers": [
+					"Umm. I don't really remember.",
+					"Back at the Vanilla Unicorn, about 3 hours ago.",
+					"Five days ago.",
+					"When I fucked yo mama! Fuck you pig.",
+					"An hour ago. Like I drank a six pack.",
+					"Just before you stopped me. Really hit the spot."
+				]
+			},
+			{
+				"question": "Field Sobriety Test. Will you submit to one?",
+				"answers": [
+					"Sure thing officer.",
+					"Nah.. I am good.",
+					"Why the hell do I have to do that.",
+					"Best be worth my time.",
+					"Alright....."
+				]
+			},
+			{
+				"question": "FST: Horizontal Gaze",
+				"answers": [
+					"*You observe normal behavior. Passed test.*",
+					"*You notice signs of impairment, fails test*"
+				]
+			},
+			{
+				"question": "FST: Walk and turn test.",
+				"answers": [
+					"*You observe no signs of impairment. Passes*",
+					"*You notice minor stumbling, but manages to not fail. Passes*",
+					"*You notice heavy stumbling. Fails.*",
+					"*You notice the subject stumble and fall. Fails.*"
+				]
+			},
+			{
+				"question": "FST: One Leg Stand",
+				"answers": [
+					"*You notice normal behavior. Passes*",
+					"*You notice the subject unable to stand, but due to medical. Officer discretion*",
+					"*Subject cleanly can't even stand, stumbled out of the car initially Fails.*"
+				]
+			},
+			{
+				"question": "FST: Alphabet test",
+				"answers": [
+					"A...B..F..T.. *Fails*",
+					"A..B..C..D.. *Passes*",
+					"F..Y..E..A.. *Fails.*",
+					"A..B..C..D..E.. *Passes*"
+				]
+			}
+		]
+	},
+	{
+		"title": "Traffic Stop (Drugs)",
+		"questions": [
+			{
+				"question": "I smell weed, Got medical for that?",
+				"answers": [
+					"Nah man. This is the good stuff though.",
+					"Yes I do. Here you.",
+					"It's legal in the state of San Andreas!",
+					"I know I shouldn't drive..while smoking. Sorry man.",
+					"Where are the munchies bro!",
+					"I could really go for some chips.",
+					"Yes. Got the card last Monday."
+				]
+			},
+			{
+				"question": "I smell the scent of drugs, step out please.",
+				"answers": [
+					"What drugs man? Why do you hassle us man?",
+					"Sure thing officer. Feel free to search, I have nothing to hide.",
+					"This is my buddy's car..",
+					"Nah man, this is like, sacred ground. Just like fuck off now."
+				]
+			},
+			{
+				"question": "I noticed you swerving in the lane.",
+				"answers": [
+					"Oh. My bad. I was just driving high.",
+					"Damn, these are lanes? They looked like noodles.",
+					"Shiiiiiiit. The waves were real dude.",
+					"I nearly burnt my lap. Dropped my joint."
+				]
+			},
+			{
+				"question": "Do you have any drugs in the vehicle?",
+				"answers": [
+					"None that I can think of.",
+					"Nada man.",
+					"Sure do. A whole entire warehouse of them in my trunk.",
+					"What are dru...dug...droogs?",
+					"Just some painkillers for this backache of mine.",
+					"Only up my ass.",
+					"My kitty has some within holding, wanna fetch them?"
+				]
+			},
+			{
+				"question": "Do you consent to a drug search of the car?",
+				"answers": [
+					"Never will. Fuck off. I know my rights.",
+					"Depends.",
+					"What does cereal have to do with this?",
+					"If you find my prescriptions, then sure, go ahead!",
+					"Day. Green. Shower. Hobbit. Pizza. Love. Wayyyyyyy. Surfs up!",
+					"Sure, I shall comply, this time.",
+					"Really have to go this route?",
+					"Will a little money change your mind?"
+				]
+			},
+			{
+				"question": "Do I need a K9 for probable cause to search?",
+				"answers": [
+					"Aww, I love doggies.",
+					"No.. Not the K9.",
+					"If that is what it takes for probable cause or a warrant, do it.",
+					"Yeah, go ahead and do that officer.",
+					"Really, a dog? You can't do it? Lazy fuck!"
+				]
+			}
+		]
+	},
+	{
 		"title": "Pedestrian Questions",
 		"questions": [
 			{
@@ -431,6 +888,131 @@
 					"Absolutely! I have nothing to hide!",
 					"Not sure where this came from all the sudden, so yes go ahead!",
 					"Sure, I like being frisked!"
+				]
+			}
+		]
+	},
+	{
+		"title": "Firearms Investigations",
+		"questions": [
+			{
+				"question": "We are here about shots fired in the area.",
+				"answers": [
+					"So what?",
+					"Yeah, I heard them too.",
+					"Damn city slickers need to go back home.",
+					"Damn country folk ruining the city life.",
+					"Oh my god. This sucks.",
+					"Again? I keep telling Jimbob it ain't a snapgun!",
+					"And you're here because....???",
+					"And you're point is?",
+					"When is this city NOT getting shot up?!",
+					"If you're talking about the load I gave my girlfr....nevermind, how can I help?",
+					"I will help you in any way I can officer."
+				]
+			},
+			{
+				"question": "Do you have a weapon license?",
+				"answers": [
+					"Yes I do.",
+					"Nope.",
+					"Forgot it at home.",
+					"I have a CCW. So yeah.",
+					"Only on Sundays.",
+					"Yep. Here you go.",
+					"You need one of those?",
+					"What's that?!",
+					"Next, we'll need a license for my short shorts!"
+				]
+			},
+			{
+				"question": "This weapon license comes back good.",
+				"answers": [
+					"That's gravy.",
+					"Good to know.",
+					"I knew it would.",
+					"Whad I tell ya, I'm clean yo!",
+					"Great.",
+					"Ok, can I go now?! Damn."
+				]
+			},
+			{
+				"question": "This weapons license isn't in our system.",
+				"answers": [
+					"Shit. That ain't good.",
+					"I need to sort that one out.",
+					"Well I dun got mine from a cereal box yesterday.",
+					"I didn't know that was a thing.",
+					"I meant mine is from another state.",
+					"Oh good, can I get another copy?",
+					"Well you should put it in your system then, not my fault.",
+					"Are you sure you're using the right system?",
+					"Did you try shutting it off and back on again?"
+				]
+			},
+			{
+				"question": "Are you a concealed carry owner?",
+				"answers": [
+					"Yes I am officer.",
+					"No I am not officer.",
+					"Concealing this dick.",
+					"Concealing my tits, yes!",
+					"If concealing my tits is a crime,then cuff me now hot stuff!",
+					"I don't want to talk to you.",
+					"If it's concealed, how do you carry it?"
+				]
+			},
+			{
+				"question": "Are you aware of weapon safety?",
+				"answers": [
+					"I am. Had to go through many courses.",
+					"Fuck safety.",
+					"All you need to know is point and shoot.",
+					"Shoot now, ask questions later, right?!",
+					"I haven't gotten much, but plan to.",
+					"Yeah man, it's called wrap it before blowing it......oh you mean guns!",
+					"I do, but need more. Got any suggestions?"
+				]
+			},
+			{
+				"question": "We got a call about a person with a gun.",
+				"answers": [
+					"I am just peacefully demonstrating open carry.",
+					"Well it's a big toy. Showing it to folks.",
+					"Well it's a big toy. Showing it to folks...oh you mean my gun gun!",
+					"Anyone messes with me, I'll blast them away.",
+					"Out here for game hunting on the streets.",
+					"Everything is in order that says I can!",
+					"I do what I want!",
+					"Expressing my rights is all. Open carry."
+				]
+			},
+			{
+				"question": "Open carry? Just give me a moment.",
+				"answers": [
+					"Yep. I got any ID if you need it.",
+					"Sure thing. Just expressing our freedoms.",
+					"Indeed officer. I don't mean to scare folks."
+				]
+			},
+			{
+				"question": "Put the weapon down. We need to chat.",
+				"answers": [
+					"Why would I do such a thing?",
+					"Yo, if I put this down, it can't be attached again.",
+					"Fuck you pigs. That caller deserves to be shot.",
+					"Now you listen here...",
+					"I know my rights.",
+					"I only have a gun, not a weapon officer!",
+					"I may end up shooting you if you come any closer."
+				]
+			},
+			{
+				"question": "RESIDUE TEST",
+				"answers": [
+					"Positive for GSR.",
+					"Negative for GSR.",
+					"Inconclusive."
 				]
 			}
 		]
