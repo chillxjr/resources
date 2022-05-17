@@ -19,7 +19,7 @@
 	},
 	{
 		"name": "marijuana",
-		"isIllegal": true,
+		"isIllegal": false,
 		"multiplier": 1,
 		"itemLocation": 2
 	},

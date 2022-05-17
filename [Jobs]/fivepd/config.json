@@ -7,7 +7,7 @@
     "port": 3306,
     "database": "fivepd"
   },
-  "stationBlips": true,
+  "stationBlips": false,
   "maxReportLength": 1000,
   "maxFine": 1000000,
   "maxFinePoint": 100,
@@ -35,5 +35,5 @@
   },
   "dutyNotification": true,
   "observation": true,
-  "allowlist": false
+  "allowlist": true
 }
