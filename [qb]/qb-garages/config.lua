@@ -1,4 +1,4 @@
-AutoRespawn = false --True == auto respawn cars that are outside into your garage on script restart, false == does not put them into your garage and players have to go to the impound
+AutoRespawn = true --True == auto respawn cars that are outside into your garage on script restart, false == does not put them into your garage and players have to go to the impound
 SharedGarages = false   --True == Gang and job garages are shared, false == Gang and Job garages are personal
 
 Garages = {
@@ -331,6 +331,17 @@ Garages = {
         putVehicle = vector3(1737.13, 3718.91, 34.04),
         showBlip = true,
         blipName = "Public Parking",
+        blipNumber = 357,
+        type = 'public',                --public, job, gang, depot
+        vehicle = 'car'                 --car, air, sea
+    },
+    ["parkingRt68"] = {
+        label = "Rt68 Garage",
+        takeVehicle = vector3(1128.41, 2670.94, 38.07),
+        spawnPoint = vector4(1129.47, 2666.95, 38.03, 176.96),
+        putVehicle = vector3(1095.57, 2670.6, 38.18),
+        showBlip = true,
+        blipName = "Public Parking Rt68",
         blipNumber = 357,
         type = 'public',                --public, job, gang, depot
         vehicle = 'car'                 --car, air, sea
