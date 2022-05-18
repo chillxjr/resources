@@ -8,101 +8,7 @@ local vehicleIndex = nil
 local DynamicMenuItems = {}
 local FinalMenuItems = {}
 -- Functions
-local garaIndex = nil
-local function SetupGaragesMenu()
-    local isingarage, canStoreVehicle = exports["MojiaGarages"]:IsInGarage()
-    local isInJobGarage, lastJobVehicle = exports["MojiaGarages"]:isInJobStation(PlayerData.job.name)
-    local GaragesMenu = {
-        id = 'garages',
-        title = 'Garages',
-        icon = 'warehouse',
-        items = {}
-    }
-    if isingarage then
-        GaragesMenu.items[#GaragesMenu.items+1] = {
-            id = 'opengarage',
-            title = 'Open Garage',
-            icon = 'warehouse',
-            type = 'client',
-            event = 'MojiaGarages:client:openGarage',
-            shouldClose = true,
-        }
-        local veh = nil
-        local ped = PlayerPedId()
-        local pos = GetEntityCoords(ped)
-        local vehout, distance = QBCore.Functions.GetClosestVehicle(pos)
-        local vehin = IsPedInAnyVehicle(ped, true)
-        if vehin then
-            veh = GetVehiclePedIsIn(ped)
-        else
-            if NetworkGetEntityIsLocal(vehout) and distance <= 5 then
-                veh = vehout
-            end
-        end
-        if veh ~= nil then
-            local plate = QBCore.Functions.GetPlate(veh)
-            if exports["qb-vehiclekeys"]:HasVehicleKey(plate) then
-                if canStoreVehicle then
-                    GaragesMenu.items[#GaragesMenu.items+1] = {
-                        id = 'storeVehicle',
-                        title = 'Store Vehicle',
-                        icon = 'parking',
-                        type = 'client',
-                        event = 'MojiaGarages:client:storeVehicle',
-                        shouldClose = true,
-                    }
-                end
-            end
-        end
-    end
-    if isInJobGarage then
-        if lastJobVehicle == nil then
-            GaragesMenu.items[#GaragesMenu.items+1] = {
-                id = 'openjobgarage',
-                title = 'Open Job Garage',
-                icon = 'warehouse',
-                type = 'client',
-                event = 'MojiaGarages:client:openJobVehList',
-                shouldClose = true,
-            }
-        else
-            local veh = nil
-            local ped = PlayerPedId()
-            local pos = GetEntityCoords(ped)
-            local vehout, distance = QBCore.Functions.GetClosestVehicle(pos)
-            local vehin = IsPedInAnyVehicle(ped, true)
-            if vehin then
-                veh = GetVehiclePedIsIn(ped)
-            else
-                if NetworkGetEntityIsLocal(vehout) and distance <= 5 then
-                    veh = vehout
-                end
-            end
-            if veh ~= nil and veh == lastJobVehicle then
-                local plate = QBCore.Functions.GetPlate(veh)
-                if exports["qb-vehiclekeys"]:HasVehicleKey(plate) then --disable if use MojiaVehicleKeys
-            --if exports['MojiaVehicleKeys']:CheckHasKey(plate) then --enable if use MojiaVehicleKeys
-                    GaragesMenu.items[#GaragesMenu.items+1] = {
-                        id = 'hidejobvehicle',
-                        title = 'Hide Job Vehicle',
-                        icon = 'parking',
-                        type = 'client',
-                        event = 'MojiaGarages:client:HideJobVeh',
-                        shouldClose = true,
-                    }
-                end
-            end
-        end
-    end
-    if #GaragesMenu.items == 0 then
-        if garaIndex then
-            RemoveOption(garaIndex)
-            garaIndex = nil
-        end
-    else
-        garaIndex = AddOption(GaragesMenu, garaIndex)
-    end
-end
+
 local function deepcopy(orig) -- modified the deep copy function from http://lua-users.org/wiki/CopyTable
     local orig_type = type(orig)
     local copy
@@ -222,7 +128,6 @@ end
 local function SetupSubItems()
     SetupJobMenu()
     SetupVehicleMenu()
-    SetupGaragesMenu()
 end
 
 local function selectOption(t, t2)

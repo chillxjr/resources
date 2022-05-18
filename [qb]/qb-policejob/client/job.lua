@@ -10,22 +10,6 @@ local inHelicopter = false
 local inImpound = false
 local inGarage = false
 
--- Functions
-local function DrawText3D(x, y, z, text)
-    SetTextScale(0.35, 0.35)
-    SetTextFont(4)
-    SetTextProportional(1)
-    SetTextColour(255, 255, 255, 215)
-    SetTextEntry("STRING")
-    SetTextCentre(true)
-    AddTextComponentString(text)
-    SetDrawOrigin(x,y,z, 0)
-    DrawText(0.0, 0.0)
-    local factor = (string.len(text)) / 370
-    DrawRect(0.0, 0.0+0.0125, 0.017+ factor, 0.03, 0, 0, 0, 75)
-    ClearDrawOrigin()
-end
-
 local function loadAnimDict(dict) -- interactions, job,
     while (not HasAnimDictLoaded(dict)) do
         RequestAnimDict(dict)
@@ -63,67 +47,67 @@ local function openFingerprintUI()
 end
 
 local function SetCarItemsInfo()
-	local items = {}
-	for k, item in pairs(Config.CarItems) do
-		local itemInfo = QBCore.Shared.Items[item.name:lower()]
-		items[item.slot] = {
-			name = itemInfo["name"],
-			amount = tonumber(item.amount),
-			info = item.info,
-			label = itemInfo["label"],
-			description = itemInfo["description"] and itemInfo["description"] or "",
-			weight = itemInfo["weight"],
-			type = itemInfo["type"],
-			unique = itemInfo["unique"],
-			useable = itemInfo["useable"],
-			image = itemInfo["image"],
-			slot = item.slot,
-		}
-	end
-	Config.CarItems = items
+    local items = {}
+    for _, item in pairs(Config.CarItems) do
+        local itemInfo = QBCore.Shared.Items[item.name:lower()]
+        items[item.slot] = {
+            name = itemInfo["name"],
+            amount = tonumber(item.amount),
+            info = item.info,
+            label = itemInfo["label"],
+            description = itemInfo["description"] and itemInfo["description"] or "",
+            weight = itemInfo["weight"],
+            type = itemInfo["type"],
+            unique = itemInfo["unique"],
+            useable = itemInfo["useable"],
+            image = itemInfo["image"],
+            slot = item.slot,
+        }
+    end
+    Config.CarItems = items
 end
 
 local function doCarDamage(currentVehicle, veh)
-	local smash = false
-	local damageOutside = false
-	local damageOutside2 = false
-	local engine = veh.engine + 0.0
-	local body = veh.body + 0.0
+    local smash = false
+    local damageOutside = false
+    local damageOutside2 = false
+    local engine = veh.engine + 0.0
+    local body = veh.body + 0.0
 
-	if engine < 200.0 then engine = 200.0 end
+    if engine < 200.0 then engine = 200.0 end
     if engine  > 1000.0 then engine = 950.0 end
-	if body < 150.0 then body = 150.0 end
-	if body < 950.0 then smash = true end
-	if body < 920.0 then damageOutside = true end
-	if body < 920.0 then damageOutside2 = true end
+    if body < 150.0 then body = 150.0 end
+    if body < 950.0 then smash = true end
+    if body < 920.0 then damageOutside = true end
+    if body < 920.0 then damageOutside2 = true end
 
     Citizen.Wait(100)
     SetVehicleEngineHealth(currentVehicle, engine)
 
-	if smash then
-		SmashVehicleWindow(currentVehicle, 0)
-		SmashVehicleWindow(currentVehicle, 1)
-		SmashVehicleWindow(currentVehicle, 2)
-		SmashVehicleWindow(currentVehicle, 3)
-		SmashVehicleWindow(currentVehicle, 4)
-	end
+    if smash then
+        SmashVehicleWindow(currentVehicle, 0)
+        SmashVehicleWindow(currentVehicle, 1)
+        SmashVehicleWindow(currentVehicle, 2)
+        SmashVehicleWindow(currentVehicle, 3)
+        SmashVehicleWindow(currentVehicle, 4)
+    end
 
-	if damageOutside then
-		SetVehicleDoorBroken(currentVehicle, 1, true)
-		SetVehicleDoorBroken(currentVehicle, 6, true)
-		SetVehicleDoorBroken(currentVehicle, 4, true)
-	end
+    if damageOutside then
+        SetVehicleDoorBroken(currentVehicle, 1, true)
+        SetVehicleDoorBroken(currentVehicle, 6, true)
+        SetVehicleDoorBroken(currentVehicle, 4, true)
+    end
 
-	if damageOutside2 then
-		SetVehicleTyreBurst(currentVehicle, 1, false, 990.0)
-		SetVehicleTyreBurst(currentVehicle, 2, false, 990.0)
-		SetVehicleTyreBurst(currentVehicle, 3, false, 990.0)
-		SetVehicleTyreBurst(currentVehicle, 4, false, 990.0)
-	end
+    if damageOutside2 then
+        SetVehicleTyreBurst(currentVehicle, 1, false, 990.0)
+        SetVehicleTyreBurst(currentVehicle, 2, false, 990.0)
+        SetVehicleTyreBurst(currentVehicle, 3, false, 990.0)
+        SetVehicleTyreBurst(currentVehicle, 4, false, 990.0)
+    end
 
-	if body < 1000 then
-		SetVehicleBodyHealth(currentVehicle, 985.1)
-	end
+    if body < 1000 then
+        SetVehicleBodyHealth(currentVehicle, 985.1)
+    end
 end
 
 function TakeOutImpound(vehicle)
@@ -156,12 +140,12 @@ function TakeOutVehicle(vehicleInfo)
             exports['LegacyFuel']:SetFuel(veh, 100.0)
             closeMenuFull()
             if Config.VehicleSettings[vehicleInfo] ~= nil then
-                if Config.VehicleSettings[vehicleInfo].extras ~= nil then 
-			QBCore.Shared.SetDefaultVehicleExtras(veh, Config.VehicleSettings[vehicleInfo].extras)
-		end
-		if Config.VehicleSettings[vehicleInfo].livery ~= nil then 
-			SetVehicleLivery(veh, Config.VehicleSettings[vehicleInfo].livery)
-		end
+                if Config.VehicleSettings[vehicleInfo].extras ~= nil then
+            QBCore.Shared.SetDefaultVehicleExtras(veh, Config.VehicleSettings[vehicleInfo].extras)
+        end
+        if Config.VehicleSettings[vehicleInfo].livery ~= nil then
+            SetVehicleLivery(veh, Config.VehicleSettings[vehicleInfo].livery)
+        end
             end
             TaskWarpPedIntoVehicle(PlayerPedId(), veh, -1)
             TriggerEvent("vehiclekeys:client:SetOwner", QBCore.Functions.GetPlate(veh))
@@ -181,7 +165,7 @@ local function IsArmoryWhitelist() -- being removed
 end
 
 local function SetWeaponSeries()
-    for k, v in pairs(Config.Items.items) do
+    for k, _ in pairs(Config.Items.items) do
         if k < 6 then
             Config.Items.items[k].info.serie = tostring(QBCore.Shared.RandomInt(2) .. QBCore.Shared.RandomStr(3) .. QBCore.Shared.RandomInt(1) .. QBCore.Shared.RandomStr(2) .. QBCore.Shared.RandomInt(3) .. QBCore.Shared.RandomStr(4))
         end
@@ -253,7 +237,6 @@ function MenuImpound(currentSelection)
             shouldContinue = true
             for _ , v in pairs(result) do
                 local enginePercent = QBCore.Shared.Round(v.engine / 10, 0)
-                local bodyPercent = QBCore.Shared.Round(v.body / 10, 0)
                 local currentFuel = v.fuel
                 local vname = QBCore.Shared.Vehicles[v.vehicle].name
 
@@ -310,8 +293,9 @@ RegisterNetEvent('police:client:showFingerprintId', function(fid)
     PlaySound(-1, "Event_Start_Text", "GTAO_FM_Events_Soundset", 0, 0, 1)
 end)
 
-RegisterNUICallback('doFingerScan', function(data)
+RegisterNUICallback('doFingerScan', function(_, cb)
     TriggerServerEvent('police:server:showFingerprintId', FingerPrintSessionId)
+    cb("ok")
 end)
 
 RegisterNetEvent('police:client:SendEmergencyMessage', function(coords, message)
@@ -352,9 +336,8 @@ RegisterNetEvent('police:client:ImpoundVehicle', function(fullImpound, price)
         local vehpos = GetEntityCoords(vehicle)
         if #(pos - vehpos) < 5.0 and not IsPedInAnyVehicle(ped) then
             local plate = QBCore.Functions.GetPlate(vehicle)
-            TriggerServerEvent("police:server:Impound", plate, fullImpound, price, bodyDamage, engineDamage, totalFuel)         
+            TriggerServerEvent("police:server:Impound", plate, fullImpound, price, bodyDamage, engineDamage, totalFuel)
             QBCore.Functions.DeleteVehicle(vehicle)
-            TriggerServerEvent('MojiaGarages:server:removeOutsideVehicles', plate)
         end
     end
 end)
@@ -367,7 +350,7 @@ RegisterNetEvent('police:client:CheckStatus', function()
                 local playerId = GetPlayerServerId(player)
                 QBCore.Functions.TriggerCallback('police:GetPlayerStatus', function(result)
                     if result then
-                        for k, v in pairs(result) do
+                        for _, v in pairs(result) do
                             QBCore.Functions.Notify(''..v..'')
                         end
                     end
@@ -526,7 +509,7 @@ if Config.UseTarget then
 else
     -- Toggle Duty
     local dutyZones = {}
-    for k, v in pairs(Config.Locations["duty"]) do
+    for _, v in pairs(Config.Locations["duty"]) do
         dutyZones[#dutyZones+1] = BoxZone:Create(
             vector3(vector3(v.x, v.y, v.z)), 1.75, 1, {
             name="box_zone",
@@ -564,8 +547,6 @@ else
                     TriggerServerEvent("QBCore:ToggleDuty")
                     TriggerServerEvent("police:server:UpdateBlips")
                 end
-            else
-                sleep = 1000
             end
             Wait(sleep)
         end
@@ -575,7 +556,7 @@ end
 CreateThread(function()
     -- Evidence Storage
     local evidenceZones = {}
-    for k, v in pairs(Config.Locations["evidence"]) do
+    for _, v in pairs(Config.Locations["evidence"]) do
         evidenceZones[#evidenceZones+1] = BoxZone:Create(
             vector3(vector3(v.x, v.y, v.z)), 2, 1, {
             name="box_zone",
@@ -616,7 +597,7 @@ CreateThread(function()
 
     -- Personal Stash
     local stashZones = {}
-    for k, v in pairs(Config.Locations["stash"]) do
+    for _, v in pairs(Config.Locations["stash"]) do
         stashZones[#stashZones+1] = BoxZone:Create(
             vector3(vector3(v.x, v.y, v.z)), 1.5, 1.5, {
             name="box_zone",
@@ -627,7 +608,7 @@ CreateThread(function()
     end
 
     local stashCombo = ComboZone:Create(stashZones, {name = "stashCombo", debugPoly = false})
-    stashCombo:onPlayerInOut(function(isPointInside, point, zone)
+    stashCombo:onPlayerInOut(function(isPointInside, _, _)
         if isPointInside then
             inStash = true
             exports['qb-core']:DrawText(Lang:t('info.stash_enter'), 'left')
@@ -639,7 +620,7 @@ CreateThread(function()
 
     -- Police Trash
     local trashZones = {}
-    for k, v in pairs(Config.Locations["trash"]) do
+    for _, v in pairs(Config.Locations["trash"]) do
         trashZones[#trashZones+1] = BoxZone:Create(
             vector3(vector3(v.x, v.y, v.z)), 1, 1.75, {
             name="box_zone",
@@ -664,7 +645,7 @@ CreateThread(function()
 
     -- Fingerprints
     local fingerprintZones = {}
-    for k, v in pairs(Config.Locations["fingerprint"]) do
+    for _, v in pairs(Config.Locations["fingerprint"]) do
         fingerprintZones[#fingerprintZones+1] = BoxZone:Create(
             vector3(vector3(v.x, v.y, v.z)), 2, 1, {
             name="box_zone",
@@ -689,7 +670,7 @@ CreateThread(function()
 
     -- Armoury
     local armouryZones = {}
-    for k, v in pairs(Config.Locations["armory"]) do
+    for _, v in pairs(Config.Locations["armory"]) do
         armouryZones[#armouryZones+1] = BoxZone:Create(
             vector3(vector3(v.x, v.y, v.z)), 5, 1, {
             name="box_zone",
@@ -714,7 +695,7 @@ CreateThread(function()
 
     -- Helicopter
     local helicopterZones = {}
-    for k, v in pairs(Config.Locations["helicopter"]) do
+    for _, v in pairs(Config.Locations["helicopter"]) do
         helicopterZones[#helicopterZones+1] = BoxZone:Create(
             vector3(vector3(v.x, v.y, v.z)), 10, 10, {
             name="box_zone",
@@ -744,7 +725,7 @@ CreateThread(function()
 
     -- Police Impound
     local impoundZones = {}
-    for k, v in pairs(Config.Locations["impound"]) do
+    for _, v in pairs(Config.Locations["impound"]) do
         impoundZones[#impoundZones+1] = BoxZone:Create(
             vector3(v.x, v.y, v.z), 1, 1, {
             name="box_zone",
@@ -791,7 +772,7 @@ CreateThread(function()
 
     -- Police Garage
     local garageZones = {}
-    for k, v in pairs(Config.Locations["vehicle"]) do
+    for _, v in pairs(Config.Locations["vehicle"]) do
         garageZones[#garageZones+1] = BoxZone:Create(
             vector3(v.x, v.y, v.z), 3, 3, {
             name="box_zone",

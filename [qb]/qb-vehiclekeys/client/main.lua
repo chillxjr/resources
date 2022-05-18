@@ -125,14 +125,15 @@ RegisterKeyMapping('togglelocks', 'Toggle Vehicle Locks', 'keyboard', 'L')
 RegisterCommand('togglelocks', function()
     ToggleVehicleLocks(GetVehicle())
 end)
-RegisterNetEvent('MojiaGarages:client:updateVehicleKey', function() -- Update vehicle key for qb-vehiclekey
-    GetKeys()
-end)
+
+
 AddEventHandler('onResourceStart', function(resourceName)
-	if resourceName == GetCurrentResourceName() and QBCore.Functions.GetPlayerData() ~= {} then
-		GetKeys()
-	end
+    if resourceName == GetCurrentResourceName() and QBCore.Functions.GetPlayerData() ~= {} then
+        GetKeys()
+    end
 end)
+
+
 
 -- Handles state right when the player selects their character and location.
 RegisterNetEvent('QBCore:Client:OnPlayerLoaded', function()
