@@ -322,7 +322,7 @@ Garages = {
         blipNumber = 356,
         type = 'depot',                --public, job, gang, depot
         vehicle = 'sea'                 --car, air, sea
-    },
+    },--]]
 
     ["parking"] = {
         label = "Parking",
@@ -334,6 +334,6 @@ Garages = {
         blipNumber = 357,
         type = 'public',                --public, job, gang, depot
         vehicle = 'car'                 --car, air, sea
-    },--]]
+    },
 }
 HouseGarages = {}
