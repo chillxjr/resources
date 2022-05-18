@@ -52,8 +52,8 @@ Config.Shops = {
             },
             [2] = {
                 coords = vector4(899.75, 3653.26, 31.76, 94.69),
-                defaultVehicle = 'rapger19',
-                chosenVehicle = 'rapger19',
+                defaultVehicle = 'club',
+                chosenVehicle = 'club',
             },
             [3] = {
                 coords = vector4(899.52, 3659.54, 31.76, 91.13),
