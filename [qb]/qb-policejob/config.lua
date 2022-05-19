@@ -101,47 +101,45 @@ Config.SecurityCameras = {
 Config.AuthorizedVehicles = {
 	-- Grade 0
 	[0] = {
-		["lssd4"] = "'16 Taurus",
+		["fsv11vic"] = "Crown Vic",
         
 	},
 	-- Grade 1
 	[1] = {
-		["lssd4"] = "'16 Taurus",
-        ["lssd3"] = "'14 Tahoe",
+		["fsv11vic"] = "Crown Vic",
+        ["fsv13cap"] = "'13 Caprice",
+        ["fsv13exp"] = "'13 Explorer",
         
 
 	},
 	-- Grade 2
 	[2] = {
-		["lssd4"] = "'16 Taurus",
-        ["lssd3"] = "'14 Tahoe",
-        ["lssd"] = "'18 Charger",
-        ["um2"] = "UC CrownVic",
+		["fsv11vic"] = "Crown Vic",
+        ["fsv13cap"] = "'13 Caprice",
+        ["fsv13exp"] = "'13 Explorer",
+        ["fsv14hoe"] = "'14 Tahoe",
+        
 	},
 	-- Grade 3
 	[3] = {
-		["lssd4"] = "'16 Taurus",
-        ["lssd3"] = "'14 Tahoe",
+		["fsv11vic"] = "Crown Vic",
+        ["fsv13cap"] = "'13 Caprice",
+        ["fsv13exp"] = "'13 Explorer",
         ["lssd"] = "'18 Charger",
-        ["lssd2"] = "'20 Tahoe",
-        ["um2"] = "UC CrownVic",
-        ["um5"] = "UC Explorer",
-        ["um3"] = "UC Charger",
-        ["um1"] = "UC Tahoe",
+        ["fsv13silv"] = "'13 Silverado",
+        
 	},
 	-- Grade 4
 	[4] = {
-		["lssd4"] = "'16 Taurus",
-        ["lssd3"] = "'14 Tahoe",
+		["fsv11vic"] = "Crown Vic",
+        ["fsv13cap"] = "'13 Caprice",
+        ["fsv13exp"] = "'13 Explorer",
         ["lssd"] = "'18 Charger",
-        ["lssd2"] = "'20 Tahoe",
-        ["um2"] = "UC CrownVic",
-        ["um5"] = "UC Explorer",
-        ["um3"] = "UC Charger",
-        ["um1"] = "UC Tahoe",
+        ["fsv13silv"] = "'13 Silverado",
+        ["fsv14hoe"] = "'14 Tahoe",
         ["mkivbb_vv"] = "UC Supra",
         ["nm_avent"] = "UC Lambo",
-        ["rapger19"] = "UC Raptor",
+        
 
 	}
 }
