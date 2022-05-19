@@ -1,5 +1,5 @@
 QBWeed = {}
-QBWeed.HarvestTime = 40 * 1000
+QBWeed.HarvestTime = 40 * 100
 
 QBWeed.Plants = {
     ["og-kush"] = {
