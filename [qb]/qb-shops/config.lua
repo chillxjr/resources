@@ -164,6 +164,42 @@ Config.Products = {
             slot = 3,
         },
     },
+    ["huntingshop"] = {
+        [1] = {
+            name = 'weapon_musket',
+            price = 1500,
+            amount = 10,
+            info = {},
+            type = 'weapon',
+            slot = 1,
+            requiresLicense = true
+        },
+        [2] = {
+            name = 'shotgun_ammo',
+            price = 100,
+            amount = 50,
+            info = {},
+            type = 'item',
+            slot = 2,
+            requiresLicense = true
+        },
+        [3] = {
+            name = 'huntingbait',
+            price = 150,
+            amount = 150,
+            info = {},
+            type = 'item',
+            slot = 3
+        },
+        [4] = {
+            name = 'weapon_knife',
+            price = 500,
+            amount = 50,
+            info = {},
+            type = 'item',
+            slot = 4
+        }
+    },
     ["hardware"] = {
         [1] = {
             name = "lockpick",
@@ -1134,5 +1170,20 @@ Config.Locations = {
         ["showblip"] = true,
         ["blipsprite"] = 171,
         ["blipcolor"] = 2
-    },
+    }
+    --[[["huntingshop"] = {
+        ["label"] = "Hunting Shop",
+        ["type"] = "weapon",
+        ["coords"] = vector4(1703.41, 3778.94, 34.75, 23.45),
+        ["ped"] = 'ig_hunter',
+        ["scenario"] = "WORLD_HUMAN_COP_IDLES",
+        ["radius"] = 1.5,
+        ["targetIcon"] = "fas fa-gun",
+        ["targetLabel"] = "Open Hunting Shop",
+        ["products"] = Config.Products["huntingshop"],
+        ["showblip"] = true,
+        ["blipsprite"] = 626,
+        ["blipcolor"] = 1
+    }--]]
 }
+
