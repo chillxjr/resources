@@ -28,20 +28,20 @@ Config.Stock = {
         Label = Lang:t("info.label_a"),
         Price = {
             [1] = {
-                min = 8,
-                max = 12,
+                min = 800,
+                max = 1200,
             },
             [2] = {
-                min = 9,
-                max = 13,
+                min = 900,
+                max = 1300,
             },
             [3] = {
-                min = 10,
-                max = 14,
+                min = 1000,
+                max = 1400,
             },
             [4] = {
-                min = 11,
-                max = 15,
+                min = 1100,
+                max = 1500,
             },
         }
     },
@@ -56,20 +56,20 @@ Config.Stock = {
         Label = Lang:t("info.label_b"),
         Price = {
             [1] = {
-                min = 6,
-                max = 9,
+                min = 600,
+                max = 900,
             },
             [2] = {
-                min = 7,
-                max = 10,
+                min = 700,
+                max = 1000,
             },
             [3] = {
-                min = 8,
-                max = 11,
+                min = 800,
+                max = 1100,
             },
             [4] = {
-                min = 9,
-                max = 12,
+                min = 900,
+                max = 1200,
             },
         }
     },
@@ -84,20 +84,20 @@ Config.Stock = {
         Label = Lang:t('info.label_c'),
         Price = {
             [1] = {
-                min = 4,
-                max = 6,
+                min = 400,
+                max = 600,
             },
             [2] = {
-                min = 5,
-                max = 7,
+                min = 500,
+                max = 700,
             },
             [3] = {
-                min = 6,
-                max = 9,
+                min = 600,
+                max = 900,
             },
             [4] = {
-                min = 7,
-                max = 9,
+                min = 700,
+                max = 900,
             },
         }
     },

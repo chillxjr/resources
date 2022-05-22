@@ -41,7 +41,56 @@ Config.PawnItems = {
     [8] = {
         item = "laptop",
         price = math.random(50,100)
+    },
+    [9] = {
+        item = "steel",
+        price = math.random(500,1000)
+    },
+    [10] = {
+        item = "jerry_can",
+        price = math.random(50,75)
+    },
+    [11] = {
+        item = "wine",
+        price = math.random(100,300)
+    },
+    [12] = {
+        item = "grapejuice",
+        price = math.random(15,30)
+    },
+    [13] = {
+        item = "lockpick",
+        price = math.random(10,30)
+    },
+    [14] = {
+        item = "cryptostick",
+        price = math.random(500,600)
+    },
+    [15] = {
+        item = "stickynote",
+        price = math.random(10,15)
+    },
+    [16] = {
+        item = "iron",
+        price = math.random(50,100)
+    },
+    [17] = {
+        item = "plastic",
+        price = math.random(50,100)
+    },
+    [18] = {
+        item = "metalscrap",
+        price = math.random(50,100)
+    },
+    [19] = {
+        item = "copper",
+        price = math.random(500,1000)
+    },
+    [20] = {
+        item = "aluminum",
+        price = math.random(500,1000)
     }
+
 }
 
 Config.MeltingItems = { -- meltTime is amount of time in minutes per item
