@@ -1146,7 +1146,7 @@ Config.Locations = {
         ["blipsprite"] = 52,
         ["blipcolor"] = 0
     },
-    ["247supermarket3"] = {
+   --[[["247supermarket3"] = {
         ["label"] = "24/7 Supermarket",
         ["coords"] = vector4(1960.0, 3740.1, 32.34, 308.98),
         ["ped"] = 'mp_m_shopkeep_01',
@@ -1158,7 +1158,7 @@ Config.Locations = {
         ["showblip"] = true,
         ["blipsprite"] = 52,
         ["blipcolor"] = 0
-    },
+    }, --]]
     ["aceliq"] = {
         ["label"] = "Ace Liquor",
         ["coords"] = vector4(1392.78, 3606.36, 34.98, 192.8),
