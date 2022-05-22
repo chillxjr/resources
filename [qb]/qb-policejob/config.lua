@@ -139,6 +139,7 @@ Config.AuthorizedVehicles = {
         ["fsv14hoe"] = "'14 Tahoe",
         ["mkivbb_vv"] = "UC Supra",
         ["nm_avent"] = "UC Lambo",
+        ["policecart"] = "Sheriff Golf Cart",
         
 
 	}
