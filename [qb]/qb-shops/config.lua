@@ -164,6 +164,112 @@ Config.Products = {
             slot = 3,
         },
     },
+    ["dealer"] = {
+        [1] = {
+            name = 'weed_white-widow_seed',
+            price = 50,
+            amount = 50,
+            info = {},
+            type = 'item',
+            slot = 1
+        },
+        [2] = {
+            name = 'weed_skunk_seed',
+            price = 50,
+            amount = 50,
+            info = {},
+            type = 'item',
+            slot = 2
+        },
+        [3] = {
+            name = 'weed_purple-haze_seed',
+            price = 50,
+            amount = 150,
+            info = {},
+            type = 'item',
+            slot = 3
+        },
+        [4] = {
+            name = 'weed_og-kush_seed',
+            price = 50,
+            amount = 50,
+            info = {},
+            type = 'item',
+            slot = 4
+        },
+        [5] = {
+            name = 'weed_amnesia_seed',
+            price = 50,
+            amount = 50,
+            info = {},
+            type = 'item',
+            slot = 5
+        },
+        [6] = {
+            name = 'weed_ak47_seed',
+            price = 50,
+            amount = 50,
+            info = {},
+            type = 'item',
+            slot = 6
+        },
+        [7] = {
+            name = 'joint',
+            price = 15,
+            amount = 50,
+            info = {},
+            type = 'item',
+            slot = 7
+        },
+        [8] = {
+            name = 'cokebaggy',
+            price = 20,
+            amount = 50,
+            info = {},
+            type = 'item',
+            slot = 8
+        },
+        [9] = {
+            name = 'crack_baggy',
+            price = 20,
+            amount = 50,
+            info = {},
+            type = 'item',
+            slot = 9
+        },
+        [10] = {
+            name = 'xtcbaggy',
+            price = 20,
+            amount = 50,
+            info = {},
+            type = 'item',
+            slot = 10
+        },
+        [11] = {
+            name = 'oxy',
+            price = 20,
+            amount = 50,
+            info = {},
+            type = 'item',
+            slot = 11
+        },
+        [12] = {
+            name = 'meth',
+            price = 20,
+            amount = 50,
+            info = {},
+            type = 'item',
+            slot = 12
+        },
+        [13] = {
+            name = 'weed_white-widow',
+            price = 20,
+            amount = 50,
+            info = {},
+            type = 'item',
+            slot = 13
+        }
+    },
     ["huntingshop"] = {
         [1] = {
             name = 'weapon_musket',
@@ -1170,20 +1276,33 @@ Config.Locations = {
         ["showblip"] = true,
         ["blipsprite"] = 171,
         ["blipcolor"] = 2
-    }
-    --[[["huntingshop"] = {
-        ["label"] = "Hunting Shop",
-        ["type"] = "weapon",
-        ["coords"] = vector4(1703.41, 3778.94, 34.75, 23.45),
-        ["ped"] = 'ig_hunter',
-        ["scenario"] = "WORLD_HUMAN_COP_IDLES",
+    },
+    ["dealer1"] = {
+        ["label"] = "Drug Dealer",
+        ["coords"] = vector4(1977.89, 3819.57, 33.45, 71.03),
+        ["ped"] = 'a_m_y_beach_01',
+        ["scenario"] = "WORLD_HUMAN_STAND_MOBILE_CLUBHOUSE",
         ["radius"] = 1.5,
-        ["targetIcon"] = "fas fa-gun",
-        ["targetLabel"] = "Open Hunting Shop",
-        ["products"] = Config.Products["huntingshop"],
+        ["targetIcon"] = "fas fa-leaf",
+        ["targetLabel"] = "Talk to dealer",
+        ["products"] = Config.Products["dealer"],
         ["showblip"] = true,
-        ["blipsprite"] = 626,
+        ["blipsprite"] = 403,
         ["blipcolor"] = 1
-    }--]]
+    },
+    ["dealer2"] = {
+        ["label"] = "Drug Dealer",
+        ["coords"] = vector4(980.75, 2667.04, 40.06, 357.0),
+        ["ped"] = 'a_m_y_beach_01',
+        ["scenario"] = "WORLD_HUMAN_STAND_MOBILE_CLUBHOUSE",
+        ["radius"] = 1.5,
+        ["targetIcon"] = "fas fa-leaf",
+        ["targetLabel"] = "Talk to dealer",
+        ["products"] = Config.Products["dealer"],
+        ["showblip"] = true,
+        ["blipsprite"] = 403,
+        ["blipcolor"] = 1
+    }
+    
 }
 

@@ -260,7 +260,11 @@ QBCore.Functions.CreateCallback('qb-crypto:server:BuyCrypto', function(source, c
         cb(false)
     end
 end)
+--[[
 
+add a round function to this please. and take your pills.
+
+]]
 QBCore.Functions.CreateCallback('qb-crypto:server:SellCrypto', function(source, cb, data)
     local Player = QBCore.Functions.GetPlayer(source)
     
@@ -273,7 +277,8 @@ QBCore.Functions.CreateCallback('qb-crypto:server:SellCrypto', function(source, 
         }
         Player.Functions.RemoveMoney('crypto', tonumber(data.Coins))
         TriggerClientEvent('qb-phone:client:AddTransaction', source, Player, data, "You have "..tonumber(data.Coins).." Qbit('s) sold!", "Depreciation")
-        Player.Functions.AddMoney('bank', tonumber(data.Coins) * tonumber(Crypto.Worth["qbit"]))
+        local moneyround1 = math.floor(tonumber(data.Coins) * tonumber(Crypto.Worth["qbit"]))
+        Player.Functions.AddMoney('bank', moneyround1)
         cb(CryptoData)
     else
         cb(false)
