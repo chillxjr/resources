@@ -325,9 +325,9 @@ Garages = {
     },--]]
     ["motelgarage"] = {
         label = "Motel Parking",
-        takeVehicle = vector3(273.43, -343.99, 44.91),
-        spawnPoint = vector4(270.94, -342.96, 43.97, 161.5),
-        putVehicle = vector3(276.69, -339.85, 44.91),
+        takeVehicle = vector3(290.95, -337.75, 44.96),
+        spawnPoint = vector4(290.96, -337.74, 44.96, 158.11),
+        putVehicle = vector3(274.27, -330.47, 44.92),
         showBlip = true,
         blipName = "Public Parking",
         blipNumber = 357,
