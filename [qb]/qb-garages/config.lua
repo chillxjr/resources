@@ -323,9 +323,19 @@ Garages = {
         type = 'depot',                --public, job, gang, depot
         vehicle = 'sea'                 --car, air, sea
     },--]]
-
+    ["motelgarage"] = {
+        label = "Motel Parking",
+        takeVehicle = vector3(273.43, -343.99, 44.91),
+        spawnPoint = vector4(270.94, -342.96, 43.97, 161.5),
+        putVehicle = vector3(276.69, -339.85, 44.91),
+        showBlip = true,
+        blipName = "Public Parking",
+        blipNumber = 357,
+        type = 'public',                --public, job, gang, depot
+        vehicle = 'car'                 --car, air, sea
+    },
     ["parking"] = {
-        label = "Parking",
+        label = "Sandy Parking",
         takeVehicle = vector3(1726.21, 3707.16, 34.17),
         spawnPoint = vector4(1730.31, 3711.07, 34.2, 20.5),
         putVehicle = vector3(1737.13, 3718.91, 34.04),
@@ -336,7 +346,7 @@ Garages = {
         vehicle = 'car'                 --car, air, sea
     },
     ["parkingRt68"] = {
-        label = "Rt68 Garage",
+        label = "Rt68 Parking",
         takeVehicle = vector3(1128.41, 2670.94, 38.07),
         spawnPoint = vector4(1129.47, 2666.95, 38.03, 176.96),
         putVehicle = vector3(1118.29, 2670.98, 38.13),
