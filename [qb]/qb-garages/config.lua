@@ -346,5 +346,60 @@ Garages = {
         type = 'public',                --public, job, gang, depot
         vehicle = 'car'                 --car, air, sea
     },
+    ["airsshores"] = {
+        label = "Sandy Shores Hangar", 
+        takeVehicle = vector3(1758.19, 3296.66, 41.14),
+        spawnPoint = vector4(1740.98, 3279.08, 41.75, 106.77),
+        putVehicle = vector3(1740.4, 3283.92, 41.1),
+        showBlip = true,
+        blipName = "Hangar",
+        blipNumber = 360,
+        type = 'public',                --public, job, gang, depot
+        vehicle = 'air'                 --car, air, sea
+    },
+    ["intairport"] = {
+        label = "Airport Hangar", 
+        takeVehicle = vector3(-1025.92, -3017.86, 13.95),
+        spawnPoint = vector4(-979.2, -2995.51, 13.95, 52.19),
+        putVehicle = vector3(-1003.38, -3008.87, 13.95),
+        showBlip = true,
+        blipName = "Hangar",
+        blipNumber = 360,
+        type = 'public',                --public, job, gang, depot
+        vehicle = 'air'                 --car, air, sea
+    },
+    ["lsymc"] = {
+        label = "LSYMC Boathouse",               
+        takeVehicle = vector3(-794.66, -1510.83, 1.59),
+        spawnPoint = vector4(-793.58, -1501.4, 0.12, 111.5),
+        putVehicle = vector3(-793.58, -1501.4, 0.12),
+        showBlip = true,
+        blipName = "Boathouse",
+        blipNumber = 356,
+        type = 'public',                --public, job, gang, depot
+        vehicle = 'sea'                 --car, air, sea
+    },
+    ["paleto"] = {
+        label = "Paleto Boathouse",               
+        takeVehicle = vector3(-277.46, 6637.2, 7.48),
+        spawnPoint = vector4(-289.2, 6637.96, 1.01, 45.5),
+        putVehicle = vector3(-289.2, 6637.96, 1.01),
+        showBlip = true,
+        blipName = "Boathouse",
+        blipNumber = 356,
+        type = 'public',                --public, job, gang, depot
+        vehicle = 'sea'                 --car, air, sea
+    },
+    ["millars"] = {
+        label = "Millars Boathouse",               
+        takeVehicle = vector3(1299.24, 4216.69, 33.9),
+        spawnPoint = vector4(1297.82, 4209.61, 30.12, 253.5),
+        putVehicle = vector3(1297.82, 4209.61, 30.12),
+        showBlip = true,
+        blipName = "Boathouse",
+        blipNumber = 356,
+        type = 'public',                --public, job, gang, depot
+        vehicle = 'sea'                 --car, air, sea
+    },
 }
 HouseGarages = {}

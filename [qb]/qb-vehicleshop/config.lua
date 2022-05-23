@@ -83,7 +83,7 @@ Config.Shops = {
         },
     },
     ['luxury'] = {
-        ['Type'] = 'managed',  -- meaning a real player has to sell the car
+        ['Type'] = 'free-use',  -- meaning a real player has to sell the car
         ['Zone'] = {
             ['Shape'] = {
                 vector2(-1260.6973876953, -349.21334838867),
@@ -102,7 +102,7 @@ Config.Shops = {
         },
         ['Job'] = 'cardealer', -- Name of job or none
         ['ShopLabel'] = 'Luxury Vehicle Shop',
-        ['showBlip'] = false,  -- true or false
+        ['showBlip'] = true,  -- true or false
         ['blipSprite'] = 326,  -- Blip sprite
         ['blipColor'] = 3,  -- Blip color
         ['Categories'] = {
@@ -161,7 +161,7 @@ Config.Shops = {
         },
         ['Job'] = 'none', -- Name of job or none
         ['ShopLabel'] = 'Marina Shop', -- Blip name
-        ['showBlip'] = false,  -- true or false
+        ['showBlip'] = true,  -- true or false
         ['blipSprite'] = 410,  -- Blip sprite
         ['blipColor'] = 3,  -- Blip color
         ['Categories'] = { -- Categories available to browse
@@ -209,7 +209,7 @@ Config.Shops = {
         },
         ['Job'] = 'none', -- Name of job or none
         ['ShopLabel'] = 'Air Shop', -- Blip name
-        ['showBlip'] = false,  -- true or false
+        ['showBlip'] = true,  -- true or false
         ['blipSprite'] = 251,  -- Blip sprite
         ['blipColor'] = 3,  -- Blip color
         ['Categories'] = { -- Categories available to browse
