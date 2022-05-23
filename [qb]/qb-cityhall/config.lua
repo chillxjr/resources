@@ -4,7 +4,7 @@ Config.UseTarget = GetConvar('UseTarget', 'false') == 'true' -- Use qb-target in
 
 Config.Cityhalls = {
     { -- Cityhall 1
-        coords = vec3(1851.3, 3690.39, 34.26),
+        coords = vector3(633.52, 8.82, 82.63),
         showBlip = true,
         blipData = {
             sprite = 351,
@@ -25,7 +25,7 @@ Config.Cityhalls = {
             },
             ["weaponlicense"] = {
                 label = "Weapon License",
-                cost = 50,
+                cost = 5000,
                 metadata = "weapon"
             },
         }
@@ -55,7 +55,7 @@ Config.Peds = {
     -- Cityhall Ped
     {
         model = 'a_m_m_hasjew_01',
-        coords = vec4(1853.5, 3689.31, 33.26, 204.23),
+        coords = vec4(633.52, 8.82, 82.63, 155.76),
         scenario = 'WORLD_HUMAN_STAND_MOBILE',
         cityhall = true,
         zoneOptions = { -- Used for when UseTarget is false
