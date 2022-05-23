@@ -18,11 +18,11 @@ Config.UseTarget = GetConvar('UseTarget', 'false') == 'true'
 Config.Locations = {
     ["duty"] = {
         [1] = vector3(1852.5, 3691.2, 34.26),
-        [2] = vector3(-449.811, 6012.909, 31.815),
+        [2] = vector3(614.8, 15.56, 82.63),
     },
     ["vehicle"] = {
         [1] = vector4(1854.06, 3710.65, 33.31, 127.6),
-        [2] = vector4(455.11, -1022.68, 28.41, 104.38),
+        [2] = vector4(594.39, 3.27, 70.63, 168.7),
         [3] = vector4(-455.39, 6002.02, 31.34, 87.93),
     },
     ["stash"] = {
@@ -37,6 +37,7 @@ Config.Locations = {
     },
     ["armory"] = {
         [1] = vector3(1841.3, 3690.69, 34.26),
+        [2] = vector3(608.11, -20.64, 76.63),
     },
     ["trash"] = {
         [1] = vector3(1853.72, 3698.87, 34.25),
@@ -46,11 +47,12 @@ Config.Locations = {
     },
     ["evidence"] = {
         [1] = vector3(1842.7, 3692.54, 34.26),
-        [2] = vector3(451.7031, -973.232, 30.689),
+        [2] = vector3(603.8, -19.97, 76.63),
     },
     ["stations"] = {
-        [1] = {label = "Police Station", coords = vector4(1867.79, 3698.63, 33.51, 209.56)},
+        [1] = {label = "Sheriff Office", coords = vector4(1867.79, 3698.63, 33.51, 209.56)},
         [2] = {label = "Prison", coords = vector4(1845.903, 2585.873, 45.672, 272.249)},
+        [3] = {label = "Vinewood", coords = vector4(603.85, 0.79, 70.63, 91.79)},
     },
 }
 
