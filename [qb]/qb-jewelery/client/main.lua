@@ -1,7 +1,6 @@
 local QBCore = exports['qb-core']:GetCoreObject()
 local firstAlarm = false
 local smashing = false
-local inZone = false
 
 -- Functions
 
@@ -26,7 +25,7 @@ local function validWeapon()
     local ped = PlayerPedId()
     local pedWeapon = GetSelectedPedWeapon(ped)
 
-    for k, v in pairs(Config.WhitelistedWeapons) do
+    for k, _ in pairs(Config.WhitelistedWeapons) do
         if pedWeapon == k then
             return true
         end
@@ -115,7 +114,7 @@ end)
 
 -- Threads
 
---[[CreateThread(function()
+CreateThread(function()
     local Dealer = AddBlipForCoord(Config.JewelleryLocation["coords"]["x"], Config.JewelleryLocation["coords"]["y"], Config.JewelleryLocation["coords"]["z"])
     SetBlipSprite (Dealer, 617)
     SetBlipDisplay(Dealer, 4)
@@ -125,7 +124,7 @@ end)
     BeginTextCommandSetBlipName("STRING")
     AddTextComponentSubstringPlayerName("Vangelico Jewelry")
     EndTextCommandSetBlipName(Dealer)
-end)--]]
+end)
 
 local listen = false
 local function Listen4Control(case)
@@ -192,12 +191,10 @@ CreateThread(function()
             })
             boxZone:onPlayerInOut(function(isPointInside)
                 if isPointInside then
-                    inZone = true
                     Listen4Control(k)
                     exports['qb-core']:DrawText(Lang:t('general.drawtextui_grab'), 'left')
                 else
                     listen = false
-                    inZone = false
                     exports['qb-core']:HideText()
                 end
             end)
