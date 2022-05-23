@@ -36,9 +36,8 @@ Config.Shops = {
             ['compacts'] = 'Compacts',
             ['motorcycles'] = 'Motorcycles',
             ['vans'] = 'Vans',
-            ['cycles'] = 'Bicycles',
-            ['super'] = 'Super',
-            ['sports'] = 'Sports'
+            ['cycles'] = 'Bicycles'
+            
         },
         ['TestDriveTimeLimit'] = 1, -- Time in minutes until the vehicle gets deleted
         ['Location'] = vector3(896.93, 3641.47, 32.65), -- Blip Location
@@ -100,12 +99,22 @@ Config.Shops = {
             ['maxZ'] = 37.516143798828,
             ['size'] = 2.75, -- size of the vehicles zones
         },
-        ['Job'] = 'cardealer', -- Name of job or none
+        ['Job'] = 'none', -- Name of job or none
         ['ShopLabel'] = 'Luxury Vehicle Shop',
         ['showBlip'] = true,  -- true or false
         ['blipSprite'] = 326,  -- Blip sprite
         ['blipColor'] = 3,  -- Blip color
         ['Categories'] = {
+            ['sportsclassics'] = 'Sports Classics',
+            ['sedans'] = 'Sedans',
+            ['coupes'] = 'Coupes',
+            ['suvs'] = 'SUVs',
+            ['offroad'] = 'Offroad',
+            ['muscle'] = 'Muscle',
+            ['compacts'] = 'Compacts',
+            ['motorcycles'] = 'Motorcycles',
+            ['vans'] = 'Vans',
+            ['cycles'] = 'Bicycles',
             ['super'] = 'Super',
             ['sports'] = 'Sports'
         },
