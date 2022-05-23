@@ -19,5 +19,22 @@ Apartments.Locations = {
             created = false
         }
     },
+    ["apartment2"] = {
+        name = "apartment2",
+        label = "Downtown Apartment",
+        coords = {
+            enter = vector4(247.49, -341.31, 44.45, 334.36),
+        },
+        polyzoneBoxData = {
+            heading = 334.19,
+            minZ = 43,
+            maxZ = 45,
+            debug = false,
+            length = 1,
+            width = 3,
+            distance = 3.0,
+            created = false
+        }
+    },
     
 }
