@@ -33,7 +33,7 @@ Config.UsePreconfiguredRoutes = false
 Config.Peds = {
     {
         model = 's_m_y_garbage',
-        coords = vector4(2051.68, 3174.12, 44.17, 342.13),
+        coords = vector4(-321.87, -1545.77, 31.02, 289.6),
         zoneOptions = { -- Used for when UseTarget is false
             length = 3.0,
             width = 3.0
@@ -56,24 +56,24 @@ Config.Locations = {
     },
     ["trashcan"] ={
         [1] = {
-            name = "yellowjack",
-            coords = vector4(1964.99, 3030.59, 47.06, 143.5),
+            name = "bennys01",
+            coords = vector4(-175.97, -1290.88, 32.58, 78.08),
         },
         [2] = {
-            name = "behind247",
-            coords = vector4(1967.72, 3756.71, 32.22, 294.11),
+            name = "bennys02",
+            coords = vector4(-151.38, -1293.27, 32.6, 187.71),
         },
         [3] = {
-            name = "sandy1",
-            coords = vector4(1925.46, 3744.66, 32.52, 301.36),
+            name = "beer_wine_at_153",
+            coords = vector4(475.25, -1861.75, 29.04, 302.6),
         },
         [4] = {
-            name = "aceliq1",
-            coords = vector4(1386.35, 3601.59, 34.89, 284.5),
+            name = "port_of_entry_at_36",
+            coords = vector4(151.28, -2477.2, 7.31, 269.22),
         },
         [5] = {
-            name = "boathouse",
-            coords = vector4(1558.5, 3804.3, 34.25, 28.7),
+            name = "north_across_from_VespucciPD_at_350",
+            coords = vector4(-1021.01, -780.56, 17.71, 250.86),
         },
         [6] = {
             name = "bar_by_trevors",
