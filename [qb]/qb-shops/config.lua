@@ -1120,7 +1120,7 @@ Config.Locations = {
     },
     --]]
 
-    ["247supermarket1"] = {
+    --[[["247supermarket1"] = {
         ["label"] = "24/7 Supermarket",
         ["coords"] = vector4(549.1, 2671.25, 42.16, 99.91),
         ["ped"] = 'mp_m_shopkeep_01',
@@ -1146,7 +1146,7 @@ Config.Locations = {
         ["blipsprite"] = 52,
         ["blipcolor"] = 0
     },
-   --[[["247supermarket3"] = {
+   ["247supermarket3"] = {
         ["label"] = "24/7 Supermarket",
         ["coords"] = vector4(1960.0, 3740.1, 32.34, 308.98),
         ["ped"] = 'mp_m_shopkeep_01',
@@ -1159,6 +1159,202 @@ Config.Locations = {
         ["blipsprite"] = 52,
         ["blipcolor"] = 0
     }, --]]
+    ["247supermarket"] = {
+        ["label"] = "24/7 Supermarket",
+        ["coords"] = vector4(24.47, -1346.62, 29.5, 271.66),
+        ["ped"] = 'mp_m_shopkeep_01',
+        ["scenario"] = "WORLD_HUMAN_STAND_MOBILE",
+        ["radius"] = 1.5,
+        ["targetIcon"] = "fas fa-shopping-basket",
+        ["targetLabel"] = "Open Shop",
+        ["products"] = Config.Products["normal"],
+        ["showblip"] = true,
+        ["blipsprite"] = 52,
+        ["blipcolor"] = 0
+    },
+
+    ["247supermarket2"] = {
+        ["label"] = "24/7 Supermarket",
+        ["coords"] = vector4(-3039.54, 584.38, 7.91, 17.27),
+        ["ped"] = 'mp_m_shopkeep_01',
+        ["scenario"] = "WORLD_HUMAN_STAND_MOBILE",
+        ["radius"] = 1.5,
+        ["targetIcon"] = "fas fa-shopping-basket",
+        ["targetLabel"] = "Open Shop",
+        ["products"] = Config.Products["normal"],
+        ["showblip"] = true,
+        ["blipsprite"] = 52,
+        ["blipcolor"] = 0
+    },
+
+    ["247supermarket3"] = {
+        ["label"] = "24/7 Supermarket",
+        ["coords"] = vector4(-3242.97, 1000.01, 12.83, 357.57),
+        ["ped"] = 'mp_m_shopkeep_01',
+        ["scenario"] = "WORLD_HUMAN_STAND_MOBILE",
+        ["radius"] = 1.5,
+        ["targetIcon"] = "fas fa-shopping-basket",
+        ["targetLabel"] = "Open Shop",
+        ["products"] = Config.Products["normal"],
+        ["showblip"] = true,
+        ["blipsprite"] = 52,
+        ["blipcolor"] = 0
+    },
+
+    ["247supermarket4"] = {
+        ["label"] = "24/7 Supermarket",
+        ["coords"] = vector4(1728.07, 6415.63, 35.04, 242.95),
+        ["ped"] = 'mp_m_shopkeep_01',
+        ["scenario"] = "WORLD_HUMAN_STAND_MOBILE",
+        ["radius"] = 1.5,
+        ["targetIcon"] = "fas fa-shopping-basket",
+        ["targetLabel"] = "Open Shop",
+        ["products"] = Config.Products["normal"],
+        ["showblip"] = true,
+        ["blipsprite"] = 52,
+        ["blipcolor"] = 0
+    },
+
+    ["247supermarket5"] = {
+        ["label"] = "24/7 Supermarket",
+        ["coords"] = vector4(1959.82, 3740.48, 32.34, 301.57),
+        ["ped"] = 'mp_m_shopkeep_01',
+        ["scenario"] = "WORLD_HUMAN_STAND_MOBILE",
+        ["radius"] = 1.5,
+        ["targetIcon"] = "fas fa-shopping-basket",
+        ["targetLabel"] = "Open Shop",
+        ["products"] = Config.Products["normal"],
+        ["showblip"] = true,
+        ["blipsprite"] = 52,
+        ["blipcolor"] = 0
+    },
+
+    ["247supermarket6"] = {
+        ["label"] = "24/7 Supermarket",
+        ["coords"] = vector4(549.13, 2670.85, 42.16, 99.39),
+        ["ped"] = 'mp_m_shopkeep_01',
+        ["scenario"] = "WORLD_HUMAN_STAND_MOBILE",
+        ["radius"] = 1.5,
+        ["targetIcon"] = "fas fa-shopping-basket",
+        ["targetLabel"] = "Open Shop",
+        ["products"] = Config.Products["normal"],
+        ["showblip"] = true,
+        ["blipsprite"] = 52,
+        ["blipcolor"] = 0
+    },
+
+    ["247supermarket7"] = {
+        ["label"] = "24/7 Supermarket",
+        ["coords"] = vector4(2677.47, 3279.76, 55.24, 335.08),
+        ["ped"] = 'mp_m_shopkeep_01',
+        ["scenario"] = "WORLD_HUMAN_STAND_MOBILE",
+        ["radius"] = 1.5,
+        ["targetIcon"] = "fas fa-shopping-basket",
+        ["targetLabel"] = "Open Shop",
+        ["products"] = Config.Products["normal"],
+        ["showblip"] = true,
+        ["blipsprite"] = 52,
+        ["blipcolor"] = 0
+    },
+
+    ["247supermarket8"] = {
+        ["label"] = "24/7 Supermarket",
+        ["coords"] = vector4(2556.66, 380.84, 108.62, 356.67),
+        ["ped"] = 'mp_m_shopkeep_01',
+        ["scenario"] = "WORLD_HUMAN_STAND_MOBILE",
+        ["radius"] = 1.5,
+        ["targetIcon"] = "fas fa-shopping-basket",
+        ["targetLabel"] = "Open Shop",
+        ["products"] = Config.Products["normal"],
+        ["showblip"] = true,
+        ["blipsprite"] = 52,
+        ["blipcolor"] = 0
+    },
+
+    ["247supermarket9"] = {
+        ["label"] = "24/7 Supermarket",
+        ["coords"] = vector4(372.66, 326.98, 103.57, 253.73),
+        ["ped"] = 'mp_m_shopkeep_01',
+        ["scenario"] = "WORLD_HUMAN_STAND_MOBILE",
+        ["radius"] = 1.5,
+        ["targetIcon"] = "fas fa-shopping-basket",
+        ["targetLabel"] = "Open Shop",
+        ["products"] = Config.Products["normal"],
+        ["showblip"] = true,
+        ["blipsprite"] = 52,
+        ["blipcolor"] = 0
+    },
+
+    -- LTD Gasoline Locations
+    ["ltdgasoline"] = {
+        ["label"] = "LTD Gasoline",
+        ["coords"] = vector4(-47.02, -1758.23, 29.42, 45.05),
+        ["ped"] = 'mp_m_shopkeep_01',
+        ["scenario"] = "WORLD_HUMAN_STAND_MOBILE",
+        ["radius"] = 1.5,
+        ["targetIcon"] = "fas fa-shopping-basket",
+        ["targetLabel"] = "Open Shop",
+        ["products"] = Config.Products["normal"],
+        ["showblip"] = true,
+        ["blipsprite"] = 52,
+        ["blipcolor"] = 0
+    },
+
+    ["ltdgasoline2"] = {
+        ["label"] = "LTD Gasoline",
+        ["coords"] = vector4(-706.06, -913.97, 19.22, 88.04),
+        ["ped"] = 'mp_m_shopkeep_01',
+        ["scenario"] = "WORLD_HUMAN_STAND_MOBILE",
+        ["radius"] = 1.5,
+        ["targetIcon"] = "fas fa-shopping-basket",
+        ["targetLabel"] = "Open Shop",
+        ["products"] = Config.Products["normal"],
+        ["showblip"] = true,
+        ["blipsprite"] = 52,
+        ["blipcolor"] = 0
+    },
+
+    ["ltdgasoline3"] = {
+        ["label"] = "LTD Gasoline",
+        ["coords"] = vector4(-1820.02, 794.03, 138.09, 135.45),
+        ["ped"] = 'mp_m_shopkeep_01',
+        ["scenario"] = "WORLD_HUMAN_STAND_MOBILE",
+        ["radius"] = 1.5,
+        ["targetIcon"] = "fas fa-shopping-basket",
+        ["targetLabel"] = "Open Shop",
+        ["products"] = Config.Products["normal"],
+        ["showblip"] = true,
+        ["blipsprite"] = 52,
+        ["blipcolor"] = 0
+    },
+
+    ["ltdgasoline4"] = {
+        ["label"] = "LTD Gasoline",
+        ["coords"] = vector4(1164.71, -322.94, 69.21, 101.72),
+        ["ped"] = 'mp_m_shopkeep_01',
+        ["scenario"] = "WORLD_HUMAN_STAND_MOBILE",
+        ["radius"] = 1.5,
+        ["targetIcon"] = "fas fa-shopping-basket",
+        ["targetLabel"] = "Open Open Shop",
+        ["products"] = Config.Products["normal"],
+        ["showblip"] = true,
+        ["blipsprite"] = 52,
+        ["blipcolor"] = 0
+    },
+
+    ["ltdgasoline5"] = {
+        ["label"] = "LTD Gasoline",
+        ["coords"] = vector4(1697.87, 4922.96, 42.06, 324.71),
+        ["ped"] = 'mp_m_shopkeep_01',
+        ["scenario"] = "WORLD_HUMAN_STAND_MOBILE",
+        ["radius"] = 1.5,
+        ["targetIcon"] = "fas fa-shopping-basket",
+        ["targetLabel"] = "Open Shop",
+        ["products"] = Config.Products["normal"],
+        ["showblip"] = true,
+        ["blipsprite"] = 52,
+        ["blipcolor"] = 0
+    },
     ["aceliq"] = {
         ["label"] = "Ace Liquor",
         ["coords"] = vector4(1392.78, 3606.36, 34.98, 192.8),
@@ -1185,10 +1381,150 @@ Config.Locations = {
         ["blipsprite"] = 52,
         ["blipcolor"] = 0
     },
-    ["ammunation1"] = {
+    ["ammunation"] = {
         ["label"] = "Ammunation",
         ["type"] = "weapon",
-        ["coords"] = vector4(1692.86, 3761.55, 34.71, 217.37),
+        ["coords"] = vector4(-661.96, -933.53, 21.83, 177.05),
+        ["ped"] = 's_m_y_ammucity_01',
+        ["scenario"] = "WORLD_HUMAN_COP_IDLES",
+        ["radius"] = 1.5,
+        ["targetIcon"] = "fas fa-gun",
+        ["targetLabel"] = "Open Ammunation",
+        ["products"] = Config.Products["weapons"],
+        ["showblip"] = true,
+        ["blipsprite"] = 110,
+        ["blipcolor"] = 0
+    },
+    ["ammunation2"] = {
+        ["label"] = "Ammunation",
+        ["type"] = "weapon",
+        ["coords"] = vector4(809.68, -2159.13, 29.62, 1.43),
+        ["ped"] = 's_m_y_ammucity_01',
+        ["scenario"] = "WORLD_HUMAN_COP_IDLES",
+        ["radius"] = 1.5,
+        ["targetIcon"] = "fas fa-gun",
+        ["targetLabel"] = "Open Ammunation",
+        ["products"] = Config.Products["weapons"],
+        ["showblip"] = true,
+        ["blipsprite"] = 110,
+        ["blipcolor"] = 0
+    },
+    ["ammunation3"] = {
+        ["label"] = "Ammunation",
+        ["type"] = "weapon",
+        ["coords"] = vector4(1692.67, 3761.38, 34.71, 227.65),
+        ["ped"] = 's_m_y_ammucity_01',
+        ["scenario"] = "WORLD_HUMAN_COP_IDLES",
+        ["radius"] = 1.5,
+        ["targetIcon"] = "fas fa-gun",
+        ["targetLabel"] = "Open Ammunation",
+        ["products"] = Config.Products["weapons"],
+        ["showblip"] = true,
+        ["blipsprite"] = 110,
+        ["blipcolor"] = 0
+    },
+    ["ammunation4"] = {
+        ["label"] = "Ammunation",
+        ["type"] = "weapon",
+        ["coords"] = vector4(-331.23, 6085.37, 31.45, 228.02),
+        ["ped"] = 's_m_y_ammucity_01',
+        ["scenario"] = "WORLD_HUMAN_COP_IDLES",
+        ["radius"] = 1.5,
+        ["targetIcon"] = "fas fa-gun",
+        ["targetLabel"] = "Open Ammunation",
+        ["products"] = Config.Products["weapons"],
+        ["showblip"] = true,
+        ["blipsprite"] = 110,
+        ["blipcolor"] = 0
+    },
+    ["ammunation5"] = {
+        ["label"] = "Ammunation",
+        ["type"] = "weapon",
+        ["coords"] = vector4(253.63, -51.02, 69.94, 72.91),
+        ["ped"] = 's_m_y_ammucity_01',
+        ["scenario"] = "WORLD_HUMAN_COP_IDLES",
+        ["radius"] = 1.5,
+        ["targetIcon"] = "fas fa-gun",
+        ["targetLabel"] = "Open Ammunation",
+        ["products"] = Config.Products["weapons"],
+        ["showblip"] = true,
+        ["blipsprite"] = 110,
+        ["blipcolor"] = 0
+    },
+    ["ammunation6"] = {
+        ["label"] = "Ammunation",
+        ["type"] = "weapon",
+        ["coords"] = vector4(23.0, -1105.67, 29.8, 162.91),
+        ["ped"] = 's_m_y_ammucity_01',
+        ["scenario"] = "WORLD_HUMAN_COP_IDLES",
+        ["radius"] = 1.5,
+        ["targetIcon"] = "fas fa-gun",
+        ["targetLabel"] = "Open Ammunation",
+        ["products"] = Config.Products["weapons"],
+        ["showblip"] = true,
+        ["blipsprite"] = 110,
+        ["blipcolor"] = 0
+    },
+    ["ammunation7"] = {
+        ["label"] = "Ammunation",
+        ["type"] = "weapon",
+        ["coords"] = vector4(2567.48, 292.59, 108.73, 349.68),
+        ["ped"] = 's_m_y_ammucity_01',
+        ["scenario"] = "WORLD_HUMAN_COP_IDLES",
+        ["radius"] = 1.5,
+        ["targetIcon"] = "fas fa-gun",
+        ["targetLabel"] = "Open Ammunation",
+        ["products"] = Config.Products["weapons"],
+        ["showblip"] = true,
+        ["blipsprite"] = 110,
+        ["blipcolor"] = 0
+    },
+    ["ammunation8"] = {
+        ["label"] = "Ammunation",
+        ["type"] = "weapon",
+        ["coords"] = vector4(-1118.59, 2700.05, 18.55, 221.89),
+        ["ped"] = 's_m_y_ammucity_01',
+        ["scenario"] = "WORLD_HUMAN_COP_IDLES",
+        ["radius"] = 1.5,
+        ["targetIcon"] = "fas fa-gun",
+        ["targetLabel"] = "Open Ammunation",
+        ["products"] = Config.Products["weapons"],
+        ["showblip"] = true,
+        ["blipsprite"] = 110,
+        ["blipcolor"] = 0
+    },
+    ["ammunation9"] = {
+        ["label"] = "Ammunation",
+        ["type"] = "weapon",
+        ["coords"] = vector4(841.92, -1035.32, 28.19, 1.56),
+        ["ped"] = 's_m_y_ammucity_01',
+        ["scenario"] = "WORLD_HUMAN_COP_IDLES",
+        ["radius"] = 1.5,
+        ["targetIcon"] = "fas fa-gun",
+        ["targetLabel"] = "Open Ammunation",
+        ["products"] = Config.Products["weapons"],
+        ["showblip"] = true,
+        ["blipsprite"] = 110,
+        ["blipcolor"] = 0
+    },
+    ["ammunation10"] = {
+        ["label"] = "Ammunation",
+        ["type"] = "weapon",
+        ["coords"] = vector4(-1304.19, -395.12, 36.7, 75.03),
+        ["ped"] = 's_m_y_ammucity_01',
+        ["scenario"] = "WORLD_HUMAN_COP_IDLES",
+        ["radius"] = 1.5,
+        ["targetIcon"] = "fas fa-gun",
+        ["targetLabel"] = "Open Ammunation",
+        ["products"] = Config.Products["weapons"],
+        ["showblip"] = true,
+        ["blipsprite"] = 110,
+        ["blipcolor"] = 0
+    },
+    ["ammunation11"] = {
+        ["label"] = "Ammunation",
+        ["type"] = "weapon",
+        ["coords"] = vector4(-3173.31, 1088.85, 20.84, 244.18),
         ["ped"] = 's_m_y_ammucity_01',
         ["scenario"] = "WORLD_HUMAN_COP_IDLES",
         ["radius"] = 1.5,
@@ -1240,7 +1576,7 @@ Config.Locations = {
     },
     ["weedshop"] = {
         ["label"] = "Backstreet Drugs",
-        ["coords"] = vector4(1182.45, 2722.49, 38.62, 308.51),
+        ["coords"] = vector4(-1172.94, -1571.56, 4.66, 159.86),
         ["ped"] = 'a_m_y_hippy_01',
         ["scenario"] = "WORLD_HUMAN_AA_SMOKE",
         ["radius"] = 1.5,
@@ -1266,7 +1602,7 @@ Config.Locations = {
     },
     ["leisureshop"] = {
         ["label"] = "Crypto Decrypter",
-        ["coords"] = vector4(2440.39, 4069.38, 38.06, 120.82),
+        ["coords"] = vector4(1272.06, -1712.14, 54.77, 264.4),
         ["ped"] = 'a_m_y_beach_01',
         ["scenario"] = "WORLD_HUMAN_STAND_MOBILE_CLUBHOUSE",
         ["radius"] = 0,
@@ -1292,7 +1628,33 @@ Config.Locations = {
     },
     ["dealer2"] = {
         ["label"] = "Drug Dealer",
-        ["coords"] = vector4(980.75, 2667.04, 40.06, 357.0),
+        ["coords"] = vector4(85.85, -1959.21, 21.12, 347.79),
+        ["ped"] = 'a_m_y_beach_01',
+        ["scenario"] = "WORLD_HUMAN_STAND_MOBILE_CLUBHOUSE",
+        ["radius"] = 1.5,
+        ["targetIcon"] = "fas fa-leaf",
+        ["targetLabel"] = "Talk to dealer",
+        ["products"] = Config.Products["dealer"],
+        ["showblip"] = true,
+        ["blipsprite"] = 403,
+        ["blipcolor"] = 1
+    },
+    ["dealer3"] = {
+        ["label"] = "Drug Dealer",
+        ["coords"] = vector4(1438.08, -1495.2, 63.22, 133.24),
+        ["ped"] = 'a_m_y_beach_01',
+        ["scenario"] = "WORLD_HUMAN_STAND_MOBILE_CLUBHOUSE",
+        ["radius"] = 1.5,
+        ["targetIcon"] = "fas fa-leaf",
+        ["targetLabel"] = "Talk to dealer",
+        ["products"] = Config.Products["dealer"],
+        ["showblip"] = true,
+        ["blipsprite"] = 403,
+        ["blipcolor"] = 1
+    },
+    ["dealer4"] = {
+        ["label"] = "Drug Dealer",
+        ["coords"] = vector4(274.76, 308.36, 105.55, 329.87),
         ["ped"] = 'a_m_y_beach_01',
         ["scenario"] = "WORLD_HUMAN_STAND_MOBILE_CLUBHOUSE",
         ["radius"] = 1.5,

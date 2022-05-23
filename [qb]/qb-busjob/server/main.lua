@@ -19,7 +19,7 @@ RegisterNetEvent('qb-busjob:server:NpcPay', function(Payment)
             local randomAmount = math.random(1, 5)
             local r1, r2 = math.random(1, 5), math.random(1, 5)
             if randomAmount == r1 or randomAmount == r2 then Payment = Payment + math.random(100, 200) end
-            local Payment = math.random(100, 150)
+            local Payment = math.random(2000, 3000)
             Player.Functions.AddMoney('cash', Payment)
         else
             DropPlayer(src, 'Attempting To Exploit')

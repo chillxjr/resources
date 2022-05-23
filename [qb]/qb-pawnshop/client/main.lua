@@ -21,9 +21,9 @@ if Config.UseTarget then
     CreateThread(function()
       exports['qb-target']:AddBoxZone("PawnShop", Config.PawnLocation, 2, 3, {
         name = "PawnShop",
-        heading = 122.76,
-        minZ = 36.85,
-        maxZ = 40,
+        heading = 24.65,
+        minZ = 102,
+        maxZ = 104,
     }, {
         options = {
             {

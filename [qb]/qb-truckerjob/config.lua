@@ -7,44 +7,44 @@ Config.BailPrice = 250
 Config.Locations = {
     ["main"] = {
         label = "Truck Shed",
-        coords = vector4(180.25, 2793.28, 45.66, 278.65),
+        coords = vector4(78.83, 112.58, 81.17, 153.97),
     },  
     ["vehicle"] = {
         label = "Truck Storage",
-        coords = vector4(189.8, 2800.2, 45.66, 355.14),
+        coords = vector4(78.87, 107.26, 79.18, 69.79),
     },
     ["stores"] ={
         [1] = {
-            name = "rt68247",
-            coords = vector4(541.64, 2663.67, 42.17, 105.87),
+            name = "556",
+            coords = vector4(-153.71, -41.24, 54.4, 255.16),
         },
         [2] = {
-            name = "dollarpills",
-            coords = vector4(635.18, 2775.09, 42.01, 274.28),
+            name = "rockfordpd",
+            coords = vector4(-561.4, -132.82, 38.04, 14.39),
         },
         [3] = {
-            name = "blue_house",
-            coords = vector4(471.12, 2607.66, 44.48, 15.77),
+            name = "571",
+            coords = vector4(-32.3, -184.91, 53.73, 355.08),
         },
         [4] = {
-            name = "store_on_68",
-            coords = vector4(1200.79, 2655.64, 37.85, 128.63),
+            name = "126",
+            coords = vector4(26.31, -1409.6, 29.33, 162.31),
         },
         [5] = {
-            name = "yellowjack",
-            coords = vector4(1980.58, 3049.66, 50.43, 330.82),
+            name = "franklin_neighbor",
+            coords = vector4(-32.52, -1446.42, 31.89, 270.54),
         },
         [6] = {
-            name = "sandy_house 1",
-            coords = vector4(1842.87, 3777.58, 33.15, 311.19),
+            name = "131",
+            coords = vector4(182.95, -1836.69, 28.1, 312.31),
         },
         [7] = {
-            name = "sandy_house_2",
-            coords = vector4(1880.41, 3920.75, 33.21, 286.13),
+            name = "144",
+            coords = vector4(367.39, -1802.45, 29.07, 315.71),
         },
         [8] = {
-            name = "sandy_house_3",
-            coords = vector4(1389.89, 3661.81, 34.92, 198.29),
+            name = "440",
+            coords = vector4(1228.82, -726.05, 60.8, 299.28),
         },
     },
 }
