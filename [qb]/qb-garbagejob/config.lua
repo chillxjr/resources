@@ -44,15 +44,15 @@ Config.Peds = {
 Config.Locations = {
     ["main"] = {
         label = "Garbage Depot",
-        coords = vector3(2044.3, 3178.68, 45.03),
+        coords = vector4(-321.87, -1544.77, 31.02, 289.6),
     },
     ["vehicle"] = {
         label = "Garbage Truck Storage",
-        coords = vector4(2044.3, 3178.68, 45.03, 133.77),
+        coords = vector4(-321.25, -1524.81, 27.55, 264.28),
     },
     ["paycheck"] = {
         label = "Payslip Collection",
-        coords = vector3(2050.5, 3172.24, 45.17),
+        coords = vector4(-321.87, -1544.77, 31.02, 289.6),
     },
     ["trashcan"] ={
         [1] = {
