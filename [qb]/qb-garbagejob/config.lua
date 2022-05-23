@@ -57,27 +57,27 @@ Config.Locations = {
     ["trashcan"] ={
         [1] = {
             name = "bennys01",
-            coords = vector4(-175.97, -1290.88, 32.58, 78.08),
+            coords = vector4(-176.36, -1290.99, 31.3, 276.98),
         },
         [2] = {
             name = "bennys02",
-            coords = vector4(-151.38, -1293.27, 32.6, 187.71),
+            coords = vector4(-151.37, -1294.29, 31.26, 351.46),
         },
         [3] = {
             name = "beer_wine_at_153",
-            coords = vector4(475.25, -1861.75, 29.04, 302.6),
+            coords = vector4(476.19, -1861.97, 27.66, 123.28),
         },
         [4] = {
             name = "port_of_entry_at_36",
-            coords = vector4(151.28, -2477.2, 7.31, 269.22),
+            coords = vector4(151.9, -2477.18, 6.0, 103.05),
         },
         [5] = {
             name = "north_across_from_VespucciPD_at_350",
-            coords = vector4(-1021.01, -780.56, 17.71, 250.86),
+            coords = vector4(-1020.39, -780.78, 16.37, 93.11),
         },
         [6] = {
-            name = "bar_by_trevors",
-            coords = vector4(1946.48, 3831.09, 32.15, 297.63),
+            name = "unicorn_strip_club",
+            coords = vector4(155.06, -1309.17, 29.2, 259.69),
         },
         [7] = {
             name = "aceliq2",
