@@ -123,6 +123,7 @@ Config.AuthorizedVehicles = {
         ["cvpi"] = "Crown Vic (Police)",
         ["tau"] = "'16 Taurus (Police)",
         ["fsv16tau"] = "'16 Taurus (State)",
+        ["pbike"] = "Police Bicycle (Police)",
         
 	},
 	-- Grade 1
@@ -135,6 +136,7 @@ Config.AuthorizedVehicles = {
         ["tau"] = "'16 Taurus (Police)",
         ["fsv16tau"] = "'16 Taurus (State)",
         ["fsv16exp"] = "'16 Explorer (State)",
+        ["pbike"] = "Police Bicycle (Police)",
         
 
 	},
@@ -149,6 +151,7 @@ Config.AuthorizedVehicles = {
         ["tau"] = "'16 Taurus (Police)",
         ["fsv16tau"] = "'16 Taurus (State)",
         ["fsv16exp"] = "'16 Explorer (State)",
+        ["pbike"] = "Police Bicycle (Police)",
         
 	},
 	-- Grade 3
@@ -166,6 +169,7 @@ Config.AuthorizedVehicles = {
         ["fsv16tau"] = "'16 Taurus (State)",
         ["fsv16exp"] = "'16 Explorer (State)",
         ["fsv18chgr"] = "'18 Charger (State)",
+        ["pbike"] = "Police Bicycle (Police)",
         
 	},
 	-- Grade 4
@@ -189,6 +193,7 @@ Config.AuthorizedVehicles = {
         ["fsv16exp"] = "'16 Explorer (State)",
         ["fsv18chgr"] = "'18 Charger (State)",
         ["fsv19hoe"] = "'19 Tahoe (State)",
+        ["pbike"] = "Police Bicycle (Police)",
         
 
 	}
