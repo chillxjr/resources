@@ -19,11 +19,16 @@ Config.Locations = {
     ["duty"] = {
         [1] = vector3(1852.5, 3691.2, 34.26),
         [2] = vector3(614.8, 15.56, 82.63),
+        [3] = vector3(-1096.99, -818.59, 19.04),
+        [4] = vector3(-564.47, -125.57, 38.44),
+        [5] = vector3(440.64, -975.69, 30.69),
     },
     ["vehicle"] = {
         [1] = vector4(1854.06, 3710.65, 33.31, 127.6),
         [2] = vector4(594.39, 3.27, 70.63, 168.7),
         [3] = vector4(-455.39, 6002.02, 31.34, 87.93),
+        [4] = vector4(-1118.99, -858.91, 13.54, 31.68),
+        [5] = vector4(-568.61, -109.67, 33.65, 22.85),
     },
     ["stash"] = {
         [1] = vector3(453.075, -980.124, 30.889),
@@ -34,10 +39,15 @@ Config.Locations = {
     },
     ["helicopter"] = {
         [1] = vector4(1770.56, 3239.29, 42.15, 239.24),
+        [2] = vector4(-1096.26, -832.42, 37.7, 308.56),
+        [3] = vector4(449.12, -981.31, 43.69, 355.7),
     },
     ["armory"] = {
         [1] = vector3(1841.3, 3690.69, 34.26),
         [2] = vector3(608.11, -20.64, 76.63),
+        [3] = vector3(-1106.58, -826.34, 14.28),
+        [4] = vector3(-541.87, -117.3, 37.86),
+        [5] = vector3(461.87, -981.29, 30.69),
     },
     ["trash"] = {
         [1] = vector3(1853.72, 3698.87, 34.25),
@@ -48,11 +58,17 @@ Config.Locations = {
     ["evidence"] = {
         [1] = vector3(1842.7, 3692.54, 34.26),
         [2] = vector3(603.8, -19.97, 76.63),
+        [3] = vector3(-1100.73, -821.69, 14.28),
+        [4] = vector3(-542.28, -120.56, 37.86),
+        [5] = vector3(458.32, -983.09, 30.69),
     },
     ["stations"] = {
         [1] = {label = "Sheriff Office", coords = vector4(1867.79, 3698.63, 33.51, 209.56)},
         [2] = {label = "Prison", coords = vector4(1845.903, 2585.873, 45.672, 272.249)},
-        [3] = {label = "Vinewood", coords = vector4(603.85, 0.79, 70.63, 91.79)},
+        [3] = {label = "Vinewood PD", coords = vector4(603.85, 0.79, 70.63, 91.79)},
+        [4] = {label = "Vespucci PD", coords = vector4(-1100.73, -821.69, 14.28, 301.69)},
+        [5] = {label = "Rockford PD", coords = vector4(-564.42, -125.58, 38.44, 207.46)},
+        [6] = {label = "Los Santos PD", coords = vector4(449.12, -981.31, 43.69, 355.7)},
     },
 }
 
@@ -103,45 +119,76 @@ Config.SecurityCameras = {
 Config.AuthorizedVehicles = {
 	-- Grade 0
 	[0] = {
-		["fsv11vic"] = "Crown Vic",
+		["fsv11vic"] = "Crown Vic (Sheriff)",
+        ["cvpi"] = "Crown Vic (Police)",
+        ["tau"] = "'16 Taurus (Police)",
+        ["fsv16tau"] = "'16 Taurus (State)",
         
 	},
 	-- Grade 1
 	[1] = {
-		["fsv11vic"] = "Crown Vic",
-        ["fsv13cap"] = "'13 Caprice",
-        ["fsv13exp"] = "'13 Explorer",
+		["fsv11vic"] = "Crown Vic (Sheriff)",
+        ["fsv13cap"] = "'13 Caprice (Sheriff)",
+        ["fsv13exp"] = "'13 Explorer (Sheriff)",
+        ["cvpi"] = "Crown Vic (Police)",
+        ["16exp"] = "'16 Explorer (Police)",
+        ["tau"] = "'16 Taurus (Police)",
+        ["fsv16tau"] = "'16 Taurus (State)",
+        ["fsv16exp"] = "'16 Explorer (State)",
         
 
 	},
 	-- Grade 2
 	[2] = {
-		["fsv11vic"] = "Crown Vic",
-        ["fsv13cap"] = "'13 Caprice",
-        ["fsv13exp"] = "'13 Explorer",
-        ["fsv14hoe"] = "'14 Tahoe",
+		["fsv11vic"] = "Crown Vic (Sheriff)",
+        ["fsv13cap"] = "'13 Caprice (Sheriff)",
+        ["fsv13exp"] = "'13 Explorer (Sheriff)",
+        ["fsv14hoe"] = "'14 Tahoe (Sheriff)",
+        ["cvpi"] = "Crown Vic (Police)",
+        ["16exp"] = "'16 Explorer (Police)",
+        ["tau"] = "'16 Taurus (Police)",
+        ["fsv16tau"] = "'16 Taurus (State)",
+        ["fsv16exp"] = "'16 Explorer (State)",
         
 	},
 	-- Grade 3
 	[3] = {
-		["fsv11vic"] = "Crown Vic",
-        ["fsv13cap"] = "'13 Caprice",
-        ["fsv13exp"] = "'13 Explorer",
-        ["lssd"] = "'18 Charger",
-        ["fsv13silv"] = "'13 Silverado",
+		["fsv11vic"] = "Crown Vic (Sheriff)",
+        ["fsv13cap"] = "'13 Caprice (Sheriff)",
+        ["fsv13exp"] = "'13 Explorer (Sheriff)",
+        ["lssd"] = "'18 Charger (Sheriff)",
+        ["fsv13silv"] = "'13 Silverado (Sheriff)",
+        ["cvpi"] = "Crown Vic (Police)",
+        ["16exp"] = "'16 Explorer (Police)",
+        ["tau"] = "'16 Taurus (Police)",
+        ["18charger"] = "'18 Charger (Police)",
+        ["19hoe"] = "'19 Tahoe (Police)",
+        ["fsv16tau"] = "'16 Taurus (State)",
+        ["fsv16exp"] = "'16 Explorer (State)",
+        ["fsv18chgr"] = "'18 Charger (State)",
         
 	},
 	-- Grade 4
 	[4] = {
-		["fsv11vic"] = "Crown Vic",
-        ["fsv13cap"] = "'13 Caprice",
-        ["fsv13exp"] = "'13 Explorer",
-        ["lssd"] = "'18 Charger",
-        ["fsv13silv"] = "'13 Silverado",
-        ["fsv14hoe"] = "'14 Tahoe",
+		["fsv11vic"] = "Crown Vic (Sheriff)",
+        ["fsv13cap"] = "'13 Caprice (Sheriff)",
+        ["fsv13exp"] = "'13 Explorer (Sheriff)",
+        ["lssd"] = "'18 Charger (Sheriff)",
+        ["fsv13silv"] = "'13 Silverado (Sheriff)",
+        ["fsv14hoe"] = "'14 Tahoe (Sheriff)",
         ["mkivbb_vv"] = "UC Supra",
         ["nm_avent"] = "UC Lambo",
         ["policecart"] = "Sheriff Golf Cart",
+        ["cvpi"] = "Crown Vic (Police)",
+        ["16exp"] = "'16 Explorer (Police)",
+        ["tau"] = "'16 Taurus (Police)",
+        ["18charger"] = "'18 Charger (Police)",
+        ["19hoe"] = "'19 Tahoe (Police)",
+        ["camaro"] = "'19 Camaro (Police)",
+        ["fsv16tau"] = "'16 Taurus (State)",
+        ["fsv16exp"] = "'16 Explorer (State)",
+        ["fsv18chgr"] = "'18 Charger (State)",
+        ["fsv19hoe"] = "'19 Tahoe (State)",
         
 
 	}
