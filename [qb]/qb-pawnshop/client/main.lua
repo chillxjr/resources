@@ -40,9 +40,9 @@ else
     CreateThread(function()
         local zone = BoxZone:Create(Config.PawnLocation, 2, 3, {
             name="box_zone",
-            heading = 122.76,
-            minZ = 36.85,
-            maxZ = 40,
+            heading = 24.65,
+            minZ = 102,
+            maxZ = 104,
         })
 
         local pawnShopCombo = ComboZone:Create({zone}, {name = "pawnshopZone", debugPoly = false})
