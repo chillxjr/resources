@@ -1664,6 +1664,32 @@ Config.Locations = {
         ["showblip"] = true,
         ["blipsprite"] = 403,
         ["blipcolor"] = 1
+    },
+    ["hardware11"] = {
+        ["label"] = "Hardware Store",
+        ["coords"] = vector4(45.68, -1749.04, 29.61, 53.13),
+        ["ped"] = 'mp_m_waremech_01',
+        ["scenario"] = "WORLD_HUMAN_CLIPBOARD",
+        ["radius"] = 1.5,
+        ["targetIcon"] = "fas fa-wrench",
+        ["targetLabel"] = "Open Hardware Store",
+        ["products"] = Config.Products["hardware"],
+        ["showblip"] = true,
+        ["blipsprite"] = 402,
+        ["blipcolor"] = 0
+    },
+    ["hardware31"] = {
+        ["label"] = "Hardware Store",
+        ["coords"] = vector4(-421.83, 6136.13, 31.88, 228.2),
+        ["ped"] = 'mp_m_waremech_01',
+        ["scenario"] = "WORLD_HUMAN_CLIPBOARD",
+        ["radius"] = 1.5,
+        ["targetIcon"] = "fas fa-wrench",
+        ["targetLabel"] = "Hardware Store",
+        ["products"] = Config.Products["hardware"],
+        ["showblip"] = true,
+        ["blipsprite"] = 402,
+        ["blipcolor"] = 0
     }
     
 }
