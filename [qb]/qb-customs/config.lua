@@ -9,20 +9,20 @@ maxVehiclePerformanceUpgrades = 0 -- | All Upgrades: 0 | No Upgrades: -1 | Can b
 
 -- ADJUST PRICING
 vehicleCustomisationPrices = {
-    cosmetics = {price = 400},
+    cosmetics = {price = 500},
     respray = {price = 1000},
     performance = {prices = {0, 3250, 5500, 10450, 15250, 20500, 25000}},
     turbo = {prices = {0, 15000}},
-    wheels = {price = 400},
+    wheels = {price = 600},
     customwheels = {price = 600},
-    wheelsmoke = {price = 400},
-    windowtint = {price = 400},
-    neonside = {price = 100},
+    wheelsmoke = {price = 500},
+    windowtint = {price = 500},
+    neonside = {price = 250},
     neoncolours = {price = 500},
     headlights = {price = 100},
     xenoncolours = {price = 500},
     oldlivery = {price = 500},
-    plateindex = {price = 1000}
+    plateindex = {price = 45}
 }
 
 -- WINDOW TINTS
