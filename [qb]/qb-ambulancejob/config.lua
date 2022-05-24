@@ -8,12 +8,15 @@ Config.WipeInventoryOnRespawn = true
 Config.Locations = {
     ["checking"] = {
 	    [1] = vector3(1828.2, 3685.29, 34.27),
+        [2] = vector3(307.99, -595.41, 43.29),
     },
     ["duty"] = {
         [1] = vector3(1826.23, 3685.75, 34.27),
+        [2] = vector3(305.25, -597.7, 43.29),
     },
     ["vehicle"] = {
         [1] = vector4(1811.28, 3684.75, 34.22, 294.63),
+        [2] = vector4(292.38, -570.22, 43.15, 65.71),
     },
     ["helicopter"] = {
         [1] = vector4(351.58, -587.45, 74.16, 160.5),
@@ -21,6 +24,7 @@ Config.Locations = {
     },
     ["armory"] = {
         [1] = vector3(1823.12, 3666.61, 34.27),
+        [2] = vector3(309.95, -602.88, 43.29),
     },
     ["roof"] = {
         [1] = vector4(338.5, -583.85, 74.16, 245.5),
@@ -30,13 +34,15 @@ Config.Locations = {
     },
     ["stash"] = {
         [1] = vector3(1830.51, 3670.49, 34.27),
+        [2] = vector3(310.32, -599.57, 43.29),
     },
     ["beds"] = {
         [1] = {coords = vector4(1826.44, 3676.7, 35.2, 26.05), taken = false, model = 1631638868},
-        [2] = {coords = vector4(1819.77, 3672.76, 35.2, 358.75), taken = false, model = 1631638868},
+        [2] = {coords = vector4(334.12, -578.47, 44.01, 70.13), taken = false, model = 1631638868},
     },
     ["stations"] = {
-        [1] = {label = Lang:t('info.pb_hospital'), coords = vector4(1828.2, 3685.29, 34.27, 116.83)}
+        [1] = {label = "Sandy Hospital", coords = vector4(1828.2, 3685.29, 34.27, 116.83)},
+        [2] = {label = "Pillbox Hill", coords = vector4(292.38, -570.22, 43.15, 65.71)}
     }
 }
 
