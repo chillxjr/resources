@@ -9,7 +9,7 @@ Config.Locations = {
     },
     ["vehicle"] = {
         model = "packer", "hauler", "phantom",
-        coords = vector4(879.52, -1242.6, 26.21, 327.94),
+        coords = vector4(879.52, -1242.6, 27.21, 327.94),
     },
     ["truckspot"] = {
         [1] = { -- Kayu
