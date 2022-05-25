@@ -67,8 +67,7 @@ Config.Locations = {
         [2] = {label = "Prison", coords = vector4(1845.903, 2585.873, 45.672, 272.249)},
         [3] = {label = "Vinewood PD", coords = vector4(603.85, 0.79, 70.63, 91.79)},
         [4] = {label = "Vespucci PD", coords = vector4(-1100.73, -821.69, 14.28, 301.69)},
-        [5] = {label = "Rockford PD", coords = vector4(-564.42, -125.58, 38.44, 207.46)},
-        [6] = {label = "Los Santos PD", coords = vector4(449.12, -981.31, 43.69, 355.7)},
+        [5] = {label = "Los Santos PD", coords = vector4(449.12, -981.31, 43.69, 355.7)},
     },
 }
 
