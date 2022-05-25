@@ -1,5 +1,7 @@
 Config = {}
 
+Config.UseTarget = GetConvar('UseTarget', 'false') == 'true'
+
 Config.BailPrice = 250
 
 Config.Locations = {
