@@ -12,12 +12,13 @@ local TargetTrailer = nil
 local TargetHauler = nil
 local TargetBlip = nil
 local isAttached = false
+local QBCore = exports['qb-core']:GetCoreObject()
 
 
 RegisterNetEvent('QBCore:Client:OnPlayerLoaded')
 AddEventHandler('QBCore:Client:OnPlayerLoaded', function()
     isLoggedIn = true
-    --PlayerJob = QBCore.Functions.GetPlayerData().job
+    PlayerJob = QBCore.Functions.GetPlayerData().job
 
     --if PlayerJob.name ~= nil then
         local TowBlip = AddBlipForCoord(Config.Locations["main"].coords.x, Config.Locations["main"].coords.y, Config.Locations["main"].coords.z)
