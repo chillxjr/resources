@@ -8,7 +8,7 @@ Config.Locations = {
         coords = vector4(913.7, -1273.56, 26.1, 55.28),
     },
     ["vehicle"] = {
-        model = "packer", "hauler", "phantom",
+        model = "phantom",
         coords = vector4(879.52, -1242.6, 26.21, 327.94),
     },
     ["truckspot"] = {
