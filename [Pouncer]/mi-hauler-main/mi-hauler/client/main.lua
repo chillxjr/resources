@@ -19,7 +19,7 @@ AddEventHandler('QBCore:Client:OnPlayerLoaded', function()
     isLoggedIn = true
     PlayerJob = QBCore.Functions.GetPlayerData().job
 
-    if PlayerJob.name == "hauler" then
+    if PlayerJob.name ~= nil then
         local TowBlip = AddBlipForCoord(Config.Locations["main"].coords.x, Config.Locations["main"].coords.y, Config.Locations["main"].coords.z)
         SetBlipSprite(TowBlip, 477)
         SetBlipDisplay(TowBlip, 4)
@@ -41,7 +41,7 @@ RegisterNetEvent('QBCore:Client:OnJobUpdate')
 AddEventHandler('QBCore:Client:OnJobUpdate', function(JobInfo)
     PlayerJob = JobInfo
 
-    if PlayerJob.name == "hauler" then
+    if PlayerJob.name ~= nil then
         local TowBlip = AddBlipForCoord(Config.Locations["main"].coords.x, Config.Locations["main"].coords.y, Config.Locations["main"].coords.z)
         SetBlipSprite(TowBlip, 477)
         SetBlipDisplay(TowBlip, 4)
@@ -124,7 +124,7 @@ end
 
 Citizen.CreateThread(function()
     while true do 
-        if isLoggedIn and PlayerJob.name == "hauler" then
+        if isLoggedIn and PlayerJob.name ~= nil then
             local ped = PlayerPedId()
             local pos = GetEntityCoords(ped)
 
@@ -217,7 +217,7 @@ Citizen.CreateThread(function()
             local ped = PlayerPedId()
             local targetLocation = CurrentLocation.target
 
-            if PlayerJob.name == "hauler" then
+            if PlayerJob.name ~= nil then
                 local pos = GetEntityCoords(ped)
 
                 if IsPedInAnyVehicle(ped, false) then
@@ -289,13 +289,13 @@ function deliveredTrailer(vehicle)
         SetBlipRoute(CurrentBlip, true)
         SetBlipRouteColour(CurrentBlip, 3)
     else
-        QBCore.Functions.Notify("You Have Dont Have A Trailer!", "error")
+        QBCore.Functions.Notify("You Dont Have A Trailer!", "error")
     end
 end
 
 RegisterNetEvent('mi-hauler:client:spawnHauler')
 AddEventHandler('mi-hauler:client:spawnHauler', function()
-    if QBCore.Functions.GetPlayerData().job.name == "hauler" then
+    if QBCore.Functions.GetPlayerData().job.name ~= nil then
 
         local spawnHauler = {}
         spawnHauler.x = Config.Locations["vehicle"].coords.x
