@@ -17,7 +17,7 @@ local isAttached = false
 RegisterNetEvent('QBCore:Client:OnPlayerLoaded')
 AddEventHandler('QBCore:Client:OnPlayerLoaded', function()
     isLoggedIn = true
-    PlayerJob = QBCore.Functions.GetPlayerData().job
+    PlayerJob = 1
 
     if PlayerJob.name ~= nil then
         local TowBlip = AddBlipForCoord(Config.Locations["main"].coords.x, Config.Locations["main"].coords.y, Config.Locations["main"].coords.z)
