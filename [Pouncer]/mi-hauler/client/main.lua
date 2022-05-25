@@ -17,7 +17,7 @@ local isAttached = false
 RegisterNetEvent('QBCore:Client:OnPlayerLoaded')
 AddEventHandler('QBCore:Client:OnPlayerLoaded', function()
     isLoggedIn = true
-    PlayerJob = QBCore.Functions.GetPlayerData().job
+    --PlayerJob = QBCore.Functions.GetPlayerData().job
 
     --if PlayerJob.name ~= nil then
         local TowBlip = AddBlipForCoord(Config.Locations["main"].coords.x, Config.Locations["main"].coords.y, Config.Locations["main"].coords.z)
@@ -217,7 +217,7 @@ Citizen.CreateThread(function()
             local ped = PlayerPedId()
             local targetLocation = CurrentLocation.target
 
-            if PlayerJob.name ~= nil then
+            --if PlayerJob.name ~= nil then
                 local pos = GetEntityCoords(ped)
 
                 if IsPedInAnyVehicle(ped, false) then
@@ -241,9 +241,9 @@ Citizen.CreateThread(function()
                 
                 end
             
-            else
-                Citizen.Wait(1000)
-            end
+            --else
+                --Citizen.Wait(1000)
+            --end
         else
             Citizen.Wait(1000)
         end
