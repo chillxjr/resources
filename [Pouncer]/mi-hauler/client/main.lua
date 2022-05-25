@@ -56,7 +56,7 @@ end)
 
 RegisterNetEvent('mi-hauler:client:ToggleNpc')
 AddEventHandler('mi-hauler:client:ToggleNpc', function()
-    if QBCore.Functions.GetPlayerData().job.name == "hauler" then
+    if QBCore.Functions.GetPlayerData().job.name ~= nil then
         if isAttached then 
             QBCore.Functions.Notify("First Finish Your Work", "error")
             return
