@@ -19,7 +19,7 @@ AddEventHandler('QBCore:Client:OnPlayerLoaded', function()
     isLoggedIn = true
     PlayerJob = QBCore.Functions.GetPlayerData().job
 
-    if PlayerJob.name ~= nil then
+    --if PlayerJob.name ~= nil then
         local TowBlip = AddBlipForCoord(Config.Locations["main"].coords.x, Config.Locations["main"].coords.y, Config.Locations["main"].coords.z)
         SetBlipSprite(TowBlip, 477)
         SetBlipDisplay(TowBlip, 4)
@@ -29,7 +29,7 @@ AddEventHandler('QBCore:Client:OnPlayerLoaded', function()
         BeginTextCommandSetBlipName("STRING")
         AddTextComponentSubstringPlayerName(Config.Locations["main"].label)
         EndTextCommandSetBlipName(TowBlip)
-    end
+    --end
 end)
 
 RegisterNetEvent('QBCore:Client:OnPlayerUnload')
@@ -41,7 +41,7 @@ RegisterNetEvent('QBCore:Client:OnJobUpdate')
 AddEventHandler('QBCore:Client:OnJobUpdate', function(JobInfo)
     PlayerJob = JobInfo
 
-    if PlayerJob.name ~= nil then
+    --if PlayerJob.name ~= nil then
         local TowBlip = AddBlipForCoord(Config.Locations["main"].coords.x, Config.Locations["main"].coords.y, Config.Locations["main"].coords.z)
         SetBlipSprite(TowBlip, 477)
         SetBlipDisplay(TowBlip, 4)
@@ -51,12 +51,12 @@ AddEventHandler('QBCore:Client:OnJobUpdate', function(JobInfo)
         BeginTextCommandSetBlipName("STRING")
         AddTextComponentSubstringPlayerName(Config.Locations["main"].label)
         EndTextCommandSetBlipName(TowBlip)
-    end
+    --end
 end)
 
 RegisterNetEvent('mi-hauler:client:ToggleNpc')
 AddEventHandler('mi-hauler:client:ToggleNpc', function()
-    if QBCore.Functions.GetPlayerData().job.name ~= nil then
+    --if QBCore.Functions.GetPlayerData().job.name ~= nil then
         if isAttached then 
             QBCore.Functions.Notify("First Finish Your Work", "error")
             return
@@ -93,7 +93,7 @@ AddEventHandler('mi-hauler:client:ToggleNpc', function()
             end
             VehicleSpawned = false
         end
-    end
+    --end
 end)
 
 function getRandomVehicleLocation()
@@ -124,7 +124,7 @@ end
 
 Citizen.CreateThread(function()
     while true do 
-        if isLoggedIn and PlayerJob.name ~= nil then
+        --if isLoggedIn and PlayerJob.name ~= nil then
             local ped = PlayerPedId()
             local pos = GetEntityCoords(ped)
 
@@ -202,9 +202,9 @@ Citizen.CreateThread(function()
                     isAttached = true
                 end
             end
-        else
-            Citizen.Wait(1000)
-        end
+        --else
+            --Citizen.Wait(1000)
+        --end
         Citizen.Wait(5)
     end
 end)
@@ -295,7 +295,7 @@ end
 
 RegisterNetEvent('mi-hauler:client:spawnHauler')
 AddEventHandler('mi-hauler:client:spawnHauler', function()
-    if QBCore.Functions.GetPlayerData().job.name ~= nil then
+    --if QBCore.Functions.GetPlayerData().job.name ~= nil then
 
         local spawnHauler = {}
         spawnHauler.x = Config.Locations["vehicle"].coords.x
@@ -320,5 +320,5 @@ AddEventHandler('mi-hauler:client:spawnHauler', function()
             end
 
         end, spawnHauler, true)
-    end
+    --end
 end)
