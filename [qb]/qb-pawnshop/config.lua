@@ -100,7 +100,7 @@ Config.PawnItems = {
     },
     [23] = {
         item = "markedbills",
-        price = math.random(10,50)
+        price = math.random(5000,7000)
     }
 
 }
@@ -111,7 +111,7 @@ Config.MeltingItems = { -- meltTime is amount of time in minutes per item
         rewards = {
             [1] = {
                 item = "goldbar",
-                amount = 2
+                amount = 1
             }
         },
         meltTime = 0.15
@@ -153,23 +153,14 @@ Config.MeltingItems = { -- meltTime is amount of time in minutes per item
         rewards = {
             [1] = {
                 item = "diamond",
-                amount = 5
+                amount = 2
             },
             [2] = {
                 item = "goldbar",
-                amount = 1
+                amount = 4
             }
         },
         meltTime = 0.15
     },
-    [5] = {
-        item = "markedbills",
-        rewards = {
-            [1] = {
-                item = "goldbar",
-                amount = 1
-            }
-        },
-        meltTime = 0.15
-    },
+    
 }
