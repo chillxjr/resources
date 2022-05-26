@@ -529,7 +529,7 @@ Config.Products = {
         },
         [4] = {
             name = "weapon_pistol",
-            price = 2500,
+            price = 1125,
             amount = 5,
             info = {},
             type = "item",
@@ -546,21 +546,39 @@ Config.Products = {
             requiresLicense = true
         },
         [6] = {
-            name = "shotgun_ammo",
-            price = 250,
-            amount = 50,
+            name = "weapon_marksmanrifle",
+            price = 2000,
+            amount = 5,
             info = {},
             type = "item",
             slot = 6,
             requiresLicense = true
         },
         [7] = {
+            name = "shotgun_ammo",
+            price = 250,
+            amount = 50,
+            info = {},
+            type = "item",
+            slot = 7,
+            requiresLicense = true
+        },
+        [8] = {
             name = "pistol_ammo",
             price = 250,
             amount = 250,
             info = {},
             type = "item",
-            slot = 7,
+            slot = 8,
+            requiresLicense = true
+        },
+        [9] = {
+            name = "snp_ammo",
+            price = 250,
+            amount = 250,
+            info = {},
+            type = "item",
+            slot = 9,
             requiresLicense = true
         },
     },
