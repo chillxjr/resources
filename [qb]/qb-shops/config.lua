@@ -537,7 +537,7 @@ Config.Products = {
             requiresLicense = true
         },
         [5] = {
-            name = "weapon_snspistol",
+            name = "weapon_pumpshotgun",
             price = 1500,
             amount = 5,
             info = {},
@@ -546,9 +546,9 @@ Config.Products = {
             requiresLicense = true
         },
         [6] = {
-            name = "weapon_vintagepistol",
-            price = 4000,
-            amount = 5,
+            name = "shotgun_ammo",
+            price = 250,
+            amount = 50,
             info = {},
             type = "item",
             slot = 6,
