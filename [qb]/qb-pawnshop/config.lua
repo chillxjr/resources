@@ -12,35 +12,35 @@ Config.UseTarget = GetConvar('UseTarget', 'false') == 'true'
 Config.PawnItems = {
     [1] = {
         item = "goldchain",
-        price = math.random(50,100)
+        price = math.random(50,1000)
     },
     [2] = {
         item = "diamond_ring",
-        price = math.random(50,100)
+        price = math.random(50,1000)
     },
     [3] = {
         item = "rolex",
-        price = math.random(50,100)
+        price = math.random(50,1000)
     },
     [4] = {
         item = "10kgoldchain",
-        price = math.random(50,100)
+        price = math.random(50,1000)
     },
     [5] = {
         item = "tablet",
-        price = math.random(50,100)
+        price = math.random(50,1000)
     },
     [6] = {
         item = "iphone",
-        price = math.random(50,100)
+        price = math.random(50,1000)
     },
     [7] = {
         item = "samsungphone",
-        price = math.random(50,100)
+        price = math.random(50,1000)
     },
     [8] = {
         item = "laptop",
-        price = math.random(50,100)
+        price = math.random(50,1000)
     },
     [9] = {
         item = "steel",
@@ -84,11 +84,23 @@ Config.PawnItems = {
     },
     [19] = {
         item = "copper",
-        price = math.random(500,1000)
+        price = math.random(50,100)
     },
     [20] = {
         item = "aluminum",
-        price = math.random(500,1000)
+        price = math.random(50,100)
+    },
+    [21] = {
+        item = "goldbar",
+        price = math.random(1000,1500)
+    },
+    [22] = {
+        item = "diamond",
+        price = math.random(1000,1500)
+    },
+    [23] = {
+        item = "markedbills",
+        price = math.random(10,50)
     }
 
 }
@@ -144,6 +156,16 @@ Config.MeltingItems = { -- meltTime is amount of time in minutes per item
                 amount = 5
             },
             [2] = {
+                item = "goldbar",
+                amount = 1
+            }
+        },
+        meltTime = 0.15
+    },
+    [5] = {
+        item = "markedbills",
+        rewards = {
+            [1] = {
                 item = "goldbar",
                 amount = 1
             }
