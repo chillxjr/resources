@@ -11,7 +11,15 @@ local VehicleList = {}
 -----------------------
 ---- Server Events ----
 -----------------------
-
+RegisterNetEvent('vehiclekeys:server:SetVehicleOwnerToCitizenid', function(plate, citizenid)
+    local src = source
+    if not VehicleList[plate] then 
+        VehicleList[plate] = {} 
+    end
+    VehicleList[plate][citizenid] = true
+    TriggerClientEvent('QBCore:Notify', src, "You get keys to the vehicle!")
+    TriggerClientEvent('qb-vehiclekeys:client:AddKeys', src, plate)
+end)
 -- Event to give keys. receiver can either be a single id, or a table of ids.
 -- Must already have keys to the vehicle, trigger the event from the server, or pass forcegive paramter as true.
 RegisterNetEvent('qb-vehiclekeys:server:GiveVehicleKeys', function(receiver, plate)
