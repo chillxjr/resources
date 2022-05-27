@@ -27,23 +27,21 @@ Config.Job = "trucker" -- name of the trucker job
 
 
 Config.RequireTruck = false -- Set this to true if you want the player to own a truck in order to start the delivery. If false, a truck is spawned for the player. Once the delivery is complete, the player must go and return the truck in order to get their deposit back.
-Config.SpawnRentalTruck = vector4(164.44, -3217.75, 5.91, 271.56)
-Config.ReturnTruck = vector3(165.2, -3217.6, 5.9)
+Config.SpawnRentalTruck = vector4(-76.93, -2441.06, 6.0, 48.58)
+Config.ReturnTruck = vector3(-76.93, -2441.06, 6.0)
 Config.RentalTrucks = { -- Spawns a random truck if player rents a vehicle
 	"phantom",
-	"phantom3",
-	"hauler"
+	"phantom3"
 }
 
 
 Config.locale = "en" -- Here you can select a language. All the availalbe languages can be found in the locales folder
 
-Config.RequestJobLocation = vector3(153.19, -3211.68, 5.91) -- Location where you request a job
+Config.RequestJobLocation = vector3(-56.87, -2448.3, 7.24) -- Location where you request a job
 
 Config.AllowedVehicles = { -- Which vehicles a player need to start a delivery.
 	"phantom",
 	"phantom3",
-	"hauler"
 }
 
 Config.SortPrice = 2 -- Select 1 if you want the highest paying delivery routes first. Select 2 if you want the lowest paying delivery routes first
@@ -53,7 +51,7 @@ Config.DeliveryOptions = {
 		label = "Food Delivery", -- Label used in menu
 
 		Deposit = true, -- If you want to require a deposit for starting a delivery
-		DepositPrice = 2000, -- Deposit price
+		DepositPrice = 500, -- Deposit price
 		DepositType = "bank", -- Deposit type, Can be either "bank" or "cash"
 
 		reward = 60, -- Amount of money a player should recive per meter driven
@@ -61,29 +59,39 @@ Config.DeliveryOptions = {
 		rewardtype = "bank", -- which type of money the player should recive. Could be Bank or Cash
 
 		DeliveryLocations = { -- Here you can add a infinite amount of locations. One of these locations will be picked on delivery start
-			vector3(-25.83, 6264.17, 31.2),
-			vector3(-603.48, -891.66, 25.19),
-			vector3(-1214.29, -884.5, 12.82),
-			vector3(-1395.0, -581.63, 30.23),
-			vector3(2008.34, 3054.13, 47.04),
-			vector3(1417.19, 3621.22, 34.88)
+		    vector4(153.76, -1639.72, 29.29, 30.17),
+			vector4(15.57, -1343.52, 29.29, 173.84),
+			vector4(-307.89, -1325.63, 31.38, 261.28),
+			vector4(37.21, -1003.48, 29.46, 335.38),
+			vector4(-356.6, 273.51, 84.86, 173.64),
+			vector4(-1360.04, -884.16, 14.45, 42.74),
+			vector4(-1184.25, -1526.64, 4.41, 305.0),
+			vector4(-1026.62, -1351.67, 5.48, 69.46),
+			vector4(-2965.01, 419.65, 15.26, 82.99)
 		},
 
 		TrailerLocations = { -- Here you can add a infinite amount of locations. One of these locations will be picked on delivery start
-			vector4(1054.47, -3154.5, 5.9, 179.03),
-			vector4(1058.2, -3154.22, 5.9, 181.45),
-			vector4(1054.23, -3131.53, 5.9, 358.62)
+		    --vector4(-120.69, -2415.84, 6.0, 178.46),
+			--vector4(-124.66, -2415.81, 6.0, 175.79),
+			vector4(-128.8, -2418.37, 6.0, 183.49)
+			--vector4(-133.26, -2415.88, 6.0, 177.45),
+			--vector4(-137.06, -2415.93, 6.0, 181.27),
+			--vector4(-149.92, -2519.45, 6.01, 55.59),
+			--vector4(-140.85, -2505.45, 6.01, 52.95),
+			--vector4(-133.08, -2493.74, 6.01, 55.14)
 		},
 
 		Trailers =	{ -- Here you can add a infinite amount of trailers. One of these trailers will be picked on delivery start
-			"Trailers2"
+			"Trailers2",
+			"Trailers",
+			"Trailers3"
 		}
 	},
 	[2] = {
 		label = "Vehicle Delivery",
 
 		Deposit = true,
-		DepositPrice = 2000,
+		DepositPrice = 500,
 		DepositType = "bank",
 
 		reward = 60,
