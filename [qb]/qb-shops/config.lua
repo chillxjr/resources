@@ -1698,7 +1698,7 @@ Config.Locations = {
     },
     ["hardware31"] = {
         ["label"] = "Hardware Store",
-        ["coords"] = vector4(-421.83, 6136.13, 31.88, 228.2), vector4(-1103.25, -835.88, 13.34, 72.88)
+        ["coords"] = vector4(-421.83, 6136.13, 31.88, 228.2),
         ["ped"] = 'mp_m_waremech_01',
         ["scenario"] = "WORLD_HUMAN_CLIPBOARD",
         ["radius"] = 1.5,
