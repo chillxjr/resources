@@ -730,6 +730,7 @@ RegisterNetEvent('rebel-trucking:client:startdelivery', function(args)
 		CoreName.Functions.SpawnVehicle(trailerhash, function(veh)
 			SetEntityHeading(veh, trailerlocation.w)
 			trailer = veh
+			TriggerEvent("vehiclekeys:client:SetOwner", GetVehicleNumberPlateText(trailer))
 		end, trailerlocation, true)
 	else
 		--local trailer = ESX.Game.SpawnVehicle(trailerhash, trailerlocation, trailerlocation.w, false)
@@ -934,7 +935,7 @@ RegisterNetEvent('rebel-trucking:client:startdelivery', function(args)
 				local lastcar = GetVehiclePedIsIn(PlayerPedId(),true)
 				local lastplate = GetVehicleNumberPlateText(lastcar)
 
-				if Config.RequireTruck then
+				--[[if Config.RequireTruck then
 					if lastplate == args.truckplate then
 						if dist2 < 20 then
 							if not gotTrailer then
@@ -960,7 +961,7 @@ RegisterNetEvent('rebel-trucking:client:startdelivery', function(args)
 							end
 						end
 					end
-				end
+				end]]--
 			end
         else
             sleep = 1000

@@ -133,7 +133,7 @@ Config.DeliveryOptions = {
 		}
 	},
 	[3] = {
-		label = "Vehicle Delivery",
+		label = "Small Truck Delivery",
 
 		Deposit = true,
 		DepositPrice = 500,

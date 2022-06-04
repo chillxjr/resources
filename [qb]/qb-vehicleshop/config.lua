@@ -245,4 +245,75 @@ Config.Shops = {
             },
         }
     },
+    ['luxury2'] = {
+        ['Type'] = 'managed',  -- meaning a real player has to sell the car
+        ['Zone'] = {
+            ['Shape'] = {
+                vector2(-56.5, -1081.65),
+                vector2(-63.5, -1100.35),
+                vector2(-35.77, -1110.34),
+                vector2(-39.26, -1121.53),
+                vector2(-28.54, -1121.17),
+                vector2(-16.59, -1088.06),
+                vector2(-39.79, -1079.55)
+            },
+            ['minZ'] = 25,
+            ['maxZ'] = 27,
+            ['size'] = 2.75, -- size of the vehicles zones
+        },
+        ['Job'] = 'cardealer', -- Name of job or none
+        ['ShopLabel'] = 'Sporty Vehicle Shop',
+        ['showBlip'] = true,  -- true or false
+        ['blipSprite'] = 326,  -- Blip sprite
+        ['blipColor'] = 3,  -- Blip color
+        ['Categories'] = {
+            ['super'] = 'Super',
+            ['sports'] = 'Sports',
+            ['sportsclassics'] = 'Sports Classics',
+            ['motorcycles'] = 'Motorcycles',
+            ['sedans'] = 'Sedans',
+            ['coupes'] = 'Coupes'
+        },
+        ['TestDriveTimeLimit'] = 0.5,
+        ['Location'] = vector3(-54.07, -1103.16, 26.44),
+        ['ReturnLocation'] = vector3(-49.02, -1076.97, 26.83),
+        ['VehicleSpawn'] = vector4(-49.02, -1076.97, 26.83, 72.48),
+        ['ShowroomVehicles'] = {
+            [1] = {
+                coords = vector4(-61.41, -1099.37, 26.4, 208.73),
+                defaultVehicle = 'italirsx',
+                chosenVehicle = 'italirsx',
+            },
+            [2] = {
+                coords = vector4(-49.11, -1100.37, 26.42, 185.96),
+                defaultVehicle = 'italigtb',
+                chosenVehicle = 'italigtb',
+            },
+            [3] = {
+                coords = vector4(-43.95, -1101.02, 26.42, 114.36),
+                defaultVehicle = 'nero',
+                chosenVehicle = 'nero',
+            },
+            [4] = {
+                coords = vector4(-52.06, -1093.83, 26.42, 88.19),
+                defaultVehicle = 'bati',
+                chosenVehicle = 'bati',
+            },
+            [5] = {
+                coords = vector4(-46.31, -1094.16, 26.42, 193.74),
+                defaultVehicle = 'carbonrs',
+                chosenVehicle = 'carbonrs',
+            },
+            [6] = {
+                coords = vector4(-41.59, -1096.12, 26.42, 113.41),
+                defaultVehicle = 'hexer',
+                chosenVehicle = 'hexer',
+            },
+            [7] = {
+                coords = vector4(-36.17, -1102.18, 26.42, 157.42),
+                defaultVehicle = 'hexer',
+                chosenVehicle = 'hexer',
+            },
+        }
+    },
 }
