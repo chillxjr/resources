@@ -22,6 +22,12 @@ Config.BossMenus = {
     ['cardealer'] = {
         vector3(-31.46, -1114.01, 26.42),
     },
+    ['cardealer'] = {
+        vector3(112.24, -1523.01, 29.26),
+    },
+    ['cardealer'] = {
+        vector3(274.37, -1154.21, 33.27),
+    },
     ['mechanic'] = {
         vector3(-1111.81, -824.0, 13.34),
     },
