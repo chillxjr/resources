@@ -1176,7 +1176,7 @@ Config.Locations = {
         ["showblip"] = true,
         ["blipsprite"] = 52,
         ["blipcolor"] = 0
-    }, --]]
+    },
     ["247supermarket"] = {
         ["label"] = "24/7 Supermarket",
         ["coords"] = vector4(24.47, -1346.62, 29.5, 271.66),
@@ -1398,7 +1398,7 @@ Config.Locations = {
         ["showblip"] = true,
         ["blipsprite"] = 52,
         ["blipcolor"] = 0
-    },
+    },--]]
     ["ammunation"] = {
         ["label"] = "Ammunation",
         ["type"] = "weapon",
@@ -1553,19 +1553,6 @@ Config.Locations = {
         ["blipsprite"] = 110,
         ["blipcolor"] = 0
     },
-    ["247supermarket4"] = {
-        ["label"] = "24/7 Supermarket",
-        ["coords"] = vector4(1697.43, 4923.36, 42.06, 318.23),
-        ["ped"] = 'mp_m_shopkeep_01',
-        ["scenario"] = "WORLD_HUMAN_STAND_MOBILE",
-        ["radius"] = 1.5,
-        ["targetIcon"] = "fas fa-shopping-basket",
-        ["targetLabel"] = "Open Shop",
-        ["products"] = Config.Products["normal"],
-        ["showblip"] = true,
-        ["blipsprite"] = 52,
-        ["blipcolor"] = 0
-    },
     ["hardware"] = {
         ["label"] = "Hardware Store",
         ["coords"] = vector4(1189.5, 2643.47, 38.4, 89.76),
@@ -1631,7 +1618,7 @@ Config.Locations = {
         ["blipsprite"] = 171,
         ["blipcolor"] = 2
     },
-    ["dealer1"] = {
+    --[[["dealer1"] = {
         ["label"] = "Drug Dealer",
         ["coords"] = vector4(1977.89, 3819.57, 33.45, 71.03),
         ["ped"] = 'a_m_y_beach_01',
@@ -1682,7 +1669,7 @@ Config.Locations = {
         ["showblip"] = true,
         ["blipsprite"] = 403,
         ["blipcolor"] = 1
-    },
+    },--]]
     ["hardware11"] = {
         ["label"] = "Hardware Store",
         ["coords"] = vector4(45.68, -1749.04, 29.61, 53.13),
