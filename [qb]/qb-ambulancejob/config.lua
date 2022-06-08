@@ -52,31 +52,35 @@ Config.AuthorizedVehicles = {
 		["f750"] = "Ambulance",
         ["gmc"] = "Brush Truck",
         ["exp"] = "Explorer",
+        ["21yuk"] = "Yukon",
 	},
 	-- Grade 1
 	[1] = {
 		["f750"] = "Ambulance",
         ["gmc"] = "Brush Truck",
         ["exp"] = "Explorer",
-
+        ["21yuk"] = "Yukon",
 	},
 	-- Grade 2
 	[2] = {
 		["f750"] = "Ambulance",
         ["gmc"] = "Brush Truck",
         ["exp"] = "Explorer",
+        ["21yuk"] = "Yukon",
 	},
 	-- Grade 3
 	[3] = {
 		["f750"] = "Ambulance",
         ["gmc"] = "Brush Truck",
         ["exp"] = "Explorer",
+        ["21yuk"] = "Yukon",
 	},
 	-- Grade 4
 	[4] = {
 		["f750"] = "Ambulance",
         ["gmc"] = "Brush Truck",
         ["exp"] = "Explorer",
+        ["21yuk"] = "Yukon",
 	}
 }
 
