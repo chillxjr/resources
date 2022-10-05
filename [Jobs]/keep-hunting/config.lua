@@ -143,7 +143,7 @@ Config.HuntingArea = { {
 
 Config.SellSpots = { {
     BlipsCoords = vector3(570.34, 2796.46, 42.01),
-    name = 'sell hunting stuff!',
+    name = 'Butcher',
     showBlip = true,
     SellerNpc = {
         model = 'csb_chef',
