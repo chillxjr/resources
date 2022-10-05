@@ -167,7 +167,7 @@ Config.Products = {
     ["dealer"] = {
         [1] = {
             name = 'weed_white-widow_seed',
-            price = 50,
+            price = 25,
             amount = 50,
             info = {},
             type = 'item',
@@ -175,7 +175,7 @@ Config.Products = {
         },
         [2] = {
             name = 'weed_skunk_seed',
-            price = 50,
+            price = 25,
             amount = 50,
             info = {},
             type = 'item',
@@ -183,7 +183,7 @@ Config.Products = {
         },
         [3] = {
             name = 'weed_purple-haze_seed',
-            price = 50,
+            price = 25,
             amount = 150,
             info = {},
             type = 'item',
@@ -191,7 +191,7 @@ Config.Products = {
         },
         [4] = {
             name = 'weed_og-kush_seed',
-            price = 50,
+            price = 25,
             amount = 50,
             info = {},
             type = 'item',
@@ -199,7 +199,7 @@ Config.Products = {
         },
         [5] = {
             name = 'weed_amnesia_seed',
-            price = 50,
+            price = 25,
             amount = 50,
             info = {},
             type = 'item',
@@ -207,7 +207,7 @@ Config.Products = {
         },
         [6] = {
             name = 'weed_ak47_seed',
-            price = 50,
+            price = 25,
             amount = 50,
             info = {},
             type = 'item',
@@ -215,7 +215,7 @@ Config.Products = {
         },
         [7] = {
             name = 'joint',
-            price = 15,
+            price = math.random(5, 17),
             amount = 50,
             info = {},
             type = 'item',
@@ -224,14 +224,14 @@ Config.Products = {
         [8] = {
             name = 'cokebaggy',
             price = 20,
-            amount = 50,
+            amount = math.random(100, 1000),
             info = {},
             type = 'item',
             slot = 8
         },
         [9] = {
             name = 'crack_baggy',
-            price = 20,
+            price = math.random(50, 100),
             amount = 50,
             info = {},
             type = 'item',
@@ -239,7 +239,7 @@ Config.Products = {
         },
         [10] = {
             name = 'xtcbaggy',
-            price = 20,
+            price = math.random(50, 150),
             amount = 50,
             info = {},
             type = 'item',
@@ -247,7 +247,7 @@ Config.Products = {
         },
         [11] = {
             name = 'oxy',
-            price = 20,
+            price = math.random(10, 30),
             amount = 50,
             info = {},
             type = 'item',
@@ -255,7 +255,7 @@ Config.Products = {
         },
         [12] = {
             name = 'meth',
-            price = 20,
+            price = math.random(10, 90),
             amount = 50,
             info = {},
             type = 'item',
@@ -1618,7 +1618,7 @@ Config.Locations = {
         ["blipsprite"] = 171,
         ["blipcolor"] = 2
     },
-    --[[["dealer1"] = {
+    ["dealer1"] = {
         ["label"] = "Drug Dealer",
         ["coords"] = vector4(1977.89, 3819.57, 33.45, 71.03),
         ["ped"] = 'a_m_y_beach_01',
@@ -1669,7 +1669,7 @@ Config.Locations = {
         ["showblip"] = true,
         ["blipsprite"] = 403,
         ["blipcolor"] = 1
-    },--]]
+    },
     ["hardware11"] = {
         ["label"] = "Hardware Store",
         ["coords"] = vector4(45.68, -1749.04, 29.61, 53.13),
