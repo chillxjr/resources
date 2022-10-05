@@ -227,8 +227,6 @@ Config.AuthorizedVehicles = {
         ["lspddur"] = "2021 Dodge Durango (Police)",
         ["lspdtaur"] = "2016 Ford Taurus (Police)",
         
-        
-
 	}
 }
 
