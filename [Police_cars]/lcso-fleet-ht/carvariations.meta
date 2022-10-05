@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<CVehicleModelInfoVariation>
+  <variationData>
+	<Item>
+      <modelName>LCSO1</modelName>
+      <colors>
+        <Item>
+          <indices content="char_array">
+            000
+            000
+          </indices>
+          <liveries>
+            <Item value="false"/>
+            <Item value="false"/>
+            <Item value="false"/>
+          </liveries>
+        </Item>
+      </colors>
+      <kits>
+        <Item>0_default_modkit</Item>
+      </kits>
+      <windowsWithExposedEdges/>
+      <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>Police guv plate</Name>
+            <Value value="100"/>
+          </Item>
+        </Probabilities>
+      </plateProbabilities>
+      <lightSettings value="254"/>
+      <sirenSettings value="75123"/>
+    </Item>
+	<Item>
+      <modelName>LCSO2</modelName>
+      <colors>
+        <Item>
+          <indices content="char_array">
+            000
+            000
+          </indices>
+          <liveries>
+            <Item value="false"/>
+            <Item value="false"/>
+            <Item value="false"/>
+          </liveries>
+        </Item>
+      </colors>
+      <kits>
+        <Item>0_default_modkit</Item>
+      </kits>
+      <windowsWithExposedEdges/>
+      <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>Police guv plate</Name>
+            <Value value="100"/>
+          </Item>
+        </Probabilities>
+      </plateProbabilities>
+      <lightSettings value="701"/>
+      <sirenSettings value="76214"/>
+    </Item>
+	<Item>
+      <modelName>LCSO3</modelName>
+      <colors>
+        <Item>
+          <indices content="char_array">
+            000
+            000
+          </indices>
+          <liveries>
+            <Item value="false"/>
+            <Item value="false"/>
+            <Item value="false"/>
+          </liveries>
+        </Item>
+      </colors>
+      <kits>
+        <Item>0_default_modkit</Item>
+      </kits>
+      <windowsWithExposedEdges/>
+      <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>Police guv plate</Name>
+            <Value value="100"/>
+          </Item>
+        </Probabilities>
+      </plateProbabilities>
+      <lightSettings value="251"/>
+      <sirenSettings value="76215"/>
+    </Item>
+	<Item>
+      <modelName>LCSO4</modelName>
+      <colors>
+        <Item>
+          <indices content="char_array">
+            000
+            000
+          </indices>
+          <liveries>
+            <Item value="false"/>
+            <Item value="false"/>
+            <Item value="false"/>
+          </liveries>
+        </Item>
+      </colors>
+      <kits>
+        <Item>0_default_modkit</Item>
+      </kits>
+      <windowsWithExposedEdges/>
+      <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>Police guv plate</Name>
+            <Value value="100"/>
+          </Item>
+        </Probabilities>
+      </plateProbabilities>
+      <lightSettings value="251"/>
+      <sirenSettings value="76216"/>
+    </Item>
+	<Item>
+      <modelName>LCSO5</modelName>
+      <colors>
+        <Item>
+          <indices content="char_array">
+            000
+            000
+          </indices>
+          <liveries>
+            <Item value="false"/>
+            <Item value="false"/>
+            <Item value="false"/>
+          </liveries>
+        </Item>
+      </colors>
+      <kits>
+        <Item>0_default_modkit</Item>
+      </kits>
+      <windowsWithExposedEdges/>
+      <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>Police guv plate</Name>
+            <Value value="100"/>
+          </Item>
+        </Probabilities>
+      </plateProbabilities>
+      <lightSettings value="701"/>
+      <sirenSettings value="76217"/>
+    </Item>
+	<Item>
+      <modelName>LCSO6</modelName>
+      <colors>
+        <Item>
+          <indices content="char_array">
+            000
+            000
+          </indices>
+          <liveries>
+            <Item value="false"/>
+            <Item value="false"/>
+            <Item value="false"/>
+          </liveries>
+        </Item>
+      </colors>
+      <kits>
+        <Item>0_default_modkit</Item>
+      </kits>
+      <windowsWithExposedEdges/>
+      <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>Police guv plate</Name>
+            <Value value="100"/>
+          </Item>
+        </Probabilities>
+      </plateProbabilities>
+      <lightSettings value="689"/>
+      <sirenSettings value="76218"/>
+    </Item>
+	<Item>
+      <modelName>LCSO7</modelName>
+      <colors>
+        <Item>
+          <indices content="char_array">
+            000
+            000
+          </indices>
+          <liveries>
+            <Item value="false"/>
+            <Item value="false"/>
+            <Item value="false"/>
+          </liveries>
+        </Item>
+      </colors>
+      <kits>
+        <Item>0_default_modkit</Item>
+      </kits>
+      <windowsWithExposedEdges/>
+      <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>Police guv plate</Name>
+            <Value value="100"/>
+          </Item>
+        </Probabilities>
+      </plateProbabilities>
+      <lightSettings value="254"/>
+      <sirenSettings value="76219"/>
+    </Item>
+  </variationData>
+</CVehicleModelInfoVariation>
