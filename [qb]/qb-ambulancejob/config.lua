@@ -49,38 +49,28 @@ Config.Locations = {
 Config.AuthorizedVehicles = {
 	-- Grade 0
 	[0] = {
-		["f750"] = "Ambulance",
-        ["gmc"] = "Brush Truck",
-        ["exp"] = "Explorer",
-        ["21yuk"] = "Yukon",
+		["aambulance"] = "Ambulance",
+        ["afiretruck"] = "Rescue",
 	},
 	-- Grade 1
 	[1] = {
-		["f750"] = "Ambulance",
-        ["gmc"] = "Brush Truck",
-        ["exp"] = "Explorer",
-        ["21yuk"] = "Yukon",
+		["aambulance"] = "Ambulance",
+        ["afiretruck"] = "Rescue",
 	},
 	-- Grade 2
 	[2] = {
-		["f750"] = "Ambulance",
-        ["gmc"] = "Brush Truck",
-        ["exp"] = "Explorer",
-        ["21yuk"] = "Yukon",
+		["aambulance"] = "Ambulance",
+        ["afiretruck"] = "Rescue",
 	},
 	-- Grade 3
 	[3] = {
-		["f750"] = "Ambulance",
-        ["gmc"] = "Brush Truck",
-        ["exp"] = "Explorer",
-        ["21yuk"] = "Yukon",
+		["aambulance"] = "Ambulance",
+        ["afiretruck"] = "Rescue",
 	},
 	-- Grade 4
 	[4] = {
-		["f750"] = "Ambulance",
-        ["gmc"] = "Brush Truck",
-        ["exp"] = "Explorer",
-        ["21yuk"] = "Yukon",
+		["aambulance"] = "Ambulance",
+        ["afiretruck"] = "Rescue",
 	}
 }
 
