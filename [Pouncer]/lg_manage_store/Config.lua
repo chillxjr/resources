@@ -166,16 +166,16 @@ stores = {
             -- request_price    -> The price that will be charged to the store owner for ordering new items
             -- mission_money    -> The value the player will earn for performing the quest for that item
             -- max_request      -> The maximum items the owner can request for a single quest
-            {name = "water_bottle", label = "Bottle of Water", amount = 500, weight = 1.0, price = 152, recommended_price = 100, max_price = 1000, request_price = 50, mission_money = 25, max_request = 500},
-            {name = "beer", label = "beer", amount = 500, weight = 1.0, price = 100, recommended_price = 100, max_price = 1000, request_price = 50, mission_money = 25, max_request = 500},
-            {name = "coffee", label = "Coffee", amount = 500, weight = 1.0, price = 152, recommended_price = 100, max_price = 1000, request_price = 50, mission_money = 25, max_request = 500},
-            {name = "twerks_candy", label = "Terks Bar", amount = 500, weight = 1.0, price = 100, recommended_price = 100, max_price = 1000, request_price = 50, mission_money = 25, max_request = 500},
-            {name = "snikkel_candy", label = "Snikkel Bar", amount = 500, weight = 1.0, price = 152, recommended_price = 100, max_price = 1000, request_price = 50, mission_money = 25, max_request = 500},
-            {name = "painkillers", label = "Pain Killers", amount = 500, weight = 1.0, price = 100, recommended_price = 100, max_price = 1000, request_price = 50, mission_money = 25, max_request = 500},
-            {name = "tosti", label = "Grilled Cheese", amount = 500, weight = 1.0, price = 152, recommended_price = 100, max_price = 1000, request_price = 50, mission_money = 25, max_request = 500},
-            {name = "kurkakola", label = "Cola", amount = 500, weight = 1.0, price = 100, recommended_price = 100, max_price = 1000, request_price = 50, mission_money = 25, max_request = 500},
-            {name = "sandwich", label = "Sandwich", amount = 500, weight = 1.0, price = 152, recommended_price = 100, max_price = 1000, request_price = 50, mission_money = 25, max_request = 500},
-            {name = "bandage", label = "Bandages", amount = 500, weight = 1.0, price = 152, recommended_price = 100, max_price = 1000, request_price = 50, mission_money = 25, max_request = 500},
+            {name = "water_bottle", label = "Bottle of Water", amount = 500, weight = 1.0, price = 5, recommended_price = 100, max_price = 1000, request_price = 2, mission_money = 25, max_request = 500},
+            {name = "beer", label = "beer", amount = 500, weight = 1.0, price = 7, recommended_price = 100, max_price = 1000, request_price = 2, mission_money = 25, max_request = 500},
+            {name = "coffee", label = "Coffee", amount = 500, weight = 1.0, price = 5, recommended_price = 100, max_price = 1000, request_price = 2, mission_money = 25, max_request = 500},
+            {name = "twerks_candy", label = "Terks Bar", amount = 500, weight = 1.0, price = 5, recommended_price = 100, max_price = 1000, request_price = 2, mission_money = 25, max_request = 500},
+            {name = "snikkel_candy", label = "Snikkel Bar", amount = 500, weight = 1.0, price = 5, recommended_price = 100, max_price = 1000, request_price = 2, mission_money = 25, max_request = 500},
+            {name = "painkillers", label = "Pain Killers", amount = 500, weight = 1.0, price = 15, recommended_price = 100, max_price = 1000, request_price = 10, mission_money = 25, max_request = 500},
+            {name = "tosti", label = "Grilled Cheese", amount = 500, weight = 1.0, price = 5, recommended_price = 100, max_price = 1000, request_price = 2, mission_money = 25, max_request = 500},
+            {name = "kurkakola", label = "Cola", amount = 500, weight = 1.0, price = 5, recommended_price = 100, max_price = 1000, request_price = 2, mission_money = 25, max_request = 500},
+            {name = "sandwich", label = "Sandwich", amount = 500, weight = 1.0, price = 5, recommended_price = 100, max_price = 1000, request_price = 2, mission_money = 25, max_request = 500},
+            {name = "bandage", label = "Bandages", amount = 500, weight = 1.0, price = 10, recommended_price = 100, max_price = 1000, request_price = 5, mission_money = 25, max_request = 500},
         },
     
 
