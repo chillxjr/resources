@@ -175,6 +175,7 @@ stores = {
             {name = "tosti", label = "Grilled Cheese", amount = 500, weight = 1.0, price = 5, recommended_price = 100, max_price = 1000, request_price = 2, mission_money = 25, max_request = 500},
             {name = "kurkakola", label = "Cola", amount = 500, weight = 1.0, price = 5, recommended_price = 100, max_price = 1000, request_price = 2, mission_money = 25, max_request = 500},
             {name = "sandwich", label = "Sandwich", amount = 500, weight = 1.0, price = 5, recommended_price = 100, max_price = 1000, request_price = 2, mission_money = 25, max_request = 500},
+            {name = "lotto", label = "Scratch Ticket", amount = 500, weight = 1.0, price = 5, recommended_price = 100, max_price = 1000, request_price = 2, mission_money = 25, max_request = 500},
             {name = "bandage", label = "Bandages", amount = 500, weight = 1.0, price = 10, recommended_price = 100, max_price = 1000, request_price = 5, mission_money = 25, max_request = 500},
         },
     
