@@ -101,6 +101,10 @@ Config.PawnItems = {
     [23] = {
         item = "markedbills",
         price = math.random(5000,7000)
+    },
+    [24] = {
+        item = "rubber",
+        price = math.random(50,100)
     }
 
 }
