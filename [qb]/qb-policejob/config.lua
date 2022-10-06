@@ -162,6 +162,9 @@ Config.AuthorizedVehicles = {
         ["lspddur"] = "2021 Dodge Durango (Police)",
         ["lspdtaur"] = "2016 Ford Taurus (Police)",
         ["policeb"] = "police Motorcycle (Police)",
+        ["nm_corvette"] = "Corvette (Police)",
+        ["nm_avent"] = "Lambo (Police)",
+        ["mkivbb_vv"] = "Supra (Police)",
 	},
 	-- Grade 4
 	[4] = {
@@ -185,6 +188,9 @@ Config.AuthorizedVehicles = {
         ["lspddur"] = "2021 Dodge Durango (Police)",
         ["lspdtaur"] = "2016 Ford Taurus (Police)",
         ["policeb"] = "police Motorcycle (Police)",
+        ["nm_corvette"] = "Corvette (Police)",
+        ["nm_avent"] = "Lambo (Police)",
+        ["mkivbb_vv"] = "Supra (Police)",
         
 	}
 }
