@@ -5,7 +5,7 @@ local detachKeys = {157, 158, 160, 164, 165, 73, 36}
 
 -- Add your vehicles here that will allow Ambulance to get a stretcher out.
 local allowedStretcherVehicles = {
-    "ambulance",
+    "fordambo",
 }
 
 -- Functions
