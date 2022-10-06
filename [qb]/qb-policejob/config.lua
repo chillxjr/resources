@@ -162,9 +162,10 @@ Config.AuthorizedVehicles = {
         ["lspddur"] = "2021 Dodge Durango (Police)",
         ["lspdtaur"] = "2016 Ford Taurus (Police)",
         ["policeb"] = "police Motorcycle (Police)",
-        ["nm_corvette"] = "Corvette (Police)",
-        ["nm_avent"] = "Lambo (Police)",
-        ["mkivbb_vv"] = "Supra (Police)",
+        ["um14charger"] = "2014 Charger (Unmarked)",
+        ["um18charger2"] = "2018 Charger (Unmarked)",
+        ["um20fpiu"] = "2020 Explorer (Unmarked)",
+        ["um21tahoe"] = "2021 Tahoe (Unmarked)",
 	},
 	-- Grade 4
 	[4] = {
@@ -187,10 +188,16 @@ Config.AuthorizedVehicles = {
         ["lspd21f150"] = "2021 Ford F150 (Police)",
         ["lspddur"] = "2021 Dodge Durango (Police)",
         ["lspdtaur"] = "2016 Ford Taurus (Police)",
-        ["policeb"] = "police Motorcycle (Police)",
-        ["nm_corvette"] = "Corvette (Police)",
-        ["nm_avent"] = "Lambo (Police)",
-        ["mkivbb_vv"] = "Supra (Police)",
+        ["policeb"] = "Police Motorcycle (Police)",
+        ["policecart"] = "Sheriff Golfcart (Sheriff)",
+        ["um14charger"] = "2014 Charger (Unmarked)",
+        ["um18charger2"] = "2018 Charger (Unmarked)",
+        ["um20fpiu"] = "2020 Explorer (Unmarked)",
+        ["um21tahoe"] = "2021 Tahoe (Unmarked)",
+        ["umf150"] = "F-150 (Unmarked)",
+        ["umimpala"] = "Impala (Unmarked)",
+        ["umrav4"] = "Rav-4 (Unmarked)",
+        ["umwrx"] = "WRX (Unmarked)",
         
 	}
 }
