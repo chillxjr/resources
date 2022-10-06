@@ -2,7 +2,7 @@ Config = {}
 
 Config.UseTarget = GetConvar('UseTarget', false)
 
-Config.MinimalDoctors = 2
+Config.MinimalDoctors = 0
 Config.WipeInventoryOnRespawn = true
 
 Config.Locations = {
@@ -12,11 +12,11 @@ Config.Locations = {
     },
     ["duty"] = {
         [1] = vector3(1826.23, 3685.75, 34.27),
-        [2] = vector3(305.25, -597.7, 43.29),
+        [2] = vector3(307.03, -597.79, 43.28),
     },
     ["vehicle"] = {
         [1] = vector4(1811.28, 3684.75, 34.22, 294.63),
-        [2] = vector4(292.38, -570.22, 43.15, 65.71),
+        [2] = vector4(333.17, -575.21, 28.8, 338.17),
     },
     ["helicopter"] = {
         [1] = vector4(351.58, -587.45, 74.16, 160.5),
@@ -24,7 +24,7 @@ Config.Locations = {
     },
     ["armory"] = {
         [1] = vector3(1823.12, 3666.61, 34.27),
-        [2] = vector3(309.95, -602.88, 43.29),
+        [2] = vector3(306.48, -601.71, 43.28),
     },
     ["roof"] = {
         [1] = vector4(338.5, -583.85, 74.16, 245.5),
@@ -38,7 +38,7 @@ Config.Locations = {
     },
     ["beds"] = {
         [1] = {coords = vector4(1826.44, 3676.7, 35.2, 26.05), taken = false, model = 1631638868},
-        [2] = {coords = vector4(334.12, -578.47, 44.01, 70.13), taken = false, model = 1631638868},
+        [2] = {coords = vector4(314.58, -584.31, 44.2, 339.12), taken = false, model = 1631638868},
     },
     ["stations"] = {
         [1] = {label = "Sandy Hospital", coords = vector4(1828.2, 3685.29, 34.27, 116.83)},
