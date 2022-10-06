@@ -13,6 +13,6 @@ RegisterServerEvent('lotto:win')
 AddEventHandler('lotto:win', function()
 	local src = source
 	local Player = QBCore.Functions.GetPlayer(src)
-	local money = math.random(100, 200)
+	local money = math.random(10, 500)
 	Player.Functions.AddMoney('cash', Config.Payment * money)
 end)
