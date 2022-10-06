@@ -161,6 +161,7 @@ Config.AuthorizedVehicles = {
         ["lspd21f150"] = "2021 Ford F150 (Police)",
         ["lspddur"] = "2021 Dodge Durango (Police)",
         ["lspdtaur"] = "2016 Ford Taurus (Police)",
+        ["policeb"] = "police Motorcycle (Police)",
 	},
 	-- Grade 4
 	[4] = {
@@ -183,6 +184,7 @@ Config.AuthorizedVehicles = {
         ["lspd21f150"] = "2021 Ford F150 (Police)",
         ["lspddur"] = "2021 Dodge Durango (Police)",
         ["lspdtaur"] = "2016 Ford Taurus (Police)",
+        ["policeb"] = "police Motorcycle (Police)",
         
 	}
 }
