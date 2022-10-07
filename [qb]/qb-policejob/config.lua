@@ -121,6 +121,7 @@ Config.AuthorizedVehicles = {
         ["pbike"] = "Police Bicycle (Police)",
         ["LCSO1"] = "2018 Taurus (Sheriff)",
         ["lspdtaur"] = "2016 Ford Taurus (Police)",
+        ["lspdvic"] = "Crown Vic (Police)",
 	},
 	-- Grade 1
 	[1] = {
@@ -129,6 +130,7 @@ Config.AuthorizedVehicles = {
         ["LCSO2"] = "2013 Explorer (Sheriff)",
         ["lspd16exp"] = "2016 Ford Explorer (Police)",
         ["lspdtaur"] = "2016 Ford Taurus (Police)",
+        ["lspdvic"] = "Crown Vic (Police)",
 
 	},
 	-- Grade 2
@@ -139,6 +141,7 @@ Config.AuthorizedVehicles = {
         ["lspd10char"] = "2010 Dodge Charger (Police)",
         ["lspd16exp"] = "2016 Ford Explorer (Police)",
         ["lspdtaur"] = "2016 Ford Taurus (Police)",
+        ["lspdvic"] = "Crown Vic (Police)",
 	},
 	-- Grade 3
 	[3] = {
@@ -162,11 +165,12 @@ Config.AuthorizedVehicles = {
         ["lspddur"] = "2021 Dodge Durango (Police)",
         ["lspdtaur"] = "2016 Ford Taurus (Police)",
         ["policeb"] = "police Motorcycle (Police)",
+        ["lspdvet"] = "Corvette (Police)",
     
 	},
 	-- Grade 4
 	[4] = {
-        ["pbike"] = "Police Bicycle (Police)",
+        ["pbike"] = "Bicycle (Police)",
         ["LCSO1"] = "2018 Taurus (Sheriff)",
         ["LCSO2"] = "2013 Explorer (Sheriff)",
         ["LCSO3"] = "2013 FPIU (Sheriff)",
@@ -185,8 +189,10 @@ Config.AuthorizedVehicles = {
         ["lspd21f150"] = "2021 Ford F150 (Police)",
         ["lspddur"] = "2021 Dodge Durango (Police)",
         ["lspdtaur"] = "2016 Ford Taurus (Police)",
-        ["policeb"] = "Police Motorcycle (Police)",
-        ["policecart"] = "Sheriff Golfcart (Sheriff)",
+        ["policeb"] = "Motorcycle (Police)",
+        ["policecart"] = "Golfcart (Sheriff)",
+        ["lspdvet"] = "Corvette (Police)",
+        ["lspdvic"] = "Crown Vic (Police)",
         
 	}
 }
