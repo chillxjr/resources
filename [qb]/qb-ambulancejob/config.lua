@@ -61,16 +61,19 @@ Config.AuthorizedVehicles = {
 	[2] = {
 		["fordambo"] = "Ambulance",
         ["afiretruck"] = "Rescue",
+        ["ram20pov"] = "2020 Ram",
 	},
 	-- Grade 3
 	[3] = {
 		["fordambo"] = "Ambulance",
         ["afiretruck"] = "Rescue",
+        ["ram20pov"] = "2020 Ram",
 	},
 	-- Grade 4
 	[4] = {
 		["fordambo"] = "Ambulance",
         ["afiretruck"] = "Rescue",
+        ["ram20pov"] = "2020 Ram",
         ["pd_bmw"] = "BMW",
 	}
 }
