@@ -107,7 +107,9 @@ Config.Locations = {
 
 Config.Vehicles = {
     ["flatbed4"] = "Flatbed",
+    ["aflatbed"] = "Flatbed 2",
     ["towtruck"] = "Towtruck",
+    ["atow"] = "Towtruck 2",
     ["21tahoe"] = "DOT Boss Tahoe",
     ["21f250"] = "DOT Mech Truck",
     ["blista"] = "Blista (Loaner Car",
