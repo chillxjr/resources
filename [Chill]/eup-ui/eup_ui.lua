@@ -342,22 +342,22 @@ local outfits = {
         category = 'EMS / Fire',
         ped = 'mp_m_freemode_01', -- HOLY FUCKING SHIT, add one to these FROM the clothing editor
         props = {
-            { 0, 123, 2 }, -- hat
+            { 0, 123, 1 }, -- hat
             { 1, 1, 1 },
             { 2, 0, 0 },
             { 3, 4, 1 },
         },
         components = {
             { 1, 1, 1 }, -- body type / sex (index, article, style)
-            { 3, 86, 1 }, -- arms
+            { 3, 89, 1 }, -- arms
             { 4, 26, 2 }, -- pants
             { 5, 1, 1 }, -- bags
             { 6, 13, 7 }, -- shoes
             { 7, 127, 1 }, -- neck
-            { 8, 88, 1 }, -- undershirt
-            { 9, 14, 1 }, -- vest
-            { 10, 59, 1 }, -- Decals
-            { 11, 251, 2 }, -- shirt
+            { 8, 95, 1 }, -- undershirt
+            { 9, 3, 1 }, -- vest
+            { 10, 58, 1 }, -- Decals
+            { 11, 250, 1 }, -- shirt
         },
     },
     ['Doctor'] = {
