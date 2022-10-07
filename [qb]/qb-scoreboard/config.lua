@@ -17,11 +17,11 @@ Config.IllegalActions = {
         busy = false,
     },
     ["jewellery"] = {
-        minimum = 3,
+        minimum = 0,
         busy = false,
     },
     ["pacific"] = {
-        minimum = 5,
+        minimum = 0,
         busy = false,
     },
 }

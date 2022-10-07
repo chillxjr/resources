@@ -320,7 +320,7 @@ local outfits = {
         category = 'EMS / Fire',
         ped = 'mp_m_freemode_01', -- HOLY FUCKING SHIT, add one to these FROM the clothing editor
         props = {
-            { 0, 84, 1 }, -- hat
+            { 0, 123, 1 }, -- hat
             { 1, 1, 1 },
             { 2, 0, 0 },
             { 3, 4, 1 },
@@ -328,36 +328,58 @@ local outfits = {
         components = {
             { 1, 1, 1 }, -- body type / sex (index, article, style)
             { 3, 86, 1 }, -- arms
-            { 4, 23, 6 }, -- pants
+            { 4, 26, 2 }, -- pants
             { 5, 1, 1 }, -- bags
             { 6, 13, 7 }, -- shoes
-            { 7, 1, 1 }, -- neck
-            { 8, 16, 1 }, -- undershirt
-            { 9, 20, 6 }, -- vest
-            { 10, 1, 1 }, -- Decals
-            { 11, 191, 1 }, -- shirt
+            { 7, 128, 1 }, -- neck
+            { 8, 88, 1 }, -- undershirt
+            { 9, 14, 1 }, -- vest
+            { 10, 59, 1 }, -- Decals
+            { 11, 251, 1 }, -- shirt
         },
     },
     ['Chief'] = {
         category = 'EMS / Fire',
         ped = 'mp_m_freemode_01', -- HOLY FUCKING SHIT, add one to these FROM the clothing editor
         props = {
-            { 0, 84, 1 }, -- hat
+            { 0, 123, 2 }, -- hat
             { 1, 1, 1 },
             { 2, 0, 0 },
             { 3, 4, 1 },
         },
         components = {
             { 1, 1, 1 }, -- body type / sex (index, article, style)
-            { 3, 18, 1 }, -- arms
-            { 4, 11, 1 }, -- pants
+            { 3, 86, 1 }, -- arms
+            { 4, 26, 2 }, -- pants
             { 5, 1, 1 }, -- bags
             { 6, 13, 7 }, -- shoes
-            { 7, 1, 1 }, -- neck
-            { 8, 16, 1 }, -- undershirt
-            { 9, 3, 1 }, -- vest
+            { 7, 127, 1 }, -- neck
+            { 8, 88, 1 }, -- undershirt
+            { 9, 14, 1 }, -- vest
+            { 10, 59, 1 }, -- Decals
+            { 11, 251, 2 }, -- shirt
+        },
+    },
+    ['Doctor'] = {
+        category = 'EMS / Fire',
+        ped = 'mp_m_freemode_01', -- HOLY FUCKING SHIT, add one to these FROM the clothing editor
+        props = {
+            { 0, 0, 0 }, -- hat
+            { 1, 1, 1 },
+            { 2, 0, 0 },
+            { 3, 4, 1 },
+        },
+        components = {
+            { 1, 1, 1 }, -- body type / sex (index, article, style)
+            { 3, 89, 1 }, -- arms
+            { 4, 26, 2 }, -- pants
+            { 5, 1, 1 }, -- bags
+            { 6, 11, 1 }, -- shoes
+            { 7, 127, 1 }, -- neck
+            { 8, 81, 9 }, -- undershirt
+            { 9, 20, 6 }, -- vest
             { 10, 1, 1 }, -- Decals
-            { 11, 201, 1 }, -- shirt
+            { 11, 4, 13 }, -- shirt
         },
     },
     ['Fire Turnouts'] = {

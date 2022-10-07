@@ -1,5 +1,5 @@
 Config = {}
-Config.HotwireChance = 0.5 -- Chance for successful hotwire or not
+Config.HotwireChance = 0.9 -- Chance for successful hotwire or not
 
 Config.RemoveLockpickNormal = 0.5 -- Chance to remove lockpick on fail
 Config.RemoveLockpickAdvanced = 0.2 -- Chance to remove advanced lockpick on fail
@@ -53,7 +53,7 @@ Config.NoCarjackWeapons = {
 }
 
 Config.CarjackChance = {
-    ['2685387236'] = 0.0,   -- melee
+    ['2685387236'] = 0.5,   -- melee
     ['416676503'] = 0.5,   -- handguns
     ['337201093'] = 0.75,   -- SMG
     ['860033945'] = 0.90,   -- shotgun

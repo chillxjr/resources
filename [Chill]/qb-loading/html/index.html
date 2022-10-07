@@ -194,50 +194,7 @@
                 </q-card>
             </div>
 
-            <q-dialog no-shake v-model="download" position="bottom">
-                <q-card style="max-width: 400px; margin-left: 50vw; margin-bottom: 13vh;">
-                    <q-card-section>
-                        <div style="white-space: pre-wrap;" class="text-h6">
-                            {{ DownloadTitle }}
-                        </div>
-                    </q-card-section>
-
-                    <q-card-section style="white-space: pre-wrap;" class="q-pt-none text-weight-bold">
-                        {{ DownloadDesc }}
-                    </q-card-section>
-
-                    <q-card-actions align="left">
-                        <q-btn flat label="Hide details" color="detailbutton" v-close-popup></q-btn>
-                    </q-card-actions>
-                </q-card>
-            </q-dialog>
-
-            <q-dialog no-shake v-model="settings" position="right">
-                <q-card style="max-width: 300px; margin-right: 3.4vw; top: 20vh!important;">
-                    <q-card-section class="row items-center q-pb-none">
-                        <div style="white-space: pre-wrap;" class="text-h6">
-                            {{ SettingsTitle }}
-                        </div>
-                        <q-space></q-space>
-                        <q-btn icon="close" flat round dense v-close-popup></q-btn>
-                    </q-card-section>
-
-                    <q-card-section style="padding-top: 0px;">
-                        <q-toggle v-model="audioplay" size="lg" checked-icon="headset" keep-color color="togglecolor" label="Audio-track Enabled" unchecked-icon="headset_off" onclick="audiotoggle()"></q-toggle>
-                        <div style="white-space: pre-wrap;" class="text-h7 text-weight-medium q-mb-md-d">
-                            {{ AudioTrackDesc1 }}
-                        </div>
-                        <q-toggle v-model="secondap" size="lg" checked-icon="view_carousel" keep-color color="togglecolor" label="Auto-play Enabled" unchecked-icon="image"></q-toggle>
-                        <div style="white-space: pre-wrap;" class="text-h7 text-weight-medium q-mb-md-d">
-                            {{ AutoPlayDesc2 }}
-                        </div>
-                        <q-toggle v-model="playvideo" size="lg" checked-icon="play_arrow" keep-color color="togglecolor" label="Play-video Enabled" unchecked-icon="play_disabled" onclick="videotoggle()"></q-toggle>
-                        <div style="white-space: pre-wrap;" class="text-h7 text-weight-medium q-mb-md-d">
-                            {{ PlayVideoDesc3 }}
-                        </div>
-                    </q-card-section>
-                </q-card>
-            </q-dialog>
+            
         </div>
     </body>
 </html>

@@ -5,22 +5,22 @@ const { ref } = Vue
 const load = Vue.createApp({
   setup () {
     return {
-      CarouselText1: 'You can add/remove items, vehicles, jobs & gangs through the shared folder.',
-      CarouselSubText1: 'Photo captured by: Markyoo#8068',
-      CarouselText2: 'Adding additional player data can be achieved by modifying the qb-core player.lua file.',
-      CarouselSubText2: 'Photo captured by: ihyajb#9723',
-      CarouselText3: 'All server-specific adjustments can be made in the config.lua files throughout the build.',
-      CarouselSubText3: 'Photo captured by: FLAPZ[INACTIV]#9925',
-      CarouselText4: 'For additional support please join our community at discord.gg/qbcore',
-      CarouselSubText4: 'Photo captured by: Robinerino#1312',
+      CarouselText1: 'TAPs Roleplay',
+      CarouselSubText1: 'FivePD | Fire/EMS | Custom Scripts',
+      CarouselText2: 'TAPs Roleplay',
+      CarouselSubText2: 'FivePD | Fire/EMS | Custom Scripts',
+      CarouselText3: 'TAPs Roleplay',
+      CarouselSubText3: 'FivePD | Fire/EMS | Custom Scripts',
+      CarouselText4: 'TAPs Roleplay',
+      CarouselSubText4: 'FivePD | Fire/EMS | Custom Scripts',
 
-      DownloadTitle: 'Downloading QBCore Server',
-      DownloadDesc: "Hold tight while we begin downloading all the resources/assets required to play on QBCore Server. \n\nAfter download has been finished successfully, you'll be placed into the server and this screen will disappear. Please don't leave or turn off your PC. ",
+      DownloadTitle: ' ',
+      DownloadDesc: "  ",
 
-      SettingsTitle: 'Settings',
-      AudioTrackDesc1: 'When disabled the current audio-track playing will be stopped.',
-      AutoPlayDesc2: 'When disabled carousel images will stop cycling and remain on the last shown.',
-      PlayVideoDesc3: 'When disabled video will stop playing and remain paused.',
+      SettingsTitle: ' ',
+      AudioTrackDesc1: ' ',
+      AutoPlayDesc2: ' ',
+      PlayVideoDesc3: ' ',
 
       KeybindTitle: 'Default Keybinds',
       Keybind1: 'Open Inventory',
