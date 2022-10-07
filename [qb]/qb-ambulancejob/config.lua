@@ -50,7 +50,6 @@ Config.AuthorizedVehicles = {
 	-- Grade 0
 	[0] = {
 		["fordambo"] = "Ambulance",
-        ["afiretruck"] = "Rescue",
 	},
 	-- Grade 1
 	[1] = {
@@ -61,13 +60,18 @@ Config.AuthorizedVehicles = {
 	[2] = {
 		["fordambo"] = "Ambulance",
         ["afiretruck"] = "Rescue",
-        ["ram20pov"] = "2020 Ram",
+        ["arroweng"] = "Engine",
+        ["arrowladder"] = "Ladder Truck",
+        ["arrowrescue"] = "Large Rescue",
 	},
 	-- Grade 3
 	[3] = {
 		["fordambo"] = "Ambulance",
         ["afiretruck"] = "Rescue",
         ["ram20pov"] = "2020 Ram",
+        ["arroweng"] = "Engine",
+        ["arrowladder"] = "Ladder Truck",
+        ["arrowrescue"] = "Large Rescue",
 	},
 	-- Grade 4
 	[4] = {
@@ -75,6 +79,9 @@ Config.AuthorizedVehicles = {
         ["afiretruck"] = "Rescue",
         ["ram20pov"] = "2020 Ram",
         ["pd_bmw"] = "BMW",
+        ["arroweng"] = "Engine",
+        ["arrowladder"] = "Ladder Truck",
+        ["arrowrescue"] = "Large Rescue",
 	}
 }
 
