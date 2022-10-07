@@ -284,7 +284,7 @@ if liverycount > 0 then
   for i=1, liverycount do
 table.insert(liverys2, s, i )
 end
- local liverys = NativeUI.CreateListItem("Livery number",liverys2, 1 )
+ local liverys = NativeUI.CreateListItem("Livery number",liverys2, 0 )
 
  livery:AddItem(liverys)
 
