@@ -65,9 +65,76 @@ local outfits = {
             { 11, 201, 4 }, -- shirt
         },
     },
-    
-    
-    
+    ['Male LSPD Uniform (Detective)'] = {
+        category = 'LSPD',
+        ped = 'mp_m_freemode_01',
+        props = {
+            { 0, 0, 0 },
+            { 1, 2, 2 },
+            { 2, 0, 0 },
+            { 3, 0, 0 },
+        },
+        components = {
+            { 1, 1, 1 },
+            { 3, 5, 1 }, -- arms
+            { 4, 26, 2 }, -- pants
+            { 5, 1, 1 }, -- bags
+            { 6, 13, 7 }, -- shoes
+            { 7, 9, 1 }, -- neck
+            { 8, 89, 1 }, -- undershirt
+            { 9, 25, 4 }, -- vest
+            { 10, 1, 1 }, -- Decals
+            { 11, 4, 6 }, -- shirt
+        },
+    },
+    ['Male LSPD Uniform (Vest)'] = {
+        category = 'LSPD',
+        ped = 'mp_m_freemode_01',
+        props = {
+            { 0, 4, 1 },
+            { 1, 2, 2 },
+            { 2, 0, 0 },
+            { 3, 0, 0 },
+        },
+        components = {
+            { 1, 1, 1 },
+            { 3, 21, 1 }, -- arms
+            { 4, 26, 3 }, -- pants
+            { 5, 53, 1 }, -- bags
+            { 6, 13, 7 }, -- shoes
+            { 7, 9, 1 }, -- neck
+            { 8, 54, 1 }, -- undershirt
+            { 9, 2, 3 }, -- vest
+            { 10, 1, 1 }, -- Decals
+            { 11, 194, 4 }, -- shirt
+        },
+    },
+    ['Male LSPD Uniform (Chief)'] = {
+        category = 'LSPD',
+        ped = 'mp_m_freemode_01',
+        props = {
+            { 0, 0, 0 },
+            { 1, 1, 1 },
+            { 2, 0, 0 },
+            { 3, 0, 0 },
+        },
+        components = {
+            { 1, 1, 1 },
+            { 3, 21, 1 }, -- arms
+            { 4, 26, 3 }, -- pants
+            { 5, 53, 1 }, -- bags
+            { 6, 13, 7 }, -- shoes
+            { 7, 9, 1 }, -- neck
+            { 8, 56, 1 }, -- undershirt
+            { 9, 1, 1 }, -- vest
+            { 10, 79, 1 }, -- Decals
+            { 11, 201, 6 }, -- shirt
+        },
+    },
+
+
+
+
     ['Male LSSD Uniform (Long Sleeve)'] = {
         category = 'LSSD',
         ped = 'mp_m_freemode_01',
@@ -134,9 +201,77 @@ local outfits = {
             { 11, 201, 1 }, -- shirt
         },
     },
-    
-    
-    
+    ['Male LSSD Uniform (Detective)'] = {
+        category = 'LSSD',
+        ped = 'mp_m_freemode_01',
+        props = {
+            { 0, 45, 2 },
+            { 1, 2, 2 },
+            { 2, 0, 0 },
+            { 3, 0, 0 },
+        },
+        components = {
+            { 1, 1, 1 },
+            { 3, 27, 1 }, -- arms
+            { 4, 26, 2 }, -- pants
+            { 5, 60, 1 }, -- bags
+            { 6, 13, 7 }, -- shoes
+            { 7, 9, 1 }, -- neck
+            { 8, 89, 1 }, -- undershirt
+            { 9, 1, 1 }, -- vest
+            { 10, 1, 1 }, -- Decals
+            { 11, 45, 3 }, -- shirt
+        },
+    },
+    ['Male LSSD Uniform (Vest)'] = {
+        category = 'LSSD',
+        ped = 'mp_m_freemode_01',
+        props = {
+            { 0, 79, 1 },
+            { 1, 2, 2 },
+            { 2, 0, 0 },
+            { 3, 0, 0 },
+        },
+        components = {
+            { 1, 1, 1 },
+            { 3, 21, 1 }, -- arms
+            { 4, 26, 2 }, -- pants
+            { 5, 59, 1 }, -- bags
+            { 6, 13, 7 }, -- shoes
+            { 7, 9, 1 }, -- neck
+            { 8, 54, 1 }, -- undershirt
+            { 9, 2, 1 }, -- vest
+            { 10, 1, 1 }, -- Decals
+            { 11, 194, 1 }, -- shirt
+        },
+    },
+    ['Male LSSD Uniform (Sheriff)'] = {
+        category = 'LSSD',
+        ped = 'mp_m_freemode_01',
+        props = {
+            { 0, 79, 1 },
+            { 1, 2, 2 },
+            { 2, 0, 0 },
+            { 3, 0, 0 },
+        },
+        components = {
+            { 1, 1, 1 },
+            { 3, 21, 1 }, -- arms
+            { 4, 26, 2 }, -- pants
+            { 5, 57, 1 }, -- bags
+            { 6, 13, 7 }, -- shoes
+            { 7, 9, 1 }, -- neck
+            { 8, 56, 1 }, -- undershirt
+            { 9, 1, 1 }, -- vest
+            { 10, 79, 1 }, -- Decals
+            { 11, 201, 2 }, -- shirt
+        },
+    },
+
+
+
+
+
     ['Male DOT Mechanic'] = {
         category = 'DOT',
         ped = 'mp_m_freemode_01', -- HOLY FUCKING SHIT, add one to these FROM the clothing editor
