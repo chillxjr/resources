@@ -193,6 +193,10 @@ Config.AuthorizedVehicles = {
         ["policecart"] = "Golfcart (Sheriff)",
         ["lspdvet"] = "Corvette (Police)",
         ["lspdvic"] = "Crown Vic (Police)",
+        ["modelsleo"] = "Tesla (Supervisor)",
+        ["viperleo"] = "Dodge Viper (Supervisor)",
+        ["amggtrleo"] = "AMG GTR (Supervisor)",
+        ["911turboleo"] = "911 Turbo (Supervisor)",
         
 	}
 }
