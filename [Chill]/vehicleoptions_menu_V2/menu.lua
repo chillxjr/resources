@@ -7,11 +7,6 @@
 -----------------------------------------------------------
 
 
--- default keybind is F3, to choose a different one get the ID you want from https://docs.fivem.net/docs/game-references/controls/
--- To disable the keybind set it to 360
-local keybind = 56
-local command = "carmenu" -- if you ever want to change the command
-
 
 
 -- DO NOT EDIT BELOW THIS IF YOU DO NOT KNOW WHAT YOU ARE DOING !! -- 
@@ -32,12 +27,10 @@ cooldown = false
 end)
 
 _menuPool = NativeUI.CreatePool()
-mainMenu = NativeUI.CreateMenu("", "~b~Vehicle options menu", 1430, 0)
-_menuPool:Add(mainMenu)
-mainMenu.SetMenuWidthOffset(50);
+
 
 function seatrs(menu)
-  local seats = _menuPool:AddSubMenu(menu, "Vehicle seats", "Change vehicle seats",1420,0)
+  local seats = _menuPool:AddSubMenu(menu, "~b~→ ~s~Vehicle seats", "Change vehicle seats",true, true, true)
   local ped = GetPlayerPed(-1)
   local veh = GetVehiclePedIsIn(ped)
   local hash = GetEntityModel(veh)
@@ -82,7 +75,7 @@ else if max < 4 then
     end
     if item == pass then
     TaskWarpPedIntoVehicle(ped, veh, 0)
-    print("test")
+    
 
   end
 end
@@ -92,7 +85,7 @@ end
 
 
 function doors(menu)
-  local doors = _menuPool:AddSubMenu(menu, "Door options","Manage the vehicles doors",1420,0)
+  local doors = _menuPool:AddSubMenu(menu, "~b~→ ~s~Door options","Manage the vehicles doors",1420,0)
 local frontleft = NativeUI.CreateItem("Front Left Door", "Open Front Left Door")
 local frontright = NativeUI.CreateItem("Front Right Door", "Open Front Right Door")
 local backLeft = NativeUI.CreateItem("Back Left Door", "Open Back Left Door")
@@ -197,12 +190,11 @@ end
 
 
 function windows(menu)
-local windows = _menuPool:AddSubMenu(menu, "Window options","Manage vehicles windows",1420,0)
+local windows = _menuPool:AddSubMenu(menu, "~b~→ ~s~Window options","Manage vehicles windows",1420,0)
 local frontup = NativeUI.CreateItem("Front Windows Down", "Roll Down The Front Windows")
 local frontdown = NativeUI.CreateItem("Front Windows Up", "Roll Up The Front Windows")
 local backtup = NativeUI.CreateItem("Back Windows Down", "Roll Down The Back Windows")
 local backdown = NativeUI.CreateItem("Back Windows Up", "Roll Up The Back Windows")
-
 
 windows:AddItem(frontup)
 windows:AddItem(frontdown)
@@ -245,7 +237,7 @@ end
 end
 
 function Extras(menu)
-  local extras = _menuPool:AddSubMenu(menu, "Vehicle Extras","Manage the vehicles extras",1420,0)
+  local extras = _menuPool:AddSubMenu(menu, "~b~→ ~s~Vehicle Extras","Manage the vehicles extras",1420,0)
   local AvailableExtras = {['VehicleExtras'] = {}}
   local Items = {['Vehicle'] = {}}
   local Vehicle = GetVehiclePedIsIn(PlayerPedId(), false)
@@ -283,7 +275,7 @@ end
 
 
 function liverys(menu)
-  local livery = _menuPool:AddSubMenu(menu, "Liverys","Change your livery",1420,0)
+  local livery = _menuPool:AddSubMenu(menu, "~b~→ ~s~Liverys","Change your livery",1420,0)
 local veh = GetVehiclePedIsIn(GetPlayerPed(-1))
 local liverycount = GetVehicleLiveryCount(veh)
 if liverycount > 0 then
@@ -307,15 +299,16 @@ else
   local non = NativeUI.CreateItem("This vehicle has no liverys to choose from :(","")
   livery:AddItem(non)
 end
-
+local mad = NativeUI.CreateItem("~b~Made by Tamir112 Modifications", "")
+menu:AddItem(mad)
 
 end
 
 
 function licenses(menu)
-local license = _menuPool:AddSubMenu(menu, "Manage License Plate", "manage your vehicles license plate", 1420 , 0)
+local license = _menuPool:AddSubMenu(menu, "~b~→ ~s~License Plate", "manage your vehicles license plate", 1420 , 0)
 local change = NativeUI.CreateItem("Random license plate", "Stole a vehicle? set a different license.")
-local set = NativeUI.CreateItem("Customize your license plate", "set a custom license plate of your choise")
+local set = NativeUI.CreateItem("Customize your license plate", "set a custom license plate of your choice")
 local let = {
 "K",
 "L",
@@ -343,14 +336,14 @@ e = math.random(1, 9)
 test1 = math.random(1, 6)
 test = math.random(1, 6)
 test2 = math.random(1, 6)
-local plate =  a..b..let[test]..c..let[test1]..d..e..let[test2]
+ plate =  a..b..let[test]..c..let[test1]..d..e..let[test2]
 
     SetVehicleNumberPlateText(veh, plate)
-    ShowNotification("~g~License plate change to "..plate)
+    ShowNotification("~g~License plate changed to "..plate)
     cooldown = true
  
 else do 
-  ShowNotification("~r~Please wait 5 seconds before using this command again")
+  ShowNotification("~r~Please wait 5 seconds before using this function again")
 end
 end
 end
@@ -366,69 +359,152 @@ if item == set then
        local plate = GetOnscreenKeyboardResult() 
        set:RightLabel(plate)  
        SetVehicleNumberPlateText(veh, plate)
-       ShowNotification("~g~License plate change to "..plate)
+       ShowNotification("~g~License plate changed to "..plate)
     end
 end
 end
 end
-  _menuPool:RefreshIndex() 
 
+function lights(menu)
+  local light = _menuPool:AddSubMenu(menu, "~b~→ ~s~Lights","Manage your vehicles lights",1420,0)
+local left = NativeUI.CreateItem("Left Indicator","toggle your left indicator")
+local right = NativeUI.CreateItem("Right Indicator","toggle your Right indicator")
+local hazard = NativeUI.CreateItem("Hazard Lights","toggle your Hazard lights")
+
+light:AddItem(left)
+light:AddItem(right)
+light:AddItem(hazard)
+light.OnItemSelect = function(sender, item, index)
+if item == left then
+local veh = GetVehiclePedIsIn(GetPlayerPed(-1))
+if GetVehicleIndicatorLights(veh) ~= 1 then
+  SetVehicleIndicatorLights(veh, 1, true)
+  SetVehicleIndicatorLights(veh, 0, false)
+  ShowNotification("~g~Left indicator activated")
+else
+  SetVehicleIndicatorLights(veh, 1, false)
+  ShowNotification("~r~Left indicator deactivated")
+end
+end
+
+if item == right then
+  local veh = GetVehiclePedIsIn(GetPlayerPed(-1))
+  if GetVehicleIndicatorLights(veh) ~= 2 then
+    SetVehicleIndicatorLights(veh, 0, true)
+    SetVehicleIndicatorLights(veh, 1, false)
+    ShowNotification("~g~Right indicator activated")
+  else
+    SetVehicleIndicatorLights(veh, 0, false)
+    ShowNotification("~r~Right indicator deactivated")
+  end
+  end
+  if item == hazard then
+    local veh = GetVehiclePedIsIn(GetPlayerPed(-1))
+    if GetVehicleIndicatorLights(veh) ~= 3 then
+      SetVehicleIndicatorLights(veh, 0, true)
+      SetVehicleIndicatorLights(veh, 1, true)
+      ShowNotification("~g~Hazards activated")
+    else
+      SetVehicleIndicatorLights(veh, 0, false)
+      SetVehicleIndicatorLights(veh, 1, false)
+      ShowNotification("~r~Hazards deactivated")
+    end
+    end
+end
+local engine1 = NativeUI.CreateItem("~b~→ ~s~Toggle Engine", "Engine On/Off")
+if Config.menus.engine then
+menu:AddItem(engine1)
+end
+menu.OnItemSelect = function(sender, item, index)
+  if item == engine1 then
+    local ped = GetPlayerPed(-1)
+    local veh = GetVehiclePedIsIn(ped)
+    local mod = GetIsVehicleEngineRunning(veh)
+
+
+      if mod == 1 then
+        SetVehicleEngineOn(veh, false, false, true)
+        ShowNotification("~r~Engine shut down")
+else 
+  SetVehicleEngineOn(veh, true, false, true)
+  ShowNotification("~g~Engine Started")
+
+end
+end
+end
+end
+
+function Openmenu()
+  _menuPool:Remove()
+	if vehMenu ~= nil and vehMenu:Visible() then
+		vehMenu:Visible(false)
+		return
+	end
+  mainMenu = NativeUI.CreateMenu("", "~b~Vehicle options menu", 1430, 0)
+  _menuPool:Add(mainMenu)
+  mainMenu.SetMenuWidthOffset(50);
+  if Config.menus.doors then           
+    doors(mainMenu)
+     end
+     if Config.menus.windows then
+    windows(mainMenu)
+     end
+     if Config.menus.extras then
+    Extras(mainMenu)
+     end
+     if Config.menus.license then
+    licenses(mainMenu)
+     end
+     if Config.menus.seats then
+    seatrs(mainMenu)
+     end
+     if Config.menus.lights then
+    lights(mainMenu)
+     end
+     if Config.menus.livery then
+      liverys(mainMenu)
+       end
+
+  _menuPool:RefreshIndex() 
+  _menuPool:MouseControlsEnabled (false)
+  _menuPool:MouseEdgeEnabled (false)
+  _menuPool:ControlDisablingEnabled(false)
+  
+      end
 
   
   
    Citizen.CreateThread(function()
       while true do
           Citizen.Wait(0)
-          _menuPool:MouseControlsEnabled (false)
-          _menuPool:MouseEdgeEnabled (false)
-          _menuPool:ControlDisablingEnabled(false)
           _menuPool:ProcessMenus()
-         if IsControlJustPressed(1, keybind) then
-          if IsPedInAnyVehicle(GetPlayerPed(-1), false) then
-            mainMenu:Clear()
-            
-doors(mainMenu)
-windows(mainMenu)
-liverys(mainMenu)
-Extras(mainMenu)
-licenses(mainMenu)
-seatrs(mainMenu)
-              mainMenu:Visible(not mainMenu:Visible())
-             
-          
+          local ped = GetPlayerPed(-1)
+          local veh = GetVehiclePedIsIn(ped)
+         if IsControlJustPressed(1, Config.keybind) then
+          if IsPedInAnyVehicle(ped, false) and GetPedInVehicleSeat(veh, -1) == ped then
+            Openmenu()
+           mainMenu:Visible(not mainMenu:Visible())                     
         else 
-          ShowNotification("~r~You need to be in a vehicle to use this menu")
+          ShowNotification("~r~You need to be in a vehicle in order to use this menu")
       end
     end
     end
   end) 
 
 
-
-RegisterCommand(command, function()
+if Config.command ~= "" then
+RegisterCommand(Config.command, function()
   Citizen.Wait(0)
-  _menuPool:MouseControlsEnabled (false)
-  _menuPool:MouseEdgeEnabled (false)
-  _menuPool:ControlDisablingEnabled(false)
-  _menuPool:ProcessMenus()
-  if IsPedInAnyVehicle(GetPlayerPed(-1), false) then
-    mainMenu:Clear()
-    doors(mainMenu)
-    windows(mainMenu)
-    liverys(mainMenu)
-    Extras(mainMenu)
-    licenses(mainMenu)
-seatrs(mainMenu)
-
-      mainMenu:Visible(not mainMenu:Visible())
-     
-  
+   local ped = GetPlayerPed(-1)
+   local veh = GetVehiclePedIsIn(ped)
+   if IsPedInAnyVehicle(ped, false) and GetPedInVehicleSeat(veh, -1) == ped then
+    mainMenu:Visible(not mainMenu:Visible())
 else 
   ShowNotification("~r~You need to be in a vehicle to use this menu")
 end
 end
 )
-
+end
 
 ---------------------------------------------------
 

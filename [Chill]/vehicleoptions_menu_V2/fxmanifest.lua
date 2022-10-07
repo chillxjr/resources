@@ -10,9 +10,11 @@ fx_version 'bodacious'
 game 'gta5'
 
 author 'Tamir112S'
+description 'A custom menu is used to control your vehicle and all of its aspects'
 
 client_scripts {
-    '@NativeUI/NativeUI.lua',
+    'dependencies/NativeUI.lua',
+    'config.lua',
     'menu.lua'
 }
 
