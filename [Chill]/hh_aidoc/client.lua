@@ -34,7 +34,7 @@ end)
 
 function SpawnVehicle(x, y, z)  
 	spam = false
-	local vehhash = GetHashKey("ambulance")                                                     
+	local vehhash = GetHashKey("fordambo")                                                     
 	local loc = GetEntityCoords(PlayerPedId())
 	RequestModel(vehhash)
 	while not HasModelLoaded(vehhash) do
