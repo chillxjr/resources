@@ -118,16 +118,19 @@ Config.SecurityCameras = {
 Config.AuthorizedVehicles = {
 	-- Grade 0
 	[0] = {
+        ["valorcvpi"] = "2014 Crown Vic (Sheriff)",
+
         ["pbike"] = "Police Bicycle (Police)",
-        ["LCSO1"] = "2018 Taurus (Sheriff)",
         ["lspdtaur"] = "2016 Ford Taurus (Police)",
         ["lspdvic"] = "Crown Vic (Police)",
 	},
 	-- Grade 1
 	[1] = {
+        ["valorcap"] = "2014 Caprice (Sheriff)",
+        ["valorcvpi"] = "2014 Crown Vic (Sheriff)",
+        ["valor16fpiu"] = "2016 Explorer (Sheriff)",
+
         ["pbike"] = "Police Bicycle (Police)",
-        ["LCSO1"] = "2018 Taurus (Sheriff)",
-        ["LCSO2"] = "2013 Explorer (Sheriff)",
         ["lspd16exp"] = "2016 Ford Explorer (Police)",
         ["lspdtaur"] = "2016 Ford Taurus (Police)",
         ["lspdvic"] = "Crown Vic (Police)",
@@ -135,9 +138,15 @@ Config.AuthorizedVehicles = {
 	},
 	-- Grade 2
 	[2] = {
+        ["valor14charg"] = "2014 Charger (Sheriff)",
+        ["valor16fpiu"] = "2016 Explorer (Sheriff)",
+        ["valor18charg"] = "2018 Charger (Sheriff)",
+        ["valorcap"] = "2014 Caprice (Sheriff)",
+        ["valorcvpi"] = "2014 Crown Vic (Sheriff)",
+        ["valorharley"] = "Motorcycle (Sheriff)",
+        
+
         ["pbike"] = "Police Bicycle (Police)",
-        ["LCSO1"] = "2018 Taurus (Sheriff)",
-        ["LCSO2"] = "2013 Explorer (Sheriff)",
         ["lspd10char"] = "2010 Dodge Charger (Police)",
         ["lspd16exp"] = "2016 Ford Explorer (Police)",
         ["lspdtaur"] = "2016 Ford Taurus (Police)",
@@ -145,14 +154,18 @@ Config.AuthorizedVehicles = {
 	},
 	-- Grade 3
 	[3] = {
+        ["valor14charg"] = "2014 Charger (Sheriff)",
+        ["valor16fpiu"] = "2016 Explorer (Sheriff)",
+        ["valor18charg"] = "2018 Charger (Sheriff)",
+        ["valor18tahoe"] = "2018 Tahoe (Sheriff)",
+        ["valor20fpiu"] = "2020 Explorer (Sheriff)",
+        ["valorcap"] = "2014 Caprice (Sheriff)",
+        ["valorcvpi"] = "2014 Crown Vic (Sheriff)",
+        ["valor19silv"] = "2019 Silverado (Sheriff)",
+        ["valor20ram"] = "2020 Ram (Sheriff)",
+        ["valorharley"] = "Motorcycle (Sheriff)",
+
         ["pbike"] = "Police Bicycle (Police)",
-        ["LCSO1"] = "2018 Taurus (Sheriff)",
-        ["LCSO2"] = "2013 Explorer (Sheriff)",
-        ["LCSO3"] = "2013 FPIU (Sheriff)",
-        ["LCSO4"] = "2016 Explorer (Sheriff)",
-        ["LCSO5"] = "2020 Explorer (Sheriff)",
-        ["LCSO6"] = "2018 Tahoe (Sheriff)",
-        ["LCSO7"] = "Caprice (Sheriff)",
         ["lspd10char"] = "2010 Dodge Charger (Police)",
         ["lspd14char"] = "2014 Dodge Charger (Police)",
         ["lspd18char"] = "2018 Dodge Charger (Police)",
@@ -170,29 +183,31 @@ Config.AuthorizedVehicles = {
 	},
 	-- Grade 4
 	[4] = {
+        ["valor14charg"] = "2014 Charger (Sheriff)",
+        ["valor16fpiu"] = "2016 Explorer (Sheriff)",
+        ["valor18charg"] = "2018 Charger (Sheriff)",
+        ["valor18tahoe"] = "2018 Tahoe (Sheriff)",
+        ["valor20fpiu"] = "2020 Explorer (Sheriff)",
+        ["valorcap"] = "2014 Caprice (Sheriff)",
+        ["valorcvpi"] = "2014 Crown Vic (Sheriff)",
+        ["valor19silv"] = "2019 Silverado (Sheriff)",
+        ["valor20ram"] = "2020 Ram (Sheriff)",
+        ["valorharley"] = "Motorcycle (Sheriff)",
+        ["policecart"] = "Golfcart (Sheriff)",
+
         ["pbike"] = "Bicycle (Police)",
-        ["LCSO1"] = "2018 Taurus (Sheriff)",
-        ["LCSO2"] = "2013 Explorer (Sheriff)",
-        ["LCSO3"] = "2013 FPIU (Sheriff)",
-        ["LCSO4"] = "2016 Explorer (Sheriff)",
-        ["LCSO5"] = "2020 Explorer (Sheriff)",
-        ["LCSO6"] = "2018 Tahoe (Sheriff)",
-        ["LCSO7"] = "Caprice (Sheriff)",
+        ["lspdvic"] = "Crown Vic (Police)",
         ["lspd10char"] = "2010 Dodge Charger (Police)",
         ["lspd14char"] = "2014 Dodge Charger (Police)",
-        ["lspd18char"] = "2018 Dodge Charger (Police)",
         ["lspd16exp"] = "2016 Ford Explorer (Police)",
-        ["lspd16expk9"] = "2016 Ford Explorer K-9 (Police)",
         ["lspd20exp"] = "2020 Ford Explorer (Police)",
         ["lspdtahoe"] = "2018 Chevy Tahoe (Police)",
-        ["lspdtahoek9"] = "2018 Chevy Tahoe K-9 (Police)",
         ["lspd21f150"] = "2021 Ford F150 (Police)",
         ["lspddur"] = "2021 Dodge Durango (Police)",
         ["lspdtaur"] = "2016 Ford Taurus (Police)",
         ["policeb"] = "Motorcycle (Police)",
-        ["policecart"] = "Golfcart (Sheriff)",
         ["lspdvet"] = "Corvette (Police)",
-        ["lspdvic"] = "Crown Vic (Police)",
+
         ["modelsleo"] = "Tesla (Supervisor)",
         ["viperleo"] = "Dodge Viper (Supervisor)",
         ["amggtrleo"] = "AMG GTR (Supervisor)",
