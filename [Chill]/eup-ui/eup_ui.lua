@@ -1,509 +1,91 @@
-local outfits = {
-    ['Male LSPD Uniform (Long Sleeve)'] = {
-        category = 'LSPD',
-        ped = 'mp_m_freemode_01',
-        props = {
-            { 0, 4, 1 },
-            { 1, 2, 2 },
-            { 2, 0, 0 },
-            { 3, 0, 0 },
-        },
-        components = {
-            { 1, 1, 1 },
-            { 3, 21, 1 }, -- arms
-            { 4, 26, 3 }, -- pants
-            { 5, 53, 1 }, -- bags
-            { 6, 13, 7 }, -- shoes
-            { 7, 9, 1 }, -- neck
-            { 8, 54, 1 }, -- undershirt
-            { 9, 1, 1 }, -- vest
-            { 10, 1, 1 }, -- Decals
-            { 11, 194, 4 }, -- shirt
-        },
-    },
-    ['Male LSPD Uniform (Short Sleeve)'] = {
-        category = 'LSPD',
-        ped = 'mp_m_freemode_01',
-        props = {
-            { 0, 4, 1 }, -- hat
-            { 1, 2, 2 }, -- glasses
-            { 2, 0, 0 },
-            { 3, 4, 1 },
-        },
-        components = {
-            { 1, 1, 1 },
-            { 3, 27, 1 }, -- arms
-            { 4, 26, 3 }, -- pants
-            { 5, 53, 1 }, -- bags
-            { 6, 13, 7 }, -- shoes
-            { 7, 9, 1 }, -- neck
-            { 8, 54, 1 }, -- undershirt
-            { 9, 1, 1 }, -- vest
-            { 10, 1, 1 }, -- Decals
-            { 11, 191, 4 }, -- shirt
-        },
-    },
-    ['Male LSPD Uniform (Supervisor)'] = {
-        category = 'LSPD',
-        ped = 'mp_m_freemode_01',
-        props = {
-            { 0, 0, 0 }, -- hat
-            { 1, 2, 2 }, -- glasses
-            { 2, 0, 0 },
-            { 3, 4, 1 },
-        },
-        components = {
-            { 1, 1, 1 },
-            { 3, 21, 1 }, -- arms
-            { 4, 26, 3 }, -- pants
-            { 5, 53, 1 }, -- bags
-            { 6, 13, 7 }, -- shoes
-            { 7, 9, 1 }, -- neck
-            { 8, 54, 1 }, -- undershirt
-            { 9, 1, 1 }, -- vest
-            { 10, 79, 1 }, -- Decals
-            { 11, 201, 4 }, -- shirt
-        },
-    },
-    ['Male LSPD Uniform (Detective)'] = {
-        category = 'LSPD',
-        ped = 'mp_m_freemode_01',
-        props = {
-            { 0, 0, 0 },
-            { 1, 2, 2 },
-            { 2, 0, 0 },
-            { 3, 0, 0 },
-        },
-        components = {
-            { 1, 1, 1 },
-            { 3, 5, 1 }, -- arms
-            { 4, 26, 2 }, -- pants
-            { 5, 1, 1 }, -- bags
-            { 6, 13, 7 }, -- shoes
-            { 7, 9, 1 }, -- neck
-            { 8, 89, 1 }, -- undershirt
-            { 9, 25, 4 }, -- vest
-            { 10, 1, 1 }, -- Decals
-            { 11, 4, 6 }, -- shirt
-        },
-    },
-    ['Male LSPD Uniform (Vest)'] = {
-        category = 'LSPD',
-        ped = 'mp_m_freemode_01',
-        props = {
-            { 0, 4, 1 },
-            { 1, 2, 2 },
-            { 2, 0, 0 },
-            { 3, 0, 0 },
-        },
-        components = {
-            { 1, 1, 1 },
-            { 3, 21, 1 }, -- arms
-            { 4, 26, 3 }, -- pants
-            { 5, 53, 1 }, -- bags
-            { 6, 13, 7 }, -- shoes
-            { 7, 9, 1 }, -- neck
-            { 8, 54, 1 }, -- undershirt
-            { 9, 2, 3 }, -- vest
-            { 10, 1, 1 }, -- Decals
-            { 11, 194, 4 }, -- shirt
-        },
-    },
-    ['Male LSPD Uniform (Chief)'] = {
-        category = 'LSPD',
-        ped = 'mp_m_freemode_01',
-        props = {
-            { 0, 0, 0 },
-            { 1, 1, 1 },
-            { 2, 0, 0 },
-            { 3, 0, 0 },
-        },
-        components = {
-            { 1, 1, 1 },
-            { 3, 21, 1 }, -- arms
-            { 4, 26, 3 }, -- pants
-            { 5, 53, 1 }, -- bags
-            { 6, 13, 7 }, -- shoes
-            { 7, 9, 1 }, -- neck
-            { 8, 56, 1 }, -- undershirt
-            { 9, 1, 1 }, -- vest
-            { 10, 79, 1 }, -- Decals
-            { 11, 201, 6 }, -- shirt
-        },
-    },
+outfits = json.decode(LoadResourceFile(GetCurrentResourceName(), GetResourceMetadata(GetCurrentResourceName(), 'uniform_file')))
 
-
-
-
-    ['Male LSSD Uniform (Long Sleeve)'] = {
-        category = 'LSSD',
-        ped = 'mp_m_freemode_01',
-        props = {
-            { 0, 79, 1 },
-            { 1, 2, 2 },
-            { 2, 0, 0 },
-            { 3, 0, 0 },
-        },
-        components = {
-            { 1, 1, 1 },
-            { 3, 21, 1 }, -- arms
-            { 4, 26, 2 }, -- pants
-            { 5, 59, 1 }, -- bags
-            { 6, 13, 7 }, -- shoes
-            { 7, 9, 1 }, -- neck
-            { 8, 54, 1 }, -- undershirt
-            { 9, 1, 1 }, -- vest
-            { 10, 1, 1 }, -- Decals
-            { 11, 194, 1 }, -- shirt
-        },
-    },
-    ['Male LSSD Uniform (Short Sleeve)'] = {
-        category = 'LSSD',
-        ped = 'mp_m_freemode_01',
-        props = {
-            { 0, 79, 1 },
-            { 1, 2, 2 },
-            { 2, 0, 0 },
-            { 3, 4, 1 },
-        },
-        components = {
-            { 1, 1, 1 },
-            { 3, 27, 1 }, -- arms
-            { 4, 26, 2 }, -- pants
-            { 5, 59, 1 }, -- bags
-            { 6, 13, 7 }, -- shoes
-            { 7, 9, 1 }, -- neck
-            { 8, 54, 1 }, -- undershirt
-            { 9, 1, 1 }, -- vest
-            { 10, 1, 1 }, -- Decals
-            { 11, 191, 1 }, -- shirt
-        },
-    },
-    ['Male LSSD Uniform (Supervisor)'] = {
-        category = 'LSSD',
-        ped = 'mp_m_freemode_01',
-        props = {
-            { 0, 79, 1 },
-            { 1, 2, 2 },
-            { 2, 0, 0 },
-            { 3, 0, 0 },
-        },
-        components = {
-            { 1, 1, 1 },
-            { 3, 21, 1 }, -- arms
-            { 4, 26, 2 }, -- pants
-            { 5, 57, 1 }, -- bags
-            { 6, 13, 7 }, -- shoes
-            { 7, 9, 1 }, -- neck
-            { 8, 54, 1 }, -- undershirt
-            { 9, 1, 1 }, -- vest
-            { 10, 79, 1 }, -- Decals
-            { 11, 201, 1 }, -- shirt
-        },
-    },
-    ['Male LSSD Uniform (Detective)'] = {
-        category = 'LSSD',
-        ped = 'mp_m_freemode_01',
-        props = {
-            { 0, 45, 2 },
-            { 1, 2, 2 },
-            { 2, 0, 0 },
-            { 3, 0, 0 },
-        },
-        components = {
-            { 1, 1, 1 },
-            { 3, 27, 1 }, -- arms
-            { 4, 26, 2 }, -- pants
-            { 5, 60, 1 }, -- bags
-            { 6, 13, 7 }, -- shoes
-            { 7, 9, 1 }, -- neck
-            { 8, 89, 1 }, -- undershirt
-            { 9, 1, 1 }, -- vest
-            { 10, 1, 1 }, -- Decals
-            { 11, 45, 3 }, -- shirt
-        },
-    },
-    ['Male LSSD Uniform (Vest)'] = {
-        category = 'LSSD',
-        ped = 'mp_m_freemode_01',
-        props = {
-            { 0, 79, 1 },
-            { 1, 2, 2 },
-            { 2, 0, 0 },
-            { 3, 0, 0 },
-        },
-        components = {
-            { 1, 1, 1 },
-            { 3, 21, 1 }, -- arms
-            { 4, 26, 2 }, -- pants
-            { 5, 59, 1 }, -- bags
-            { 6, 13, 7 }, -- shoes
-            { 7, 9, 1 }, -- neck
-            { 8, 54, 1 }, -- undershirt
-            { 9, 2, 1 }, -- vest
-            { 10, 1, 1 }, -- Decals
-            { 11, 194, 1 }, -- shirt
-        },
-    },
-    ['Male LSSD Uniform (Sheriff)'] = {
-        category = 'LSSD',
-        ped = 'mp_m_freemode_01',
-        props = {
-            { 0, 79, 1 },
-            { 1, 2, 2 },
-            { 2, 0, 0 },
-            { 3, 0, 0 },
-        },
-        components = {
-            { 1, 1, 1 },
-            { 3, 21, 1 }, -- arms
-            { 4, 26, 2 }, -- pants
-            { 5, 57, 1 }, -- bags
-            { 6, 13, 7 }, -- shoes
-            { 7, 9, 1 }, -- neck
-            { 8, 56, 1 }, -- undershirt
-            { 9, 1, 1 }, -- vest
-            { 10, 79, 1 }, -- Decals
-            { 11, 201, 2 }, -- shirt
-        },
-    },
-
-
-
-
-
-    ['Male DOT Mechanic'] = {
-        category = 'DOT',
-        ped = 'mp_m_freemode_01', -- HOLY FUCKING SHIT, add one to these FROM the clothing editor
-        props = {
-            { 0, 143, 25 }, --hat
-            { 1, 1, 1 },
-            { 2, 0, 0 },
-            { 3, 4, 1 },
-        },
-        components = {
-            { 1, 1, 1 }, -- body type / sex (index, article, style)
-            { 3, 30, 1 }, -- arms
-            { 4, 39, 2 }, -- pants
-            { 5, 1, 1 }, -- bags
-            { 6, 13, 7 }, -- shoes
-            { 7, 1, 1 }, -- neck
-            { 8, 182, 1 }, -- undershirt
-            { 9, 1, 1 }, -- vest
-            { 10, 1, 1 }, -- Decals
-            { 11, 66, 2 }, -- shirt
-        },
-    },
-    ['Male DOT Mechanic 2'] = {
-        category = 'DOT',
-        ped = 'mp_m_freemode_01', -- HOLY FUCKING SHIT, add one to these FROM the clothing editor
-        props = {
-            { 0, 59, 3 }, --hat
-            { 1, 1, 1 },
-            { 2, 0, 0 },
-            { 3, 4, 1 },
-        },
-        components = {
-            { 1, 1, 1 }, -- body type / sex (index, article, style)
-            { 3, 31, 1 }, -- arms
-            { 4, 103, 1 }, -- pants
-            { 5, 1, 1 }, -- bags
-            { 6, 13, 7 }, -- shoes
-            { 7, 1, 1 }, -- neck
-            { 8, 183, 1 }, -- undershirt
-            { 9, 1, 1 }, -- vest
-            { 10, 1, 1 }, -- Decals
-            { 11, 57, 1 }, -- shirt
-        },
-    },
-    ['Paramedic'] = {
-        category = 'EMS / Fire',
-        ped = 'mp_m_freemode_01', -- HOLY FUCKING SHIT, add one to these FROM the clothing editor
-        props = {
-            { 0, 123, 1 }, -- hat
-            { 1, 1, 1 },
-            { 2, 0, 0 },
-            { 3, 4, 1 },
-        },
-        components = {
-            { 1, 1, 1 }, -- body type / sex (index, article, style)
-            { 3, 86, 1 }, -- arms
-            { 4, 26, 2 }, -- pants
-            { 5, 1, 1 }, -- bags
-            { 6, 13, 7 }, -- shoes
-            { 7, 128, 1 }, -- neck
-            { 8, 88, 1 }, -- undershirt
-            { 9, 14, 1 }, -- vest
-            { 10, 59, 1 }, -- Decals
-            { 11, 251, 1 }, -- shirt
-        },
-    },
-    ['Chief'] = {
-        category = 'EMS / Fire',
-        ped = 'mp_m_freemode_01', -- HOLY FUCKING SHIT, add one to these FROM the clothing editor
-        props = {
-            { 0, 123, 1 }, -- hat
-            { 1, 1, 1 },
-            { 2, 0, 0 },
-            { 3, 4, 1 },
-        },
-        components = {
-            { 1, 1, 1 }, -- body type / sex (index, article, style)
-            { 3, 89, 1 }, -- arms
-            { 4, 26, 2 }, -- pants
-            { 5, 1, 1 }, -- bags
-            { 6, 13, 7 }, -- shoes
-            { 7, 127, 1 }, -- neck
-            { 8, 95, 1 }, -- undershirt
-            { 9, 3, 1 }, -- vest
-            { 10, 58, 1 }, -- Decals
-            { 11, 250, 1 }, -- shirt
-        },
-    },
-    ['Doctor'] = {
-        category = 'EMS / Fire',
-        ped = 'mp_m_freemode_01', -- HOLY FUCKING SHIT, add one to these FROM the clothing editor
-        props = {
-            { 0, 0, 0 }, -- hat
-            { 1, 1, 1 },
-            { 2, 0, 0 },
-            { 3, 4, 1 },
-        },
-        components = {
-            { 1, 1, 1 }, -- body type / sex (index, article, style)
-            { 3, 89, 1 }, -- arms
-            { 4, 26, 2 }, -- pants
-            { 5, 1, 1 }, -- bags
-            { 6, 11, 1 }, -- shoes
-            { 7, 127, 1 }, -- neck
-            { 8, 81, 9 }, -- undershirt
-            { 9, 20, 6 }, -- vest
-            { 10, 1, 1 }, -- Decals
-            { 11, 4, 13 }, -- shirt
-        },
-    },
-    ['Fire Turnouts'] = {
-        category = 'EMS / Fire',
-        ped = 'mp_m_freemode_01', -- HOLY FUCKING SHIT, add one to these FROM the clothing editor
-        props = {
-            { 0, 46, 1 }, -- hat
-            { 1, 1, 1 },
-            { 2, 0, 0 },
-            { 3, 4, 1 },
-        },
-        components = {
-            { 1, 1, 1 }, -- body type / sex (index, article, style)
-            { 3, 17, 1 }, -- arms
-            { 4, 121, 1 }, -- pants
-            { 5, 1, 1 }, -- bags
-            { 6, 13, 7 }, -- shoes
-            { 7, 1, 1 }, -- neck
-            { 8, 16, 1 }, -- undershirt
-            { 9, 1, 1 }, -- vest
-            { 10, 1, 1 }, -- Decals
-            { 11, 316, 1 }, -- shirt
-        },
-    },
-    ['Fire Turnouts Chief'] = {
-        category = 'EMS / Fire',
-        ped = 'mp_m_freemode_01', -- HOLY FUCKING SHIT, add one to these FROM the clothing editor
-        props = {
-            { 0, 46, 3 }, -- hat
-            { 1, 1, 1 },
-            { 2, 0, 0 },
-            { 3, 4, 1 },
-        },
-        components = {
-            { 1, 1, 1 }, -- body type / sex (index, article, style)
-            { 3, 17, 1 }, -- arms
-            { 4, 121, 1 }, -- pants
-            { 5, 1, 1 }, -- bags
-            { 6, 13, 7 }, -- shoes
-            { 7, 1, 1 }, -- neck
-            { 8, 16, 1 }, -- undershirt
-            { 9, 1, 1 }, -- vest
-            { 10, 1, 1 }, -- Decals
-            { 11, 316, 1 }, -- shirt
-        },
-    },
-    ['Fire Turnouts SCBA'] = {
-        category = 'EMS / Fire',
-        ped = 'mp_m_freemode_01', -- HOLY FUCKING SHIT, add one to these FROM the clothing editor
-        props = {
-            { 0, 46, 1 }, -- hat
-            { 1, 1, 1 },
-            { 2, 0, 0 },
-            { 3, 4, 1 },
-        },
-        components = {
-            { 1, 1, 1 }, -- body type / sex (index, article, style)
-            { 3, 17, 1 }, -- arms
-            { 4, 121, 1 }, -- pants
-            { 5, 1, 1 }, -- bags
-            { 6, 13, 7 }, -- shoes
-            { 7, 1, 1 }, -- neck
-            { 8, 69, 1 }, -- undershirt
-            { 9, 1, 1 }, -- vest
-            { 10, 1, 1 }, -- Decals
-            { 11, 316, 1 }, -- shirt
-        },
-    },
-    
-}
+local function convertInput(input)
+	local t1 = tonumber(string.split(input, ":")[1])-1
+	local t2 = tonumber(string.split(input, ":")[2])-1
+	return({t1, t2})
+end
 
 local function setOutfit(outfit)
-    local ped = PlayerPedId()
+	local ped = PlayerPedId()
 
-    RequestModel(outfit.ped)
+	if (outfit.Gender == "Male" and GetEntityModel(ped) == GetHashKey("mp_m_freemode_01")) or (outfit.Gender == "Female" and GetEntityModel(ped) == GetHashKey("mp_f_freemode_01")) then
+		SetPedComponentVariation(ped, 1, convertInput(outfit.Mask)[1], convertInput(outfit.Mask)[2], 0)
+		SetPedComponentVariation(ped, 3, convertInput(outfit.UpperSkin)[1], convertInput(outfit.UpperSkin)[2], 0)
+		SetPedComponentVariation(ped, 4, convertInput(outfit.Pants)[1], convertInput(outfit.Pants)[2], 0)
+		SetPedComponentVariation(ped, 5, convertInput(outfit.Parachute)[1], convertInput(outfit.Parachute)[2], 0)
+		SetPedComponentVariation(ped, 6, convertInput(outfit.Shoes)[1], convertInput(outfit.Shoes)[2], 0)
+		SetPedComponentVariation(ped, 7, convertInput(outfit.Accessories)[1], convertInput(outfit.Accessories)[2], 0)
+		SetPedComponentVariation(ped, 8, convertInput(outfit.UnderCoat)[1], convertInput(outfit.UnderCoat)[2], 0)
+		SetPedComponentVariation(ped, 9, convertInput(outfit.Armor)[1], convertInput(outfit.Armor)[2], 0)
+		SetPedComponentVariation(ped, 10, convertInput(outfit.Decal)[1], convertInput(outfit.Decal)[2], 0)
+		SetPedComponentVariation(ped, 11, convertInput(outfit.Top)[1], convertInput(outfit.Top)[2], 0)
 
-    while not HasModelLoaded(outfit.ped) do
-        Wait(0)
-    end
+		if convertInput(outfit.Hat)[1] == -1 then
+			ClearPedProp(ped, 0)
+		else
+			SetPedPropIndex(ped, 0, convertInput(outfit.Hat)[1], convertInput(outfit.Hat)[2], true)
+		end
 
-    if GetEntityModel(ped) ~= GetHashKey(outfit.ped) then
-        SetPlayerModel(PlayerId(), outfit.ped)
-    end
+		if convertInput(outfit.Glasses)[1] == -1 then
+			ClearPedProp(ped, 1)
+		else
+			SetPedPropIndex(ped, 1, convertInput(outfit.Glasses)[1], convertInput(outfit.Glasses)[2], true)
+		end
 
-    ped = PlayerPedId()
-
-    for _, comp in ipairs(outfit.components) do
-       SetPedComponentVariation(ped, comp[1], comp[2] - 1, comp[3] - 1, 0)
-    end
-
-    for _, comp in ipairs(outfit.props) do
-        if comp[2] == 0 then
-            ClearPedProp(ped, comp[1])
-        else
-            SetPedPropIndex(ped, comp[1], comp[2] - 1, comp[3] - 1, true)
-        end
-    end
+		if convertInput(outfit.Watch)[1] == -1 then
+			ClearPedProp(ped, 6)
+		else
+			SetPedPropIndex(ped, 6, convertInput(outfit.Watch)[1], convertInput(outfit.Watch)[2], true)
+		end
+	end
 end
 
-local categoryOutfits = {}
+local categoryOutfitsM = {}
+local categoryOutfitsF = {}
 
-for name, outfit in pairs(outfits) do
-    if not categoryOutfits[outfit.category] then
-        categoryOutfits[outfit.category] = {}
-    end
-
-    categoryOutfits[outfit.category][name] = outfit
+for x, outfit in ipairs(outfits) do
+	found = false
+	if outfit.Gender == "Male" then
+		for i, j in ipairs(categoryOutfitsM) do
+			if categoryOutfitsM[i][1] == outfit.Category2 then
+				table.insert(categoryOutfitsM[i], outfit)
+				found = true
+			end
+		end
+		if found == false then
+			table.insert(categoryOutfitsM, {outfit.Category2, outfit})
+		end
+	else
+		for i, j in ipairs(categoryOutfitsF) do
+			if categoryOutfitsF[i][1] == outfit.Category2 then
+				table.insert(categoryOutfitsF[i], outfit)
+				found = true
+			end
+		end
+		if found == false then
+			table.insert(categoryOutfitsF, {outfit.Category2, outfit})
+		end
+	end
 end
+
 
 local menuPool = NativeUI.CreatePool()
-local mainMenu = NativeUI.CreateMenu('EUP FiveM', 'Pick your outfit!')
 
-for name, list in pairs(categoryOutfits) do
-    local subMenu = menuPool:AddSubMenu(mainMenu, name)
-
-    for id, outfit in pairs(list) do
-        outfit.item = NativeUI.CreateItem(id, 'Select this outfit.')
-        subMenu:AddItem(outfit.item)
+local mainMenuM = NativeUI.CreateMenu('EUP Menu', 'MAIN MENU')
+mainMenuM:SetMenuWidthOffset(80)
+for i, list in pairs(categoryOutfitsM) do
+    local subMenu = menuPool:AddSubMenu(mainMenuM, list[1])
+	subMenu:SetMenuWidthOffset(80)
+    for id, outfit in ipairs(list) do
+	if id ~= 1 then
+		categoryOutfitsM[i][id].item = NativeUI.CreateItem(categoryOutfitsM[i][id].Name, 'Select this outfit.')
+		subMenu:AddItem(categoryOutfitsM[i][id].item)
+	end
     end
-
     subMenu.OnItemSelect = function(sender, item, index)
-        -- find the outfit
-        for _, outfit in pairs(list) do
-            if outfit.item == item then
+        for id, outfit in pairs(list) do
+            if categoryOutfitsM[i][id].item == item then
                 CreateThread(function()
                     setOutfit(outfit)
                 end)
@@ -512,18 +94,54 @@ for name, list in pairs(categoryOutfits) do
     end
 end
 
-menuPool:Add(mainMenu)
+local mainMenuF = NativeUI.CreateMenu('EUP Menu', 'MAIN MENU')
+mainMenuF:SetMenuWidthOffset(80)
+for i, list in pairs(categoryOutfitsF) do
+    local subMenu = menuPool:AddSubMenu(mainMenuF, list[1])
+	subMenu:SetMenuWidthOffset(80)
+    for id, outfit in ipairs(list) do
+	if id ~= 1 then
+		categoryOutfitsF[i][id].item = NativeUI.CreateItem(categoryOutfitsF[i][id].Name, 'Select this outfit.')
+		subMenu:AddItem(categoryOutfitsF[i][id].item)
+	end
+    end
+    subMenu.OnItemSelect = function(sender, item, index)
+        for id, outfit in pairs(list) do
+            if categoryOutfitsF[i][id].item == item then
+                CreateThread(function()
+                    setOutfit(outfit)
+                end)
+            end
+        end
+    end
+end
 
+menuPool:Add(mainMenuM)
+menuPool:Add(mainMenuF)
 menuPool:RefreshIndex()
 
 RegisterCommand('eup', function()
-    mainMenu:Visible(not mainMenu:Visible())
+	local ped = PlayerPedId()
+	if GetEntityModel(ped) == GetHashKey("mp_m_freemode_01") then
+		mainMenuM:Visible(not mainMenuM:Visible())
+	elseif GetEntityModel(ped) == GetHashKey("mp_f_freemode_01") then
+		mainMenuF:Visible(not mainMenuF:Visible())
+	else
+		ShowInfo("You need to use an MP ped with EUP")
+	end
 end, false)
 
 CreateThread(function()
     while true do
         Wait(0)
-
-        menuPool:ProcessMenus()
+		menuPool:ProcessMenus()
+		menuPool:ControlDisablingEnabled(false)
+		menuPool:MouseControlsEnabled(false)
     end
 end)
+
+function ShowInfo(text)
+  SetTextComponentFormat("STRING")
+  AddTextComponentString(text)
+  DisplayHelpTextFromStringLabel(0, 0, 0, -1)
+end
