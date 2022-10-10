@@ -24,15 +24,15 @@ Config.payment = "bank" -- or "cash" -- Payment player will recieve by selling c
 
 Config.whiteChipPrice   = 1
 Config.redChipPrice     = 5
-Config.blueChipPrice    = 10
-Config.blackChipPrice   = 50
+Config.blueChipPrice    = 100
+Config.blackChipPrice   = 100
 Config.goldChipPrice    = 100
 
 
 Config.CasinoShop = {
-    [1] = { name = "casino_bluechip",   price = 10,  amount = 999, info = {}, type = "item", slot = 2 },
-    [2] = { name = "casino_blackchip",  price = 50,  amount = 999, info = {}, type = "item", slot = 3 },
-    [3] = { name = "casino_member",     price = 500, amount = 199, info = {}, type = "item", slot = 1 }
+    [1] = { name = "casino_bluechip",   price = 100,  amount = 999, info = {}, type = "item", slot = 1 },
+    [2] = { name = "casino_blackchip",  price = 100,  amount = 999, info = {}, type = "item", slot = 2 },
+    [3] = { name = "casino_member",     price = 500, amount = 199, info = {}, type = "item", slot = 3 }
 }   
 
 --[[
