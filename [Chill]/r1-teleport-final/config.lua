@@ -95,7 +95,7 @@ PL.Locations = {
         },
     },
 
-    [4] = {
+    [5] = {
         location = {
             from = vector3(341.32, -580.98, 28.8),     --Teleport from.
             to = vector3(330.27, -601.04, 43.28),      --Teleport to.
