@@ -101,7 +101,7 @@ Config.CraftingItems = {
         },
         type = "item",
         slot = 5,
-        threshold = 110,
+        threshold = 0,
         points = 5,
     },
     [6] = {
@@ -115,7 +115,7 @@ Config.CraftingItems = {
         },
         type = "item",
         slot = 6,
-        threshold = 160,
+        threshold = 0,
         points = 6,
     },
     [7] = {
@@ -129,7 +129,7 @@ Config.CraftingItems = {
         },
         type = "item",
         slot = 7,
-        threshold = 200,
+        threshold = 0,
         points = 7,
     },
     [8] = {
@@ -143,7 +143,7 @@ Config.CraftingItems = {
         },
         type = "item",
         slot = 8,
-        threshold = 250,
+        threshold = 0,
         points = 8,
     },
     [9] = {
@@ -156,7 +156,7 @@ Config.CraftingItems = {
         },
         type = "item",
         slot = 9,
-        threshold = 300,
+        threshold = 0,
         points = 9,
     },
     [10] = {
@@ -169,7 +169,7 @@ Config.CraftingItems = {
         },
         type = "item",
         slot = 10,
-        threshold = 300,
+        threshold = 0,
         points = 10,
     },
     [11] = {
@@ -184,7 +184,7 @@ Config.CraftingItems = {
         },
         type = "item",
         slot = 11,
-        threshold = 350,
+        threshold = 0,
         points = 11,
     },
     [12] = {
@@ -199,7 +199,7 @@ Config.CraftingItems = {
         },
         type = "item",
         slot = 12,
-        threshold = 1750,
+        threshold = 0,
         points = 12,
     },
 }
@@ -233,7 +233,7 @@ Config.AttachmentCrafting = {
             },
             type = "item",
             slot = 2,
-            threshold = 10,
+            threshold = 0,
             points = 2,
         },
         [3] = {
@@ -247,7 +247,7 @@ Config.AttachmentCrafting = {
             },
             type = "item",
             slot = 3,
-            threshold = 25,
+            threshold = 0,
             points = 3,
         },
         [4] = {
@@ -261,7 +261,7 @@ Config.AttachmentCrafting = {
             },
             type = "item",
             slot = 4,
-            threshold = 50,
+            threshold = 0,
             points = 4,
         },
         [5] = {
@@ -275,7 +275,7 @@ Config.AttachmentCrafting = {
             },
             type = "item",
             slot = 5,
-            threshold = 75,
+            threshold = 0,
             points = 5,
         },
         [6] = {
@@ -289,7 +289,7 @@ Config.AttachmentCrafting = {
             },
             type = "item",
             slot = 6,
-            threshold = 100,
+            threshold = 0,
             points = 6,
         },
         [7] = {
@@ -304,7 +304,7 @@ Config.AttachmentCrafting = {
             },
             type = "item",
             slot = 7,
-            threshold = 150,
+            threshold = 0,
             points = 7,
         },
         [8] = {
@@ -319,7 +319,7 @@ Config.AttachmentCrafting = {
             },
             type = "item",
             slot = 8,
-            threshold = 200,
+            threshold = 0,
             points = 8,
         },
     }

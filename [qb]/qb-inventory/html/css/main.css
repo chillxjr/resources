@@ -15,12 +15,12 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 ::-webkit-scrollbar {
-	width: 2px;
+	width: 4px;
 }
 
 ::-webkit-scrollbar-thumb {
 	border-radius: 50px;
-	background: #dc143c;
+	background: rgba(0, 164, 252, 0.359);
 }
 
 body {
@@ -60,6 +60,7 @@ body {
 	overflow-x: hidden;
 	overflow-y: scroll;
 	z-index: 100;
+	background: rgba(0, 164, 252, 0.202);
 }
 
 .other-inventory {
@@ -72,6 +73,7 @@ body {
 	overflow-x: hidden;
 	overflow-y: scroll;
 	z-index: 100;
+	background: rgba(0, 164, 252, 0.202);
 }
 
 .ply-hotbar-inventory {
@@ -199,7 +201,7 @@ body {
 	text-transform: uppercase;
 	font-size: 1.2vh;
 	font-weight: 900;
-	background-color: rgba(220, 20, 60, 0.6);
+	background: rgba(0, 164, 252, 0.359);
 	font-family: 'Poppins', sans-serif;
 }
 
@@ -223,7 +225,7 @@ body {
 	left: 2px;
 	color: white;
 	border: 1px solid rgba(255, 255, 255, .01);
-	background-color: rgba(220, 20, 60, 0.6);
+	background-color: #0077ff;
 	text-align: center;
 	line-height: 48px;
 	text-transform: uppercase;
