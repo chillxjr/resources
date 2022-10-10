@@ -217,7 +217,7 @@ function Utils:HandleControls()
 
                 -- Start race
                 if (clickedButton == 10) then
-                    PlaySoundFrontend(-1, 'race_loop', 'dlc_vw_casino_inside_track_betting_single_event_sounds')
+                    --PlaySoundFrontend(-1, 'race_loop', 'dlc_vw_casino_inside_track_betting_single_event_sounds')
                     TriggerServerEvent("insidetrack:server:placebet", Utils.CurrentBet)
                     Utils:StartRace()
                     checkRaceStatus = true
