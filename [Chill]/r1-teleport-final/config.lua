@@ -55,5 +55,57 @@ PL.Locations = {
             textColor = "White",                          --Text Color. ONLY APPLIES IF EXPORT IS "DrawText". Options: "White", "Red", "Blue", "Green", "Yellow", "Purple", "Black", "Orange"
         },
     },
+
+    [2] = {
+        location = {
+            from = vector3(-1066.11, -833.84, 19.04),     --Teleport from.
+            to = vector3(-1096.15, -850.33, 34.36),      --Teleport to.
+           
+            showBlip = false,                            --Show blip on from-marker.
+            blipText = "Office",              --Blip text on the blip, if showBlip is true.
+            
+            text = "Office",                       --Text to display on the from-marker.
+            textColor = "White",                          --Text Color. ONLY APPLIES IF EXPORT IS "DrawText". Options: "White", "Red", "Blue", "Green", "Yellow", "Purple", "Black", "Orange"
+        },
+    },
+
+    [3] = {
+        location = {
+            from = vector3(-1096.0, -850.59, 13.69),     --Teleport from.
+            to = vector3(-1096.15, -850.33, 34.36),      --Teleport to.
+           
+            showBlip = false,                            --Show blip on from-marker.
+            blipText = "Office2",              --Blip text on the blip, if showBlip is true.
+            
+            text = "Office",                       --Text to display on the from-marker.
+            textColor = "White",                          --Text Color. ONLY APPLIES IF EXPORT IS "DrawText". Options: "White", "Red", "Blue", "Green", "Yellow", "Purple", "Black", "Orange"
+        },
+    },
+
+    [4] = {
+        location = {
+            from = vector3(-1096.07, -850.65, 34.36),     --Teleport from.
+            to = vector3(-1097.53, -846.58, 13.69),      --Teleport to.
+           
+            showBlip = false,                            --Show blip on from-marker.
+            blipText = "Office2",              --Blip text on the blip, if showBlip is true.
+            
+            text = "Main Floor",                       --Text to display on the from-marker.
+            textColor = "White",                          --Text Color. ONLY APPLIES IF EXPORT IS "DrawText". Options: "White", "Red", "Blue", "Green", "Yellow", "Purple", "Black", "Orange"
+        },
+    },
+
+    [4] = {
+        location = {
+            from = vector3(341.32, -580.98, 28.8),     --Teleport from.
+            to = vector3(330.27, -601.04, 43.28),      --Teleport to.
+           
+            showBlip = false,                            --Show blip on from-marker.
+            blipText = "Office3",              --Blip text on the blip, if showBlip is true.
+            
+            text = "Main Floor",                       --Text to display on the from-marker.
+            textColor = "White",                          --Text Color. ONLY APPLIES IF EXPORT IS "DrawText". Options: "White", "Red", "Blue", "Green", "Yellow", "Purple", "Black", "Orange"
+        },
+    },
  
 }

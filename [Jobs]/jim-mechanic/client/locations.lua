@@ -22,29 +22,6 @@ AddEventHandler('onResourceStart', function(resource) if GetCurrentResourceName(
 end)
 
 Config.Locations = {
-	-- BENNYS NEXT TO PDM --
-	{	job = "mechanic",
-		zones = {
-			vector2(-39.657638549805, -1026.12890625),
-			vector2(-54.971218109131, -1066.3665771484),
-			vector2(-20.210899353027, -1079.1593017578),
-			vector2(-6.8900542259216, -1038.0417480469),
-		},
-		stash = { { coords = vector3(-40.9, -1056.62, 28.4), w = 3.6, d = 0.6, heading = 70.0 }, },
-		store = { { coords = vector3(-37.53, -1036.11, 28.6), w = 1.6, d = 0.6, heading = 340.0 }, },
-		crafting = { { coords = vector3(-38.25, -1038.99, 28.6), w = 4.0, d = 0.6, heading = 340.0 }, },
-		clockin = { { coords = vector3(-34.95, -1040.71, 28.59), heading = 8.0, }, },
-		garage = { spawn = vector4(-49.14, -1031.25, 27.76, 339.67),
-					out = vector4(-42.38, -1035.11, 28.52, 68.01),
-					list = { "towtruck", "panto", "slamtruck", "cheburek", "utillitruck3" } },
-		payments = { coords = vector3(-35.91, -1040.47, 28.6), heading = 340.0, img = "<center><p><img src=https://static.wikia.nocookie.net/gtawiki/images/b/be/BennysOriginalMotorWorks-GTAO-Logo.png width=150px></p>" },
-		blip = vector3(-43.05, -1043.99, 28.76),
-		bliplabel = "Bennys Workshop",    -- Bennys Workshop next to PDM
-		blipcolor = 1,
-		discordlink = "",
-		discordcolour = 16711680,
-		discordimg = "https://static.wikia.nocookie.net/gtawiki/images/b/be/BennysOriginalMotorWorks-GTAO-Logo.png",
-	},
 	-- ALTA STREET BENNYS --
 	{	job = "mechanic",
 		zones = {

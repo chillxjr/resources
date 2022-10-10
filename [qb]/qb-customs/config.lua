@@ -11,8 +11,8 @@ maxVehiclePerformanceUpgrades = 0 -- | All Upgrades: 0 | No Upgrades: -1 | Can b
 vehicleCustomisationPrices = {
     cosmetics = {price = 500},
     respray = {price = 1000},
-    performance = {prices = {0, 3250, 5500, 10450, 15250, 20500, 25000}},
-    turbo = {prices = {0, 15000}},
+    performance = {prices = {0, 325000, 550000, 1045000, 1525000, 2050000, 2500000}},
+    turbo = {prices = {0, 1500000}},
     wheels = {price = 600},
     customwheels = {price = 600},
     wheelsmoke = {price = 500},
