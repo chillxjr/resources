@@ -108,7 +108,7 @@ Config.SecurityCameras = {
 Config.AuthorizedVehicles = {
 	-- Grade 0
 	[0] = {
-        ["valorcvpi"] = "2014 Crown Vic (Sheriff)",
+        ["sh1"] = "Ford CVPI (Sheriff)",
 
         ["pbike"] = "Police Bicycle (Police)",
         ["lspdtaur"] = "2016 Ford Taurus (Police)",
@@ -116,9 +116,9 @@ Config.AuthorizedVehicles = {
 	},
 	-- Grade 1
 	[1] = {
-        ["valorcap"] = "2014 Caprice (Sheriff)",
-        ["valorcvpi"] = "2014 Crown Vic (Sheriff)",
-        ["valor16fpiu"] = "2016 Explorer (Sheriff)",
+        ["sh1"] = "Ford CVPI (Sheriff)",
+        ["sh19"] = "Ford FPIU (Sheriff)",
+        ["sh2"] = "Chevy Impala (Sheriff)",
 
         ["pbike"] = "Police Bicycle (Police)",
         ["lspd16exp"] = "2016 Ford Explorer (Police)",
@@ -128,11 +128,10 @@ Config.AuthorizedVehicles = {
 	},
 	-- Grade 2
 	[2] = {
-        ["valor16fpiu"] = "2016 Explorer (Sheriff)",
-        ["valor18charg"] = "2018 Charger (Sheriff)",
-        ["valorcap"] = "2014 Caprice (Sheriff)",
-        ["valorcvpi"] = "2014 Crown Vic (Sheriff)",
-        ["valorharley"] = "Motorcycle (Sheriff)",
+        ["sh1"] = "Ford CVPI (Sheriff)",
+        ["sh19"] = "Ford FPIU (Sheriff)",
+        ["sh2"] = "Chevy Impala (Sheriff)",
+        ["sh10"] = "Dodge Charger (Sheriff)",
         
 
         ["pbike"] = "Police Bicycle (Police)",
@@ -143,15 +142,12 @@ Config.AuthorizedVehicles = {
 	},
 	-- Grade 3
 	[3] = {
-        ["valor16fpiu"] = "2016 Explorer (Sheriff)",
-        ["valor18charg"] = "2018 Charger (Sheriff)",
-        ["valor18tahoe"] = "2018 Tahoe (Sheriff)",
-        --["valor20fpiu"] = "2020 Explorer (Sheriff)",
-        ["valorcap"] = "2014 Caprice (Sheriff)",
-        ["valorcvpi"] = "2014 Crown Vic (Sheriff)",
-        ["valor19silv"] = "2019 Silverado (Sheriff)",
-        ["valor20ram"] = "2020 Ram (Sheriff)",
-        ["valorharley"] = "Motorcycle (Sheriff)",
+        ["sh1"] = "Ford CVPI (Sheriff)",
+        ["sh19"] = "Ford FPIU (Sheriff)",
+        ["sh2"] = "Chevy Impala (Sheriff)",
+        ["sh10"] = "Dodge Charger (Sheriff)",
+        ["sh13"] = "Chevy Tahoe (Sheriff)",
+        ["sh18"] = "Dodge Durango (Sheriff)",
 
         ["pbike"] = "Police Bicycle (Police)",
         ["lspd10char"] = "2010 Dodge Charger (Police)",
@@ -171,15 +167,12 @@ Config.AuthorizedVehicles = {
 	},
 	-- Grade 4
 	[4] = {
-        ["valor16fpiu"] = "2016 Explorer (Sheriff)",
-        ["valor18charg"] = "2018 Charger (Sheriff)",
-        ["valor18tahoe"] = "2018 Tahoe (Sheriff)",
-        --["valor20fpiu"] = "2020 Explorer (Sheriff)",
-        ["valorcap"] = "2014 Caprice (Sheriff)",
-        ["valorcvpi"] = "2014 Crown Vic (Sheriff)",
-        ["valor19silv"] = "2019 Silverado (Sheriff)",
-        ["valor20ram"] = "2020 Ram (Sheriff)",
-        ["valorharley"] = "Motorcycle (Sheriff)",
+        ["sh1"] = "Ford CVPI (Sheriff)",
+        ["sh19"] = "Ford FPIU (Sheriff)",
+        ["sh2"] = "Chevy Impala (Sheriff)",
+        ["sh10"] = "Dodge Charger (Sheriff)",
+        ["sh13"] = "Chevy Tahoe (Sheriff)",
+        ["sh18"] = "Dodge Durango (Sheriff)",
         ["policecart"] = "Golfcart (Sheriff)",
 
         ["pbike"] = "Bicycle (Police)",

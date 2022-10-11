@@ -84,7 +84,7 @@ PL.Locations = {
 
     [4] = {
         location = {
-            from = vector3(-1096.07, -850.65, 34.36),     --Teleport from.
+            from = vector3(-1094.54, -844.22, 34.36),     --Teleport from.
             to = vector3(-1097.53, -846.58, 13.69),      --Teleport to.
            
             showBlip = false,                            --Show blip on from-marker.
