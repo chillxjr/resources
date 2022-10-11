@@ -128,7 +128,6 @@ Config.AuthorizedVehicles = {
 	},
 	-- Grade 2
 	[2] = {
-        ["valor14charg"] = "2014 Charger (Sheriff)",
         ["valor16fpiu"] = "2016 Explorer (Sheriff)",
         ["valor18charg"] = "2018 Charger (Sheriff)",
         ["valorcap"] = "2014 Caprice (Sheriff)",
@@ -144,11 +143,10 @@ Config.AuthorizedVehicles = {
 	},
 	-- Grade 3
 	[3] = {
-        ["valor14charg"] = "2014 Charger (Sheriff)",
         ["valor16fpiu"] = "2016 Explorer (Sheriff)",
         ["valor18charg"] = "2018 Charger (Sheriff)",
         ["valor18tahoe"] = "2018 Tahoe (Sheriff)",
-        ["valor20fpiu"] = "2020 Explorer (Sheriff)",
+        --["valor20fpiu"] = "2020 Explorer (Sheriff)",
         ["valorcap"] = "2014 Caprice (Sheriff)",
         ["valorcvpi"] = "2014 Crown Vic (Sheriff)",
         ["valor19silv"] = "2019 Silverado (Sheriff)",
@@ -173,11 +171,10 @@ Config.AuthorizedVehicles = {
 	},
 	-- Grade 4
 	[4] = {
-        ["valor14charg"] = "2014 Charger (Sheriff)",
         ["valor16fpiu"] = "2016 Explorer (Sheriff)",
         ["valor18charg"] = "2018 Charger (Sheriff)",
         ["valor18tahoe"] = "2018 Tahoe (Sheriff)",
-        ["valor20fpiu"] = "2020 Explorer (Sheriff)",
+        --["valor20fpiu"] = "2020 Explorer (Sheriff)",
         ["valorcap"] = "2014 Caprice (Sheriff)",
         ["valorcvpi"] = "2014 Crown Vic (Sheriff)",
         ["valor19silv"] = "2019 Silverado (Sheriff)",
