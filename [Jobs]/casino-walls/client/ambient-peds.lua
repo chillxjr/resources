@@ -272,18 +272,6 @@ function CasinoPeds()
     SetBlockingOfNonTemporaryEvents(ped, true)
     TaskStartScenarioInPlace(ped, "WORLD_HUMAN_STAND_IMPATIENT", 0, true)
 
-    model = GetHashKey("s_m_y_valet_01")
-    RequestModel(model)
-    while not HasModelLoaded(model) do
-        Wait(1)
-    end
-    ped = CreatePed(0, model , 925.235, 50.921, 80.106, true)
-    FreezeEntityPosition(ped, true)
-    SetEntityHeading(ped, 55.601)
-    SetEntityInvincible(ped, true)
-    SetBlockingOfNonTemporaryEvents(ped, true)
-    TaskStartScenarioInPlace(ped, "WORLD_HUMAN_STAND_IMPATIENT", 0, true)
-
     -- ==================================================================================================================--
     -- ==================================================================================================================--locals-
     -- ==================================================================================================================--

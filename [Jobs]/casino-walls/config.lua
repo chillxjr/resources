@@ -2,7 +2,7 @@ Config = {}
 
 Config.PlayCasinoAmbientNoise = true
 Config.SetShowCarOnDisplay = true
-Config.VehicleOnDisplay = `xa21`
+Config.VehicleOnDisplay = `locust`
 Config.CasinoEmployeePrompt  = 'walk-up' -- 'peek' or 'walk-up' ['walk-up' = walk up to open menu] ['peek' = uses qb-target to interact with employee]
 
 
@@ -18,21 +18,21 @@ Config.AnimatedWallWin = 'CASINO_WIN_PL'
 Config.SendWelcomeMail = true -- Sends a email to players phone on entering casino
 Config.WelcomeMailsender = "The Diamond Casino"
 Config.WelcomeMailsubject ="Welcome!"
-Config.WelcomeMailmessage = "Welcome to The Diamond Casino, We are Open 24/7 & only accept Electronic Transactions"
+Config.WelcomeMailmessage = "Welcome to The Diamond Casino, We are Open 24/7 & only accept Cash"
 
-Config.payment = "bank" -- or "cash" -- Payment player will recieve by selling casino chips
+Config.payment = "cash" -- or "cash" -- Payment player will recieve by selling casino chips
 
-Config.whiteChipPrice   = 1
-Config.redChipPrice     = 100
-Config.blueChipPrice    = 100
-Config.blackChipPrice   = 100
-Config.goldChipPrice    = 100
+Config.whiteChipPrice   = 10
+Config.redChipPrice     = 10
+Config.blueChipPrice    = 10
+Config.blackChipPrice   = 10
+Config.goldChipPrice    = 10
 
 
 Config.CasinoShop = {
-    [1] = { name = "casino_bluechip",   price = 100,  amount = 999, info = {}, type = "item", slot = 1 },
-    [2] = { name = "casino_blackchip",  price = 100,  amount = 999, info = {}, type = "item", slot = 2 },
-    [3] = { name = "casino_redchip",    price = 100,   amount = 999, info = {}, type = "item", slot = 3 },
+    [1] = { name = "casino_bluechip",   price = 10,  amount = 999, info = {}, type = "item", slot = 1 },
+    [2] = { name = "casino_blackchip",  price = 10,  amount = 999, info = {}, type = "item", slot = 2 },
+    [3] = { name = "casino_redchip",    price = 10,   amount = 999, info = {}, type = "item", slot = 3 },
     [4] = { name = "casino_member",     price = 500, amount = 199, info = {}, type = "item", slot = 4 }
 }   
 
