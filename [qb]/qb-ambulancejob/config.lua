@@ -79,6 +79,7 @@ Config.AuthorizedVehicles = {
         ["afiretruck"] = "Rescue",
         ["ram20pov"] = "2020 Ram",
         ["pd_bmw"] = "BMW",
+        ["21yuk"] = "2021 Yukon",
         ["arroweng"] = "Engine",
         ["arrowladder"] = "Ladder Truck",
         ["arrowrescue"] = "Large Rescue",

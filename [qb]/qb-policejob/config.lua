@@ -173,6 +173,7 @@ Config.AuthorizedVehicles = {
         ["sh10"] = "Dodge Charger (Sheriff)",
         ["sh17"] = "Chevy Tahoe (Sheriff)",
         ["sh18"] = "Dodge Durango (Sheriff)",
+        ["sh9"] = "Chills Taurus (Sheriff)",
         ["policecart"] = "Golfcart (Sheriff)",
 
         ["pbike"] = "Bicycle (Police)",
@@ -437,36 +438,76 @@ Config.Items = {
 }
 
 Config.VehicleSettings = {
-    ["lssd4"] = { --- Model name
+    ["sh9"] = { --- Model name
         ["extras"] = {
-            ["1"] = true, -- on/off
+            ["1"] = false, -- on/off
             ["2"] = false,
             ["3"] = true,
             ["4"] = true,
-            ["5"] = true,
-            ["6"] = true,
-            ["7"] = true,
-            ["8"] = true,
-            
-        },
-		["livery"] = 1,
-    },
-    ["cvpi"] = {
-        ["extras"] = {
-            ["1"] = true,
-            ["2"] = false,
-            ["3"] = true,
-            ["4"] = true,
-            ["5"] = true,
-            ["6"] = true,
+            ["5"] = false,
+            ["6"] = false,
             ["7"] = true,
             ["8"] = true,
             ["9"] = true,
-            ["10"] = true,
-            ["11"] = true,
+            ["10"] = false,
+            ["11"] = false,
+            ["12"] = false,
+            
+        },
+		["livery"] = 3,
+    },
+    ["sh10"] = { --- Model name
+        ["extras"] = {
+            ["1"] = true, -- on/off
+            ["2"] = false,
+            ["3"] = false,
+            ["4"] = true,
+            ["5"] = true,
+            ["6"] = true,
+            ["7"] = false,
+            ["8"] = true,
+            ["9"] = true,
+            ["10"] = false,
+            ["11"] = false,
             ["12"] = true,
+            
+        },
+		["livery"] = 6,
+    },
+    ["sh19"] = { --- Model name
+        ["extras"] = {
+            ["1"] = true, -- on/off
+            ["2"] = false,
+            ["3"] = false,
+            ["4"] = true,
+            ["5"] = true,
+            ["6"] = true,
+            ["7"] = false,
+            ["8"] = true,
+            ["9"] = false,
+            ["10"] = true,
+            ["11"] = false,
+            ["12"] = true,
+            
+        },
+		["livery"] = 4,
+    },
+    ["sh1"] = {
+        ["extras"] = {
+            ["1"] = true,
+            ["2"] = false,
+            ["3"] = false,
+            ["4"] = true,
+            ["5"] = true,
+            ["6"] = true,
+            ["7"] = false,
+            ["8"] = true,
+            ["9"] = true,
+            ["10"] = false,
+            ["11"] = true,
+            ["12"] = false,
             ["13"] = true,
         },
-		["livery"] = 1,
+		["livery"] = 4,
     }
 }
