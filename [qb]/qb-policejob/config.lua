@@ -146,7 +146,7 @@ Config.AuthorizedVehicles = {
         ["sh19"] = "Ford FPIU (Sheriff)",
         ["sh2"] = "Chevy Impala (Sheriff)",
         ["sh10"] = "Dodge Charger (Sheriff)",
-        ["sh13"] = "Chevy Tahoe (Sheriff)",
+        ["sh17"] = "Chevy Tahoe (Sheriff)",
         ["sh18"] = "Dodge Durango (Sheriff)",
 
         ["pbike"] = "Police Bicycle (Police)",
@@ -171,7 +171,7 @@ Config.AuthorizedVehicles = {
         ["sh19"] = "Ford FPIU (Sheriff)",
         ["sh2"] = "Chevy Impala (Sheriff)",
         ["sh10"] = "Dodge Charger (Sheriff)",
-        ["sh13"] = "Chevy Tahoe (Sheriff)",
+        ["sh17"] = "Chevy Tahoe (Sheriff)",
         ["sh18"] = "Dodge Durango (Sheriff)",
         ["policecart"] = "Golfcart (Sheriff)",
 
