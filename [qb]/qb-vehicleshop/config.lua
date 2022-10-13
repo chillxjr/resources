@@ -246,7 +246,7 @@ Config.Shops = {
         }
     },
     ['luxury2'] = {
-        ['Type'] = 'managed',  -- meaning a real player has to sell the car
+        ['Type'] = 'free-use',  -- meaning a real player has to sell the car
         ['Zone'] = {
             ['Shape'] = {
                 vector2(-56.5, -1081.65),
@@ -317,7 +317,7 @@ Config.Shops = {
         }
     },
     ['pdm2'] = {
-        ['Type'] = 'managed',  -- no player interaction is required to purchase a car
+        ['Type'] = 'free-use',  -- no player interaction is required to purchase a car
         ['Zone'] = {
             ['Shape'] = { --polygon that surrounds the shop
                 vector2(89.53, -1506.78),
@@ -388,7 +388,7 @@ Config.Shops = {
         },
     },
     ['bikes'] = {
-        ['Type'] = 'managed',  -- no player interaction is required to purchase a car
+        ['Type'] = 'free-use',  -- no player interaction is required to purchase a car
         ['Zone'] = {
             ['Shape'] = { --polygon that surrounds the shop
                 vector2(305.57, -1167.99),
