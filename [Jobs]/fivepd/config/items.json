@@ -1,1227 +1,824 @@
 [
   {
-    "name": "Open beer bottle",
-    "isIllegal": true,
-    "itemLocation": 2,
-    "multiplier": 1
-  },
-  {
-    "name": "Open Beer Bottle",
-    "isIllegal": true,
-    "itemLocation": 2,
-    "multiplier": 1
-  },
-  {
-    "name": "Closed Beer Bottle",
-    "isIllegal": false,
-    "itemLocation": 2,
-    "multiplier": 1
-  },
-  {
-    "name": "Knife",
-    "isIllegal": true,
-    "itemLocation": 2,
-    "multiplier": 1
-  },
-  {
-    "name": "Phone",
-    "isIllegal": false,
-    "itemLocation": 2,
-    "multiplier": 1
-  },
-  {
-    "name": "Springfield 1911 Pistol",
-    "isIllegal": true,
-    "itemLocation": 2,
-    "multiplier": 1
-  },
-  {
-    "name": "Glock 19",
-    "isIllegal": true,
-    "itemLocation": 2,
-    "multiplier": 1
-  },
-  {
-    "name": "Beretta 92X",
-    "isIllegal": true,
-    "itemLocation": 2,
-    "multiplier": 1
-  },
-  {
-    "name": "AK-47",
-    "isIllegal": true,
-    "itemLocation": 0,
-    "multiplier": 1
-  },
-  {
-    "name": "M16 Rifle",
-    "isIllegal": true,
-    "itemLocation": 0,
-    "multiplier": 1
-  },
-  {
-    "name": "ArmaLite Rifle",
-    "isIllegal": true,
-    "itemLocation": 0,
-    "multiplier": 1
-  },
-  {
-    "name": "M14 Rifle",
-    "isIllegal": true,
-    "itemLocation": 0,
-    "multiplier": 1
-  },
-  {
-    "name": "AK-74",
-    "isIllegal": true,
-    "itemLocation": 0,
-    "multiplier": 1
-  },
-  {
-    "name": "MP44 Rifle",
-    "isIllegal": true,
-    "itemLocation": 0,
-    "multiplier": 1
-  },
-  {
-    "name": "M16A2 Rifle",
-    "isIllegal": true,
-    "itemLocation": 0,
-    "multiplier": 1
-  },
-  {
-    "name": "Can Of Tomato Soup",
-    "isIllegal": true,
-    "itemLocation": 2,
-    "multiplier": 1
-  },
-  {
-    "name": "Can Of Sliced Up Tomatos",
-    "isIllegal": true,
-    "itemLocation": 2,
-    "multiplier": 1
-  },
-  {
-    "name": "Can Of Sliced Tomatos",
-    "isIllegal": false,
-    "itemLocation": 2,
-    "multiplier": 1
-  },
-  {
-    "name": "Can Of Tomatos Soup",
-    "isIllegal": false,
-    "itemLocation": 2,
-    "multiplier": 1
-  },
-  {
-    "name": "Kit-Kat Bar",
-    "isIllegal": false,
-    "itemLocation": 2,
-    "multiplier": 1
-  },
-  {
-    "name": "Coffee Crisp Bar",
-    "isIllegal": false,
-    "itemLocation": 2,
-    "multiplier": 1
-  },
-  {
-    "name": "Box Of Smarties",
-    "isIllegal": false,
-    "itemLocation": 2,
-    "multiplier": 1
-  },
-  {
-    "name": "Box Of Tampons",
-    "isIllegal": false,
-    "itemLocation": 0,
-    "multiplier": 1
-  },
-  {
-    "name": "1G Of Cocaine",
-    "isIllegal": false,
-    "itemLocation": 0,
-    "multiplier": 3
-  },
-  {
-    "name": "A Small Baggie Of Cocaine",
-    "isIllegal": true,
-    "itemLocation": 2,
-    "multiplier": 1
-  },
-  {
-    "name": "Medium Sized Bag Of Cocaine",
-    "isIllegal": true,
-    "itemLocation": 2,
-    "multiplier": 1
-  },
-  {
-    "name": "Box Of Cocaine ",
-    "isIllegal": true,
-    "itemLocation": 0,
-    "multiplier": 1
-  },
-  {
-    "name": "USA Flag ",
-    "isIllegal": false,
-    "itemLocation": 2,
-    "multiplier": 1
-  },
-  {
-    "name": "Canadian Flag",
-    "isIllegal": false,
-    "itemLocation": 2,
-    "multiplier": 1
-  },
-  {
-    "name": "Pocket-Pussy",
-    "isIllegal": false,
-    "itemLocation": 2,
-    "multiplier": 1
-  },
-  {
-    "name": "Dildo",
-    "isIllegal": false,
-    "itemLocation": 2,
-    "multiplier": 1
-  },
-  {
-    "name": "NOS Energy Drink",
-    "isIllegal": false,
-    "itemLocation": 2,
-    "multiplier": 1
-  },
-  {
-    "name": "Nightstick",
-    "isIllegal": true,
-    "itemLocation": 0,
-    "multiplier": 1
-  },
-  {
-    "name": "Laptop",
-    "isIllegal": false,
-    "itemLocation": 0,
-    "multiplier": 1
-  },
-  {
-    "name": "Taser ",
-    "isIllegal": true,
-    "itemLocation": 2,
-    "multiplier": 1
-  },
-  {
-    "name": "Mexican Flag",
-    "isIllegal": false,
-    "itemLocation": 2,
-    "multiplier": 1
-  },
-  {
-    "name": "Russian Flag",
-    "isIllegal": false,
-    "itemLocation": 2,
-    "multiplier": 1
-  },
-  {
-    "name": "Blue Snowball Microphone",
-    "isIllegal": false,
-    "itemLocation": 2,
-    "multiplier": 1
-  },
-  {
-    "name": "Bag Of Twizzlers",
-    "isIllegal": false,
-    "itemLocation": 2,
-    "multiplier": 1
-  },
-  {
-    "name": "A Small Baggie Of Cannabis ",
-    "isIllegal": true,
-    "itemLocation": 2,
-    "multiplier": 1
-  },
-  {
-    "name": "Medium Sized Baggie Of Cannabis ",
-    "isIllegal": true,
-    "itemLocation": 2,
-    "multiplier": 1
-  },
-  {
-    "name": " Heroine Needles ",
-    "isIllegal": true,
-    "itemLocation": 0,
-    "multiplier": 1
-  },
-  {
-    "name": "9MM ",
-    "isIllegal": true,
-    "itemLocation": 2,
-    "multiplier": 1
-  },
-  {
-    "name": "5.56 Ammo",
-    "isIllegal": true,
-    "itemLocation": 2,
-    "multiplier": 1
-  },
-  {
-    "name": "9MM Ammo",
-    "isIllegal": true,
-    "itemLocation": 2,
-    "multiplier": 1
-  },
-  {
-    "name": "7.62 Ammo",
-    "isIllegal": true,
-    "itemLocation": 2,
-    "multiplier": 1
-  },
-  {
-    "name": "50CAL Ammo",
-    "isIllegal": true,
-    "itemLocation": 2,
-    "multiplier": 1
-  },
-  {
-    "name": "500$ Dirty Money",
-    "isIllegal": true,
-    "itemLocation": 2,
-    "multiplier": 1
-  },
-  {
-    "name": "1000$ Dirty Money",
-    "isIllegal": true,
-    "itemLocation": 0,
-    "multiplier": 1
-  },
-  {
-    "name": "1500$ Dirty Money",
-    "isIllegal": true,
-    "itemLocation": 0,
-    "multiplier": 1
-  },
-  {
-    "name": "2000$ Dirty Money",
-    "isIllegal": true,
-    "itemLocation": 0,
-    "multiplier": 1
-  },
-  {
-    "name": "3000$ Dirty Money",
-    "isIllegal": true,
-    "itemLocation": 0,
-    "multiplier": 1
-  },
-  {
-    "name": "5000$ Dirty Money",
-    "isIllegal": true,
-    "itemLocation": 0,
-    "multiplier": 1
-  },
-  {
-    "name": "10000$ Dirty Money",
-    "isIllegal": true,
-    "itemLocation": 0,
-    "multiplier": 1
-  },
-  {
-    "name": "15000$ Dirty Money",
-    "isIllegal": true,
-    "itemLocation": 0,
-    "multiplier": 1
-  },
-  {
-    "name": "20000$ Dirty Money",
-    "isIllegal": true,
-    "itemLocation": 0,
-    "multiplier": 1
-  },
-  {
-    "name": "35000$ Dirty Money",
-    "isIllegal": true,
-    "itemLocation": 0,
-    "multiplier": 1
-  },
-  {
-    "name": "356$ Dirty Money",
-    "isIllegal": true,
-    "itemLocation": 0,
-    "multiplier": 1
-  },
-  {
-    "name": "174$ Dirty Money",
-    "isIllegal": true,
-    "itemLocation": 0,
-    "multiplier": 1
-  },
-  {
-    "name": "1888$ Dirty Money",
-    "isIllegal": true,
-    "itemLocation": 0,
-    "multiplier": 1
-  },
-  {
-    "name": "11244$ Dirty Money",
-    "isIllegal": true,
-    "itemLocation": 0,
-    "multiplier": 1
-  },
-  {
-    "name": "1244$ Dirty Money",
-    "isIllegal": true,
-    "itemLocation": 0,
-    "multiplier": 1
-  },
-  {
-    "name": "42455$ Dirty Money",
-    "isIllegal": true,
-    "itemLocation": 0,
-    "multiplier": 1
-  },
-  {
-    "name": "546815$ Dirty Money",
-    "isIllegal": true,
-    "itemLocation": 0,
-    "multiplier": 1
-  },
-  {
-    "name": "76815$ Dirty Money",
-    "isIllegal": true,
-    "itemLocation": 0,
-    "multiplier": 1
-  },
-  {
-    "name": "815$ Dirty Money",
-    "isIllegal": true,
-    "itemLocation": 1,
-    "multiplier": 1
-  },
-  {
-    "name": "1815$ Dirty Money",
-    "isIllegal": true,
-    "itemLocation": 1,
-    "multiplier": 1
-  },
-  {
-    "name": "Logitech 6-29 Steering Wheel",
-    "isIllegal": false,
-    "itemLocation": 0,
-    "multiplier": 1
-  },
-  {
-    "name": "Toy Doll",
-    "isIllegal": false,
-    "itemLocation": 0,
-    "multiplier": 1
-  },
-  {
-    "name": "Speakers",
-    "isIllegal": false,
-    "itemLocation": 0,
-    "multiplier": 1
-  },
-  {
-    "name": "Balloon",
-    "isIllegal": false,
-    "itemLocation": 0,
-    "multiplier": 1
-  },
-  {
-    "name": "Sun Glasses",
-    "isIllegal": false,
-    "itemLocation": 2,
-    "multiplier": 1
-  },
-  {
-    "name": "Shirt ",
-    "isIllegal": false,
-    "itemLocation": 0,
-    "multiplier": 1
-  },
-  {
-    "name": "Pants",
-    "isIllegal": false,
-    "itemLocation": 0,
-    "multiplier": 1
-  },
-  {
-    "name": "Shoes",
-    "isIllegal": false,
-    "itemLocation": 0,
-    "multiplier": 1
-  },
-  {
-    "name": "Bloody Shirt",
-    "isIllegal": true,
-    "itemLocation": 0,
-    "multiplier": 1
-  },
-  {
-    "name": "Pencil",
-    "isIllegal": false,
-    "itemLocation": 2,
-    "multiplier": 1
-  },
-  {
-    "name": "Eraser ",
-    "isIllegal": false,
-    "itemLocation": 2,
-    "multiplier": 1
-  },
-  {
-    "name": "Kitchen Table",
-    "isIllegal": false,
-    "itemLocation": 0,
-    "multiplier": 1
-  },
-  {
-    "name": "Bag Of Grocceries ",
-    "isIllegal": false,
-    "itemLocation": 0,
-    "multiplier": 1
-  },
-  {
-    "name": "Water Bottle",
-    "isIllegal": false,
-    "itemLocation": 0,
-    "multiplier": 1
-  },
-  {
-    "name": "Keys",
-    "isIllegal": false,
-    "itemLocation": 2,
-    "multiplier": 1
-  },
-  {
-    "name": "Blanket",
-    "isIllegal": false,
-    "itemLocation": 0,
-    "multiplier": 1
-  },
-  {
-    "name": "PS4 ",
-    "isIllegal": false,
-    "itemLocation": 0,
-    "multiplier": 1
-  },
-  {
-    "name": "XBOX ONE ",
-    "isIllegal": false,
-    "itemLocation": 0,
-    "multiplier": 1
-  },
-  {
-    "name": "Helmet",
-    "isIllegal": false,
-    "itemLocation": 0,
-    "multiplier": 1
-  },
-  {
-    "name": "Stolen Credit Cards",
-    "isIllegal": true,
-    "itemLocation": 2,
-    "multiplier": 1
-  },
-  {
-    "name": "Open Wine Bottle",
-    "isIllegal": true,
-    "itemLocation": 2,
-    "multiplier": 1
-  },
-  {
-    "name": "Closed Wine Bottle",
-    "isIllegal": true,
-    "itemLocation": 0,
-    "multiplier": 1
-  },
-  {
-    "name": "USB Drive Of Child Porn",
-    "isIllegal": true,
-    "itemLocation": 2,
-    "multiplier": 1
-  },
-  {
-    "name": "Closed Bottle Of Wine",
-    "isIllegal": false,
-    "itemLocation": 0,
-    "multiplier": 1
-  },
-  {
-    "name": "Condoms",
-    "isIllegal": false,
-    "itemLocation": 2,
-    "multiplier": 1
-  },
-  {
-    "name": "Human Remains",
-    "isIllegal": true,
-    "itemLocation": 2,
-    "multiplier": 1
-  },
-  {
-    "name": "Pen",
-    "isIllegal": false,
-    "multiplier": 10,
-	"itemLocation": 2
-  },
-  {
-    "name": "Notebook",
-    "isIllegal": false,
-    "multiplier": 5,
-	"itemLocation": 2
-  },
-  {
-    "name": "Marijuana",
-    "isIllegal": true,
-    "multiplier": 1,
-	"itemLocation": 2
-  },
-  {
-    "name": "Watch",
-    "isIllegal": false,
-    "multiplier": 20,
-	"itemLocation": 1
-  },
-  {
-    "name": "ID Card",
-    "isIllegal": false,
-    "multiplier": 20,
-	"itemLocation": 2
-  },
-  {
-    "name": "Wallet",
-    "isIllegal": false,
-    "multiplier": 10,
-	"itemLocation": 2
-  },
-  {
-    "name": "Headphones",
-    "isIllegal": false,
-    "multiplier": 5,
-	"itemLocation": 2
-  },
-  {
-    "name": "Keys",
-    "isIllegal": false,
-    "multiplier": 5,
-	"itemLocation": 2
-  },
-  {
-    "name": "Knife",
+    "name": "10oz Weed",
     "isIllegal": true,
     "multiplier": 2,
-	"itemLocation": 2
+    "itemLocation": 2
   },
   {
-    "name": "Power Bank",
-    "isIllegal": false,
-    "multiplier": 5,
-	"itemLocation": 2
-  },
-  {
-    "name": "Binoculars",
+    "name": "Glock Pistol",
     "isIllegal": false,
     "multiplier": 2,
-	"itemLocation": 2
+    "itemLocation": 2
   },
   {
-    "name": "Books",
+    "name": "Pistol .50",
+    "isIllegal": false,
+    "multiplier": 3,
+    "itemLocation": 2
+  },
+  {
+    "name": "Fake ID",
+    "isIllegal": true,
+    "multiplier": 1,
+    "itemLocation": 1
+  },
+  {
+    "name": "Switch Blade",
+    "isIllegal": true,
+    "multiplier": 2,
+    "itemLocation": 1
+  },
+  {
+    "name": "Crack Pipe",
+    "isIllegal": true,
+    "multiplier": 1,
+    "itemLocation": 2
+  },
+  {
+    "name": "8g Crack",
+    "isIllegal": true,
+    "multiplier": 1,
+    "itemLocation": 2
+  },
+  {
+    "name": "1k Cocaine",
+    "isIllegal": true,
+    "multiplier": 1,
+    "itemLocation": 0
+  },
+  {
+    "name": "$20 Cash",
     "isIllegal": false,
     "multiplier": 4,
-	"itemLocation": 2
+    "itemLocation": 1
   },
   {
-    "name": "Bug Repellant",
-    "isIllegal": false,
-    "multiplier": 1,
-	"itemLocation": 2
-  },
-  {
-    "name": "Car Manual",
+    "name": "Candy",
     "isIllegal": false,
     "multiplier": 5,
-	"itemLocation": 2
+    "itemLocation": 2
   },
   {
-    "name": "Laptop",
+    "name": "Coca-Cola",
     "isIllegal": false,
-    "multiplier": 4,
-	"itemLocation": 2
-  },
-  {
-    "name": "CD",
-    "isIllegal": false,
-    "multiplier": 3,
-	"itemLocation": 2
-  },
-  {
-    "name": "Duct Tape",
-    "isIllegal": false,
-    "multiplier": 4,
-	"itemLocation": 2
-  },
-  {
-    "name": "Energy Bars",
-    "isIllegal": false,
-    "multiplier": 6,
-	"itemLocation": 2
-  },
-  {
-    "name": "Fishing Rods",
-    "isIllegal": false,
-    "multiplier": 3,
-	"itemLocation": 2
+    "multiplier": 7,
+    "itemLocation": 0
   },
   {
     "name": "Groceries",
     "isIllegal": false,
-    "multiplier": 3,
-	"itemLocation": 2
+    "multiplier": 25,
+    "itemLocation": 0
   },
   {
-    "name": "Matches",
+    "name": "Book",
     "isIllegal": false,
-    "multiplier": 4,
-	"itemLocation": 2
-  },
-  {
-    "name": "Magazines",
-    "isIllegal": false,
-    "multiplier": 6,
-	"itemLocation": 2
+    "multiplier": 20,
+    "itemLocation": 0
   },
   {
     "name": "Sunglasses",
     "isIllegal": false,
-    "multiplier": 10,
-	"itemLocation": 2
+    "multiplier": 20,
+    "itemLocation": 2
   },
   {
-    "name": "Bandana",
+    "name": "Tissues",
     "isIllegal": false,
-    "multiplier": 5,
-	"itemLocation": 2
+    "multiplier": 20,
+    "itemLocation": 2
+  },
+  {
+    "name": "Backpack",
+    "isIllegal": false,
+    "multiplier": 20,
+    "itemLocation": 0
+  },
+  {
+    "name": "Baseball Cap",
+    "isIllegal": false,
+    "multiplier": 20,
+    "itemLocation": 2
   },
   {
     "name": "Camera",
     "isIllegal": false,
-    "multiplier": 3,
-	"itemLocation": 2
-  },
-  {
-    "name": "Condom",
-    "isIllegal": false,
-    "multiplier": 4,
-	"itemLocation": 2
-  },
-  {
-    "name": "Dildo",
-    "isIllegal": false,
-    "multiplier": 2,
-	"itemLocation": 2
-  },
-  {
-    "name": "First Aid Kit",
-    "isIllegal": false,
-    "multiplier": 1,
-	"itemLocation": 2
+    "multiplier": 20,
+    "itemLocation": 0
   },
   {
     "name": "Flashlight",
     "isIllegal": false,
-    "multiplier": 1,
-	"itemLocation": 2
-  },
-  {
-    "name": "Lighter",
-    "isIllegal": false,
-    "multiplier": 12,
-	"itemLocation": 2
-  },
-  {
-    "name": "Lightsaber",
-    "isIllegal": false,
-    "multiplier": 1,
-	"itemLocation": 2
-  },
-  {
-    "name": "Map",
-    "isIllegal": false,
-    "multiplier": 3,
-	"itemLocation": 2
-  },
-  {
-    "name": "Vibrator",
-    "isIllegal": false,
-    "multiplier": 2,
-	"itemLocation": 2
-  },
-  {
-    "name": "Water Gun",
-    "isIllegal": false,
-    "multiplier": 1,
-	"itemLocation": 2
-  },
-  {
-    "name": "Toolbox",
-    "isIllegal": false,
-    "multiplier": 4,
-	"itemLocation": 2
-  },
-  {
-    "name": "Butterfly Folding Knife",
-    "isIllegal": true,
-    "multiplier": 2,
-	"itemLocation": 2
-  },
-  {
-    "name": "$1 Bill",
-    "isIllegal": false,
-    "multiplier": 20,
-	"itemLocation": 2
-  },
-  {
-    "name": "$5 Bill",
-    "isIllegal": false,
-    "multiplier": 14,
-	"itemLocation": 2
-  },
-  {
-    "name": "$10 Bill",
-    "isIllegal": false,
-    "multiplier": 10,
-	"itemLocation": 2
-  },
-  {
-    "name": "$20 Bill",
-    "isIllegal": false,
-    "multiplier": 6,
-	"itemLocation": 2
-  },
-  {
-    "name": "$50 Bill",
-    "isIllegal": false,
-    "multiplier": 3,
-	"itemLocation": 2
-  },
-  {
-    "name": "$100 Bill",
-    "isIllegal": false,
-    "multiplier": 1,
-	"itemLocation": 2
-  },
-  {
-    "name": "Golfclub VIP Card",
-    "isIllegal": false,
-    "multiplier": 4,
-	"itemLocation": 2
-  },
-  {
-    "name": "LSPD Application",
-    "isIllegal": false,
-    "multiplier": 1,
-	"itemLocation": 2
-  },
-  {
-    "name": "Bottle of Redwood",
-    "isIllegal": false,
-    "multiplier": 3,
-	"itemLocation": 2
-  },
-  {
-    "name": "Bottle of Water",
-    "isIllegal": false,
-    "multiplier": 3,
-	"itemLocation": 2
-  },
-  {
-    "name": "Can of Sprunk",
-    "isIllegal": false,
-    "multiplier": 3,
-	"itemLocation": 2
-  },
-  {
-    "name": "Can of eCola",
-    "isIllegal": false,
-    "multiplier": 3,
-	"itemLocation": 2
-  },
-  {
-    "name": "Perfume",
-    "isIllegal": false,
-    "multiplier": 7,
-	"itemLocation": 2
-  },
-  {
-    "name": "Plane Ticket",
-    "isIllegal": false,
-    "multiplier": 6,
-	"itemLocation": 2
-  },
-  {
-    "name": "Valid Hunting License",
-    "isIllegal": false,
     "multiplier": 15,
-	"itemLocation": 2
+    "itemLocation": 2
   },
   {
-    "name": "USB Drive",
+    "name": "GPS",
+    "isIllegal": false,
+    "multiplier": 20,
+    "itemLocation": 0
+  },
+  {
+    "name": "AR-15 Clip",
+    "isIllegal": false,
+    "multiplier": 5,
+    "itemLocation": 0
+  },
+  {
+    "name": "Shoes",
+    "isIllegal": false,
+    "multiplier": 20,
+    "itemLocation": 0
+  },
+  {
+    "name": "Machete",
+    "isIllegal": true,
+    "multiplier": 10,
+    "itemLocation": 0
+  },
+  {
+    "name": "Water Bottle",
+    "isIllegal": false,
+    "multiplier": 25,
+    "itemLocation": 2
+  },
+  {
+    "name": "Trash",
+    "isIllegal": false,
+    "multiplier": 25,
+    "itemLocation": 0
+  },
+  {
+    "name": "Toys",
+    "isIllegal": false,
+    "multiplier": 20,
+    "itemLocation": 0
+  },
+  {
+    "name": "Unloaded 9mm Pistol",
     "isIllegal": false,
     "multiplier": 10,
-	"itemLocation": 2
+    "itemLocation": 2
   },
   {
-    "name": "Wedding Ring",
+    "name": "$100 Cash",
     "isIllegal": false,
-    "multiplier": 30,
-	"itemLocation": 2
+    "multiplier": 25,
+    "itemLocation": 2
   },
   {
-    "name": "Cigar",
+    "name": "$5 Cash",
     "isIllegal": false,
-    "multiplier": 2,
-	"itemLocation": 2
+    "multiplier": 25,
+    "itemLocation": 2
   },
   {
-    "name": "Chewing Tobacco",
+    "name": ".22 Pistol",
     "isIllegal": false,
-    "multiplier": 5,
-	"itemLocation": 2
+    "multiplier": 25,
+    "itemLocation": 2
   },
   {
-    "name": "Passport",
+    "name": "ID ",
     "isIllegal": false,
-    "multiplier": 2,
-	"itemLocation": 2
+    "multiplier": 25,
+    "itemLocation": 2
   },
   {
-    "name": "Phone Case",
+    "name": "Vehicle Registration",
     "isIllegal": false,
-    "multiplier": 12,
-	"itemLocation": 2
-  },
-  {
-    "name": "Bags Full of Body Parts",
-    "isIllegal": true,
-    "multiplier": 1,
-	"itemLocation": 2
-  },
-  {
-    "name": "Ecstasy",
-    "isIllegal": true,
-    "multiplier": 1,
-	"itemLocation": 2
-  },
-  {
-    "name": "Grenades",
-    "isIllegal": true,
-    "multiplier": 1,
-	"itemLocation": 2
-  },
-  {
-    "name": "Explosives",
-    "isIllegal": true,
-    "multiplier": 1,
-	"itemLocation": 2
-  },
-  {
-    "name": "Ketamine",
-    "isIllegal": true,
-    "multiplier": 1,
-	"itemLocation": 2
-  },
-  {
-    "name": "Molotov Cocktails",
-    "isIllegal": true,
-    "multiplier": 1,
-	"itemLocation": 2
-  },
-  {
-    "name": "Mushrooms",
-    "isIllegal": true,
-    "multiplier": 1,
-	"itemLocation": 2
-  },
-  {
-    "name": "Stolen Bank Cards",
-    "isIllegal": true,
-    "multiplier": 1,
-	"itemLocation": 2
-  },
-  {
-    "name": "Stolen Drivers Licenses",
-    "isIllegal": true,
-    "multiplier": 1,
-	"itemLocation": 2
-  },
-  {
-    "name": "Unmarked Pills",
-    "isIllegal": true,
-    "multiplier": 3,
-	"itemLocation": 2
-  },
-  {
-    "name": "Unregisterd Firearm",
-    "isIllegal": true,
-    "multiplier": 1,
-	"itemLocation": 2
-  },
-  {
-    "name": "Bloodied Machete",
-    "isIllegal": true,
-    "multiplier": 1,
-	"itemLocation": 2
-  },
-  {
-    "name": "Bloodied Screwdriver",
-    "isIllegal": true,
-    "multiplier": 1,
-	"itemLocation": 2
-  },
-  {
-    "name": "Dead Mountain Lion",
-    "isIllegal": true,
-    "multiplier": 2,
-	"itemLocation": 0
-  },
-  {
-    "name": "Dead Deer",
-    "isIllegal": true,
-    "multiplier": 2,
-	"itemLocation": 0
-  },
-  {
-    "name": "Police Radio",
-    "isIllegal": true,
-    "multiplier": 1,
-	"itemLocation": 2
-  },
-  {
-    "name": "BB Guns",
-    "isIllegal": false,
-    "multiplier": 3,
-	"itemLocation": 2
-  },
-  {
-    "name": "Lock Picks",
-    "isIllegal": false,
-    "multiplier": 2,
-	"itemLocation": 2
-  },
-  {
-    "name": "Used Condoms",
-    "isIllegal": false,
-    "multiplier": 5,
-	"itemLocation": 2
-  },
-  {
-    "name": "Aerosols",
-    "isIllegal": false,
-    "multiplier": 4,
-	"itemLocation": 2
-  },
-  {
-    "name": "Henti",
-    "isIllegal": false,
-    "multiplier": 3,
-	"itemLocation": 2
-  },
-  {
-    "name": "Manga",
-    "isIllegal": false,
-    "multiplier": 7,
-	"itemLocation": 2
-  },
-  {
-    "name": "Body Pillow",
-    "isIllegal": false,
-    "multiplier": 4,
-	"itemLocation": 2
-  },
-  {
-    "name": "Bank Robbery Plan Escape",
-    "isIllegal": true,
-    "multiplier": 1,
-	"itemLocation": 2
-  },
-  {
-    "name": "Tazer",
-    "isIllegal": false,
-    "multiplier": 13,
-	"itemLocation": 2
-  },
-  {
-    "name": "Sword Replica",
-    "isIllegal": false,
-    "multiplier": 7,
-	"itemLocation": 2
-  },
-  {
-    "name": "Drone",
-    "isIllegal": false,
-    "multiplier": 11,
-	"itemLocation": 2
-  },
-  {
-    "name": "Forged ID Cards",
-    "isIllegal": true,
-    "multiplier": 1,
-	"itemLocation": 2
-  },
-  {
-    "name": "Burnt Spoon",
-    "isIllegal": true,
-    "multiplier": 4,
-	"itemLocation": 2
-  },
-  {
-    "name": "Obox Console",
-    "isIllegal": false,
-    "multiplier": 8,
-	"itemLocation": 0
-  },
-  {
-    "name": "PZ4 Console",
-    "isIllegal": false,
-    "multiplier": 8,
-	"itemLocation": 0
-  },
-  {
-    "name": "Love Letter",
-    "isIllegal": false,
-    "multiplier": 12,
-	"itemLocation": 2
-  },
-  {
-    "name": "Pear Phone",
-    "isIllegal": false,
-    "multiplier": 20,
-	"itemLocation": 2
-  },
-  {
-    "name": "Oooogle Phone",
-    "isIllegal": false,
-    "multiplier": 20,
-	"itemLocation": 2
-  },
-  {
-    "name": "Divorce Papers",
-    "isIllegal": false,
-    "multiplier": 11,
-	"itemLocation": 2
-  },
-  {
-    "name": "Pepe Meme Keychain",
-    "isIllegal": false,
-    "multiplier": 14,
-	"itemLocation": 1
-  },
-  {
-    "name": "Shopping List",
-    "isIllegal": false,
-    "multiplier": 18,
-	"itemLocation": 2
+    "multiplier": 25,
+    "itemLocation": 0
   },
   {
     "name": "Car Keys",
     "isIllegal": false,
-    "multiplier": 5,
-	"itemLocation": 1
+    "multiplier": 25,
+    "itemLocation": 2
   },
   {
-    "name": "Pencil",
+    "name": "Cigarette",
     "isIllegal": false,
-    "multiplier": 10,
-	"itemLocation": 2
+    "multiplier": 25,
+    "itemLocation": 2
   },
   {
-    "name": "Samdung Phone",
+    "name": "Deodorant",
+    "isIllegal": false,
+    "multiplier": 25,
+    "itemLocation": 0
+  },
+  {
+    "name": "Picture",
+    "isIllegal": false,
+    "multiplier": 25,
+    "itemLocation": 0
+  },
+  {
+    "name": "Headphones",
+    "isIllegal": false,
+    "multiplier": 25,
+    "itemLocation": 2
+  },
+  {
+    "name": "Lockpick",
+    "isIllegal": true,
+    "multiplier": 25,
+    "itemLocation": 2
+  },
+  {
+    "name": "5g Weed",
+    "isIllegal": true,
+    "multiplier": 25,
+    "itemLocation": 2
+  },
+  {
+    "name": "Passport",
+    "isIllegal": false,
+    "multiplier": 25,
+    "itemLocation": 2
+  },
+  {
+    "name": "Perfume",
+    "isIllegal": false,
+    "multiplier": 25,
+    "itemLocation": 0
+  },
+  {
+    "name": "Dead Body",
+    "isIllegal": true,
+    "multiplier": 15,
+    "itemLocation": 0
+  },
+  {
+    "name": "Credit Card",
+    "isIllegal": false,
+    "multiplier": 25,
+    "itemLocation": 2
+  },
+  {
+    "name": "Amphetamines",
+    "isIllegal": true,
+    "multiplier": 15,
+    "itemLocation": 2
+  },
+  {
+    "name": "Crystal Meth",
+    "isIllegal": true,
+    "multiplier": 5,
+    "itemLocation": 2
+  },
+  {
+    "name": "Ecstasy",
+    "isIllegal": true,
+    "multiplier": 5,
+    "itemLocation": 2
+  },
+  {
+    "name": "LSD",
+    "isIllegal": true,
+    "multiplier": 5,
+    "itemLocation": 2
+  },
+  {
+    "name": "Morphine",
+    "isIllegal": true,
+    "multiplier": 5,
+    "itemLocation": 2
+  },
+  {
+    "name": "Nitrous Oxide",
+    "isIllegal": true,
+    "multiplier": 5,
+    "itemLocation": 0
+  },
+  {
+    "name": "PCP",
+    "isIllegal": true,
+    "multiplier": 5,
+    "itemLocation": 2
+  },
+  {
+    "name": "Stolen Glock Pistol",
+    "isIllegal": true,
+    "multiplier": 5,
+    "itemLocation": 2
+  },
+  {
+    "name": "Loaded AR-15",
+    "isIllegal": true,
+    "multiplier": 5,
+    "itemLocation": 0
+  },
+  {
+    "name": "Open Bottle Alcohol",
+    "isIllegal": true,
+    "multiplier": 5,
+    "itemLocation": 0
+  },
+  {
+    "name": "Condoms",
+    "isIllegal": false,
+    "multiplier": 15,
+    "itemLocation": 2
+  },
+  {
+    "name": "Hunting Knife",
+    "isIllegal": false,
+    "multiplier": 15,
+    "itemLocation": 2
+  },
+  {
+    "name": "1$ Cash",
+    "isIllegal": false,
+    "multiplier": 25,
+    "itemLocation": 2
+  },
+  {
+    "name": "$0.50 Change",
+    "isIllegal": false,
+    "multiplier": 25,
+    "itemLocation": 2
+  },
+  {
+    "name": "Shotgun",
+    "isIllegal": false,
+    "multiplier": 5,
+    "itemLocation": 0
+  },
+  {
+    "name": "$0.75 Change",
+    "isIllegal": false,
+    "multiplier": 25,
+    "itemLocation": 2
+  },
+  {
+    "name": "Oil Quart",
+    "isIllegal": false,
+    "multiplier": 25,
+    "itemLocation": 0
+  },
+  {
+    "name": "Ak-47 Rifle",
+    "isIllegal": true,
+    "multiplier": 5,
+    "itemLocation": 0
+  },
+  {
+    "name": "Bucket",
+    "isIllegal": false,
+    "multiplier": 25,
+    "itemLocation": 0
+  },
+  {
+    "name": "Blunt",
+    "isIllegal": true,
+    "multiplier": 5,
+    "itemLocation": 2
+  },
+  {
+    "name": "$200 Cash",
+    "isIllegal": false,
+    "multiplier": 25,
+    "itemLocation": 2
+  },
+  {
+    "name": "$500 Cash",
+    "isIllegal": false,
+    "multiplier": 25,
+    "itemLocation": 2
+  },
+  {
+    "name": "$0.07 Cents",
+    "isIllegal": false,
+    "multiplier": 25,
+    "itemLocation": 2
+  },
+  {
+    "name": "AK-47 Magazine",
+    "isIllegal": true,
+    "multiplier": 5,
+    "itemLocation": 0
+  },
+  {
+    "name": "Pen",
+    "isIllegal": false,
+    "multiplier": 25,
+    "itemLocation": 2
+  },
+  {
+    "name": "House Keys",
+    "isIllegal": false,
+    "multiplier": 25,
+    "itemLocation": 2
+  },
+  {
+    "name": "Hunting Rifle",
+    "isIllegal": false,
+    "multiplier": 5,
+    "itemLocation": 0
+  },
+  {
+    "name": "Covid-19 Test",
+    "isIllegal": false,
+    "multiplier": 25,
+    "itemLocation": 2
+  },
+  {
+    "name": "Panadol",
+    "isIllegal": false,
+    "multiplier": 25,
+    "itemLocation": 0
+  },
+  {
+    "name": "Tylenol",
+    "isIllegal": false,
+    "multiplier": 25,
+    "itemLocation": 2
+  },
+  {
+    "name": "Vicks",
+    "isIllegal": false,
+    "multiplier": 25,
+    "itemLocation": 2
+  },
+  {
+    "name": "Revolver",
+    "isIllegal": false,
+    "multiplier": 5,
+    "itemLocation": 2
+  },
+  {
+    "name": "Nvidia 3090 GPU",
+    "isIllegal": false,
+    "multiplier": 15,
+    "itemLocation": 0
+  },
+  {
+    "name": "PC Parts",
     "isIllegal": false,
     "multiplier": 20,
-	"itemLocation": 2
+    "itemLocation": 0
   },
   {
-    "name": "Lip Stick",
+    "name": "Nvidia 3080ti GPU",
     "isIllegal": false,
-    "multiplier": 6,
-	"itemLocation": 2
+    "multiplier": 15,
+    "itemLocation": 0
   },
   {
-    "name": "Wig",
+    "name": "Laptop",
     "isIllegal": false,
-    "multiplier": 3,
-	"itemLocation": 2
+    "multiplier": 15,
+    "itemLocation": 0
   },
   {
-    "name": "Spare Tire",
+    "name": "Wallet",
     "isIllegal": false,
-    "multiplier": 80,
-	"itemLocation": 0
+    "multiplier": 25,
+    "itemLocation": 1
   },
   {
-    "name": "Dash Cam",
+    "name": "Parking Ticket",
     "isIllegal": false,
-    "multiplier": 55,
-	"itemLocation": 0
+    "multiplier": 20,
+    "itemLocation": 0
   },
   {
-    "name": "Cum Stain",
+    "name": "24\" Asus Monitor",
     "isIllegal": false,
-    "multiplier": 4,
-	"itemLocation": 0
+    "multiplier": 15,
+    "itemLocation": 0
   },
   {
-    "name": "Pet Husky",
+    "name": "Bluetooth Speaker",
+    "isIllegal": false,
+    "multiplier": 15,
+    "itemLocation": 0
+  },
+  {
+    "name": "Shopping List",
+    "isIllegal": false,
+    "multiplier": 20,
+    "itemLocation": 2
+  },
+  {
+    "name": "Computer Case",
+    "isIllegal": false,
+    "multiplier": 15,
+    "itemLocation": 0
+  },
+  {
+    "name": "Vaseline",
     "isIllegal": false,
     "multiplier": 10,
-	"itemLocation": 0
+    "itemLocation": 0
   },
   {
-    "name": "Pet Poodle",
+    "name": "Bag Of Chips",
     "isIllegal": false,
-    "multiplier": 10,
-	"itemLocation": 0
+    "multiplier": 20,
+    "itemLocation": 0
   },
   {
-    "name": "Pet Goldfish",
+    "name": "Check Book",
     "isIllegal": false,
-    "multiplier": 10,
-	"itemLocation": 0
+    "multiplier": 15,
+    "itemLocation": 0
   },
   {
-    "name": "Camping Gear",
+    "name": "Ring",
     "isIllegal": false,
-    "multiplier": 4,
-	"itemLocation": 0
+    "multiplier": 15,
+    "itemLocation": 2
   },
   {
-    "name": "Jump Leads",
+    "name": "Lighter",
     "isIllegal": false,
-    "multiplier": 40,
-	"itemLocation": 0
+    "multiplier": 15,
+    "itemLocation": 2
   },
   {
-    "name": "Corpse Finger",
-    "isIllegal": true,
-    "multiplier": 1,
-	"itemLocation": 0
-  },
-  {
-    "name": "Damaged Safe",
-    "isIllegal": true,
-    "multiplier": 3,
-	"itemLocation": 0
-  },
-  {
-    "name": "Duffle Bag Full of Money",
-    "isIllegal": true,
-    "multiplier": 6,
-	"itemLocation": 0
-  },
-  {
-    "name": "Shotgun Parts",
+    "name": "Stolen Credit Card",
     "isIllegal": true,
     "multiplier": 5,
-	"itemLocation": 2
+    "itemLocation": 2
+  },
+  {
+    "name": "Police vest",
+    "isIllegal": true,
+    "multiplier": 5,
+    "itemLocation": 0
+  },
+  {
+    "name": "Deer Meat",
+    "isIllegal": false,
+    "multiplier": 5,
+    "itemLocation": 0
+  },
+  {
+    "name": "Gun Case",
+    "isIllegal": false,
+    "multiplier": 5,
+    "itemLocation": 0
+  },
+  {
+    "name": "Stolen AR-15",
+    "isIllegal": true,
+    "multiplier": 5,
+    "itemLocation": 0
+  },
+  {
+    "name": "Fake Police ID",
+    "isIllegal": true,
+    "multiplier": 5,
+    "itemLocation": 2
+  },
+  {
+    "name": "Bear Meat",
+    "isIllegal": false,
+    "multiplier": 1,
+    "itemLocation": 0
+  },
+  {
+    "name": "Empty weed Baggy",
+    "isIllegal": false,
+    "multiplier": 5,
+    "itemLocation": 2
+  },
+  {
+    "name": "$0.60 Change",
+    "isIllegal": false,
+    "multiplier": 25,
+    "itemLocation": 1
+  },
+  {
+    "name": "Empty Wallet",
+    "isIllegal": false,
+    "multiplier": 20,
+    "itemLocation": 1
+  },
+  {
+    "name": "1g Weed Under Seat",
+    "isIllegal": true,
+    "multiplier": 5,
+    "itemLocation": 0
+  },
+  {
+    "name": "Best Buy Ticket",
+    "isIllegal": false,
+    "multiplier": 20,
+    "itemLocation": 1
+  },
+  {
+    "name": "Walmart Ticket",
+    "isIllegal": false,
+    "multiplier": 20,
+    "itemLocation": 1
+  },
+  {
+    "name": "Burguer King Ticket",
+    "isIllegal": false,
+    "multiplier": 20,
+    "itemLocation": 1
+  },
+  {
+    "name": "McDonalds Ticket",
+    "isIllegal": false,
+    "multiplier": 20,
+    "itemLocation": 1
+  },
+  {
+    "name": "Wendys Ticket",
+    "isIllegal": false,
+    "multiplier": 15,
+    "itemLocation": 1
+  },
+  {
+    "name": "Covid-19 Mask",
+    "isIllegal": false,
+    "multiplier": 25,
+    "itemLocation": 2
+  },
+  {
+    "name": "24\" Flat Screen TV",
+    "isIllegal": false,
+    "multiplier": 10,
+    "itemLocation": 0
+  },
+  {
+    "name": "WD 500gb SSD",
+    "isIllegal": false,
+    "multiplier": 10,
+    "itemLocation": 0
+  },
+  {
+    "name": "$0.02 Change",
+    "isIllegal": false,
+    "multiplier": 20,
+    "itemLocation": 2
+  },
+  {
+    "name": "5g Coke Under Seat",
+    "isIllegal": true,
+    "multiplier": 5,
+    "itemLocation": 0
+  },
+  {
+    "name": "Stolen 9mm Pistol In Glovebox",
+    "isIllegal": true,
+    "multiplier": 3,
+    "itemLocation": 0
+  },
+  {
+    "name": "Stolen Revolver",
+    "isIllegal": true,
+    "multiplier": 5,
+    "itemLocation": 1
+  },
+  {
+    "name": "$45 Cash",
+    "isIllegal": false,
+    "multiplier": 25,
+    "itemLocation": 1
+  },
+  {
+    "name": "$79 Cash",
+    "isIllegal": false,
+    "multiplier": 25,
+    "itemLocation": 1
+  },
+  {
+    "name": "$1.50 Cash",
+    "isIllegal": false,
+    "multiplier": 25,
+    "itemLocation": 1
+  },
+  {
+    "name": "$7.38 Cash",
+    "isIllegal": false,
+    "multiplier": 25,
+    "itemLocation": 1
+  },
+  {
+    "name": "$10.37",
+    "isIllegal": false,
+    "multiplier": 25,
+    "itemLocation": 1
+  },
+  {
+    "name": "$3.30",
+    "isIllegal": false,
+    "multiplier": 25,
+    "itemLocation": 1
+  },
+  {
+    "name": "$9.20",
+    "isIllegal": false,
+    "multiplier": 25,
+    "itemLocation": 1
+  },
+  {
+    "name": "$17.30 Cash",
+    "isIllegal": false,
+    "multiplier": 25,
+    "itemLocation": 1
+  },
+  {
+    "name": "$182 Cash",
+    "isIllegal": false,
+    "multiplier": 25,
+    "itemLocation": 1
+  },
+  {
+    "name": "Tooth Pick",
+    "isIllegal": false,
+    "multiplier": 15,
+    "itemLocation": 1
+  },
+  {
+    "name": "Used Cociane Needle",
+    "isIllegal": true,
+    "multiplier": 5,
+    "itemLocation": 2
+  },
+  {
+    "name": "Broken Watch",
+    "isIllegal": false,
+    "multiplier": 15,
+    "itemLocation": 1
+  },
+  {
+    "name": "Pack of Gum",
+    "isIllegal": false,
+    "multiplier": 25,
+    "itemLocation": 1
+  },
+  {
+    "name": "Chuck E Cheese Coin",
+    "isIllegal": false,
+    "multiplier": 25,
+    "itemLocation": 1
+  },
+  {
+    "name": "Work ID",
+    "isIllegal": false,
+    "multiplier": 20,
+    "itemLocation": 1
+  },
+  {
+    "name": "24/7 Tocket",
+    "isIllegal": false,
+    "multiplier": 20,
+    "itemLocation": 1
+  },
+  {
+    "name": "Burguer Shot Ticket",
+    "isIllegal": false,
+    "multiplier": 20,
+    "itemLocation": 1
+  },
+  {
+    "name": "Logitech Mouse",
+    "isIllegal": false,
+    "multiplier": 10,
+    "itemLocation": 0
+  },
+  {
+    "name": "WD 250gb SSD",
+    "isIllegal": false,
+    "multiplier": 10,
+    "itemLocation": 0
+  },
+  {
+    "name": "Cuban Cigar",
+    "isIllegal": false,
+    "multiplier": 10,
+    "itemLocation": 2
+  },
+  {
+    "name": "Key Chain",
+    "isIllegal": false,
+    "multiplier": 20,
+    "itemLocation": 1
+  },
+  {
+    "name": "Wallet With ID",
+    "isIllegal": false,
+    "multiplier": 20,
+    "itemLocation": 1
+  },
+  {
+    "name": "Covid-19 Vaccine Card",
+    "isIllegal": false,
+    "multiplier": 25,
+    "itemLocation": 1
+  },
+  {
+    "name": "Stolen Bags Of Cash",
+    "isIllegal": true,
+    "multiplier": 1,
+    "itemLocation": 0
   }
 ]
-
