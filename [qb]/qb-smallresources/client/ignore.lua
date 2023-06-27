@@ -53,7 +53,7 @@ CreateThread(function()
 	for i = 1, 15 do
 		EnableDispatchService(i, true)
 	end
-		SetMaxWantedLevel(4)
+		SetMaxWantedLevel(0)
 	
 end)
 

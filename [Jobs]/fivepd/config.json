@@ -35,5 +35,5 @@
   },
   "dutyNotification": true,
   "observation": true,
-  "allowlist": true
+  "allowlist": false
 }

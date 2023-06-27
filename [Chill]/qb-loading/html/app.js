@@ -5,13 +5,13 @@ const { ref } = Vue
 const load = Vue.createApp({
   setup () {
     return {
-      CarouselText1: 'TAPs Roleplay',
+      CarouselText1: "Chill's FivePD",
       CarouselSubText1: 'FivePD | Fire/EMS | Custom Scripts',
-      CarouselText2: 'TAPs Roleplay',
+      CarouselText2: "Chill's FivePD",
       CarouselSubText2: 'FivePD | Fire/EMS | Custom Scripts',
-      CarouselText3: 'TAPs Roleplay',
+      CarouselText3: "Chill's FivePD",
       CarouselSubText3: 'FivePD | Fire/EMS | Custom Scripts',
-      CarouselText4: 'TAPs Roleplay',
+      CarouselText4: "Chill's FivePD",
       CarouselSubText4: 'FivePD | Fire/EMS | Custom Scripts',
 
       DownloadTitle: ' ',

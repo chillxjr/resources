@@ -34,7 +34,7 @@
 			"isAvailableForEveryone": true
 		}
 	],
-	"ambulance": ["fordambo"],
+	"ambulance": ["ambulance"],
 	"airAmbulance": ["polmav"],
 	"firedept": ["firetruk"],
 	"coroner": ["speedo", "utillitruck3"],

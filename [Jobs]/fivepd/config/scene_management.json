@@ -5,10 +5,6 @@
 	},
 	"objects": [
 		{
-			"name": "Worklight",
-			"model": "prop_worklight_03b"
-		},
-		{
 			"name": "Small cone",
 			"model": "prop_roadcone02a"
 		},

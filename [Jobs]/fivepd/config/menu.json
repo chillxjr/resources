@@ -9,29 +9,29 @@
         "isAdminOnly": false
       },
       "toggleCruiseControl": {
-        "isEnabled": false,
+        "isEnabled": true,
         "isAdminOnly": false
       },
       "spawnVehicle": {
-        "isEnabled": false,
+        "isEnabled": true,
         "isAdminOnly": false
       },
       "getLoadout": {
-        "isEnabled": false,
+        "isEnabled": true,
         "isAdminOnly": false
       },
       "refillHealth": {
-        "isEnabled": false,
+        "isEnabled": true,
         "isAdminOnly": false
       },
       "teleport": {
-        "isEnabled": false,
+        "isEnabled": true,
         "isAdminOnly": false
       }
     },
     "SceneMenu": {
       "speedzonePlacement": {
-        "isEnabled": false,
+        "isEnabled": true,
         "isAdminOnly": false
       },
       "objectPlacement": {
